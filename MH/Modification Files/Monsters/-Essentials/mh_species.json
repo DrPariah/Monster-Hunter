@@ -1,0 +1,5 @@
+{
+    "type": "SPECIES",
+    "id": "WYVERN",
+    "fear_triggers": [ "HURT" ]
+  }
