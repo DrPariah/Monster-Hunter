@@ -1,0 +1,238 @@
+[
+	{
+		"//": "Elemental, abnormal, pellet and cluster ammunition are not available in CDDA.",
+		"type": "ammunition_type",
+		"id": "mhammo",
+		"name": "Bowgun Shots",
+		"default": "normals1"
+	},
+	{
+		"type": "AMMO",
+		"id": "normals1",
+		"price": 100,
+		"name": "normal shot lv1",
+		"symbol": "=",
+		"color": "white",
+		"description": "Inexpensive ammo for novices, but don't expect much.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 20,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"damage": 5,
+		"pierce": 5,
+		"dispersion": 150,
+		"loudness": 4,
+		"count": 10,
+		"effects": [
+			"NO_EMBED",
+			"COOKOFF"
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "normals2",
+		"price": 300,
+		"name": "normal shot lv2",
+		"symbol": "=",
+		"color": "white",
+		"description": "Normal ammo that is more powerful than normal shot lv1.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 25,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"damage": 10,
+		"pierce": 5,
+		"dispersion": 150,
+		"loudness": 5,
+		"count": 10,
+		"effects": [
+			"NO_EMBED",
+			"COOKOFF"
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "normals3",
+		"price": 500,
+		"name": "normal shot lv3",
+		"symbol": "=",
+		"color": "white",
+		"description": "Normal ammo that cause more damage than its predecessor.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 25,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"damage": 20,
+		"pierce": 5,
+		"dispersion": 150,
+		"loudness": 6,
+		"count": 10,
+		"effects": [
+			"NO_EMBED",
+			"COOKOFF"
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "pierces1",
+		"price": 1400,
+		"name": "pierce shot lv1",
+		"symbol": "=",
+		"color": "white",
+		"description": "Piercing round that causes multiple hits to monsters.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 30,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"damage": 10,
+		"pierce": 20,
+		"dispersion": 100,
+		"loudness": 6,
+		"count": 10,
+		"effects": [
+			"NO_EMBED",
+			"COOKOFF"
+			
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "pierces2",
+		"price": 1400,
+		"name": "pierce shot lv2",
+		"symbol": "=",
+		"color": "white",
+		"description": "Piercing round that causes more hits than lv1 ammo.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 40,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"damage": 10,
+		"pierce": 25,
+		"dispersion": 100,
+		"loudness": 6,
+		"count": 10,
+		"effects": [
+			"NO_EMBED",
+			"COOKOFF"
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "pierces3",
+		"price": 1400,
+		"name": "pierce shot lv3",
+		"symbol": "=",
+		"color": "white",
+		"description": "Piercing round that causes the most hits in the class.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 50,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"damage": 10,
+		"pierce": 30,
+		"dispersion": 100,
+		"loudness": 6,
+		"count": 10,
+		"effects": [
+			"NO_EMBED",
+			"COOKOFF"
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "crags1",
+		"price": 7000,
+		"name": "crag shot lv1",
+		"symbol": "=",
+		"color": "white",
+		"description": "Penetrates and explodes in its target. Quite powerful and stunning.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 100,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"range": 0,
+		"damage": 5,
+		"pierce": 15,
+		"dispersion": 200,
+		"loudness": 8,
+		"count": 10,
+		"explosion": {
+			"power": 15,
+			"distance_factor": 0.1
+		},
+		"effects": [
+			"CUSTOM_EXPLOSION",
+			"NO_EMBED",
+			"COOKOFF",
+			"BEANBAG"
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "crags2",
+		"price": 21000,
+		"name": "crag shot lv2",
+		"symbol": "=",
+		"color": "white",
+		"description": "Very powerful and stunning shot. Penetrates and explodes.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 125,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"range": 0,
+		"damage": 15,
+		"pierce": 15,
+		"dispersion": 200,
+		"loudness": 8,
+		"count": 10,
+		"explosion": {
+			"power": 30,
+			"distance_factor": 0.1
+		},
+		"effects": [
+			"CUSTOM_EXPLOSION",
+			"NO_EMBED",
+			"COOKOFF",
+			"BEANBAG"
+		]
+	},
+	{
+		"type": "AMMO",
+		"id": "crags3",
+		"price": 63000,
+		"name": "crag shot lv3",
+		"symbol": "=",
+		"color": "white",
+		"description": "Tremendously powerful and stunning shot. Penetrates and explodes.",
+		"material": "steel",
+		"volume": 1,
+		"weight": 150,
+		"bashing": 1,
+		"ammo_type": "mhammo",
+		"range": 0,
+		"damage": 30,
+		"pierce": 15,
+		"dispersion": 200,
+		"loudness": 8,
+		"count": 10,
+		"explosion": {
+			"power": 60,
+			"distance_factor": 0.1
+		},
+		"effects": [
+			"CUSTOM_EXPLOSION",
+			"NO_EMBED",
+			"COOKOFF",
+			"BEANBAG"
+		]
+	}
+]
