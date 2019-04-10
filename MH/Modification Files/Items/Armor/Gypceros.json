@@ -1,0 +1,156 @@
+[
+	{
+		"id": "gypceros_helmet",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "gypseros helmet",
+		"description": "Wrapped in rubbery gypceros hide, making it strong against physical attacks.",
+		"weight": 1500,
+		"volume": 10,
+		"price": 165000,
+		"to_hit": -1,
+		"bashing": 10,
+		"material": [
+			"gypceros"
+		],
+		"symbol": "[",
+		"color": "light_blue",
+		"covers": [
+			"HEAD"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 4,
+		"environmental_protection": 2,
+		"techniques": [
+			"WBLOCK_1"
+		],
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY"
+		]
+	},
+	{
+		"id": "gypceros_mail",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "gypceros mail",
+		"description": "Gypceros hide makes this armor rubbery and resistant to physical damage.",
+		"weight": 2500,
+		"volume": 15,
+		"price": 165000,
+		"to_hit": -1,
+		"material": [
+			"gypceros"
+		],
+		"symbol": "[",
+		"color": "light_blue",
+		"covers": [
+			"TORSO"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 4,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY",
+			"OUTER"
+		]
+	},
+	{
+		"id": "gypceros_vambraces",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "pair of gypceros vambraces",
+		"name_plural": "pairs of gypceros vambraces",
+		"description": "Vambraces covered in gypceros hide, making them unyielding to small attacks.",
+		"weight": 400,
+		"volume": 6,
+		"price": 165000,
+		"to_hit": 2,
+		"material": [
+			"gypceros"
+		],
+		"symbol": "[",
+		"color": "light_blue",
+		"covers": [
+			"HANDS",
+			"ARMS"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 4,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY",
+			"BLOCK_WHILE_WORN"
+		]
+	},
+	{
+		"id": "gypceros_tasset",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "gypceros tasset",
+		"description": "Made by wrapping gypceros hide. The thick, meaty hide provides ample protection.",
+		"weight": 1750,
+		"volume": 10,
+		"price": 1650,
+		"material": [
+			"gypceros"
+		],
+		"symbol": "[",
+		"color": "light_blue",
+		"covers": [
+			"LEGS"
+		],
+		"coverage": 100,
+		"encumbrance": 10,
+		"warmth": 15,
+		"material_thickness": 4,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"STURDY",
+			"WATERPROOF",
+			"BELTED",
+			"OUTER"
+		]
+	},
+	{
+		"id": "gypceros_greaves",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "gypceros greaves",
+		"description": "Greaves made by combining gypceros hide and special ore. A special metal armor.",
+		"weight": 1250,
+		"volume": 10,
+		"price": 165000,
+		"material": [
+			"gypceros"
+		],
+		"symbol": "[",
+		"color": "light_blue",
+		"covers": [
+			"LEGS",
+			"FEET"
+		],
+		"coverage": 100,
+		"encumbrance": 15,
+		"warmth": 15,
+		"material_thickness": 4,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"STURDY",
+			"WATERPROOF"
+		]
+	}
+]
