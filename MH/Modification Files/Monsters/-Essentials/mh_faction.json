@@ -1,0 +1,6 @@
+{
+    "type": "MONSTER_FACTION",
+    "name": "wyvern",
+    "friendly": [ "wyvern" ],
+    "neutral": [ "player", "human" ]
+  }
