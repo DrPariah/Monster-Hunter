@@ -1,0 +1,45 @@
+[
+	{
+		"//": "Material strength based on MHFU's weakest armor of a monster material. Well, I know its not a good basis, but let us try it anyways...",
+		"//": "Resistance calculation: bash(def/4), cut(def/3), acid(water+ice/2+3), fire(fire+5), elec(thunder+5) and chip(dragon+5*3.25)",
+		"//": "Weapon damage calculation: base(bash resist+cut resist/2*2.5) + sword&shield(-1) + greatsword(+5) + hammer(+3) + lance(+3) + dualblades(-3) + lbg(/4) + hbg(/2)",
+		"type": "material",
+		"ident": "kut-ku",
+		"name": "Kut-Ku",
+		"density": 10,
+		"bash_resist": 6,
+		"cut_resist": 8,
+		"acid_resist": 1,
+		"fire_resist": 7,
+		"elec_resist": 5,
+		"chip_resist": 13,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"type": "material",
+		"ident": "gypceros",
+		"name": "Gypceros",
+		"density": 10,
+		"bash_resist": 7,
+		"cut_resist": 9,
+		"acid_resist": 4,
+		"fire_resist": 1,
+		"elec_resist": 9,
+		"chip_resist": 16.25,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	}
+]
