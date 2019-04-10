@@ -1,4 +1,5 @@
 # Monster Hunter
+* **Caution:** This mod isn't ready in-game.
 
 ### How to install this mod:
 
