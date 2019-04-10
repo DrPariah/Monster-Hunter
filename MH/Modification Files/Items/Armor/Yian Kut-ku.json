@@ -1,0 +1,156 @@
+[
+	{
+		"id": "kut-ku_helmet",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "kut-ku helmet",
+		"description": "Made from superior kut-ku materials. It brings to mind the bird-like beast.",
+		"weight": 1500,
+		"volume": 10,
+		"price": 165000,
+		"to_hit": -1,
+		"bashing": 10,
+		"material": [
+			"kut-ku"
+		],
+		"symbol": "[",
+		"color": "red",
+		"covers": [
+			"HEAD"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"techniques": [
+			"WBLOCK_1"
+		],
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY"
+		]
+	},
+	{
+		"id": "kut-ku_mail",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "kut-ku mail",
+		"description": "Made from kut-ku material. The strange hue has the hint of a familiar land.",
+		"weight": 2500,
+		"volume": 15,
+		"price": 165000,
+		"to_hit": -1,
+		"material": [
+			"kut-ku"
+		],
+		"symbol": "[",
+		"color": "red",
+		"covers": [
+			"TORSO"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY",
+			"OUTER"
+		]
+	},
+	{
+		"id": "kut-ku_vambraces",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "pair of kut-ku vambraces",
+		"name_plural": "pairs of kut-ku vambraces",
+		"description": "Clad in the pink of another world. The thick shell can repel even a wyvern fang.",
+		"weight": 400,
+		"volume": 6,
+		"price": 165000,
+		"to_hit": 2,
+		"material": [
+			"kut-ku"
+		],
+		"symbol": "[",
+		"color": "red",
+		"covers": [
+			"HANDS",
+			"ARMS"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY",
+			"BLOCK_WHILE_WORN"
+		]
+	},
+	{
+		"id": "kut-ku_tasset",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "kut-ku tasset",
+		"description": "Waist armor crafted from kut-ku. Beware its sharp, spine covered exterior!",
+		"weight": 1750,
+		"volume": 10,
+		"price": 1650,
+		"material": [
+			"kut-ku"
+		],
+		"symbol": "[",
+		"color": "red",
+		"covers": [
+			"LEGS"
+		],
+		"coverage": 100,
+		"encumbrance": 10,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"STURDY",
+			"WATERPROOF",
+			"BELTED",
+			"OUTER"
+		]
+	},
+	{
+		"id": "kut-ku_greaves",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "kut-ku greaves",
+		"description": "Leg armor made from kut-ku materials. Its design stresses ease of movement.",
+		"weight": 1250,
+		"volume": 10,
+		"price": 165000,
+		"material": [
+			"kut-ku"
+		],
+		"symbol": "[",
+		"color": "red",
+		"covers": [
+			"LEGS",
+			"FEET"
+		],
+		"coverage": 100,
+		"encumbrance": 15,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"STURDY",
+			"WATERPROOF"
+		]
+	}
+]

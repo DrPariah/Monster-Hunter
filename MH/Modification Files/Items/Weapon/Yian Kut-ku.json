@@ -1,0 +1,175 @@
+[
+	{
+		"id": "kut-ku_gs",
+		"type": "GENERIC",
+		"name": "chick decapitator",
+		"description": "Bears a splendid resemblance to a kut-ku wing by using the fowl's materials.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 215000,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 23,
+		"material": "kut-ku",
+		"color": "dark_red",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "kut-ku_h",
+		"type": "GENERIC",
+		"name": "kut-ku jaw",
+		"description": "Improved atlas hammer. Quality hammer made from kut-ku beak.",
+		"weight": 5500,
+		"volume": 18,
+		"symbol": "/",
+		"price": 2600000,
+		"to_hit": 1,
+		"bashing": 21,
+		"material": "kut-ku",
+		"color": "dark_red",
+		"techniques": [
+			"BRUTAL"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"HAMMER",
+				2
+			]
+		]
+	},
+	{
+		"id": "kut-ku_ds",
+		"type": "GENERIC",
+		"name": "twin kut-ku",
+		"description": "Known for the bladed ear of Yian Kut-ku, these are sure to gain adoration.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 172000,
+		"to_hit": 1,
+		"cutting": 15,
+		"material": "kut-ku",
+		"color": "dark_red",
+		"techniques": [
+			"RAPID"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "kut-ku_lbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "red",
+		"name": "kut-ku anger",
+		"reload_noise_volume": 4,
+		"description": "Lightweight bowgun made from the head of Yian Kut-ku. Explodes with hatred.",
+		"price": 120000,
+		"material": [
+			"kut-ku"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 1750,
+		"volume": 10,
+		"bashing": 6,
+		"to_hit": 1,
+		"ranged_damage": 4,
+		"range": 15,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 12,
+		"reload": 400,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	},
+	{
+		"id": "kut-ku_hbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "red",
+		"name": "yian kut-ku cannon",
+		"reload_noise_volume": 4,
+		"description": "Increased rigidity by using incredibly tough shell. One can feel the power inside.",
+		"price": 267500,
+		"material": [
+			"kut-ku"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 5250,
+		"volume": 18,
+		"bashing": 10,
+		"to_hit": 1,
+		"ranged_damage": 9,
+		"range": 20,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 12,
+		"reload": 400,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	}
+]
