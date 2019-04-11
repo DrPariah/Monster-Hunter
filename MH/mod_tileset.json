@@ -1,0 +1,194 @@
+[
+	{
+		"type": "mod_tileset",
+		"compatibility": [
+			"MSX++DEAD_PEOPLE",
+			"UNDEAD_PEOPLE"
+		],
+		"tiles-new": [
+			{
+				"file": "1-32x32_items-0-99.png",
+				"sprite_height": 32,
+				"sprite_width": 32,
+				"tiles": [
+					{
+						"id": [
+							"kut-ku_helmet",
+							"gypceros_helmet",
+							"garuga_helmet"
+						],
+						"fg": 0
+					},
+					{
+						"id": [
+							"kut-ku_mail",
+							"gypceros_mail",
+							"garuga_mail"
+						],
+						"fg": 1
+					},
+					{
+						"id": [
+							"kut-ku_vambraces",
+							"gypceros_vambraces",
+							"garuga_vambraces"
+						],
+						"fg": 2
+					},
+					{
+						"id": [
+							"kut-ku_tasset",
+							"gypceros_tasset",
+							"garuga_tasset"
+						],
+						"fg": 3
+					},
+					{
+						"id": [
+							"kut-ku_greaves",
+							"gypceros_greaves",
+							"garuga_greaves"
+						],
+						"fg": 4
+					},
+					{
+						"id": [
+							"gypceros_ss",
+							"garuga_ss"
+						],
+						"fg": 5
+					},
+					{
+						"id": [
+							"kut-ku_gs",
+							"gypceros_gs",
+							"garuga_gs"
+						],
+						"fg": 6
+					},
+					{
+						"id": [
+							"kut-ku_h",
+							"gypceros_h",
+							"garuga_h"
+						],
+						"fg": 7
+					},
+					{
+						"id": "garuga_l",
+						"fg": 8
+					},
+					{
+						"id": [
+							"kut-ku_ds",
+							"gypceros_ds",
+							"garuga_ds"
+						],
+						"fg": 9
+					},
+					{
+						"id": [
+							"kut-ku_lbg",
+							"garuga_lbg"
+						],
+						"fg": 10
+					},
+					{
+						"id": [
+							"kut-ku_hbg",
+							"gypceros_hbg",
+							"garuga_hbg"
+						],
+						"fg": 11
+					},
+					{
+						"id": [
+							"normals1",
+							"normals1",
+							"normals1",
+							"pierces1",
+							"pierces2",
+							"pierces3",
+							"crags1",
+							"crags2",
+							"crags3"
+						],
+						"fg": 12
+					}
+				]
+			},
+			{
+				"file": "2-32x32_items_wornwielded-100-199.png",
+				"sprite_height": 32,
+				"sprite_width": 32,
+				"tiles": [
+					{
+						"id": "overlay_worn_kut-ku_helmet",
+						"fg": 100
+					},
+					{
+						"id": "overlay_worn_kut-ku_mail",
+						"fg": 101
+					},
+					{
+						"id": "overlay_worn_kut-ku_vambraces",
+						"fg": 102
+					},
+					{
+						"id": "overlay_worn_kut-ku_tasset",
+						"fg": 103
+					},
+					{
+						"id": "overlay_worn_kut-ku_greaves",
+						"fg": 104
+					},
+					{
+						"id": "overlay_wielded_kut-ku_h",
+						"fg": 105
+					},
+					{
+						"id": "overlay_wielded_kut-ku_ds",
+						"fg": 106
+					},
+					{
+						"id": "overlay_wielded_kut-ku_lbg",
+						"fg": 107
+					},
+					{
+						"id": "overlay_wielded_kut-ku_hbg",
+						"fg": 108
+					},
+					{
+						"id": "overlay_worn_gypseros_mail",
+						"fg": 109
+					},
+					{
+						"id": "overlay_worn_gypseros_vambraces",
+						"fg": 110
+					},
+					{
+						"id": "overlay_worn_gypseros_tasset",
+						"fg": 111
+					},
+					{
+						"id": "overlay_worn_gypseros_greaves",
+						"fg": 112
+					},
+				]
+			},
+			{
+				"file": "3-64x80_items_wornwielded-200-299.png",
+				"sprite_width": 64,
+				"sprite_height": 80,
+				"sprite_offset_x": -16,
+				"sprite_offset_y": -48,
+				"tiles": [
+					{
+						"id": "overlay_wielded_kut-ku_gs",
+						"fg": 200
+					}
+				]
+			}
+		]
+	}
+]
