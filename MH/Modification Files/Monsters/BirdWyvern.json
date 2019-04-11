@@ -10,7 +10,7 @@
 		],
 		"volume": "875000 ml",
 		"weight": 200000,
-		"hp": 975,
+		"hp": 1125,
 		"speed": 115,
 		"harvest": "kut-ku_carve",
 		"material": [
@@ -64,7 +64,7 @@
 		],
 		"volume": "875000 ml",
 		"weight": 200000,
-		"hp": 1325,
+		"hp": 1425,
 		"speed": 130,
 		"harvest": "gypceros_carve",
 		"material": [
@@ -91,6 +91,63 @@
 		"armor_acid": 4,
 		"armor_fire": 1,
 		"armor_elec": 9,
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"FLIES",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"REGEN_MORALE"
+		]
+	},
+	{
+		"id": "mon_garuga",
+		"type": "MONSTER",
+		"name": "yian garuga",
+		"description": "A breed of yian kut-ku with a hard black shell and a long mane. Known for its trap-avoiding slyness and poison-loaded tail, it is particularly evil wyvern so beware!",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 1950,
+		"speed": 130,
+		"harvest": "garuga_carve",
+		"material": [
+			"flesh",
+			"garuga"
+		],
+		"symbol": "W",
+		"color": "blue",
+		"aggression": 100,
+		"morale": 100,
+		"melee_skill": 10,
+		"melee_dice": 4,
+		"melee_dice_sides": 4,
+		"melee_cut": 4,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 8
+			},
+			{
+				"damage_type": "cut",
+				"amount": 4
+			}
+		],
+		"armor_bash": 11,
+		"armor_cut": 15,
+		"armor_acid": 0,
+		"armor_fire": 4,
+		"armor_elec": 4,
 		"death_function": [
 			"NORMAL"
 		],
