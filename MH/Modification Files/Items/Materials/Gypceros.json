@@ -6,7 +6,7 @@
 		"color": "blue",
 		"name": "rubbery hide",
 		"description": "Highly elastic gypceros hide. A good insulator, resistant to electricity.",
-		"price": 3700,
+		"price": 0,
 		"material": [
 			"gypceros"
 		],
@@ -25,7 +25,7 @@
 		"color": "blue",
 		"name": "gypceros head",
 		"description": "The uniquely shaped head of a gypceros. A must have for gypceros lovers!.",
-		"price": 22000,
+		"price": 0,
 		"material": [
 			"gypceros"
 		],

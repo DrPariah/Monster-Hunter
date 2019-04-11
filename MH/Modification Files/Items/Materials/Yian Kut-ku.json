@@ -6,7 +6,7 @@
 		"color": "red",
 		"name": "kut-ku scale",
 		"description": "Pink colored scale from a kut-ku. Fire resistant. Can be found in the field.",
-		"price": 2500,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],
@@ -25,7 +25,7 @@
 		"color": "red",
 		"name": "kut-ku shell",
 		"description": "The fire resistant shell of a kut-ku. Quite resistant to fire.",
-		"price": 3450,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],
@@ -44,7 +44,7 @@
 		"color": "red",
 		"name": "kut-ku webbing",
 		"description": "Webbing from a kut-ku wing. Better as a fusing material than animal skin.",
-		"price": 6500,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],
@@ -63,7 +63,7 @@
 		"color": "red",
 		"name": "kut-ku ear",
 		"description": "The fire resistant ear of a kut-ku. Used to prevent bowgun flash-back.",
-		"price": 12800,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],
@@ -82,7 +82,7 @@
 		"color": "red",
 		"name": "giant beak",
 		"description": "The huge, sturdy beak of a yian kut-ku.",
-		"price": 15000,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],

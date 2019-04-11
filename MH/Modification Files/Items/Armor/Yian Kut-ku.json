@@ -7,7 +7,7 @@
 		"description": "Made from superior kut-ku materials. It brings to mind the bird-like beast.",
 		"weight": 1500,
 		"volume": 10,
-		"price": 165000,
+		"price": 0,
 		"to_hit": -1,
 		"bashing": 10,
 		"material": [
@@ -40,7 +40,7 @@
 		"description": "Made from kut-ku material. The strange hue has the hint of a familiar land.",
 		"weight": 2500,
 		"volume": 15,
-		"price": 165000,
+		"price": 0,
 		"to_hit": -1,
 		"material": [
 			"kut-ku"
@@ -71,7 +71,7 @@
 		"description": "Clad in the pink of another world. The thick shell can repel even a wyvern fang.",
 		"weight": 400,
 		"volume": 6,
-		"price": 165000,
+		"price": 0,
 		"to_hit": 2,
 		"material": [
 			"kut-ku"
@@ -102,7 +102,7 @@
 		"description": "Waist armor crafted from kut-ku. Beware its sharp, spine covered exterior!",
 		"weight": 1750,
 		"volume": 10,
-		"price": 1650,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],
@@ -132,7 +132,7 @@
 		"description": "Leg armor made from kut-ku materials. Its design stresses ease of movement.",
 		"weight": 1250,
 		"volume": 10,
-		"price": 165000,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],

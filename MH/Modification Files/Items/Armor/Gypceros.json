@@ -7,7 +7,7 @@
 		"description": "Wrapped in rubbery gypceros hide, making it strong against physical attacks.",
 		"weight": 1500,
 		"volume": 10,
-		"price": 165000,
+		"price": 0,
 		"to_hit": -1,
 		"bashing": 10,
 		"material": [
@@ -40,7 +40,7 @@
 		"description": "Gypceros hide makes this armor rubbery and resistant to physical damage.",
 		"weight": 2500,
 		"volume": 15,
-		"price": 165000,
+		"price": 0,
 		"to_hit": -1,
 		"material": [
 			"gypceros"
@@ -71,7 +71,7 @@
 		"description": "Vambraces covered in gypceros hide, making them unyielding to small attacks.",
 		"weight": 400,
 		"volume": 6,
-		"price": 165000,
+		"price": 0,
 		"to_hit": 2,
 		"material": [
 			"gypceros"
@@ -102,7 +102,7 @@
 		"description": "Made by wrapping gypceros hide. The thick, meaty hide provides ample protection.",
 		"weight": 1750,
 		"volume": 10,
-		"price": 1650,
+		"price": 0,
 		"material": [
 			"gypceros"
 		],
@@ -132,7 +132,7 @@
 		"description": "Greaves made by combining gypceros hide and special ore. A special metal armor.",
 		"weight": 1250,
 		"volume": 10,
-		"price": 165000,
+		"price": 0,
 		"material": [
 			"gypceros"
 		],

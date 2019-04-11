@@ -7,10 +7,10 @@
 		"weight": 7250,
 		"volume": 20,
 		"symbol": "/",
-		"price": 215000,
+		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 23,
+		"cutting": 28,
 		"material": "kut-ku",
 		"color": "dark_red",
 		"techniques": [
@@ -40,9 +40,9 @@
 		"weight": 5500,
 		"volume": 18,
 		"symbol": "/",
-		"price": 2600000,
+		"price": 0,
 		"to_hit": 1,
-		"bashing": 21,
+		"bashing": 26,
 		"material": "kut-ku",
 		"color": "dark_red",
 		"techniques": [
@@ -67,9 +67,9 @@
 		"weight": 2000,
 		"volume": 14,
 		"symbol": "/",
-		"price": 172000,
+		"price": 0,
 		"to_hit": 1,
-		"cutting": 15,
+		"cutting": 20,
 		"material": "kut-ku",
 		"color": "dark_red",
 		"techniques": [
@@ -98,7 +98,7 @@
 		"name": "kut-ku anger",
 		"reload_noise_volume": 4,
 		"description": "Lightweight bowgun made from the head of Yian Kut-ku. Explodes with hatred.",
-		"price": 120000,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],
@@ -113,7 +113,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 4,
+		"ranged_damage": 6,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,
@@ -139,7 +139,7 @@
 		"name": "yian kut-ku cannon",
 		"reload_noise_volume": 4,
 		"description": "Increased rigidity by using incredibly tough shell. One can feel the power inside.",
-		"price": 267500,
+		"price": 0,
 		"material": [
 			"kut-ku"
 		],
@@ -154,7 +154,7 @@
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 9,
+		"ranged_damage": 12,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,
