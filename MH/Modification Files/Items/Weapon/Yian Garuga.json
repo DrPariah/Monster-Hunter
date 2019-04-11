@@ -1,0 +1,233 @@
+[
+	{
+		"id": "garuga_ss",
+		"type": "GENERIC",
+		"name": "raven blade",
+		"description": "A black sword made from yian garuga materials. The edge easily shreds its victims.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 32,
+		"material": "garuga",
+		"color": "light_blue",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "garuga_gs",
+		"type": "GENERIC",
+		"name": "sentoryu raven",
+		"description": "Black blade made from yian garuga. This blade can slice anything in half.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 38,
+		"material": "garuga",
+		"color": "light_blue",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "garuga_h",
+		"type": "GENERIC",
+		"name": "raven torrent",
+		"description": "The sharpened beak of a yian garuga. This black hammer's power is devastating.",
+		"weight": 5500,
+		"volume": 18,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 36,
+		"material": "garuga",
+		"color": "dark_red",
+		"techniques": [
+			"BRUTAL"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"HAMMER",
+				2
+			]
+		]
+	},
+	{
+		"id": "garuga_l",
+		"type": "GENERIC",
+		"name": "incessant raven",
+		"description": "A black spear made from yian garuga. The tapered point will break any defense.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 36,
+		"material": "garuga",
+		"color": "dark_red",
+		"techniques": [
+			"IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
+		"id": "garuga_ds",
+		"type": "GENERIC",
+		"name": "raven tessen",
+		"description": "Black fan made from garuga, that minces everything in a bk=link of an eye.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 30,
+		"material": "garuga",
+		"color": "dark_red",
+		"techniques": [
+			"RAPID"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "garuga_lbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "red",
+		"name": "raven do",
+		"reload_noise_volume": 4,
+		"description": "Black gun made from yian garuga materials. Fires shots with a monster's roar.",
+		"price": 0,
+		"material": [
+			"kut-ku"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 1750,
+		"volume": 10,
+		"bashing": 6,
+		"to_hit": 1,
+		"ranged_damage": 8,
+		"range": 15,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 12,
+		"reload": 400,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	},
+	{
+		"id": "garuga_hbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "red",
+		"name": "raven heirloom",
+		"reload_noise_volume": 4,
+		"description": "Black heavy bowgun made from yian garuga. A single shot can shatter a shield.",
+		"price": 0,
+		"material": [
+			"garuga"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 5250,
+		"volume": 18,
+		"bashing": 10,
+		"to_hit": 1,
+		"ranged_damage": 17,
+		"range": 20,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 12,
+		"reload": 300,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	}
+]
