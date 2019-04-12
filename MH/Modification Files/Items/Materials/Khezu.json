@@ -1,0 +1,40 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "khezu_hide",
+		"symbol": ",",
+		"color": "white",
+		"name": "khezu hide",
+		"description": "Workable as a material after recent advances. Has mysterios properties.",
+		"price": 0,
+		"material": [
+			"khezu"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 125,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "khezu_bone",
+		"symbol": ",",
+		"color": "white",
+		"name": "pale bone",
+		"description": "Rib bone from a khezu with meat still attached.",
+		"price": 0,
+		"material": [
+			"khezu"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 150,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
