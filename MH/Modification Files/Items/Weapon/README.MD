@@ -3,7 +3,7 @@ Some things we need to take note about the balanced damage output:
 
 * **Sword and shields** has a constant bash damage of 4 and a cut damage of base - 1.
 * **Greatswords** has a constant bash damage of 8 and a cut damage of base + 5.
-* **Hammers** has a bash damage of base + 3.
+* **Hammers** has a bash damage of base + 10.
 * **Lances** has a constant bash damage of 10 and a stab damage of base + 3.
 * **Dual Blades** has a cut damage of base - 3.
 * **Light Bowguns** has a constant bash damage of 6 and a ranged damage of base / 4.
