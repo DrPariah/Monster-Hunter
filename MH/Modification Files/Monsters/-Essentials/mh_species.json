@@ -1,5 +1,6 @@
 {
+	"//": "Make sure they go neutral after a kill.",
     "type": "SPECIES",
     "id": "WYVERN",
-    "fear_triggers": [ "HURT" ]
+    "placate_triggers": [ "MEAT" ]
   }
