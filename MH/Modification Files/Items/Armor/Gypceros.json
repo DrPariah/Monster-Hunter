@@ -3,7 +3,7 @@
 		"id": "gypceros_helmet",
 		"type": "ARMOR",
 		"category": "armor",
-		"name": "gypseros helmet",
+		"name": "gypceros helmet",
 		"description": "Wrapped in rubbery gypceros hide, making it strong against physical attacks.",
 		"weight": 1500,
 		"volume": 10,
@@ -20,7 +20,7 @@
 		],
 		"coverage": 100,
 		"encumbrance": 20,
-		"warmth": 15,
+		"warmth": 20,
 		"material_thickness": 4,
 		"environmental_protection": 2,
 		"techniques": [
@@ -29,7 +29,8 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY"
+			"STURDY",
+			"ELECTRIC_IMMUNE"
 		]
 	},
 	{
@@ -52,14 +53,15 @@
 		],
 		"coverage": 100,
 		"encumbrance": 20,
-		"warmth": 15,
+		"warmth": 20,
 		"material_thickness": 4,
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
 			"STURDY",
-			"OUTER"
+			"OUTER",
+			"ELECTRIC_IMMUNE"
 		]
 	},
 	{
@@ -84,14 +86,15 @@
 		],
 		"coverage": 100,
 		"encumbrance": 20,
-		"warmth": 15,
+		"warmth": 20,
 		"material_thickness": 4,
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
 			"STURDY",
-			"BLOCK_WHILE_WORN"
+			"BLOCK_WHILE_WORN",
+			"ELECTRIC_IMMUNE"
 		]
 	},
 	{
@@ -113,7 +116,7 @@
 		],
 		"coverage": 100,
 		"encumbrance": 10,
-		"warmth": 15,
+		"warmth": 20,
 		"material_thickness": 4,
 		"environmental_protection": 2,
 		"flags": [
@@ -121,7 +124,8 @@
 			"STURDY",
 			"WATERPROOF",
 			"BELTED",
-			"OUTER"
+			"OUTER",
+			"ELECTRIC_IMMUNE"
 		]
 	},
 	{
@@ -144,13 +148,14 @@
 		],
 		"coverage": 100,
 		"encumbrance": 15,
-		"warmth": 15,
+		"warmth": 20,
 		"material_thickness": 4,
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
 			"STURDY",
-			"WATERPROOF"
+			"WATERPROOF",
+			"ELECTRIC_IMMUNE"
 		]
 	}
 ]

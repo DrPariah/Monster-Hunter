@@ -75,7 +75,7 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 28,
+		"bashing": 35,
 		"material": "gypceros",
 		"color": "dark_red",
 		"techniques": [

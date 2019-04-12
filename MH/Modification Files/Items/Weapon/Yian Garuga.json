@@ -75,7 +75,7 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 36,
+		"bashing": 43,
 		"material": "garuga",
 		"color": "dark_red",
 		"techniques": [
@@ -158,7 +158,7 @@
 		"description": "Black gun made from yian garuga materials. Fires shots with a monster's roar.",
 		"price": 0,
 		"material": [
-			"kut-ku"
+			"garuga"
 		],
 		"flags": [
 			"NEVER_JAMS",
@@ -176,7 +176,7 @@
 		"loudness": 8,
 		"dispersion": 200,
 		"durability": 10,
-		"clip_size": 12,
+		"clip_size": 6,
 		"reload": 400,
 		"valid_mod_locations": [
 			[

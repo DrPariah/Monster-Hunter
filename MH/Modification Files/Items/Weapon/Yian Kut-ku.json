@@ -42,7 +42,7 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 26,
+		"bashing": 33,
 		"material": "kut-ku",
 		"color": "dark_red",
 		"techniques": [
@@ -118,7 +118,7 @@
 		"loudness": 8,
 		"dispersion": 200,
 		"durability": 10,
-		"clip_size": 12,
+		"clip_size": 6,
 		"reload": 400,
 		"valid_mod_locations": [
 			[
