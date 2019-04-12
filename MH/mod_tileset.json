@@ -159,21 +159,33 @@
 						"fg": 108
 					},
 					{
-						"id": "overlay_worn_gypseros_mail",
+						"id": "overlay_worn_gypceros_mail",
 						"fg": 109
 					},
 					{
-						"id": "overlay_worn_gypseros_vambraces",
+						"id": "overlay_worn_gypceros_vambraces",
 						"fg": 110
 					},
 					{
-						"id": "overlay_worn_gypseros_tasset",
+						"id": "overlay_worn_gypceros_tasset",
 						"fg": 111
 					},
 					{
-						"id": "overlay_worn_gypseros_greaves",
+						"id": "overlay_worn_gypceros_greaves",
 						"fg": 112
 					},
+					{
+						"id": "overlay_wielded_gypceros_ss",
+						"fg": 113
+					},
+					{
+						"id": "overlay_wielded_gypceros_h",
+						"fg": 114
+					},
+					{
+						"id": "overlay_wielded_gypceros_hbg",
+						"fg": 115
+					}
 				]
 			},
 			{
@@ -186,6 +198,18 @@
 					{
 						"id": "overlay_wielded_kut-ku_gs",
 						"fg": 200
+					},
+					{
+						"id": "overlay_worn_gypceros_helmet",
+						"fg": 201
+					},
+					{
+						"id": "overlay_wielded_gypceros_gs",
+						"fg": 202
+					},
+					{
+						"id": "overlay_wielded_gypceros_ds",
+						"fg": 203 
 					}
 				]
 			}
