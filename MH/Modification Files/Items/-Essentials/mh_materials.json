@@ -65,7 +65,7 @@
 	{
 		"//": "30",
 		"type": "material",
-		"ident": "hypno",
+		"ident": "hypnocatrice",
 		"name": "Hypnocatrice",
 		"density": 10,
 		"bash_resist": 10,
