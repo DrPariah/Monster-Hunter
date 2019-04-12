@@ -65,7 +65,7 @@
 			{
 				"drop": "kut-ku_scale",
 				"type": "skin",
-				"mass_ratio": 0.025,
+				"mass_ratio": 0.02,
 				"max": 16
 			},
 			{
@@ -77,8 +77,8 @@
 			{
 				"drop": "kut-ku_webbing",
 				"type": "skin",
-				"mass_ratio": 0.005,
-				"max": 4
+				"mass_ratio": 0.0075,
+				"max": 6
 			},
 			{
 				"drop": "kut-ku_ear",
@@ -160,8 +160,8 @@
 			{
 				"drop": "gypceros_hide",
 				"type": "skin",
-				"mass_ratio": 0.025,
-				"max": 12
+				"mass_ratio": 0.02,
+				"max": 16
 			},
 			{
 				"drop": "gypceros_head",
@@ -237,7 +237,7 @@
 			{
 				"drop": "garuga_scale",
 				"type": "skin",
-				"mass_ratio": 0.025,
+				"mass_ratio": 0.02,
 				"max": 16
 			},
 			{
@@ -268,6 +268,261 @@
 				"drop": "garuga_wing",
 				"type": "skin",
 				"mass_ratio": 0.0025,
+				"max": 2
+			}
+		]
+	},
+	{
+		"id": "hypnocatrice_carve",
+		"type": "harvest",
+		"entries": [
+			{
+				"drop": "meat",
+				"type": "flesh",
+				"mass_ratio": 0.3
+			},
+			{
+				"drop": "meat_scrap",
+				"type": "flesh",
+				"mass_ratio": 0.03
+			},
+			{
+				"drop": "lung",
+				"type": "flesh",
+				"mass_ratio": 0.0035
+			},
+			{
+				"drop": "liver",
+				"type": "offal",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "brain",
+				"type": "flesh",
+				"mass_ratio": 0.005
+			},
+			{
+				"drop": "sweetbread",
+				"type": "flesh",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "kidney",
+				"type": "offal",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "stomach",
+				"scale_num": [
+					1,
+					1
+				],
+				"max": 1,
+				"type": "offal"
+			},
+			{
+				"drop": "bone",
+				"type": "bone",
+				"mass_ratio": 0.15
+			},
+			{
+				"drop": "sinew",
+				"type": "bone",
+				"mass_ratio": 0.00035
+			},
+			{
+				"drop": "fat",
+				"type": "flesh",
+				"mass_ratio": 0.07
+			},
+			{
+				"drop": "hypnocatrice_pelt",
+				"type": "skin",
+				"mass_ratio": 0.02,
+				"max": 16
+			},
+			{
+				"drop": "hypnocatrice_claw",
+				"type": "skin",
+				"mass_ratio": 0.005,
+				"max": 4
+			},
+			{
+				"drop": "hypnocatrice_tail",
+				"type": "skin",
+				"mass_ratio": 0.0025,
+				"max": 3
+			},
+			{
+				"drop": "hypnocatrice_bezoar",
+				"type": "skin",
+				"mass_ratio": 0.0015,
+				"max": 2
+			},
+			{
+				"drop": "hypnocatrice_beak",
+				"type": "bone",
+				"mass_ratio": 0.001,
+				"max": 1
+			}
+		]
+	},
+	{
+		"id": "khezu_carve",
+		"type": "harvest",
+		"entries": [
+			{
+				"drop": "meat",
+				"type": "flesh",
+				"mass_ratio": 0.3
+			},
+			{
+				"drop": "meat_scrap",
+				"type": "flesh",
+				"mass_ratio": 0.03
+			},
+			{
+				"drop": "lung",
+				"type": "flesh",
+				"mass_ratio": 0.0035
+			},
+			{
+				"drop": "liver",
+				"type": "offal",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "brain",
+				"type": "flesh",
+				"mass_ratio": 0.005
+			},
+			{
+				"drop": "sweetbread",
+				"type": "flesh",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "kidney",
+				"type": "offal",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "stomach",
+				"scale_num": [
+					1,
+					1
+				],
+				"max": 1,
+				"type": "offal"
+			},
+			{
+				"drop": "bone",
+				"type": "bone",
+				"mass_ratio": 0.15
+			},
+			{
+				"drop": "sinew",
+				"type": "bone",
+				"mass_ratio": 0.00035
+			},
+			{
+				"drop": "fat",
+				"type": "flesh",
+				"mass_ratio": 0.07
+			},
+			{
+				"drop": "khezu_hide",
+				"type": "skin",
+				"mass_ratio": 0.02,
+				"max": 12
+			},
+			{
+				"drop": "khezu_bone",
+				"type": "bone",
+				"mass_ratio": 0.005,
+				"max": 3
+			}
+		]
+	},
+	{
+		"id": "basarios_carve",
+		"type": "harvest",
+		"entries": [
+			{
+				"drop": "meat",
+				"type": "flesh",
+				"mass_ratio": 0.3
+			},
+			{
+				"drop": "meat_scrap",
+				"type": "flesh",
+				"mass_ratio": 0.03
+			},
+			{
+				"drop": "lung",
+				"type": "flesh",
+				"mass_ratio": 0.0035
+			},
+			{
+				"drop": "liver",
+				"type": "offal",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "brain",
+				"type": "flesh",
+				"mass_ratio": 0.005
+			},
+			{
+				"drop": "sweetbread",
+				"type": "flesh",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "kidney",
+				"type": "offal",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "stomach",
+				"scale_num": [
+					1,
+					1
+				],
+				"max": 1,
+				"type": "offal"
+			},
+			{
+				"drop": "bone",
+				"type": "bone",
+				"mass_ratio": 0.15
+			},
+			{
+				"drop": "sinew",
+				"type": "bone",
+				"mass_ratio": 0.00035
+			},
+			{
+				"drop": "fat",
+				"type": "flesh",
+				"mass_ratio": 0.07
+			},
+			{
+				"drop": "basarios_shell",
+				"type": "skin",
+				"mass_ratio": 0.02,
+				"max": 16
+			},
+			{
+				"drop": "basarios_wing",
+				"type": "skin",
+				"mass_ratio": 0.005,
+				"max": 2
+			},
+			{
+				"drop": "basarios_tear",
+				"type": "bone",
+				"mass_ratio": 0.002,
 				"max": 2
 			}
 		]
