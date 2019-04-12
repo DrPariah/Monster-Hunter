@@ -1,6 +1,6 @@
 # Monster Hunter: A modification file for Cataclysm: Dark Days Ahead
 
-Monster hunter is a challenging game about hunting down ferocious monstrosities, with vast weapon and armor in its arsenal. I really though it could be a good twist for CDDA, so yeah... I just did.
+Monster hunter(MH) is a challenging game about hunting down ferocious monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did.
 
 - This mod is heavily WIP and most features are not included!
 
@@ -13,17 +13,15 @@ Most monsters from MH are bosses, and stays that way in CDDA. They have huge hea
 
 Here are the list of monsters by category, and are sorted descending by their threat level:
 
-**(Based on MHFU)**
-
 ##### Bird Wyverns
 * **Yian Kut-ku**
 * **Gypceros**
 * **Yian Garuga**
-* Hypnocatrice
+* **Hypnocatrice**
 
 ##### Flying Wyverns
-* Khezu
-* Basarios
+* **Khezu**
+* **Basarios**
 * Monoblos
 * Rathian
 * Rathalos
@@ -85,7 +83,7 @@ Sorted down by rarity.
 
 ### Armors
 * These are full armor sets that consists of helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name.
-* They are made of carved monster materials with their crafting requirements based on MHFU.
+* They are made of carved monster materials with their crafting requirements. Some armors require a combination of two monster material to craft.
 
 Also notice that all of these armors are designed for blademaster hunters.
 
@@ -101,3 +99,5 @@ Similar to armors, they are crafted from monster materials and their damage outp
 * **Heavy Bowgun** - A heavy gun that deals tremendous damage in trade of mobility. Usually has higher ammo capacity. Placing a shield as a mod allows it to have a very high blocking chance.
 
 The other four weapons - **long sword**, **gunlance**, **hunting horn** and **bow** - are not included due to their complexity.
+
+###### Everything is based from MHFU. Further updates may go beyond that version (if ever...)
