@@ -19,8 +19,8 @@
 		],
 		"symbol": "W",
 		"color": "light_red",
-		"aggression": 100,
-		"morale": 100,
+		"aggression": 0,
+		"morale": 0,
 		"melee_skill": 10,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
@@ -37,6 +37,11 @@
 		"armor_acid": 1,
 		"armor_fire": 7,
 		"armor_elec": 5,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"SOUND",
+			"HURT"
+		],
 		"death_function": [
 			"NORMAL"
 		],
@@ -50,7 +55,8 @@
 			"WARM",
 			"BASHES",
 			"BONES",
-			"REGEN_MORALE"
+			"REGEN_MORALE",
+			"PATH_AVOID_DANGER_2"
 		]
 	},
 	{
@@ -73,8 +79,8 @@
 		],
 		"symbol": "W",
 		"color": "light_blue",
-		"aggression": 100,
-		"morale": 100,
+		"aggression": 0,
+		"morale": 0,
 		"melee_skill": 10,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
@@ -91,6 +97,10 @@
 		"armor_acid": 4,
 		"armor_fire": 1,
 		"armor_elec": 9,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"HURT"
+		],
 		"death_function": [
 			"NORMAL"
 		],
@@ -103,7 +113,9 @@
 			"WARM",
 			"BASHES",
 			"BONES",
-			"REGEN_MORALE"
+			"REGEN_MORALE",
+			"ELECTRIC",
+			"PATH_AVOID_DANGER_2"
 		]
 	},
 	{
@@ -126,8 +138,8 @@
 		],
 		"symbol": "W",
 		"color": "blue",
-		"aggression": 100,
-		"morale": 100,
+		"aggression": 0,
+		"morale": 50,
 		"melee_skill": 10,
 		"melee_dice": 4,
 		"melee_dice_sides": 4,
@@ -148,6 +160,11 @@
 		"armor_acid": 0,
 		"armor_fire": 4,
 		"armor_elec": 4,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"SOUND",
+			"HURT"
+		],
 		"death_function": [
 			"NORMAL"
 		],
@@ -160,7 +177,67 @@
 			"WARM",
 			"BASHES",
 			"BONES",
-			"REGEN_MORALE"
+			"REGEN_MORALE",
+			"BLEED",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_hypnocatrice",
+		"type": "MONSTER",
+		"name": "hypnocatrice",
+		"description": "A rust-colored bird wyvern with beautiful tail feathers found mainly in forests. A highly pacifistic wyvern by nature, it breathe sleeping gas on its enemies and prey alike. Its strong, developed legs pack a serious punch, so be careful!",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 2300,
+		"speed": 120,
+		"harvest": "hypnocatrice_carve",
+		"material": [
+			"flesh",
+			"hypnocatrice"
+		],
+		"symbol": "W",
+		"color": "light_red",
+		"aggression": 0,
+		"morale": 0,
+		"melee_skill": 10,
+		"melee_dice": 6,
+		"melee_dice_sides": 4,
+		"melee_cut": 0,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 12
+			}
+		],
+		"armor_bash": 10,
+		"armor_cut": 14,
+		"armor_acid": 6,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"FLIES",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"REGEN_MORALE",
+			"PATH_AVOID_DANGER_2"
 		]
 	}
 ]
