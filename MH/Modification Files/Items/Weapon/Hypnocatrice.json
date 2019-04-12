@@ -1,0 +1,68 @@
+[
+	{
+		"id": "hypnocatrice_ss",
+		"type": "GENERIC",
+		"name": "feather knife",
+		"description": "Curved blades that cause sleep like its namesake, it leaves a lasting impression.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 29,
+		"material": "hypnocatrice",
+		"color": "light_red",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "hypnocatrice_gs",
+		"type": "GENERIC",
+		"name": "pickaxe blade",
+		"description": "A sword resembling a distorted hatchet. Based on an ancient hunting weapon.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 35,
+		"material": "hypnocatrice",
+		"color": "light_red",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	}
+]
