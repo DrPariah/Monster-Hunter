@@ -20,7 +20,7 @@
 		"symbol": "W",
 		"color": "light_red",
 		"aggression": 0,
-		"morale": 0,
+		"morale": 10,
 		"melee_skill": 10,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
@@ -55,7 +55,6 @@
 			"WARM",
 			"BASHES",
 			"BONES",
-			"REGEN_MORALE",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -80,7 +79,7 @@
 		"symbol": "W",
 		"color": "light_blue",
 		"aggression": 0,
-		"morale": 0,
+		"morale": 10,
 		"melee_skill": 10,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
@@ -113,7 +112,6 @@
 			"WARM",
 			"BASHES",
 			"BONES",
-			"REGEN_MORALE",
 			"ELECTRIC",
 			"PATH_AVOID_DANGER_2"
 		]
@@ -139,7 +137,7 @@
 		"symbol": "W",
 		"color": "blue",
 		"aggression": 0,
-		"morale": 50,
+		"morale": 30,
 		"melee_skill": 10,
 		"melee_dice": 4,
 		"melee_dice_sides": 4,
@@ -177,7 +175,6 @@
 			"WARM",
 			"BASHES",
 			"BONES",
-			"REGEN_MORALE",
 			"BLEED",
 			"PATH_AVOID_DANGER_2"
 		]
@@ -203,7 +200,7 @@
 		"symbol": "W",
 		"color": "light_red",
 		"aggression": 0,
-		"morale": 0,
+		"morale": 5,
 		"melee_skill": 10,
 		"melee_dice": 6,
 		"melee_dice_sides": 4,
@@ -236,7 +233,6 @@
 			"WARM",
 			"BASHES",
 			"BONES",
-			"REGEN_MORALE",
 			"PATH_AVOID_DANGER_2"
 		]
 	}
