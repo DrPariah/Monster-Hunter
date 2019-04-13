@@ -7,14 +7,16 @@ Material strength are based mainly on MHFU's low rank armor of a monster materia
 The results are forwarded to resistance and weapon damage calculations.
 
 ### Resistance
-* **bash** = `defense` / 4 * 1.25
-* **cut** = `defense` / 3 * 1.25
+* **bash** = `defense` / 4 * 1.25 + 10
+* **cut** = `defense` / 3 * 1.25 + 10
 * **acid** = `water` + `ice` / 2 * 3
 * **fire** = `fire` * 1.75
 * **elec** = `thunder` * 1.75
 * **chip** = 12
 
 ### Weapon Damage
+This is calculated before adding the 10 to **bash** and **cut** resistance results.
+
 * ***base*** = **bash** + **cut** / 2 * 2.5
 
 ***Base*** is required to calculate the damage by weapon type.
