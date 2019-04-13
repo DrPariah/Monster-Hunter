@@ -25,9 +25,9 @@ Here are the list of monsters by category, and are sorted descending by their th
 * **Monoblos**
 * **Rathian**
 * **Rathalos**
-* Gravios
-* Diablos
-* Tigrex
+* **Gravios**
+* **Diablos**
+* **Tigrex**
 * Nargacuga
 * Akantor
 * Ukanlos
@@ -57,10 +57,10 @@ Here are the list of monsters by category, and are sorted descending by their th
 ***
 
 ## Items
-This section consists of monster carved(butchered) crafting materials, armors and weapons.
+This section consists of monster carved crafting materials, armors and weapons.
 
 ### Materials
-Materials are essential in crafting `MH`-stuff, which are butchered(carved) directly from slained `MH` monsters. With high survival skills, material gained rises gradually.
+Materials are essential in crafting `MH`-stuff, which are carved off directly from slained `MH` monsters as your rewards. With high survival skills, material gained rises gradually.
 
 If you want to see some carve-able monster materials, go to the *Materials* folder.
 
@@ -78,8 +78,8 @@ Similar to armors, they are crafted from monster materials and their damage outp
 * **Hammer** -  A large, heavy weapon with slow attack speed and a chance to stun the monster. It doesn't block attacks.
 * **Lance** - A heavy spear with extremely high blocking chance and slow attack speed.
 * **Dual Blades** - A pair of sword/dagger with insanely fast attack speed. It doesn't block attacks.
-* **Light Bowgun** - A lightweight gun that offers descent mobility and range. Some has auto-fire mechanism. It doesn't block attacks.
-* **Heavy Bowgun** - A heavy gun that deals tremendous damage in trade of mobility. Usually has higher ammo capacity. Placing a shield as a mod allows it to have a very high blocking chance.
+* **Light Bowgun** - A lightweight gun that offers descent mobility and range.
+* **Heavy Bowgun** - A heavy gun that deals tremendous damage in trade of mobility. Usually holds higher ammo capacity.
 
 The other four weapons - **long sword**, **gunlance**, **hunting horn** and **bow** - are not included due to their complexity.
 
