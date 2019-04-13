@@ -1,0 +1,78 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "monoblos_shell",
+		"symbol": ",",
+		"color": "brown",
+		"name": "monoblos shell",
+		"description": "Scale carved from yian monoblos. It shines with ominous purple.",
+		"price": 0,
+		"material": [
+			"monoblos"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monoblos_spine",
+		"symbol": ",",
+		"color": "brown",
+		"name": "monoblos spine",
+		"description": "A first class material that requires high crafting technology.",
+		"price": 0,
+		"material": [
+			"monoblos"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 225,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monoblos_horn",
+		"symbol": ",",
+		"color": "brown",
+		"name": "blood red horn",
+		"description": "Has a special function that responds to shocks with a powerful venom.",
+		"price": 0,
+		"material": [
+			"monoblos"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 600,
+		"volume": 2,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monoblos_heart",
+		"symbol": ",",
+		"color": "brown",
+		"name": "monoblos heart",
+		"description": "The sharpened beak of yian monoblos. Compared to a kut-ku, it's much deadlier.",
+		"price": 0,
+		"material": [
+			"monoblos"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 500,
+		"volume": 2,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
