@@ -14,7 +14,7 @@
 			"garuga"
 		],
 		"symbol": "[",
-		"color": "light_blue",
+		"color": "blue",
 		"covers": [
 			"HEAD"
 		],
@@ -46,7 +46,7 @@
 			"garuga"
 		],
 		"symbol": "[",
-		"color": "light_blue",
+		"color": "blue",
 		"covers": [
 			"TORSO"
 		],
@@ -77,7 +77,7 @@
 			"garuga"
 		],
 		"symbol": "[",
-		"color": "light_blue",
+		"color": "blue",
 		"covers": [
 			"HANDS",
 			"ARMS"
@@ -107,7 +107,7 @@
 			"garuga"
 		],
 		"symbol": "[",
-		"color": "light_blue",
+		"color": "blue",
 		"covers": [
 			"LEGS"
 		],
@@ -137,7 +137,7 @@
 			"garuga"
 		],
 		"symbol": "[",
-		"color": "light_blue",
+		"color": "blue",
 		"covers": [
 			"LEGS",
 			"FEET"

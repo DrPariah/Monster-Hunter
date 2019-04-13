@@ -10,9 +10,9 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 28,
+		"cutting": 31,
 		"material": "kut-ku",
-		"color": "dark_red",
+		"color": "red",
 		"techniques": [
 			"WBLOCK_1",
 			"WIDE"
@@ -44,7 +44,7 @@
 		"to_hit": 1,
 		"bashing": 33,
 		"material": "kut-ku",
-		"color": "dark_red",
+		"color": "red",
 		"techniques": [
 			"BRUTAL"
 		],
@@ -69,9 +69,9 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 20,
+		"cutting": 18,
 		"material": "kut-ku",
-		"color": "dark_red",
+		"color": "red",
 		"techniques": [
 			"RAPID"
 		],

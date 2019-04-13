@@ -10,7 +10,7 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 24,
+		"cutting": 23,
 		"material": "gypceros",
 		"color": "light_blue",
 		"techniques": [
@@ -43,7 +43,7 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 30,
+		"cutting": 33,
 		"material": "gypceros",
 		"color": "light_blue",
 		"techniques": [
@@ -77,7 +77,7 @@
 		"to_hit": 1,
 		"bashing": 35,
 		"material": "gypceros",
-		"color": "dark_red",
+		"color": "light_blue",
 		"techniques": [
 			"BRUTAL"
 		],
@@ -102,9 +102,9 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 22,
+		"cutting": 20,
 		"material": "gypceros",
-		"color": "dark_red",
+		"color": "light_blue",
 		"techniques": [
 			"RAPID"
 		],
@@ -127,7 +127,7 @@
 		"id": "gypceros_hbg",
 		"type": "GUN",
 		"symbol": "(",
-		"color": "red",
+		"color": "light_blue",
 		"name": "tank mage",
 		"reload_noise_volume": 4,
 		"description": "Heavy bowgun for all levels of pellet shots and many other ammo types.",

@@ -10,9 +10,9 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 32,
+		"cutting": 31,
 		"material": "garuga",
-		"color": "light_blue",
+		"color": "blue",
 		"techniques": [
 			"WBLOCK_1",
 			"WIDE"
@@ -43,9 +43,9 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 38,
+		"cutting": 41,
 		"material": "garuga",
-		"color": "light_blue",
+		"color": "blue",
 		"techniques": [
 			"WBLOCK_1",
 			"WIDE"
@@ -77,7 +77,7 @@
 		"to_hit": 1,
 		"bashing": 43,
 		"material": "garuga",
-		"color": "dark_red",
+		"color": "blue",
 		"techniques": [
 			"BRUTAL"
 		],
@@ -105,7 +105,7 @@
 		"bashing": 10,
 		"cutting": 36,
 		"material": "garuga",
-		"color": "dark_red",
+		"color": "blue",
 		"techniques": [
 			"IMPALE",
 			"WBLOCK_3"
@@ -121,15 +121,15 @@
 		"id": "garuga_ds",
 		"type": "GENERIC",
 		"name": "raven tessen",
-		"description": "Black fan made from garuga, that minces everything in a bk=link of an eye.",
+		"description": "Black fan made from garuga, that minces everything in a blink of an eye.",
 		"weight": 2000,
 		"volume": 14,
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 30,
+		"cutting": 28,
 		"material": "garuga",
-		"color": "dark_red",
+		"color": "blue",
 		"techniques": [
 			"RAPID"
 		],
@@ -152,7 +152,7 @@
 		"id": "garuga_lbg",
 		"type": "GUN",
 		"symbol": "(",
-		"color": "red",
+		"color": "blue",
 		"name": "raven do",
 		"reload_noise_volume": 4,
 		"description": "Black gun made from yian garuga materials. Fires shots with a monster's roar.",
@@ -193,7 +193,7 @@
 		"id": "garuga_hbg",
 		"type": "GUN",
 		"symbol": "(",
-		"color": "red",
+		"color": "blue",
 		"name": "raven heirloom",
 		"reload_noise_volume": 4,
 		"description": "Black heavy bowgun made from yian garuga. A single shot can shatter a shield.",
