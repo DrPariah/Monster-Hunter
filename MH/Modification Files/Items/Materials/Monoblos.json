@@ -5,7 +5,7 @@
 		"symbol": ",",
 		"color": "brown",
 		"name": "monoblos shell",
-		"description": "Scale carved from yian monoblos. It shines with ominous purple.",
+		"description": "Gray-colored outer shell from a monoblos.",
 		"price": 0,
 		"material": [
 			"monoblos"
@@ -24,7 +24,7 @@
 		"symbol": ",",
 		"color": "brown",
 		"name": "monoblos spine",
-		"description": "A first class material that requires high crafting technology.",
+		"description": "A hard spine from the back of a monoblos. A weaponcraft material.",
 		"price": 0,
 		"material": [
 			"monoblos"
@@ -43,7 +43,7 @@
 		"symbol": ",",
 		"color": "brown",
 		"name": "blood red horn",
-		"description": "Has a special function that responds to shocks with a powerful venom.",
+		"description": "The large crimson horn of a monoblos.",
 		"price": 0,
 		"material": [
 			"monoblos"
@@ -62,7 +62,7 @@
 		"symbol": ",",
 		"color": "brown",
 		"name": "monoblos heart",
-		"description": "The sharpened beak of yian monoblos. Compared to a kut-ku, it's much deadlier.",
+		"description": "The heart of a fallen monoblos. It's shrouded in dignity.",
 		"price": 0,
 		"material": [
 			"monoblos"
