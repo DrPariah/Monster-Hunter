@@ -8,13 +8,13 @@ They are calm in the wild, though provoking makes them mad and destructive. Most
 All monsters has EXTREMELY HIGH health points. A whole clip of M4A1 magazine isn't enough even to the weakest monster of this mod.
 
 ### Attack
-They have a constant 10 `"melee_skill"`, and a damage type that varies in every monster. Some monsters deal additional effects like poison and stun.
+They have a constant 10 `"melee_skill"` and a damage type that varies in every monster. Some monsters deal additional effects like poison and stun., some monster deal elemental damage.
 
 ### Special Attacks
-Fireballs, fireblasts, firewalls, etc.
+Fireballs, fireblasts, firewalls, etc. **THEY ARE CURRENTLY UNIMPLEMENTED!**
 
 ### Armor
-Their armor is the same with the material data. Toughest monster wield the toughest armor available in crafting from their carves.
+Monster armor data is the same with their monster material resistances, except the **bash** and **cut**, which are diminished by 10. It is done to reduce the tanky-ness of most monsters.
 
 ### Carves
 Aside from meat, some butchered items from a monster has exclusive materials that are required to craft various MH-related stuff like weapons and armors. Though not as defensive as power armors nor as devastating as the Barrett, they have advantage at some point...
