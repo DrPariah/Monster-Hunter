@@ -185,6 +185,34 @@
 					{
 						"id": "overlay_wielded_gypceros_hbg",
 						"fg": 115
+					},
+					{
+						"id": "overlay_worn_garuga_mail",
+						"fg": 116
+					},
+					{
+						"id": "overlay_worn_garuga_vambraces",
+						"fg": 117
+					},
+					{
+						"id": "overlay_worn_garuga_tasset",
+						"fg": 118
+					},
+					{
+						"id": "overlay_worn_garuga_greaves",
+						"fg": 119
+					},
+					{
+						"id": "overlay_wielded_gypceros_ss",
+						"fg": 120
+					},
+					{
+						"id": "overlay_wielded_gypceros_h",
+						"fg": 121
+					},
+					{
+						"id": "overlay_wielded_gypceros_ds",
+						"fg": 122
 					}
 				]
 			},
@@ -210,7 +238,19 @@
 					{
 						"id": "overlay_wielded_gypceros_ds",
 						"fg": 203 
-					}
+					},
+					{
+						"id": "overlay_worn_garuga_helmet",
+						"fg": 204
+					},
+					{
+						"id": "overlay_wielded_gypceros_gs",
+						"fg": 205
+					},
+					{
+						"id": "overlay_wielded_gypceros_l",
+						"fg": 206 
+					},
 				]
 			}
 		]
