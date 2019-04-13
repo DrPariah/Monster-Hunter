@@ -1,15 +1,15 @@
 # Monster Hunter: A modification file for Cataclysm: Dark Days Ahead
 
-Monster hunter(MH) is a challenging game about hunting down ferocious monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did.
+Monster hunter(`MH`) is a challenging game about hunting down ferocious monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did.
 
 - This mod is heavily WIP and most features are not included!
 
-Visit the official [Monster Hunter](https://monsterhunter.fandom.com/wiki/Monster_Hunter_Wiki) if you're curious beyond expectation...
+Visit the official [`MH` wiki](https://monsterhunter.fandom.com/wiki/Monster_Hunter_Wiki) if you're curious beyond expectation...
 
 ***
 
 ## Monsters
-Most monsters from MH are bosses, and stays that way in CDDA. They have huge health points, varied damage resistance and boasts in combat abilities.
+Most monsters from `MH` are bosses, and stays that way in CDDA. They have huge health points, varied damage resistance and boasts in combat abilities.
 
 Here are the list of monsters by category, and are sorted descending by their threat level:
 
@@ -22,9 +22,9 @@ Here are the list of monsters by category, and are sorted descending by their th
 ##### Flying Wyverns
 * **Khezu**
 * **Basarios**
-* Monoblos
-* Rathian
-* Rathalos
+* **Monoblos**
+* **Rathian**
+* **Rathalos**
 * Gravios
 * Diablos
 * Tigrex
@@ -60,26 +60,9 @@ Here are the list of monsters by category, and are sorted descending by their th
 This section consists of monster carved(butchered) crafting materials, armors and weapons.
 
 ### Materials
-Sorted down by rarity.
+Materials are essential in crafting `MH`-stuff, which are butchered(carved) directly from slained `MH` monsters. With high survival skills, material gained rises gradually.
 
-#### **Yian Kut-ku**
-* kut-ku scale
-* kut-ku shell
-* kut-ku webbing
-* kut-ku ear
-* giant beak
-
-#### **Gypceros**
-* gypceros hide
-* gypceros head
-
-#### **Yian Garuga**
-* garuga scale
-* garuga shell
-* garuga wing
-* garuga ear
-* garuga tail
-* sharpened beak
+If you want to see some carve-able monster materials, go to the *Materials* folder.
 
 ### Armors
 * These are full armor sets that consists of helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name.
