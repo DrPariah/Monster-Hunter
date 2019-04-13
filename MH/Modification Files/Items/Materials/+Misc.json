@@ -1,0 +1,79 @@
+[
+	{
+		"//": "These are the materials that can be carved off from more than a monster.",
+		"type": "GENERIC",
+		"id": "flame_sac",
+		"symbol": ",",
+		"color": "red",
+		"name": "flame sac",
+		"description": "A monster's internal organ. Contains a very flammable powder.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 275,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "blos_fang",
+		"symbol": ",",
+		"color": "brown",
+		"name": "monoblos fang",
+		"description": "A large, sturdy fang from a diablos or monoblos. Stays sharp.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 250,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "fwyvern_claw",
+		"symbol": ",",
+		"color": "red",
+		"name": "fire wyvern claw",
+		"description": "Claws that grow on the wing of a fire wyvern. Can be cut off in battle.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "fwyvern_fluid",
+		"symbol": ",",
+		"color": "red",
+		"name": "fire wyvern fluid",
+		"description": "Heat producing body fluids from a fire wyvern. Useful in equipment crafting.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
