@@ -299,5 +299,183 @@
 			"BONES",
 			"PATH_AVOID_DANGER_2"
 		]
+	},
+	{
+		"id": "mon_gravios",
+		"type": "MONSTER",
+		"name": "gravios",
+		"description": "A large wyvern found in the volcanic zones. They possess a fiery breath attack and the ability to emit a sleeping gas. They also have extremely hard scales that deflect most weapon attacks.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 3850,
+		"speed": 85,
+		"harvest": "gravios_carve",
+		"material": [
+			"flesh",
+			"gravios"
+		],
+		"symbol": "W",
+		"color": "gray",
+		"aggression": 0,
+		"morale": 30,
+		"melee_skill": 10,
+		"melee_dice": 6,
+		"melee_dice_sides": 6,
+		"melee_cut": 0,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 14
+			}
+		],
+		"armor_bash": 13,
+		"armor_cut": 17,
+		"armor_acid": 0,
+		"armor_fire": 4,
+		"armor_elec": 4,
+		"anger_triggers": [
+			"PLAYER_CLOSE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"FLIES",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_diablos",
+		"type": "MONSTER",
+		"name": "diablos",
+		"description": "Two-horned wyvern found in the desert zones. They are capable of burrowing into sand to attack prey from below. Incredibly violent and proud, they are know to unleash terrible wrath when accosted.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 3625,
+		"speed": 85,
+		"harvest": "diablos_carve",
+		"material": [
+			"flesh",
+			"diablos"
+		],
+		"symbol": "W",
+		"color": "brown",
+		"aggression": 0,
+		"morale": 30,
+		"melee_skill": 10,
+		"melee_dice": 6,
+		"melee_dice_sides": 6,
+		"melee_cut": 4,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 8
+			},
+			{
+				"damage_type": "stab",
+				"amount": 6
+			}
+		],
+		"armor_bash": 13,
+		"armor_cut": 17,
+		"armor_acid": 0,
+		"armor_fire": 5,
+		"armor_elec": 2,
+		"anger_triggers": [
+			"PLAYER_CLOSE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"FLIES",
+			"CAN_DIG",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"//": "Good ol' tigrex!",
+		"id": "mon_tigrex",
+		"type": "MONSTER",
+		"name": "tigrex",
+		"description": "A flying wyvern that maintains its primitive origins. Prone to violence, it possesses incredible ferocity thanks to its four limbs, claws and jaw. Inhabits a wide area.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 4375,
+		"speed": 120,
+		"harvest": "tigrex_carve",
+		"material": [
+			"flesh",
+			"tigrex"
+		],
+		"symbol": "W",
+		"color": "yellow",
+		"aggression": 10,
+		"morale": 70,
+		"melee_skill": 10,
+		"melee_dice": 4,
+		"melee_dice_sides": 8,
+		"melee_cut": 6,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 12
+			},
+			{
+				"damage_type": "cut",
+				"amount": 10
+			}
+		],
+		"armor_bash": 13,
+		"armor_cut": 17,
+		"armor_acid": 5,
+		"armor_fire": 5,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"PLAYER_CLOSE", "PLAYER_WEAK"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"FLIES",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
 	}
 ]
