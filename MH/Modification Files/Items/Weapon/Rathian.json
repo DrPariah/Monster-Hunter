@@ -1,0 +1,140 @@
+[
+	{
+		"id": "rathian_ss",
+		"type": "GENERIC",
+		"name": "princess rapier",
+		"description": "Made from rathian materials. This is the latest entry in the poison sword line.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 36,
+		"material": "rathian",
+		"color": "green",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathian_gs",
+		"type": "GENERIC",
+		"name": "valkyrie blade",
+		"description": "An improved golem Blade. New, powerful abilities due to fire wyvern materials.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 46,
+		"material": "rathian",
+		"color": "green",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathian_ds",
+		"type": "GENERIC",
+		"name": "twin flames",
+		"description": "With the fire attribute of fire wyverns in tow, one attack is sure to be deadly.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 33,
+		"material": "rathian",
+		"color": "green",
+		"techniques": [
+			"RAPID"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathian_lbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "green",
+		"name": "valkyrie fire",
+		"reload_noise_volume": 4,
+		"description": "Optimized for hunting lone monsters. Can only use a limited range of ammo.",
+		"price": 0,
+		"material": [
+			"rathian"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 1750,
+		"volume": 10,
+		"bashing": 6,
+		"to_hit": 1,
+		"ranged_damage": 10,
+		"range": 15,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 5,
+		"reload": 100,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	}
+]

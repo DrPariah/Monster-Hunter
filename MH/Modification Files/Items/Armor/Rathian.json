@@ -1,0 +1,156 @@
+[
+	{
+		"id": "rathian_helmet",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "rathian helmet",
+		"description": "Splendid, strong, graced with a rathian's dignity. Both beautiful and fearsome.",
+		"weight": 1500,
+		"volume": 10,
+		"price": 0,
+		"to_hit": -1,
+		"bashing": 10,
+		"material": [
+			"rathian"
+		],
+		"symbol": "[",
+		"color": "green",
+		"covers": [
+			"HEAD"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"techniques": [
+			"WBLOCK_1"
+		],
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY"
+		]
+	},
+	{
+		"id": "rathian_mail",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "rathian mail",
+		"description": "Made from an earth-dominating rathian. Covered in damage resistant scales.",
+		"weight": 2500,
+		"volume": 15,
+		"price": 0,
+		"to_hit": -1,
+		"material": [
+			"rathian"
+		],
+		"symbol": "[",
+		"color": "green",
+		"covers": [
+			"TORSO"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY",
+			"OUTER"
+		]
+	},
+	{
+		"id": "rathian_vambraces",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "pair of rathian vambraces",
+		"name_plural": "pairs of rathian vambraces",
+		"description": "Armor covered in mysterios green scales. A tyrant's ambition spreads everywhere.",
+		"weight": 400,
+		"volume": 6,
+		"price": 0,
+		"to_hit": 2,
+		"material": [
+			"rathian"
+		],
+		"symbol": "[",
+		"color": "green",
+		"covers": [
+			"HANDS",
+			"ARMS"
+		],
+		"coverage": 100,
+		"encumbrance": 20,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"WATERPROOF",
+			"STURDY",
+			"BLOCK_WHILE_WORN"
+		]
+	},
+	{
+		"id": "rathian_tasset",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "rathian tasset",
+		"description": "Tasset shining green with wisdom. Defense that strikes fear into savage beasts.",
+		"weight": 1750,
+		"volume": 10,
+		"price": 0,
+		"material": [
+			"rathian"
+		],
+		"symbol": "[",
+		"color": "green",
+		"covers": [
+			"LEGS"
+		],
+		"coverage": 100,
+		"encumbrance": 10,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"STURDY",
+			"WATERPROOF",
+			"BELTED",
+			"OUTER"
+		]
+	},
+	{
+		"id": "rathian_greaves",
+		"type": "ARMOR",
+		"category": "armor",
+		"name": "rathian greaves",
+		"description": "Pregnant with rathian rage. The shaking of the ground is welcomed like an old friend.",
+		"weight": 1250,
+		"volume": 10,
+		"price": 0,
+		"material": [
+			"rathian"
+		],
+		"symbol": "[",
+		"color": "green",
+		"covers": [
+			"LEGS",
+			"FEET"
+		],
+		"coverage": 100,
+		"encumbrance": 15,
+		"warmth": 15,
+		"material_thickness": 3,
+		"environmental_protection": 2,
+		"flags": [
+			"VARSIZE",
+			"STURDY",
+			"WATERPROOF"
+		]
+	}
+]
