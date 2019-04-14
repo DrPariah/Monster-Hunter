@@ -384,6 +384,51 @@
 						"id": "overlay_wielded_khezu_lbg",
 						"fg": 137,
 						"rotates": false
+					},
+					{
+						"id": "overlay_worn_basarios_helmet",
+						"fg": 138,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_basarios_mail",
+						"fg": 139,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_basarios_vambraces",
+						"fg": 140,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_basarios_tasset",
+						"fg": 141,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_basarios_greaves",
+						"fg": 142,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_basarios_h",
+						"fg": 143,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_basarios_l",
+						"fg": 144,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_basarios_lbg",
+						"fg": 145,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_basarios_hbg",
+						"fg": 146,
+						"rotates": false
 					}
 				]
 			},
