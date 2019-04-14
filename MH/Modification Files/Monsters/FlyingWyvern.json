@@ -319,7 +319,7 @@
 			"gravios"
 		],
 		"symbol": "W",
-		"color": "gray",
+		"color": "dark_gray",
 		"aggression": 0,
 		"morale": 30,
 		"melee_skill": 10,
