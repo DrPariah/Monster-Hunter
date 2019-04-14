@@ -15,48 +15,114 @@
 						"id": [
 							"kut-ku_helmet",
 							"gypceros_helmet",
-							"garuga_helmet"
+							"garuga_helmet",
+							"hypnocatrice_helmet",
+							"khezu_helmet",
+							"basarios_helmet",
+							"monoblos_helmet",
+							"rathian_helmet",
+							"rathalos_helmet",
+							"gravios_helmet",
+							"diablos_helmet",
+							"tigrex_helmet",
+							"nargacuga_helmet",
+							"akantor_helmet",
+							"ukanlos_helmet"
 						],
-						"fg": 0
+						"fg": 0,
+						"rotates": false
 					},
 					{
 						"id": [
 							"kut-ku_mail",
 							"gypceros_mail",
-							"garuga_mail"
+							"garuga_mail",
+							"hypnocatrice_mail",
+							"khezu_mail",
+							"basarios_mail",
+							"monoblos_mail",
+							"rathian_mail",
+							"rathalos_mail",
+							"gravios_mail",
+							"diablos_mail",
+							"tigrex_mail",
+							"nargacuga_mail",
+							"akantor_mail",
+							"ukanlos_mail"
 						],
-						"fg": 1
+						"fg": 1,
+						"rotates": false
 					},
 					{
 						"id": [
 							"kut-ku_vambraces",
 							"gypceros_vambraces",
-							"garuga_vambraces"
+							"garuga_vambraces",
+							"hypnocatrice_vambraces",
+							"khezu_vambraces",
+							"basarios_vambraces",
+							"monoblos_vambraces",
+							"rathian_vambraces",
+							"rathalos_vambraces",
+							"gravios_vambraces",
+							"diablos_vambraces",
+							"tigrex_vambraces",
+							"nargacuga_vambraces",
+							"akantor_vambraces",
+							"ukanlos_vambraces"
 						],
-						"fg": 2
+						"fg": 2,
+						"rotates": false
 					},
 					{
 						"id": [
 							"kut-ku_tasset",
 							"gypceros_tasset",
-							"garuga_tasset"
+							"garuga_tasset",
+							"hypnocatrice_tasset",
+							"khezu_tasset",
+							"basarios_tasset",
+							"monoblos_tasset",
+							"rathian_tasset",
+							"rathalos_tasset",
+							"gravios_tasset",
+							"diablos_tasset",
+							"tigrex_tasset",
+							"nargacuga_tasset",
+							"akantor_tasset",
+							"ukanlos_tasset"
 						],
-						"fg": 3
+						"fg": 3,
+						"rotates": false
 					},
 					{
 						"id": [
 							"kut-ku_greaves",
 							"gypceros_greaves",
-							"garuga_greaves"
+							"garuga_greaves",
+							"hypnocatrice_greaves",
+							"khezu_greaves",
+							"basarios_greaves",
+							"monoblos_greaves",
+							"rathian_greaves",
+							"rathalos_greaves",
+							"gravios_greaves",
+							"diablos_greaves",
+							"tigrex_greaves",
+							"nargacuga_greaves",
+							"akantor_greaves",
+							"ukanlos_greaves"
 						],
-						"fg": 4
+						"fg": 4,
+						"rotates": false
 					},
 					{
 						"id": [
 							"gypceros_ss",
 							"garuga_ss"
 						],
-						"fg": 5
+						"fg": 5,
+						"rotates": false
 					},
 					{
 						"id": [
@@ -64,7 +130,8 @@
 							"gypceros_gs",
 							"garuga_gs"
 						],
-						"fg": 6
+						"fg": 6,
+						"rotates": false
 					},
 					{
 						"id": [
@@ -72,11 +139,13 @@
 							"gypceros_h",
 							"garuga_h"
 						],
-						"fg": 7
+						"fg": 7,
+						"rotates": false
 					},
 					{
 						"id": "garuga_l",
-						"fg": 8
+						"fg": 8,
+						"rotates": false
 					},
 					{
 						"id": [
@@ -84,14 +153,16 @@
 							"gypceros_ds",
 							"garuga_ds"
 						],
-						"fg": 9
+						"fg": 9,
+						"rotates": false
 					},
 					{
 						"id": [
 							"kut-ku_lbg",
 							"garuga_lbg"
 						],
-						"fg": 10
+						"fg": 10,
+						"rotates": false
 					},
 					{
 						"id": [
@@ -99,7 +170,8 @@
 							"gypceros_hbg",
 							"garuga_hbg"
 						],
-						"fg": 11
+						"fg": 11,
+						"rotates": false
 					},
 					{
 						"id": [
@@ -113,7 +185,8 @@
 							"crags2",
 							"crags3"
 						],
-						"fg": 12
+						"fg": 12,
+						"rotates": false
 					}
 				]
 			},
@@ -124,95 +197,193 @@
 				"tiles": [
 					{
 						"id": "overlay_worn_kut-ku_helmet",
-						"fg": 100
+						"fg": 100,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_kut-ku_mail",
-						"fg": 101
+						"fg": 101,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_kut-ku_vambraces",
-						"fg": 102
+						"fg": 102,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_kut-ku_tasset",
-						"fg": 103
+						"fg": 103,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_kut-ku_greaves",
-						"fg": 104
+						"fg": 104,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_kut-ku_h",
-						"fg": 105
+						"fg": 105,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_kut-ku_ds",
-						"fg": 106
+						"fg": 106,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_kut-ku_lbg",
-						"fg": 107
+						"fg": 107,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_kut-ku_hbg",
-						"fg": 108
+						"fg": 108,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_gypceros_mail",
-						"fg": 109
+						"fg": 109,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_gypceros_vambraces",
-						"fg": 110
+						"fg": 110,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_gypceros_tasset",
-						"fg": 111
+						"fg": 111,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_gypceros_greaves",
-						"fg": 112
+						"fg": 112,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_gypceros_ss",
-						"fg": 113
+						"fg": 113,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_gypceros_h",
-						"fg": 114
+						"fg": 114,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_gypceros_hbg",
-						"fg": 115
+						"fg": 115,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_garuga_mail",
-						"fg": 116
+						"fg": 116,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_garuga_vambraces",
-						"fg": 117
+						"fg": 117,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_garuga_tasset",
-						"fg": 118
+						"fg": 118,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_garuga_greaves",
-						"fg": 119
+						"fg": 119,
+						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_gypceros_ss",
-						"fg": 120
+						"id": "overlay_wielded_garuga_ss",
+						"fg": 120,
+						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_gypceros_h",
-						"fg": 121
+						"id": "overlay_wielded_garuga_h",
+						"fg": 121,
+						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_gypceros_ds",
-						"fg": 122
+						"id": "overlay_wielded_garuga_ds",
+						"fg": 122,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_garuga_lbg",
+						"fg": 123,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_garuga_hbg",
+						"fg": 124,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_hypnocatrice_mail",
+						"fg": 125,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_hypnocatrice_vambraces",
+						"fg": 126,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_hypnocatrice_tasset",
+						"fg": 127,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_hypnocatrice_greaves",
+						"fg": 128,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_hypnocatrice_ss",
+						"fg": 129,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_khezu_helmet",
+						"fg": 130,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_khezu_mail",
+						"fg": 131,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_khezu_vambraces",
+						"fg": 132,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_khezu_tasset",
+						"fg": 133,
+						"rotates": false
+					},
+					{
+						"id": "overlay_worn_khezu_greaves",
+						"fg": 134,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_khezu_gs",
+						"fg": 135,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_khezu_h",
+						"fg": 136,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_khezu_lbg",
+						"fg": 137,
+						"rotates": false
 					}
 				]
 			},
@@ -225,32 +396,49 @@
 				"tiles": [
 					{
 						"id": "overlay_wielded_kut-ku_gs",
-						"fg": 200
+						"fg": 200,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_gypceros_helmet",
-						"fg": 201
+						"fg": 201,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_gypceros_gs",
-						"fg": 202
+						"fg": 202,
+						"rotates": false
 					},
 					{
 						"id": "overlay_wielded_gypceros_ds",
-						"fg": 203 
+						"fg": 203,
+						"rotates": false
 					},
 					{
 						"id": "overlay_worn_garuga_helmet",
-						"fg": 204
+						"fg": 204,
+						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_gypceros_gs",
-						"fg": 205
+						"id": "overlay_wielded_garuga_gs",
+						"fg": 205,
+						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_gypceros_l",
-						"fg": 206 
+						"id": "overlay_wielded_garuga_l",
+						"fg": 206,
+						"rotates": false
 					},
+					{
+						"id": "overlay_worn_hypnocatrice_helmet",
+						"fg": 207,
+						"rotates": false
+					},
+					{
+						"id": "overlay_wielded_hypnocatrice_gs",
+						"fg": 208,
+						"rotates": false
+					}
 				]
 			}
 		]
