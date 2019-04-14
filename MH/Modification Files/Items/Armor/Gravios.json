@@ -21,7 +21,7 @@
 		"coverage": 100,
 		"encumbrance": 20,
 		"warmth": 15,
-		"material_thickness": 5,
+		"material_thickness": 1,
 		"environmental_protection": 2,
 		"techniques": [
 			"WBLOCK_1"
@@ -54,7 +54,7 @@
 		"coverage": 100,
 		"encumbrance": 20,
 		"warmth": 15,
-		"material_thickness": 5,
+		"material_thickness": 1,
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
@@ -86,7 +86,7 @@
 		"coverage": 100,
 		"encumbrance": 20,
 		"warmth": 15,
-		"material_thickness": 5,
+		"material_thickness": 1,
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
@@ -115,7 +115,7 @@
 		"coverage": 100,
 		"encumbrance": 10,
 		"warmth": 15,
-		"material_thickness": 5,
+		"material_thickness": 1,
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
@@ -146,7 +146,7 @@
 		"coverage": 100,
 		"encumbrance": 15,
 		"warmth": 15,
-		"material_thickness": 5,
+		"material_thickness": 1,
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
