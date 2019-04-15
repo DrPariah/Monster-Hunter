@@ -1,0 +1,115 @@
+[
+	{
+		"id": "congalala_ds",
+		"type": "GENERIC",
+		"name": "pink maracas",
+		"description": "The high centripetal force these dual blades create allow for powerful attacks.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 21,
+		"material": "congalala",
+		"color": "pink",
+		"techniques": [
+			"RAPID"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "congalala_lbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "pink",
+		"name": "assault conga",
+		"reload_noise_volume": 4,
+		"description": "Its shock-absorbing fur is also flameproof.",
+		"price": 0,
+		"material": [
+			"congalala"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 1750,
+		"volume": 10,
+		"bashing": 6,
+		"to_hit": 1,
+		"ranged_damage": 7,
+		"range": 15,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 3,
+		"reload": 100,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	},
+	{
+		"id": "congalala_hbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "pink",
+		"name": "raven heirloom",
+		"reload_noise_volume": 4,
+		"description": "Black heavy bowgun made from yian congalala. A single shot can shatter a shield.",
+		"price": 0,
+		"material": [
+			"congalala"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 5250,
+		"volume": 18,
+		"bashing": 10,
+		"to_hit": 1,
+		"ranged_damage": 17,
+		"range": 20,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 12,
+		"reload": 300,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	}
+]
