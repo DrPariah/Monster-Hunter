@@ -1,0 +1,40 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "hermitaur_shell",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "hermitaur shell",
+		"description": "This stratified daimyo shell is lighter than it appears and easy to craft.",
+		"price": 0,
+		"material": [
+			"hermitaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "hermitaur_claw",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "hermitaur claw",
+		"description": "Hermitaur claw from a daimyo hermitaur. The sharp claw can slice through rock.",
+		"price": 0,
+		"material": [
+			"hermitaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 225,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
