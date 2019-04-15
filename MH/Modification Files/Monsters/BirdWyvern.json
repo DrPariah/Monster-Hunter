@@ -38,7 +38,7 @@
 		"armor_fire": 7,
 		"armor_elec": 5,
 		"anger_triggers": [
-			"PLAYER_CLOSE",
+			
 			"SOUND",
 			"HURT"
 		],
@@ -97,7 +97,7 @@
 		"armor_fire": 1,
 		"armor_elec": 9,
 		"anger_triggers": [
-			"PLAYER_CLOSE",
+			
 			"HURT"
 		],
 		"death_function": [
@@ -159,7 +159,7 @@
 		"armor_fire": 4,
 		"armor_elec": 4,
 		"anger_triggers": [
-			"PLAYER_CLOSE",
+			
 			"SOUND",
 			"HURT"
 		],
@@ -218,7 +218,7 @@
 		"armor_fire": 0,
 		"armor_elec": 0,
 		"anger_triggers": [
-			"PLAYER_CLOSE",
+			
 			"HURT"
 		],
 		"death_function": [
