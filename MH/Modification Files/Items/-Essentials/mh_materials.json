@@ -313,5 +313,110 @@
 		],
 		"bash_dmg_verb": "cracked",
 		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "29",
+		"type": "material",
+		"ident": "hermitaur",
+		"name": "Hermitaur",
+		"density": 10,
+		"bash_resist": 20,
+		"cut_resist": 23,
+		"acid_resist": 5,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "34",
+		"type": "material",
+		"ident": "ceanataur",
+		"name": "Ceanataur",
+		"density": 10,
+		"bash_resist": 22,
+		"cut_resist": 25,
+		"acid_resist": 3,
+		"fire_resist": 2,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "44",
+		"type": "material",
+		"ident": "gaoren",
+		"name": "Gaoren",
+		"density": 10,
+		"bash_resist": 25,
+		"cut_resist": 30,
+		"acid_resist": 8,
+		"fire_resist": 0,
+		"elec_resist": 4,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "26",
+		"type": "material",
+		"ident": "congalala",
+		"name": "Congalala",
+		"density": 10,
+		"bash_resist": 19,
+		"cut_resist": 22,
+		"acid_resist": 2,
+		"fire_resist": 0,
+		"elec_resist": 4,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "33",
+		"type": "material",
+		"ident": "blangonga",
+		"name": "Blangonga",
+		"density": 10,
+		"bash_resist": 21,
+		"cut_resist": 25,
+		"acid_resist": 8,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
 	}
 ]
