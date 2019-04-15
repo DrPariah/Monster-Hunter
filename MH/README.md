@@ -4,7 +4,7 @@ Monster hunter(`MH`) is a challenging game about hunting down ferocious monstros
 
 - This mod is heavily WIP and most features are not included!
 
-Visit the official [`MH` wiki](https://monsterhunter.fandom.com/wiki/Monster_Hunter_Wiki) if you're curious beyond expectation...
+[`MH` wiki](https://monsterhunter.fandom.com/wiki/Monster_Hunter_Wiki)
 
 ***
 
@@ -28,19 +28,18 @@ Here are the list of monsters by category, and are sorted descending by their th
 * **Gravios**
 * **Diablos**
 * **Tigrex**
-* Nargacuga
-* Akantor
-* Ukanlos
+* **Nargacuga**
+* **Akantor**
+* **Ukanlos**
 
 ##### Carapaceons
-* Daimyo Hemitaur
-* Shogun Ceanataur
-* Shen Gaoren
+* **Daimyo Hemitaur**
+* **Shogun Ceanataur**
+* **Shen Gaoren**
 
 ##### Pelagi
 * Congalala
-* Blangonga 
-* Rajang
+* Blangonga
 
 ##### Elder Dragons
 * Kirin
@@ -49,10 +48,9 @@ Here are the list of monsters by category, and are sorted descending by their th
 * Lunastra
 * Teostra
 * Lao-shan Lung
-* Yama Tsukami
 * Fatalis
 
-**Monster subspecies are not included in the mod.** Monster's unique abilities are not available in-game, like _Lunastra_'s fiery aura and _Kushala Daora_'s wind due to the limited json codes. Also, most of their special attacks are not doable in json.
+**Monster subspecies and monsters that has no craftable armors are not included in the mod.** Monster's unique abilities are not available in-game, like _Lunastra_'s fiery aura and _Kushala Daora_'s wind due to the limited json codes. Also, most of their special attacks are not doable in json, so we'll go with plain ones :D
 
 ***
 
@@ -60,12 +58,12 @@ Here are the list of monsters by category, and are sorted descending by their th
 This section consists of monster carved crafting materials, armors and weapons.
 
 ### Materials
-Materials are essential in crafting `MH`-stuff, which are carved off directly from slained `MH` monsters as your rewards. With high survival skills, material gained rises gradually.
+Materials are essential in crafting `MH`-stuff, which are carved off directly from slained `MH` monsters as your rewards. Prioritize your survival skill before doing so.
 
 If you want to see some carve-able monster materials, go to the *Materials* folder.
 
 ### Armors
-* These are full armor sets that consists of helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name.
+* These are full armor sets that consists of five armor pieces: helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name.
 * They are made of carved monster materials with their crafting requirements. Some armors require a combination of two monster material to craft.
 
 Also notice that all of these armors are designed for blademaster hunters.
@@ -81,6 +79,6 @@ Similar to armors, they are crafted from monster materials and their damage outp
 * **Light Bowgun** - A lightweight gun that offers descent mobility and range.
 * **Heavy Bowgun** - A heavy gun that deals tremendous damage in trade of mobility. Usually holds higher ammo capacity.
 
-The other four weapons - **long sword**, **gunlance**, **hunting horn** and **bow** - are not included due to their complexity.
+The other four weapon types - **long sword**, **gunlance**, **hunting horn** and **bow** - are not included due to their complexity.
 
 ###### Everything is based from MHFU. Further updates may go beyond that version (if ever...)
