@@ -21,6 +21,25 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "hermitaur_wskullshell",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "wyvern skull shell",
+		"description": "A giant wyvern skull shell.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 625,
+		"volume": 2,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "blos_fang",
 		"symbol": ",",
 		"color": "brown",
