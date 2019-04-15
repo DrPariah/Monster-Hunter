@@ -1,0 +1,78 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_shell",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "ceanataur shell",
+		"description": "A giant shogun ceanataur shell. Has distinctive color and shape.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_claw",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "ceanataur claw",
+		"description": "A giant shogun ceanataur claw. Those who fall in its path pay the price.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 225,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_pincer",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "ceanataur pincer",
+		"description": "Seeing a shogun's pincer blade causes even the braves hunters to flinch.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 225,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_leg",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "ceanataur leg",
+		"description": "Leg of a shogun ceanataur. Incredibly strong to be able to move a huge body.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 500,
+		"volume": 2,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
