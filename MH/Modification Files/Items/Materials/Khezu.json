@@ -20,6 +20,25 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "electro_sac",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "electro sac",
+		"description": "The internal organ of a khezu. Releases electricity if disturbed.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "khezu_bone",
 		"symbol": ",",
 		"color": "white",
@@ -32,7 +51,7 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 150,
+		"weight": 225,
 		"volume": 1,
 		"category": "spare_parts",
 		"to_hit": -1
