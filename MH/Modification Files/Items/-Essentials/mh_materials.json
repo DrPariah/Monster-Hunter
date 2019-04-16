@@ -418,5 +418,152 @@
 		],
 		"bash_dmg_verb": "cracked",
 		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "40",
+		"type": "material",
+		"ident": "kirin",
+		"name": "Kirin",
+		"density": 10,
+		"bash_resist": 24,
+		"cut_resist": 28,
+		"acid_resist": 3,
+		"fire_resist": 0,
+		"elec_resist": 7,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "39",
+		"type": "material",
+		"ident": "daora",
+		"name": "Daora",
+		"density": 10,
+		"bash_resist": 23,
+		"cut_resist": 28,
+		"acid_resist": 9,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "38",
+		"type": "material",
+		"ident": "chameleos",
+		"name": "Chameleos",
+		"density": 10,
+		"bash_resist": 23,
+		"cut_resist": 27,
+		"acid_resist": 11,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "41",
+		"type": "material",
+		"ident": "lunastra",
+		"name": "Lunastra",
+		"density": 10,
+		"bash_resist": 24,
+		"cut_resist": 29,
+		"acid_resist": 0,
+		"fire_resist": 9,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "44",
+		"type": "material",
+		"ident": "teostra",
+		"name": "Teostra",
+		"density": 10,
+		"bash_resist": 25,
+		"cut_resist": 30,
+		"acid_resist": 8,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "33",
+		"type": "material",
+		"ident": "lao-shan",
+		"name": "Lao-shan",
+		"density": 10,
+		"bash_resist": 24,
+		"cut_resist": 28,
+		"acid_resist": 6,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "49",
+		"type": "material",
+		"ident": "fatalis",
+		"name": "Fatalis",
+		"density": 10,
+		"bash_resist": 27,
+		"cut_resist": 32,
+		"acid_resist": 6,
+		"fire_resist": 0,
+		"elec_resist": 4,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
 	}
 ]
