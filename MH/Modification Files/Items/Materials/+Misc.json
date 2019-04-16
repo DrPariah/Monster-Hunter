@@ -2,6 +2,63 @@
 	{
 		"//": "These are the materials that can be carved off from more than a monster.",
 		"type": "GENERIC",
+		"id": "monbone_s",
+		"symbol": ",",
+		"color": "brown",
+		"name": "small monster bone",
+		"description": "A very useful material, indispensable for both hunting and life.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 75,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone_m",
+		"symbol": ",",
+		"color": "brown",
+		"name": "medium monster bone",
+		"description": "Has more uses than small bone. Usually carved to make an item.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 2,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone_l",
+		"symbol": ",",
+		"color": "brown",
+		"name": "large monster bone",
+		"description": "Indispensable for crafting one-piece items. Bone can be connected to shell.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 425,
+		"volume": 4,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "flame_sac",
 		"symbol": ",",
 		"color": "red",
@@ -14,7 +71,45 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 275,
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "poison_sac",
+		"symbol": ",",
+		"color": "blue",
+		"name": "poison sac",
+		"description": "A monster's internal organ. Contains a lethal poison.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "sleep_sac",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "sleep sac",
+		"description": "A monster's internal organ filled with a powder that causes sleep when inhaled.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
 		"volume": 1,
 		"category": "spare_parts",
 		"to_hit": -1
@@ -91,6 +186,101 @@
 			"NO_SALVAGE"
 		],
 		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "fdragon_scale",
+		"symbol": ",",
+		"color": "red",
+		"name": "fire dragon scale",
+		"description": "A scalding hot fire dragon scale.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 250,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "fdragon_claw",
+		"symbol": ",",
+		"color": "red",
+		"name": "fire dragon claw",
+		"description": "A sharp, glowing fire dragon claw. Hard even for experts to craft.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 300,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "fdragon_webbing",
+		"symbol": ",",
+		"color": "red",
+		"name": "fire dragon webbing",
+		"description": "Wing webbing carved from a fire dragon. A marvelous material with wide uses.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 225,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "elderdragon_blood",
+		"symbol": ",",
+		"color": "red",
+		"name": "elder dragon blood",
+		"description": "Contains an unknown ingredient. The object of much scholarly research.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 175,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "elderdragon_bone",
+		"symbol": ",",
+		"color": "red",
+		"name": "elder dragon bone",
+		"description": "You can sense the elder dragon's dignity from this massive bone alone.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 325,
 		"volume": 1,
 		"category": "spare_parts",
 		"to_hit": -1
