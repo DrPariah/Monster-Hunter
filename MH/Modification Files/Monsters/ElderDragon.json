@@ -1,0 +1,259 @@
+[
+	{
+		"id": "mon_kirin",
+		"type": "MONSTER",
+		"name": "kirin",
+		"description": "The kirin is said to glow a faint blue, but so few have seen it that details are scarce. It is apparently capable of calling forth lightning at will. Kirin material is very valuable.",
+		"default_faction": "edragon",
+		"species": [
+			"EDRAGON"
+		],
+		"volume": "92500 ml",
+		"weight": 120000,
+		"hp": 1225,
+		"speed": 120,
+		"harvest": "kirin_carve",
+		"material": [
+			"flesh",
+			"kirin"
+		],
+		"symbol": "E",
+		"color": "light_blue",
+		"aggression": 30,
+		"morale": 50,
+		"melee_skill": 10,
+		"melee_dice": 2,
+		"melee_dice_sides": 6,
+		"melee_cut": 4,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "electric",
+				"amount": 2
+			},
+			{
+				"damage_type": "bash",
+				"amount": 4
+			},
+			{
+				"damage_type": "stab",
+				"amount": 8
+			}
+		],
+		"armor_bash": 14,
+		"armor_cut": 18,
+		"armor_acid": 3,
+		"armor_fire": 0,
+		"armor_elec": 7,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GOODHEARING",
+			"ELECTRIC",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_daora",
+		"type": "MONSTER",
+		"name": "kushala daora",
+		"description": "A metal plated dragon known as the tempest of wind. Eyewitnesses report violent storms alongside the dragon, and its wide range means cities may be attacked.",
+		"default_faction": "edragon",
+		"species": [
+			"EDRAGON"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 3175,
+		"speed": 115,
+		"harvest": "daora_carve",
+		"material": [
+			"flesh",
+			"daora"
+		],
+		"symbol": "E",
+		"color": "dark_gray",
+		"aggression": 30,
+		"morale": 50,
+		"melee_skill": 10,
+		"melee_dice": 2,
+		"melee_dice_sides": 6,
+		"melee_cut": 6,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "cold",
+				"amount": 2
+			},
+			{
+				"damage_type": "bash",
+				"amount": 4
+			},
+			{
+				"damage_type": "cut",
+				"amount": 12
+			}
+		],
+		"armor_bash": 13,
+		"armor_cut": 18,
+		"armor_acid": 9,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GOODHEARING",
+			"FLIES",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_chameleos",
+		"type": "MONSTER",
+		"name": "chameleos",
+		"description": "Eyewitness sightings of this elder dragon are extremely rare due to its ability to literally vanish; however, details of this are unclear. It is thought that shocking it may make it reappear, but this is unproven.",
+		"default_faction": "edragon",
+		"species": [
+			"EDRAGON"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 4250,
+		"speed": 75,
+		"harvest": "chameleos_carve",
+		"material": [
+			"flesh",
+			"chameleos"
+		],
+		"symbol": "E",
+		"color": "pink",
+		"aggression": 30,
+		"morale": 50,
+		"melee_skill": 10,
+		"melee_dice": 4,
+		"melee_dice_sides": 6,
+		"melee_cut": 4,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 6
+			},
+			{
+				"damage_type": "cut",
+				"amount": 10
+			}
+		],
+		"armor_bash": 13,
+		"armor_cut": 17,
+		"armor_acid": 11,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GOODHEARING",
+			"FLIES",
+			"POISON",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_lunastra",
+		"type": "MONSTER",
+		"name": "lunastra",
+		"description": "A brutal female elder dragon with breath of flame and expert control over fire. It is said that this control comes from the crown-like horns on its head, but this has not been confirmed.",
+		"default_faction": "edragon",
+		"species": [
+			"EDRAGON"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 7175,
+		"speed": 120,
+		"harvest": "lunastra_carve",
+		"material": [
+			"flesh",
+			"lunastra"
+		],
+		"symbol": "E",
+		"color": "blue",
+		"aggression": 30,
+		"morale": 50,
+		"melee_skill": 10,
+		"melee_dice": 4,
+		"melee_dice_sides": 6,
+		"melee_cut": 6,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "heat",
+				"amount": 2
+			},
+			{
+				"damage_type": "bash",
+				"amount": 6
+			},
+			{
+				"damage_type": "cut",
+				"amount": 10
+			}
+		],
+		"armor_bash": 14,
+		"armor_cut": 19,
+		"armor_acid": 0,
+		"armor_fire": 9,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GOODHEARING",
+			"FLIES",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	}
+]
