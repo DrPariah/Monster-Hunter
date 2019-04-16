@@ -34,5 +34,17 @@
 			"human",
 			"zombie"
 		]
+	},
+	{
+		"type": "MONSTER_FACTION",
+		"name": "edragon",
+		"friendly": [
+			"edragon"
+		],
+		"by_mood": [
+			"player",
+			"human",
+			"zombie"
+		]
 	}
 ]
