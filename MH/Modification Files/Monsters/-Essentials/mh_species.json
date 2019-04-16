@@ -23,5 +23,12 @@
 		"anger_triggers": [
 			"HURT"
 		]
+	},
+	{
+		"type": "SPECIES",
+		"id": "EDRAGON",
+		"anger_triggers": [
+			"HURT"
+		]
 	}
 ]
