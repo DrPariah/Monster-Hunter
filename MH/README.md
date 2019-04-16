@@ -38,14 +38,14 @@ Here are the list of monsters by category, and are sorted descending by their th
 * **Shen Gaoren**
 
 ##### Pelagi
-* Congalala
-* Blangonga
+* **Congalala**
+* **Blangonga**
 
 ##### Elder Dragons
-* Kirin
-* Kushala Daora
-* Chameleos
-* Lunastra
+* **Kirin**
+* **Kushala Daora**
+* **Chameleos**
+* **Lunastra**
 * Teostra
 * Lao-shan Lung
 * Fatalis
