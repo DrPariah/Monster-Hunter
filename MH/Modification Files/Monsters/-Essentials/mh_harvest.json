@@ -1933,5 +1933,373 @@
 				"max": 1
 			}
 		]
+	},
+	{
+		"id": "kirin_carve",
+		"type": "harvest",
+		"entries": [
+			{
+				"drop": "meat",
+				"type": "flesh",
+				"mass_ratio": 0.3
+			},
+			{
+				"drop": "meat_scrap",
+				"type": "flesh",
+				"mass_ratio": 0.03
+			},
+			{
+				"drop": "lung",
+				"type": "flesh",
+				"mass_ratio": 0.0035
+			},
+			{
+				"drop": "liver",
+				"type": "offal",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "brain",
+				"type": "flesh",
+				"mass_ratio": 0.005
+			},
+			{
+				"drop": "sweetbread",
+				"type": "flesh",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "kidney",
+				"type": "offal",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "stomach",
+				"scale_num": [
+					1,
+					1
+				],
+				"max": 1,
+				"type": "offal"
+			},
+			{
+				"drop": "bone",
+				"type": "bone",
+				"mass_ratio": 0.15
+			},
+			{
+				"drop": "sinew",
+				"type": "bone",
+				"mass_ratio": 0.00035
+			},
+			{
+				"drop": "fat",
+				"type": "flesh",
+				"mass_ratio": 0.07
+			},
+			{
+				"drop": "kirin_hide",
+				"type": "skin",
+				"mass_ratio": 0.02,
+				"max": 16
+			},
+			{
+				"drop": "kirin_mane",
+				"type": "skin",
+				"mass_ratio": 0.075,
+				"max": 8
+			},
+			{
+				"drop": "kirin_horn",
+				"type": "skin",
+				"mass_ratio": 0.001,
+				"max": 1
+			},
+			{
+				"drop": "kirin_thundertail",
+				"type": "skin",
+				"mass_ratio": 0.001,
+				"max": 1
+			}
+		]
+	},
+	{
+		"id": "daora_carve",
+		"type": "harvest",
+		"entries": [
+			{
+				"drop": "meat",
+				"type": "flesh",
+				"mass_ratio": 0.3
+			},
+			{
+				"drop": "meat_scrap",
+				"type": "flesh",
+				"mass_ratio": 0.03
+			},
+			{
+				"drop": "lung",
+				"type": "flesh",
+				"mass_ratio": 0.0035
+			},
+			{
+				"drop": "liver",
+				"type": "offal",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "brain",
+				"type": "flesh",
+				"mass_ratio": 0.005
+			},
+			{
+				"drop": "sweetbread",
+				"type": "flesh",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "kidney",
+				"type": "offal",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "stomach",
+				"scale_num": [
+					1,
+					1
+				],
+				"max": 1,
+				"type": "offal"
+			},
+			{
+				"drop": "bone",
+				"type": "bone",
+				"mass_ratio": 0.15
+			},
+			{
+				"drop": "sinew",
+				"type": "bone",
+				"mass_ratio": 0.00035
+			},
+			{
+				"drop": "fat",
+				"type": "flesh",
+				"mass_ratio": 0.07
+			},
+			{
+				"drop": "daora_dragonscale",
+				"type": "skin",
+				"mass_ratio": 0.02,
+				"max": 16
+			},
+			{
+				"drop": "daora_shell",
+				"type": "skin",
+				"mass_ratio": 0.01,
+				"max": 12
+			},
+			{
+				"drop": "daora_claw",
+				"type": "skin",
+				"mass_ratio": 0.005,
+				"max": 3
+			},
+			{
+				"drop": "daora_dragonwebbing",
+				"type": "skin",
+				"mass_ratio": 0.005,
+				"max": 3
+			},
+			{
+				"drop": "daora_tail",
+				"type": "skin",
+				"mass_ratio": 0.005,
+				"max": 3
+			}
+		]
+	},
+	{
+		"id": "chameleos_carve",
+		"type": "harvest",
+		"entries": [
+			{
+				"drop": "meat",
+				"type": "flesh",
+				"mass_ratio": 0.3
+			},
+			{
+				"drop": "meat_scrap",
+				"type": "flesh",
+				"mass_ratio": 0.03
+			},
+			{
+				"drop": "lung",
+				"type": "flesh",
+				"mass_ratio": 0.0035
+			},
+			{
+				"drop": "liver",
+				"type": "offal",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "brain",
+				"type": "flesh",
+				"mass_ratio": 0.005
+			},
+			{
+				"drop": "sweetbread",
+				"type": "flesh",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "kidney",
+				"type": "offal",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "stomach",
+				"scale_num": [
+					1,
+					1
+				],
+				"max": 1,
+				"type": "offal"
+			},
+			{
+				"drop": "bone",
+				"type": "bone",
+				"mass_ratio": 0.15
+			},
+			{
+				"drop": "sinew",
+				"type": "bone",
+				"mass_ratio": 0.00035
+			},
+			{
+				"drop": "fat",
+				"type": "flesh",
+				"mass_ratio": 0.07
+			},
+			{
+				"drop": "chameleos_hide",
+				"type": "skin",
+				"mass_ratio": 0.02,
+				"max": 16
+			},
+			{
+				"drop": "chameleos_webbing",
+				"type": "skin",
+				"mass_ratio": 0.0075,
+				"max": 6
+			},
+			{
+				"drop": "chameleos_claw",
+				"type": "skin",
+				"mass_ratio": 0.005,
+				"max": 3
+			},
+			{
+				"drop": "chameleos_horn",
+				"type": "skin",
+				"mass_ratio": 0.001,
+				"max": 1
+			},
+			{
+				"drop": "chameleos_tail",
+				"type": "skin",
+				"mass_ratio": 0.001,
+				"max": 1
+			}
+		]
+	},
+	{
+		"id": "lunastra_carve",
+		"type": "harvest",
+		"entries": [
+			{
+				"drop": "meat",
+				"type": "flesh",
+				"mass_ratio": 0.3
+			},
+			{
+				"drop": "meat_scrap",
+				"type": "flesh",
+				"mass_ratio": 0.03
+			},
+			{
+				"drop": "lung",
+				"type": "flesh",
+				"mass_ratio": 0.0035
+			},
+			{
+				"drop": "liver",
+				"type": "offal",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "brain",
+				"type": "flesh",
+				"mass_ratio": 0.005
+			},
+			{
+				"drop": "sweetbread",
+				"type": "flesh",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "kidney",
+				"type": "offal",
+				"mass_ratio": 0.002
+			},
+			{
+				"drop": "stomach",
+				"scale_num": [
+					1,
+					1
+				],
+				"max": 1,
+				"type": "offal"
+			},
+			{
+				"drop": "bone",
+				"type": "bone",
+				"mass_ratio": 0.15
+			},
+			{
+				"drop": "sinew",
+				"type": "bone",
+				"mass_ratio": 0.00035
+			},
+			{
+				"drop": "fat",
+				"type": "flesh",
+				"mass_ratio": 0.07
+			},
+			{
+				"drop": "lunastra_shell",
+				"type": "skin",
+				"mass_ratio": 0.02,
+				"max": 16
+			},
+			{
+				"drop": "lunastra_mane",
+				"type": "skin",
+				"mass_ratio": 0.005,
+				"max": 4
+			},
+			{
+				"drop": "lunastra_horn",
+				"type": "skin",
+				"mass_ratio": 0.0025,
+				"max": 2
+			},
+			{
+				"drop": "lunastra_tail",
+				"type": "skin",
+				"mass_ratio": 0.001,
+				"max": 1
+			}
+		]
 	}
 ]
