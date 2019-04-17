@@ -1,0 +1,59 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "vespoid_shell",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "vespoid shell",
+		"description": "With special materials, this can be worked into very strong armor.",
+		"price": 0,
+		"material": [
+			"vespoid"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "vespoid_wing",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "vespoid wing",
+		"description": "A hard-to-work material. Front and reverse side have different texture.",
+		"price": 0,
+		"material": [
+			"vespoid"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "vespoid_abdomen",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "vespoid abdomen",
+		"description": "The abdomen of a vespoid queen. In rare cases these are filled with eggs.",
+		"price": 0,
+		"material": [
+			"vespoid"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 250,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
