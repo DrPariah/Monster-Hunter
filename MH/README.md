@@ -1,6 +1,6 @@
 # Monster Hunter: A modification file for Cataclysm: Dark Days Ahead
 
-Monster hunter(`MH`) is a challenging game about hunting down ferocious monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did.
+Monster hunter(`MH`) is a challenging game about hunting down ferocious dinosaur-like monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did and have fun dealing with them ;)
 
 - This mod is heavily WIP and most features are not included!
 
@@ -9,9 +9,48 @@ Monster hunter(`MH`) is a challenging game about hunting down ferocious monstros
 ***
 
 ## Monsters
-Most monsters from `MH` are bosses, and stays that way in CDDA. They have huge health points, varied damage resistance and boasts in combat abilities.
+`MH` Monsters are the animals in `MH` ecology, and much like in real world, they simulate the predator-prey relationship.
 
-Here are the list of monsters by category, and are sorted descending by their threat level:
+Here are the list of small monsters by category:
+
+##### Neopterons
+* Vespoid
+* Vespoid Queen
+* Hornetaur
+* Great Thunderbug
+
+##### Herbivores
+* Anteka
+* Popo
+* Kelbi
+* Mosswine
+* Aptonoth
+* Apceros
+
+##### Bird Wyverns
+* Giaprey
+* Giadrome
+* Velociprey
+* Velocidrome
+* Genprey
+* Gendrome
+* Ioprey
+* Iodrome
+
+##### Flying Wyverns
+* Remobra
+
+##### Carapaceons
+* Hermitaur
+* Ceanataur
+
+##### Pelagi
+* Bullfango
+* Bulldrome
+* Conga
+* Blango
+
+Here are the list of large(boss) monsters by category, and are sorted descending by their threat level:
 
 ##### Bird Wyverns
 * **Yian Kut-ku**
@@ -46,11 +85,18 @@ Here are the list of monsters by category, and are sorted descending by their th
 * **Kushala Daora**
 * **Chameleos**
 * **Lunastra**
-* Teostra
-* Lao-shan Lung
-* Fatalis
+* **Teostra**
+* **Lao-shan Lung**
+* **Fatalis**
 
-**Monster subspecies and monsters that has no craftable armors are not included in the mod.** Monster's unique abilities are not available in-game, like _Lunastra_'s fiery aura and _Kushala Daora_'s wind due to the limited json codes. Also, most of their special attacks are not doable in json, so we'll go with plain ones :D
+**Monsters in bold letters are implemented**. Monster subspecies and monsters that has no craftable armors are not included in the mod, except herbivores. Monster's unique abilities are not available in-game, like _Lunastra_'s fiery aura and _Kushala Daora_'s wind due to the limited json codes. Also, most of their special attacks are not doable in json, so we'll go with the plain ones :D
+
+## Monster Ecology
+Most large(boss) monsters barely spawns in the wilderness, since they are overpowered with extremely high health and are very lethal when it gets in personal range.
+
+Small monsters are scarce and timid in sight of players, and act much like real world animals - some runs away, some fights back and some even hunts down other animals.
+
+Their spawnrates are affected by time, weather and seasonal changes.
 
 ***
 
@@ -62,8 +108,13 @@ Materials are essential in crafting `MH`-stuff, which are carved off directly fr
 
 If you want to see some carve-able monster materials, go to the *Materials* folder.
 
+### Other Materials
+There are other materials that are found scattered in your world. Examples are needleberries - found in underbrushes -, machalite ores - found in some mining points -, and thunderbugs - a random swarm of bugs in fields.
+
+Not all armors and weapons are made of the same monster materials, some needs these miscellaneous items to craft, so be sure to collect them to future uses.
+
 ### Armors
-* These are full armor sets that consists of five armor pieces: helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name.
+* These are full armor sets that consists of five armor pieces: helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name, so be mindful about this before crafting an armor.
 * They are made of carved monster materials with their crafting requirements. Some armors require a combination of two monster material to craft.
 
 Also notice that all of these armors are designed for blademaster hunters.
@@ -81,4 +132,4 @@ Similar to armors, they are crafted from monster materials and their damage outp
 
 The other four weapon types - **long sword**, **gunlance**, **hunting horn** and **bow** - are not included due to their complexity.
 
-###### Everything is based from MHFU. Further updates may go beyond that version (if ever...)
+###### Everything is based on MHFU. Further updates may go beyond that version (if ever...)
