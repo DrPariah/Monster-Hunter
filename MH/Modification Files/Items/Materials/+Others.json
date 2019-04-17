@@ -1,0 +1,402 @@
+[
+	{
+		"//": "Other materials that are found in the world, may be it foraging, mining or pseudo-bug catching.",
+		"type": "GENERIC",
+		"id": "mh_huskberry",
+		"symbol": ",",
+		"color": "gray",
+		"name": "huskberry",
+		"description": "An empty berry that can grow anywhere. Try planting it in the field.",
+		"price": 0,
+		"material": [
+			"nut"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 20,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_needleberry",
+		"symbol": ",",
+		"color": "gray",
+		"name": "needleberry",
+		"description": "Berry covered in needle-like thorns. Can be made into bullets. Plantable.",
+		"price": 0,
+		"material": [
+			"nut"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 30,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_bomberry",
+		"symbol": ",",
+		"color": "gray",
+		"name": "bomberry",
+		"description": "A berry that explodes when subjected to an impact.",
+		"price": 0,
+		"material": [
+			"nut"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_sapplant",
+		"symbol": ",",
+		"color": "white",
+		"name": "sap plant",
+		"description": "A plant with leaves coated in sticky sap. Difficult  to remove once attached.",
+		"price": 0,
+		"material": [
+			"veggy"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_dosbiscus",
+		"symbol": ",",
+		"color": "red",
+		"name": "dosbiscus",
+		"description": "A large, beautifully colored flowering plant foreign to this land.",
+		"price": 0,
+		"material": [
+			"veggy"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": 2,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_nitroshroom",
+		"symbol": ",",
+		"color": "red",
+		"name": "nitroshroom",
+		"description": "Rare mushroom with the power to generate heat.",
+		"price": 0,
+		"material": [
+			"mushroom"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 70,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_toadstool",
+		"symbol": ",",
+		"color": "blue",
+		"name": "toadstool",
+		"description": "A poisonous fungus. Perhaps it has other effects as well...",
+		"price": 0,
+		"material": [
+			"mushroom"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 60,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_chaosmushroom",
+		"symbol": ",",
+		"color": "blue",
+		"name": "chaos mushroom",
+		"description": "Said to cause chaos. Its spores cause monsters to hallucinate.",
+		"price": 0,
+		"material": [
+			"mushroom"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 75,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_diskstone",
+		"symbol": ",",
+		"color": "gray",
+		"name": "disk stone",
+		"description": "A disk-shaped stone.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 365,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_ironore",
+		"symbol": ",",
+		"color": "gray",
+		"name": "iron ore",
+		"description": "Ore that can be smelted into metal and used for many different purposes.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 615,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_earthcrystal",
+		"symbol": ",",
+		"color": "white",
+		"name": "earth crystal",
+		"description": "Crystallized remains of micro biotic organisms. A prized weapon abrasive.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 535,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_machaliteore",
+		"symbol": ",",
+		"color": "blue",
+		"name": "machalite ore",
+		"description": "Better than iron ore. Used to make machalite. Also called sparrowstone.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 840,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_lightcrystal",
+		"symbol": ",",
+		"color": "white",
+		"name": "light crystal",
+		"description": "Crystal with a dull glow. Extremely hard, it is used for tools in the armory.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 765,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_icecrytal",
+		"symbol": ",",
+		"color": "gray",
+		"name": "ice crystal",
+		"description": "Will not thaw at room temperature. Confirmed to increase ore density.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 505,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_godbug",
+		"symbol": ",",
+		"color": "white",
+		"name": "godbug",
+		"description": "An insect said to live for a thousand years.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 120,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_thunderbug",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "thunderbug",
+		"description": "An insect that emits electricity when struck. Has many applications.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 95,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_carpenterbug",
+		"symbol": ",",
+		"color": "dark_gray",
+		"name": "carpenterbug",
+		"description": "Viscous body fluids and sharp jaws make this insect artisan.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_hornfly",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "great hornfly",
+		"description": "Insect with a giant horn, massive shell, and wings of butterfly-like beauty.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 250,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_ladybug",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "great ladybug",
+		"description": "Giant insect with very hard shell. Protects crops by eating harmful pests.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 265,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_bonehusk_s",
+		"symbol": ",",
+		"color": "white",
+		"name": "small bone husk",
+		"description": "Bone ammunition casing. Stronger than a huskberry ammunition casing.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 10,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_bonehusk_l",
+		"symbol": ",",
+		"color": "white",
+		"name": "large bone husk",
+		"description": "Bone ammunition casing that can withstand powerful explosions.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
