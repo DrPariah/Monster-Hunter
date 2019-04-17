@@ -1,0 +1,115 @@
+[
+	{
+		"id": "mon_cephalos",
+		"type": "MONSTER",
+		"name": "cephalos",
+		"description": "Wyvern found in the fields. They resemble a plesioth, but live and \"swim\" in sand and dirt rather than water. They seldom appear above land.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 110,
+		"speed": 95,
+		"harvest": "cephalos_carve",
+		"material": [
+			"flesh",
+			"cephalos"
+		],
+		"symbol": "W",
+		"color": "brown",
+		"aggression": 0,
+		"morale": 10,
+		"melee_skill": 4,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 2,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 6
+			}
+		],
+		"armor_bash": 5,
+		"armor_cut": 6,
+		"armor_acid": 3,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"CAN_DIG",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_cephadrome",
+		"type": "MONSTER",
+		"name": "cephadrome",
+		"description": "The alpha monster form of the cephalos. Larger and armored with black scales, they fit the appearance of a leader perfectly. Their fins hold a paralyzing toxin.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "92500 ml",
+		"weight": 120000,
+		"hp": 860,
+		"speed": 100,
+		"harvest": "cephalos_carve",
+		"material": [
+			"flesh",
+			"cephalos"
+		],
+		"symbol": "W",
+		"color": "brown_yellow",
+		"aggression": 0,
+		"morale": 30,
+		"melee_skill": 10,
+		"melee_dice": 4,
+		"melee_dice_sides": 6,
+		"melee_cut": 2,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 8
+			},
+			{
+				"damage_type": "cut",
+				"amount": 2
+			}
+		],
+		"armor_bash": 9,
+		"armor_cut": 12,
+		"armor_acid": 6,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"CAN_DIG",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	}
+]
