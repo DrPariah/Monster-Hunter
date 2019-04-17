@@ -1,5 +1,39 @@
 [
 	{
+    "id": "vespoid_carve",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.01 },
+      { "drop": "vespoid_shell", "type": "bone", "mass_ratio": 0.075 },
+	  { "drop": "vespoid_wing", "type": "skin", "mass_ratio": 0.0025 },
+	  { "drop": "mon_fluid", "type": "flesh", "mass_ratio": 0.0005 }
+    ]
+  },
+  {
+    "id": "vespoidqueen_carve",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.01 },
+      { "drop": "vespoid_shell", "type": "bone", "mass_ratio": 0.075 },
+	  { "drop": "vespoid_wing", "type": "skin", "mass_ratio": 0.0025 },
+	  { "drop": "vespoid_abdomen", "type": "skin", "mass_ratio": 0.001 },
+	  { "drop": "mon_fluid", "type": "flesh", "mass_ratio": 0.0005 }
+    ]
+  },
+  {
+    "id": "hornetaur_carve",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.01 },
+      { "drop": "vespoid_shell", "type": "bone", "mass_ratio": 0.075 },
+	  { "drop": "vespoid_wing", "type": "skin", "mass_ratio": 0.0025 },
+	  { "drop": "mon_fluid", "type": "flesh", "mass_ratio": 0.0005 }
+    ]
+  },
+	{
 		"id": "kut-ku_carve",
 		"type": "harvest",
 		"entries": [
