@@ -54,7 +54,6 @@
 		"flags": [
 			"SEES",
 			"HEARS",
-			"GOODHEARING",
 			"ELECTRIC",
 			"LOUDMOVES",
 			"SMELLS",
@@ -75,7 +74,7 @@
 		],
 		"volume": "875000 ml",
 		"weight": 200000,
-		"hp": 3175,
+		"hp": 5650,
 		"speed": 115,
 		"harvest": "daora_carve",
 		"material": [
@@ -119,7 +118,6 @@
 		"flags": [
 			"SEES",
 			"HEARS",
-			"GOODHEARING",
 			"FLIES",
 			"LOUDMOVES",
 			"SMELLS",
@@ -140,7 +138,7 @@
 		],
 		"volume": "875000 ml",
 		"weight": 200000,
-		"hp": 4250,
+		"hp": 8575,
 		"speed": 75,
 		"harvest": "chameleos_carve",
 		"material": [
@@ -180,7 +178,6 @@
 		"flags": [
 			"SEES",
 			"HEARS",
-			"GOODHEARING",
 			"FLIES",
 			"POISON",
 			"LOUDMOVES",
@@ -202,8 +199,8 @@
 		],
 		"volume": "875000 ml",
 		"weight": 200000,
-		"hp": 7175,
-		"speed": 120,
+		"hp": 7800,
+		"speed": 115,
 		"harvest": "lunastra_carve",
 		"material": [
 			"flesh",
@@ -246,12 +243,191 @@
 		"flags": [
 			"SEES",
 			"HEARS",
-			"GOODHEARING",
 			"FLIES",
 			"LOUDMOVES",
 			"SMELLS",
 			"WARM",
 			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_teostra",
+		"type": "MONSTER",
+		"name": "teostra",
+		"description": "A brutal male elder dragon with breath of flame and expert control over fire. Its vile temperament means anyone who approaches is subject to fire and brimstone. Known to attack cities.",
+		"default_faction": "edragon",
+		"species": [
+			"EDRAGON"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 8075,
+		"speed": 120,
+		"harvest": "teostra_carve",
+		"material": [
+			"flesh",
+			"teostra"
+		],
+		"symbol": "E",
+		"color": "red",
+		"aggression": 30,
+		"morale": 50,
+		"melee_skill": 10,
+		"melee_dice": 4,
+		"melee_dice_sides": 6,
+		"melee_cut": 6,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "heat",
+				"amount": 3
+			},
+			{
+				"damage_type": "bash",
+				"amount": 6
+			},
+			{
+				"damage_type": "cut",
+				"amount": 12
+			}
+		],
+		"armor_bash": 15,
+		"armor_cut": 20,
+		"armor_acid": 0,
+		"armor_fire": 8,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"FLIES",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"BASHES",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_lao-shan",
+		"type": "MONSTER",
+		"name": "lao-shan lung",
+		"description": "A giant dragon few have seen and lived to tell the tale about. When on the rampage it wreaks havoc on all in its path.",
+		"default_faction": "edragon",
+		"species": [
+			"EDRAGON"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 13375,
+		"speed": 60,
+		"harvest": "lao-shan_carve",
+		"material": [
+			"flesh",
+			"lao-shan"
+		],
+		"symbol": "E",
+		"color": "dark_gray",
+		"aggression": 30,
+		"morale": 50,
+		"melee_skill": 10,
+		"melee_dice": 8,
+		"melee_dice_sides": 10,
+		"melee_cut": 0,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 16
+			}
+		],
+		"armor_bash": 14,
+		"armor_cut": 18,
+		"armor_acid": 8,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"LOUDMOVES",
+			"SMELLS",
+			"WARM",
+			"DESTROYS",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"//": "It is the strongest, compared to ukanlos - the end-game monster of MHFU.",
+		"id": "mon_fatalis",
+		"type": "MONSTER",
+		"name": "fatalis",
+		"description": "A legendary black dragon said to have prowled these lands from days of old. Many skilled hunters have sought to challenge it, but noneever return. A monster shrouded in mystery.",
+		"default_faction": "edragon",
+		"species": [
+			"EDRAGON"
+		],
+		"volume": "875000 ml",
+		"weight": 200000,
+		"hp": 19975,
+		"speed": 80,
+		"harvest": "fatalis_carve",
+		"material": [
+			"flesh",
+			"fatalis"
+		],
+		"symbol": "E",
+		"color": "black",
+		"aggression": 30,
+		"morale": 50,
+		"melee_skill": 10,
+		"melee_dice": 8,
+		"melee_dice_sides": 8,
+		"melee_cut": 8,
+		"attack_cost": 125,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 16
+			},
+			{
+				"damage_type": "cut",
+				"amount": 10
+			}
+		],
+		"armor_bash": 17,
+		"armor_cut": 22,
+		"armor_acid": 6,
+		"armor_fire": 0,
+		"armor_elec": 4,
+		"anger_triggers": [
+			"HURT"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"LOUDMOVES",
+			"FLIES",
+			"SMELLS",
+			"WARM",
+			"DESTROYS",
 			"BONES",
 			"PATH_AVOID_DANGER_2"
 		]
