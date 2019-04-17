@@ -6,6 +6,7 @@
 		"symbol": ",",
 		"color": "gray",
 		"name": "huskberry",
+		"name_plural": "huskberries",
 		"description": "An empty berry that can grow anywhere. Try planting it in the field.",
 		"price": 0,
 		"material": [
@@ -25,6 +26,7 @@
 		"symbol": ",",
 		"color": "gray",
 		"name": "needleberry",
+		"name_plural": "needleberries",
 		"description": "Berry covered in needle-like thorns. Can be made into bullets. Plantable.",
 		"price": 0,
 		"material": [
@@ -44,6 +46,7 @@
 		"symbol": ",",
 		"color": "gray",
 		"name": "bomberry",
+		"name_plural": "bomberries",
 		"description": "A berry that explodes when subjected to an impact.",
 		"price": 0,
 		"material": [
@@ -82,6 +85,7 @@
 		"symbol": ",",
 		"color": "red",
 		"name": "dosbiscus",
+		"name_plural": "dosbiscuses",
 		"description": "A large, beautifully colored flowering plant foreign to this land.",
 		"price": 0,
 		"material": [
