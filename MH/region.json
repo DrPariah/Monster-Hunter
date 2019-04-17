@@ -8,10 +8,10 @@
 		],
 		"field_coverage": {
 			"other": {
-				"t_shrub_nuts_mh": 0.31,
-				"t_shrub_veggy_mh": 0.3,
-				"f_bugs_common_mh": 0.22,
-				"f_bugs_rare_mh": 0.2,
+				"t_shrub_nuts_mh": 0.21,
+				"t_shrub_veggy_mh": 0.2,
+				"f_bugs_common_mh": 0.18,
+				"f_bugs_rare_mh": 0.15,
 				"f_miningpoint_small": 0.8,
 				"f_miningpoint_medium": 0.5,
 				"f_miningpoint_large": 0.3
@@ -22,8 +22,8 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 0.95,
-							"t_shrub_veggy_mh": 0.9,
+							"t_shrub_nuts_mh": 0.75,
+							"t_shrub_veggy_mh": 0.7,
 							"f_bugs_common_mh": 0.43,
 							"f_bugs_rare_mh": 0.4,
 							"f_mush_nitro_mh": 0.4,
@@ -34,9 +34,9 @@
 					},
 					"clutter": {
 						"types": {
-							"f_miningpoint_small": 64,
-							"f_miningpoint_medium": 4,
-							"f_miningpoint_large": 0.5
+							"f_miningpoint_small": 32,
+							"f_miningpoint_medium": 2,
+							"f_miningpoint_large": 0.25
 						}
 					}
 				}
@@ -45,10 +45,10 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 1.25,
-							"t_shrub_veggy_mh": 1.2,
-							"f_bugs_common_mh": 0.6,
-							"f_bugs_rare_mh": 0.28,
+							"t_shrub_nuts_mh": 0.55,
+							"t_shrub_veggy_mh": 0.5,
+							"f_bugs_common_mh": 0.42,
+							"f_bugs_rare_mh": 0.4,
 							"f_mush_nitro_mh": 0.1,
 							"f_mush_toad_mh": 0.09,
 							"f_mush_chaos_mh": 0.075,
@@ -57,9 +57,9 @@
 					},
 					"clutter": {
 						"types": {
-							"f_miningpoint_small": 64,
-							"f_miningpoint_medium": 4,
-							"f_miningpoint_large": 0.5
+							"f_miningpoint_small": 32,
+							"f_miningpoint_medium": 2,
+							"f_miningpoint_large": 0.25
 						}
 					}
 				}
@@ -68,20 +68,20 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 1,
-							"t_shrub_veggy_mh": 1,
+							"t_shrub_nuts_mh": 0.65,
+							"t_shrub_veggy_mh": 0.6,
 							"f_bugs_common_mh": 0.33,
 							"f_bugs_rare_mh": 0.3,
-							"f_mush_nitro_mh": 0.8,
-							"f_mush_toad_mh": 0.36,
-							"f_mush_chaos_mh": 0.3,
+							"f_mush_nitro_mh": 0.5,
+							"f_mush_toad_mh": 0.5,
+							"f_mush_chaos_mh": 0.5,
 							"f_bone_ammu_mh": 0.015
 						}
 					},
 					"clutter": {
 						"types": {
-							"f_miningpoint_small": 1,
-							"f_miningpoint_medium": 0.5
+							"f_miningpoint_small": 0.5,
+							"f_miningpoint_medium": 0.25
 						}
 					}
 				}
