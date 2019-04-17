@@ -1,6 +1,6 @@
 # Monster Hunter: A modification file for Cataclysm: Dark Days Ahead
 
-Monster hunter(`MH`) is a challenging game about hunting down ferocious dinosaur-like monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did and have fun dealing with them ;)
+Monster hunter(`MH`) is a challenging game about hunting down ferocious dinosaur-like monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did and have fun hunting!
 
 - This mod is heavily WIP and most features are not included!
 
@@ -14,10 +14,10 @@ Monster hunter(`MH`) is a challenging game about hunting down ferocious dinosaur
 Here are the list of small monsters by category:
 
 ##### Neopterons
-* Vespoid
-* Vespoid Queen
-* Hornetaur
-* Great Thunderbug
+* **Vespoid**
+* **Vespoid Queen**
+* **Hornetaur**
+* **Great Thunderbug**
 
 ##### Herbivores
 * Anteka
@@ -39,6 +39,10 @@ Here are the list of small monsters by category:
 
 ##### Flying Wyverns
 * Remobra
+
+##### Piscine Wyverns
+* Cephalos
+* Cephadrome
 
 ##### Carapaceons
 * Hermitaur
@@ -71,6 +75,9 @@ Here are the list of large(boss) monsters by category, and are sorted descending
 * **Akantor**
 * **Ukanlos**
 
+##### Piscine Wyverns
+* Plesioth
+
 ##### Carapaceons
 * **Daimyo Hemitaur**
 * **Shogun Ceanataur**
@@ -89,12 +96,12 @@ Here are the list of large(boss) monsters by category, and are sorted descending
 * **Lao-shan Lung**
 * **Fatalis**
 
-**Monsters in bold letters are implemented**. Monster subspecies and monsters that has no craftable armors are not included in the mod, except herbivores. Monster's unique abilities are not available in-game, like _Lunastra_'s fiery aura and _Kushala Daora_'s wind due to the limited json codes. Also, most of their special attacks are not doable in json, so we'll go with the plain ones :D
+**Monsters in bold letters are implemented**. Few monsters are not included in the mod. Monster's unique abilities are not available in-game, like _Lunastra_'s fiery aura and _Kushala Daora_'s wind due to the limited json codes. Also, most of their special attacks are not doable in json, so we'll go with the plain ones :D
 
 ## Monster Ecology
-Most large(boss) monsters barely spawns in the wilderness, since they are overpowered with extremely high health and are very lethal when it gets in personal range.
+Most large(boss) monsters barely spawns in the wilderness, since they are overpowered with extremely high health and are very lethal when they get in personal range.
 
-Small monsters are scarce and timid in sight of players, and act much like real world animals - some runs away, some fights back and some even hunts down other animals.
+Small monsters are scarce and timid in sight of players, and act much like real world animals - some runs away, some fights back and some even hunts down other animals, including you.
 
 Their spawnrates are affected by time, weather and seasonal changes.
 
