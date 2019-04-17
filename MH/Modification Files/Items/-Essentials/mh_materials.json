@@ -1,5 +1,47 @@
 [
 	{
+		"//": "18",
+		"type": "material",
+		"ident": "vespoid",
+		"name": "Vespoid",
+		"density": 10,
+		"bash_resist": 16,
+		"cut_resist": 18,
+		"acid_resist": 0,
+		"fire_resist": 0,
+		"elec_resist": 4,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "20",
+		"type": "material",
+		"ident": "hornetaur",
+		"name": "Hornetaur",
+		"density": 10,
+		"bash_resist": 17,
+		"cut_resist": 19,
+		"acid_resist": 0,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
 		"//": "23",
 		"type": "material",
 		"ident": "kut-ku",
@@ -302,6 +344,48 @@
 		"bash_resist": 26,
 		"cut_resist": 31,
 		"acid_resist": 14,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "31",
+		"type": "material",
+		"ident": "cephalos",
+		"name": "Cephalos",
+		"density": 10,
+		"bash_resist": 19,
+		"cut_resist": 22,
+		"acid_resist": 6,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"//": "31",
+		"type": "material",
+		"ident": "plesioth",
+		"name": "Plesioth",
+		"density": 10,
+		"bash_resist": 21,
+		"cut_resist": 24,
+		"acid_resist": 9,
 		"fire_resist": 0,
 		"elec_resist": 0,
 		"chip_resist": 12,
