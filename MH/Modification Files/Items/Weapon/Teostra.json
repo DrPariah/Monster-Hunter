@@ -1,0 +1,132 @@
+[
+	{
+		"id": "teostra_gs",
+		"type": "GENERIC",
+		"name": "teostra blade",
+		"description": "Crimson blade that holds the power of teostra. An elegant way to scorch the earth.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 49,
+		"material": "teostra",
+		"color": "red",
+		"techniques": [
+			"WBLOCK_1",
+			"WIDE"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "teostra_l",
+		"type": "GENERIC",
+		"name": "teostra's howl",
+		"description": "A ferocious lance that spits hot fire. Genuine power suited for true kings.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 47,
+		"material": "teostra",
+		"color": "red",
+		"techniques": [
+			"IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
+		"id": "teostra_ds",
+		"type": "GENERIC",
+		"name": "twin nails",
+		"description": "Painful training is required to wield that which turns your arms into fire and ice.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 39,
+		"material": "teostra",
+		"color": "red",
+		"techniques": [
+			"RAPID"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "teostra_hbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "red",
+		"name": "teostra's artillery",
+		"reload_noise_volume": 4,
+		"description": "Made of scorching teostra materials. Its beauty hides a raging inferno.",
+		"price": 0,
+		"material": [
+			"teostra"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 5250,
+		"volume": 18,
+		"bashing": 10,
+		"to_hit": 1,
+		"ranged_damage": 22,
+		"range": 20,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 9,
+		"reload": 200,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	}
+]
