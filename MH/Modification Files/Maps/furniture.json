@@ -138,8 +138,8 @@
 					{
 						"drop": "mh_chaosmushroom",
 						"base_num": [
-							3,
-							5
+							1,
+							4
 						],
 						"scaled_num": [
 							0,
@@ -423,7 +423,7 @@
 					{
 						"drop": "mh_thunderbug",
 						"base_num": [
-							1,
+							0,
 							3
 						]
 					}
@@ -469,14 +469,14 @@
 					{
 						"drop": "mh_hornfly",
 						"base_num": [
-							2,
+							0,
 							5
 						]
 					},
 					{
 						"drop": "mh_ladybug",
 						"base_num": [
-							2,
+							0,
 							5
 						]
 					},
@@ -502,7 +502,7 @@
 		"id": "f_bone_ammu_mh",
 		"name": "bone pile",
 		"description": "A pile of monster bones.",
-		"symbol": "'",
+		"symbol": "%",
 		"color": "white",
 		"move_cost_mod": 1,
 		"required_str": -1,
