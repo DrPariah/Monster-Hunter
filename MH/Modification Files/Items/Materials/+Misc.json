@@ -1,6 +1,6 @@
 [
 	{
-		"//": "These are the materials that can be carved off from more than a monster.",
+		"//": "These are the materials that can be carved off from more than a monster. Some are dropped from certain monster's death and few are exclusive excrements.",
 		"type": "GENERIC",
 		"id": "monbone_s",
 		"symbol": ",",
@@ -54,6 +54,101 @@
 		],
 		"weight": 425,
 		"volume": 4,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone_brute",
+		"symbol": ",",
+		"color": "brown",
+		"name": "brute bone",
+		"description": "The stout bone of a brutish monster. An easy to work material.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 515,
+		"volume": 3,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone_giant",
+		"symbol": ",",
+		"color": "brown",
+		"name": "giant bone",
+		"description": "A fat, large bone. Can be cut in the workshop to make crafting material.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 850,
+		"volume": 6,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "black_pearl",
+		"symbol": ",",
+		"color": "black",
+		"name": "black pearl",
+		"description": "Taken from the depths of a shell. Valued as a treasure, as well as material.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 425,
+		"volume": 2,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mon_fluid",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "monster fluid",
+		"description": "Can be mixed with insect stomach juices to make an adhesive.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 150,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "thunderbug_juice",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "thunderbug juice",
+		"description": "Fluids of a thunderbug. When stockpiled, can cause an electrical discharge.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 150,
+		"volume": 1,
 		"category": "spare_parts",
 		"to_hit": -1
 	},
