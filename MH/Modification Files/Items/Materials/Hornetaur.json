@@ -1,0 +1,40 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "hornetaur_hide",
+		"symbol": ",",
+		"color": "gray",
+		"name": "hornetaur hide",
+		"description": "With special materials, this can be worked into very strong armor.",
+		"price": 0,
+		"material": [
+			"hornetaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 75,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "hornetaur_wing",
+		"symbol": ",",
+		"color": "gray",
+		"name": "hornetaur wing",
+		"description": "A hard-to-work material. Appears pearl-like when struck by light.",
+		"price": 0,
+		"material": [
+			"hornetaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
