@@ -119,7 +119,7 @@
 			"hornetaur"
 		],
 		"symbol": "N",
-		"color": "gray",
+		"color": "dark_gray",
 		"aggression": 50,
 		"morale": 100,
 		"melee_skill": 4,

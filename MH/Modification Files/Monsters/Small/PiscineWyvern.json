@@ -66,7 +66,7 @@
 		"weight": 120000,
 		"hp": 860,
 		"speed": 100,
-		"harvest": "cephalos_carve",
+		"harvest": "cephadrome_carve",
 		"material": [
 			"flesh",
 			"cephalos"

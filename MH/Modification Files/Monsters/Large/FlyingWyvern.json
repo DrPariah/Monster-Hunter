@@ -461,7 +461,7 @@
 		"armor_fire": 5,
 		"armor_elec": 0,
 		"anger_triggers": [
-			 "PLAYER_WEAK"
+			"PLAYER_WEAK"
 		],
 		"death_function": [
 			"NORMAL"
@@ -521,7 +521,7 @@
 		"armor_fire": 0,
 		"armor_elec": 0,
 		"anger_triggers": [
-			 "PLAYER_WEAK"
+			"PLAYER_WEAK"
 		],
 		"death_function": [
 			"NORMAL"
@@ -586,7 +586,7 @@
 		"armor_fire": 4,
 		"armor_elec": 0,
 		"anger_triggers": [
-			 "PLAYER_WEAK"
+			"PLAYER_WEAK"
 		],
 		"death_function": [
 			"NORMAL"
@@ -651,7 +651,7 @@
 		"armor_fire": 0,
 		"armor_elec": 0,
 		"anger_triggers": [
-			 "PLAYER_WEAK"
+			"PLAYER_WEAK"
 		],
 		"death_function": [
 			"NORMAL"
