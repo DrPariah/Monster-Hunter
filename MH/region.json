@@ -22,14 +22,14 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 0.75,
-							"t_shrub_veggy_mh": 0.7,
-							"f_bugs_common_mh": 0.43,
-							"f_bugs_rare_mh": 0.4,
-							"f_mush_nitro_mh": 0.4,
-							"f_mush_toad_mh": 0.375,
-							"f_mush_chaos_mh": 0.35,
-							"f_bone_ammu_mh": 0.1
+							"t_shrub_nuts_mh": 0.85,
+							"t_shrub_veggy_mh": 0.8,
+							"f_bugs_common_mh": 0.73,
+							"f_bugs_rare_mh": 0.7,
+							"f_mush_nitro_mh": 0.68,
+							"f_mush_toad_mh": 0.67,
+							"f_mush_chaos_mh": 0.6,
+							"f_bone_ammu_mh": 0.58
 						}
 					},
 					"clutter": {
@@ -45,14 +45,13 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 0.55,
-							"t_shrub_veggy_mh": 0.5,
-							"f_bugs_common_mh": 0.42,
-							"f_bugs_rare_mh": 0.4,
-							"f_mush_nitro_mh": 0.1,
-							"f_mush_toad_mh": 0.09,
-							"f_mush_chaos_mh": 0.075,
-							"f_bone_ammu_mh": 0.025
+							"t_shrub_nuts_mh": 0.85,
+							"t_shrub_veggy_mh": 0.8,
+							"f_bugs_common_mh": 0.72,
+							"f_mush_nitro_mh": 0.68,
+							"f_mush_toad_mh": 0.67,
+							"f_mush_chaos_mh": 0.6,
+							"f_bone_ammu_mh": 0.58
 						}
 					},
 					"clutter": {
