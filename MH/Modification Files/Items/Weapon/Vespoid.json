@@ -1,0 +1,74 @@
+[
+	{
+		"id": "vespoid_ds",
+		"type": "GENERIC",
+		"name": "insector",
+		"description": "Dual swords that use rare materials and are difficult to forge. Non-elemental.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 13,
+		"material": "vespoid",
+		"color": "yellow",
+		"techniques": [
+			"RAPID"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "vespoid_hbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "yellow",
+		"name": "queen needle",
+		"reload_noise_volume": 4,
+		"description": "Bowgun made from queen parts. Even giant dragons cower in fear.",
+		"price": 0,
+		"material": [
+			"vespoid"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 5250,
+		"volume": 18,
+		"bashing": 10,
+		"to_hit": 1,
+		"ranged_damage": 9,
+		"range": 20,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 12,
+		"reload": 300,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	}
+]
