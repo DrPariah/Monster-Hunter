@@ -1,0 +1,106 @@
+[
+	{
+		"//": "Only small and non-alpha monsters get spawned in the world with this, while others are spawned with means of mapgen terrains (multiple spawns of boss monsters in an area is unavoidable here...).",
+		"type": "monstergroup",
+		"name": "GROUP_FOREST",
+		"default": "mon_null",
+		"is_animal": true,
+		"monsters": [
+			{ "monster": "mon_vespoid", "freq": 5, "cost_multiplier": 30, "pack_size": [ 1, 4 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },
+				{ "monster": "mon_vespoid", "freq": 3, "cost_multiplier": 30, "starts": 30, "pack_size": [ 1, 6 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },
+				{ "monster": "mon_vespoid", "freq": 1, "cost_multiplier": 30, "starts": 120, "pack_size": [ 1, 8 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },
+				{ "monster": "mon_hornetaur", "freq": 5, "cost_multiplier": 35, "pack_size": [ 1, 2 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_hornetaur", "freq": 3, "cost_multiplier": 35, "starts": 30, "pack_size": [ 1, 3 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_hornetaur", "freq": 1, "cost_multiplier": 35, "starts": 120, "pack_size": [ 1, 5 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_thunderbug", "freq": 3, "cost_multiplier": 50, "starts": 30, "pack_size": [ 2, 4 ], "conditions": [
+					"NIGHT",
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_thunderbug", "freq": 3, "cost_multiplier": 50, "starts": 120, "pack_size": [ 4, 6 ], "conditions": [
+					"NIGHT",
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },
+				{ "monster": "mon_cephalos", "freq": 3, "cost_multiplier": 35, "pack_size": [ 2, 4 ], "conditions": [
+					
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_cephalos", "freq": 1, "cost_multiplier": 35, "starts": 30, "pack_size": [ 2, 6 ], "conditions": [
+					
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] }
+		]
+	},
+	{
+		"type": "monstergroup",
+		"name": "GROUP_SWAMP",
+		"default": "mon_null",
+		"is_animal": true,
+		"monsters": [
+		{ "monster": "mon_vespoid", "freq": 5, "cost_multiplier": 28, "pack_size": [ 1, 4 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },
+				{ "monster": "mon_vespoid", "freq": 3, "cost_multiplier": 28, "starts": 30, "pack_size": [ 1, 6 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },
+				{ "monster": "mon_vespoid", "freq": 1, "cost_multiplier": 28, "starts": 120, "pack_size": [ 1, 8 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },
+				{ "monster": "mon_hornetaur", "freq": 5, "cost_multiplier": 30, "pack_size": [ 1, 2 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_hornetaur", "freq": 3, "cost_multiplier": 30, "starts": 30, "pack_size": [ 1, 3 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_hornetaur", "freq": 1, "cost_multiplier": 30, "starts": 120, "pack_size": [ 1, 5 ], "conditions": [
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_thunderbug", "freq": 1, "cost_multiplier": 45, "starts": 30, "pack_size": [ 2, 4 ], "conditions": [
+					"NIGHT",
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] },{ "monster": "mon_thunderbug", "freq": 3, "cost_multiplier": 45, "starts": 120, "pack_size": [ 4, 6 ], "conditions": [
+					"NIGHT",
+					"SPRING",
+					"SUMMER",
+					"AUTUMN"
+				] }
+		]
+	}
+]
