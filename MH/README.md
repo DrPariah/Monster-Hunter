@@ -41,8 +41,8 @@ Here are the list of small monsters by category:
 * Remobra
 
 ##### Piscine Wyverns
-* Cephalos
-* Cephadrome
+* **Cephalos**
+* **Cephadrome**
 
 ##### Carapaceons
 * Hermitaur
@@ -76,7 +76,7 @@ Here are the list of large(boss) monsters by category, and are sorted descending
 * **Ukanlos**
 
 ##### Piscine Wyverns
-* Plesioth
+* **Plesioth**
 
 ##### Carapaceons
 * **Daimyo Hemitaur**
@@ -103,7 +103,7 @@ Most large(boss) monsters barely spawns in the wilderness, since they are overpo
 
 Small monsters are scarce and timid in sight of players, and act much like real world animals - some runs away, some fights back and some even hunts down other animals, including you.
 
-Their spawnrates are affected by time, weather and seasonal changes.
+Be aware that some monsters only appear in missions.
 
 ***
 
@@ -113,12 +113,12 @@ This section consists of monster carved crafting materials, armors and weapons.
 ### Materials
 Materials are essential in crafting `MH`-stuff, which are carved off directly from slained `MH` monsters as your rewards. Prioritize your survival skill before doing so.
 
-If you want to see some carve-able monster materials, go to the *Materials* folder.
-
 ### Other Materials
-There are other materials that are found scattered in your world. Examples are needleberries - found in underbrushes -, machalite ores - found in some mining points -, and thunderbugs - a random swarm of bugs in fields.
+There are other materials that are found scattered in your world. Examples are needleberries - found in underbrushes -, machalite ores - found in some mining points -, and thunderbugs - a random swarm of bugs in the fields.
 
-Not all armors and weapons are made of the same monster materials, some needs these miscellaneous items to craft, so be sure to collect them to future uses.
+They are called *"Gathering Spots"*, with "?" in the top-left of their tile.
+
+Not all armors and weapons are made of the same monster materials, some needs these miscellaneous items to craft, so be sure to collect them for future uses.
 
 ### Armors
 * These are full armor sets that consists of five armor pieces: helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name, so be mindful about this before crafting an armor.

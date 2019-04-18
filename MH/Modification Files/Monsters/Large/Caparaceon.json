@@ -63,7 +63,7 @@
 	{
 		"id": "mon_ceanataur",
 		"type": "MONSTER",
-		"name": "ceanataur",
+		"name": "shogun ceanataur",
 		"description": "A large carapaceon with a giant monster's skull on its back. Its long, sharp pincers allow it to pierce volcanic bedrock and travel along ceilings. Sometimes, a precious and valuable pearl can be found inside its shell.",
 		"default_faction": "caparaceon",
 		"species": [

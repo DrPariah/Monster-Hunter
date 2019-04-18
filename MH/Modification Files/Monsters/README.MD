@@ -9,10 +9,12 @@ Some monsters are calm in the wild, though provoking makes them mad and destruct
 Wyverns, pelagi, and other monster species are enemies to each other.
 
 ### Health
-Large and small alpha monsters have EXTREMELY HIGH health points. Killing one is a challenge for most unprepared players. 
+Large and small alpha monsters have EXTREMELY HIGH health points. Killing one is a challenge for most unprepared players.
 
 ### Attack
-Large and some small alpha monsters have constant 10 `"melee_skill"` and a damage type that varies in every monster. Some monsters deal additional effects like poison and stun, some monsters deal elemental damage, some monsters may kill you quickly with just a few blows from their normal attack.
+Large and some small alpha monsters have constant 10 `"melee_skill"` and a damage type that varies in every monster. Some monsters deal additional effects like poison and stun, some monsters deal elemental damage, some monsters may kill you quickly with just a few blows from their normal attacks.
+
+Some extremely disastrous monsters like an akantor can take down trees and vehicle armors with ease.
 
 ### Special Attacks
 Fireballs, fireblasts, firewalls, etc. **THEY ARE CURRENTLY UNIMPLEMENTED!**
@@ -25,7 +27,7 @@ Monster armor data is the same with their monster material resistances, except t
 Small creatures like a vespoid have their armor reduced by half, while their alpha - the vespoid queen - isn't affected by this.
 
 ### Carves
-Aside from meat, some butchered items from a monster has exclusive materials that are required to craft various MH-related stuff like weapons and armors. **Before butchering them, make sure you have high survival skills to gain descent materials.**. Though not as defensive as power armors nor as devastating as the Barrett, they have advantage at some point...
+Carved(butchered) items are exclusive crafting materials. If you've slain a `MH` monster, you may want to gather your rewards from it.
 
 ### Others
 Monster data like `"speed"` and `"dodge"` differs in every monsters. `Nargacuga` has high chance to dodge attacks and `Khezu` has very limited vision and mainly uses the sense of smell.
