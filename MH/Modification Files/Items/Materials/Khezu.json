@@ -39,6 +39,25 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "pale_extract",
+		"symbol": ",",
+		"color": "blue",
+		"name": "pale extract",
+		"description": "Khezu extract. Has the ability to amplify the effects of medicines.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 150,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "khezu_bone",
 		"symbol": ",",
 		"color": "white",
