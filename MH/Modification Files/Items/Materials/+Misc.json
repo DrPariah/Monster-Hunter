@@ -211,7 +211,7 @@
 	},
 	{
 		"type": "GENERIC",
-		"id": "hermitaur_wskullshell",
+		"id": "wyvern_skullshell",
 		"symbol": ",",
 		"color": "light_red",
 		"name": "wyvern skull shell",
@@ -230,10 +230,29 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "piscine_fang",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "piscine fang",
+		"description": "Fang from a plesioth or cephalos. Used to hold and kill prey.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "blos_fang",
 		"symbol": ",",
 		"color": "brown",
-		"name": "monoblos fang",
+		"name": "blos fang",
 		"description": "A large, sturdy fang from a diablos or monoblos. Stays sharp.",
 		"price": 0,
 		"material": [
