@@ -37,5 +37,12 @@
 		"anger_triggers": [
 			"HURT"
 		]
+	},
+	{
+		"type": "SPECIES",
+		"id": "HERBIVORE",
+		"fear_triggers": [
+			"FIRE"
+		]
 	}
 ]
