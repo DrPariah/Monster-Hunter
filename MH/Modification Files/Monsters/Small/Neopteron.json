@@ -44,7 +44,7 @@
 			"SEES",
 			"HEARS",
 			"FLIES",
-			"SMELLS",
+			"SMELLS","ANIMAL",
 			"BLEED",
 			"PATH_AVOID_DANGER_1"
 		]
@@ -95,7 +95,7 @@
 			"SEES",
 			"HEARS",
 			"FLIES",
-			"SMELLS",
+			"SMELLS","ANIMAL",
 			"BLEED",
 			"PATH_AVOID_DANGER_1"
 		]
@@ -145,7 +145,7 @@
 			"SEES",
 			"HEARS",
 			"FLIES",
-			"SMELLS",
+			"SMELLS","ANIMAL",
 			"BLEED",
 			"PATH_AVOID_DANGER_1"
 		]
@@ -199,7 +199,7 @@
 			"SEES",
 			"HEARS",
 			"FLIES",
-			"SMELLS",
+			"SMELLS","ANIMAL",
 			"ELECTRIC",
 			"HARDTOSHOOT",
 			"PATH_AVOID_DANGER_1"
