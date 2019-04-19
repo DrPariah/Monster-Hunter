@@ -1,0 +1,97 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "giaprey_scale",
+		"symbol": ",",
+		"color": "white",
+		"name": "giaprey scale",
+		"description": "The color of this scale allows you to approach the snow unseen.",
+		"price": 0,
+		"material": [
+			"giaprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "giaprey_hide",
+		"symbol": ",",
+		"color": "white",
+		"name": "giaprey hide",
+		"description": "Hide stripped of its scales. Used to make clothing for vilagers.",
+		"price": 0,
+		"material": [
+			"giaprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "giadrome_hide",
+		"symbol": ",",
+		"color": "white",
+		"name": "giadrome hide",
+		"description": "The hide of a giadrome. It bears the scars of the leader's battles.",
+		"price": 0,
+		"material": [
+			"genprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 75,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "giadrome_claw",
+		"symbol": ",",
+		"color": "white",
+		"name": "giadrome claw",
+		"description": "A sharp giadrome claw. The deadly weapon of a giaprey pack leader.",
+		"price": 0,
+		"material": [
+			"giaprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 125,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "giadrome_skull",
+		"symbol": ",",
+		"color": "white",
+		"name": "giadrome skull",
+		"description": "A large crest on this giadrome skull denotes it as a pack leader.",
+		"price": 0,
+		"material": [
+			"giaprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 150,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	}
+]
