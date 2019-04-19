@@ -1,0 +1,480 @@
+[
+	{
+		"id": "mon_giaprey",
+		"type": "MONSTER",
+		"name": "giaprey",
+		"description": "A specie of small bird-like carnivore known to inhabit a snowy mountain. Its white skin is beautiful, but its temperament is not. It is known to spit ice at hunters, and attack in deadly packs.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 70,
+		"speed": 105,
+		"harvest": "giaprey_carve",
+		"material": [
+			"flesh",
+			"giaprey"
+		],
+		"symbol": "W",
+		"color": "white",
+		"aggression": 5,
+		"morale": 10,
+		"melee_skill": 4,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 2,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 2
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_giadrome",
+		"type": "MONSTER",
+		"name": "giadrome",
+		"description": "The alpha leader of a pack of giaprey, the giadrome sports a beautiful crest. Larger than a giaprey, any hunter silly enough to encroach on its turf will be frozen in a hail of ice.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 510,
+		"speed": 110,
+		"harvest": "giadrome_carve",
+		"material": [
+			"flesh",
+			"giaprey"
+		],
+		"symbol": "W",
+		"color": "white",
+		"aggression": 15,
+		"morale": 10,
+		"melee_skill": 8,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 4,
+		"melee_damage": [
+			{
+				"damage_type": "cold",
+				"amount": 2
+			},
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 4
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_velociprey",
+		"type": "MONSTER",
+		"name": "velociprey",
+		"description": "Aggressive, carnivorous monster that often travel in packs. Wide ranging, it is found in many different areas.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 80,
+		"speed": 105,
+		"harvest": "velociprey_carve",
+		"material": [
+			"flesh",
+			"velociprey"
+		],
+		"symbol": "W",
+		"color": "light_blue",
+		"aggression": 5,
+		"morale": 10,
+		"melee_skill": 4,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 2,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 2
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_velocidrome",
+		"type": "MONSTER",
+		"name": "velocidrome",
+		"description": "The alpha monster that leads a velociprey pack. It is larger and have more prominent crest. Highly territorial.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 530,
+		"speed": 110,
+		"harvest": "velocidrome_carve",
+		"material": [
+			"flesh",
+			"velociprey"
+		],
+		"symbol": "W",
+		"color": "light_blue",
+		"aggression": 15,
+		"morale": 10,
+		"melee_skill": 8,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 4,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 5
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_genprey",
+		"type": "MONSTER",
+		"name": "genprey",
+		"description": "An orange and green-striped specie of small carnivore. Traveling in packs, its large fangs and claws contain a neurotoxin that is used to paralyze prey.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 85,
+		"speed": 105,
+		"harvest": "genprey_carve",
+		"material": [
+			"flesh",
+			"genprey"
+		],
+		"symbol": "W",
+		"color": "brown",
+		"aggression": 5,
+		"morale": 10,
+		"melee_skill": 4,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 2,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 2
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_gendrome",
+		"type": "MONSTER",
+		"name": "gendrome",
+		"description": "The alpha monster that leads a genprey pack. It is larger and have a more prominent crest. It can paralyze prey using their toxic fangs and claws.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 550,
+		"speed": 110,
+		"harvest": "gendrome_carve",
+		"material": [
+			"flesh",
+			"genprey"
+		],
+		"symbol": "W",
+		"color": "brown",
+		"aggression": 15,
+		"morale": 10,
+		"melee_skill": 8,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 4,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 4
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_ioprey",
+		"type": "MONSTER",
+		"name": "ioprey",
+		"description": "A vivid red specie of small carnivores often found in subtropical zones. Sacs in their throat contain a powerful poison that slowly drains the life of their prey.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 100,
+		"speed": 105,
+		"harvest": "ioprey_carve",
+		"material": [
+			"flesh",
+			"ioprey"
+		],
+		"symbol": "W",
+		"color": "light_red",
+		"aggression": 5,
+		"morale": 10,
+		"melee_skill": 4,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 2,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 2
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"POISON",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_iodrome",
+		"type": "MONSTER",
+		"name": "iodrome",
+		"description": "The alpha monster that leads an ioprey pack. They are larger and have more prominent crest. Found in subtropical zones, they spit poison that can sap the life of its prey.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 605,
+		"speed": 110,
+		"harvest": "iodrome_carve",
+		"material": [
+			"flesh",
+			"ioprey"
+		],
+		"symbol": "W",
+		"color": "light_red",
+		"aggression": 15,
+		"morale": 10,
+		"melee_skill": 8,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 4,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 2
+			},
+			{
+				"damage_type": "cut",
+				"amount": 4
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"POISON",
+			"BONES",
+			"PATH_AVOID_DANGER_2"
+		]
+	}
+]
