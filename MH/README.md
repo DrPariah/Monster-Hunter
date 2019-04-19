@@ -9,7 +9,7 @@ Monster hunter(`MH`) is a challenging game about hunting down ferocious dinosaur
 ***
 
 ## Monsters
-`MH` Monsters are the animals in `MH` ecology, and much like in real world, they simulate the predator-prey relationship.
+`MH` Monsters are the animals in `MH` ecology and much like in real world, they simulate the predator-prey relationship... In a very odd manner.
 
 Here are the list of small monsters by category:
 
@@ -20,22 +20,22 @@ Here are the list of small monsters by category:
 * **Great Thunderbug**
 
 ##### Herbivores
-* Anteka
-* Popo
-* Kelbi
-* Mosswine
-* Aptonoth
-* Apceros
+* **Anteka**
+* **Popo**
+* **Kelbi**
+* **Mosswine**
+* **Aptonoth**
+* **Apceros**
 
 ##### Bird Wyverns
-* Giaprey
-* Giadrome
-* Velociprey
-* Velocidrome
-* Genprey
-* Gendrome
-* Ioprey
-* Iodrome
+* **Giaprey**
+* **Giadrome**
+* **Velociprey**
+* **Velocidrome**
+* **Genprey**
+* **Gendrome**
+* **Ioprey**
+* **Iodrome**
 
 ##### Flying Wyverns
 * Remobra
@@ -54,7 +54,7 @@ Here are the list of small monsters by category:
 * Conga
 * Blango
 
-Here are the list of large(boss) monsters by category, and are sorted descending by their threat level:
+Here are the list of large(boss) monsters by category and are sorted descending by their threat level:
 
 ##### Bird Wyverns
 * **Yian Kut-ku**
@@ -99,11 +99,9 @@ Here are the list of large(boss) monsters by category, and are sorted descending
 **Monsters in bold letters are implemented**. Few monsters are not included in the mod. Monster's unique abilities are not available in-game, like _Lunastra_'s fiery aura and _Kushala Daora_'s wind due to the limited json codes. Also, most of their special attacks are not doable in json, so we'll go with the plain ones :D
 
 ## Monster Ecology
-Most large(boss) monsters barely spawns in the wilderness, since they are overpowered with extremely high health and are very lethal when they get in personal range.
+Small monsters are scarce and timid in sight of players, and act much like real world animals - some runs away, some defends themselves, some hunts down other animals, including you.
 
-Small monsters are scarce and timid in sight of players, and act much like real world animals - some runs away, some fights back and some even hunts down other animals, including you.
-
-Be aware that some monsters only appear in missions.
+Large monsters appear only by missions, just like in `MH`. If you feel like you're ready to take down a monster, just partake in a mission and slay them whenever you want!
 
 ***
 
@@ -120,9 +118,14 @@ They are called *"Gathering Spots"*, with "?" in the top-left of their tile.
 
 Not all armors and weapons are made of the same monster materials, some needs these miscellaneous items to craft, so be sure to collect them for future uses.
 
+## Combos
+Item combinations require no tools, so crafting a bowgun shot is like putting a nut in a nut shell (which is weird).
+
 ### Armors
+Most armors provide huge defense from damage and are much stronger and tougher compared to the real-world armors, but they lack storage. Tho, creating them is a little bit harder to do.
+
 * These are full armor sets that consists of five armor pieces: helmet, mail, vambraces, tasset and greaves. Some special armor bears different armor piece name, so be mindful about this before crafting an armor.
-* They are made of carved monster materials with their crafting requirements. Some armors require a combination of two monster material to craft.
+* They are made of carved monster and other materials as their crafting requirements. Some armors require a combination of two monster materials to craft.
 
 Also notice that all of these armors are designed for blademaster hunters.
 
