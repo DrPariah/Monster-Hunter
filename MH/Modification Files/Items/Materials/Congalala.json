@@ -1,6 +1,24 @@
 [
 	{
 		"type": "GENERIC",
+		"id": "conga_pelt",
+		"symbol": ",",
+		"color": "pink",
+		"name": "conga pelt",
+		"description": "Conga fur. Its solid feel makes it a good material.",
+		"price": 0,
+		"material": [
+			"congalala"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},{
+		"type": "GENERIC",
 		"id": "congalala_pelt",
 		"symbol": ",",
 		"color": "pink",
