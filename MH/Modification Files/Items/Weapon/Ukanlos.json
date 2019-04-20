@@ -19,7 +19,7 @@
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE"
+			"UNBREAKABLE_MELEE","NO_CVD"
 		],
 		"qualities": [
 			[
@@ -52,7 +52,7 @@
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE"
+			"UNBREAKABLE_MELEE","NO_CVD"
 		],
 		"qualities": [
 			[
@@ -83,7 +83,7 @@
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE"
+			"UNBREAKABLE_MELEE","NO_CVD"
 		],
 		"qualities": [
 			[
@@ -112,7 +112,7 @@
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE",
+			"UNBREAKABLE_MELEE","NO_CVD",
 			"SPEAR",
 			"STAB"
 		]
@@ -135,7 +135,7 @@
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE"
+			"UNBREAKABLE_MELEE","NO_CVD"
 		],
 		"qualities": [
 			[

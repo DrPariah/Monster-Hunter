@@ -17,7 +17,7 @@
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE"
+			"UNBREAKABLE_MELEE","NO_CVD"
 		],
 		"qualities": [
 			[
