@@ -1,6 +1,25 @@
 [
 	{
 		"type": "GENERIC",
+		"id": "blango_pelt",
+		"symbol": ",",
+		"color": "white",
+		"name": "blango pelt",
+		"description": "Snow white blango pelt. It protects the body against the mountain cold.",
+		"price": 0,
+		"material": [
+			"blangonga"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "blangonga_pelt",
 		"symbol": ",",
 		"color": "white",
