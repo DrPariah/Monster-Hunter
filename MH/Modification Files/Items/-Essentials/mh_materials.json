@@ -42,6 +42,107 @@
 		"cut_dmg_verb": "chipped"
 	},
 	{
+		"//": "15",
+		"type": "material",
+		"ident": "giaprey",
+		"name": "Giaprey",
+		"density": 10,
+		"bash_resist": 15,
+		"cut_resist": 17,
+		"acid_resist": 6,
+		"fire_resist": 0,
+		"elec_resist": 2,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},{
+		"//": "18",
+		"type": "material",
+		"ident": "velociprey",
+		"name": "Velociprey",
+		"density": 10,
+		"bash_resist": 16,
+		"cut_resist": 18,
+		"acid_resist": 2,
+		"fire_resist": 2,
+		"elec_resist": 2,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},{
+		"//": "20",
+		"type": "material",
+		"ident": "genprey",
+		"name": "Genprey",
+		"density": 10,
+		"bash_resist": 17,
+		"cut_resist": 19,
+		"acid_resist": 0,
+		"fire_resist": 4,
+		"elec_resist": 5,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},{
+		"//": "23",
+		"type": "material",
+		"ident": "ioprey",
+		"name": "Ioprey",
+		"density": 10,
+		"bash_resist": 18,
+		"cut_resist": 20,
+		"acid_resist": 5,
+		"fire_resist": 5,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},{
+		"//": "23",
+		"type": "material",
+		"ident": "remobra",
+		"name": "Remobra",
+		"density": 10,
+		"bash_resist": 18,
+		"cut_resist": 20,
+		"acid_resist": 0,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 12,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
 		"//": "23",
 		"type": "material",
 		"ident": "kut-ku",
