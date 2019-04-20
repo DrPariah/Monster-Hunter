@@ -1,6 +1,24 @@
 [
 	{
 		"type": "GENERIC",
+		"id": "ceanataur_small_shell",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "small ceanataur shell",
+		"description": "Piece of a giant ceanataur shell. Lighter than it looks and easy to craft.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},{
+		"type": "GENERIC",
 		"id": "ceanataur_shell",
 		"symbol": ",",
 		"color": "light_blue",
