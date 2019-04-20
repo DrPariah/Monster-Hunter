@@ -90,6 +90,43 @@
 			"NORMAL"
 		],
 		"vision_day": 10,
+		"starting_ammo": {
+			"vespoid_acid": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 35,
+				"move_cost": 200,
+				"gun_type": "vespoid_stinger",
+				"ammo_type": "vespoid_acid",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The vespoid queen sprays an acid!",
+				"ranges": [
+					[
+						0,
+						4,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"QUEEN",
 			"SEES",

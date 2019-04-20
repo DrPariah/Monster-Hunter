@@ -24,7 +24,7 @@
 		"melee_skill": 10,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
-		"melee_cut": 1,
+		"melee_cut": 0,
 		"attack_cost": 125,
 		"melee_damage": [
 			{
@@ -36,14 +36,85 @@
 		"armor_cut": 8,
 		"armor_acid": 1,
 		"armor_fire": 7,
-		"armor_elec": 5,
+		"armor_elec": 0,
+		"path_settings": {
+			"max_dist": 30
+		},
 		"anger_triggers": [
-			
 			"SOUND",
 			"HURT"
 		],
 		"death_function": [
 			"NORMAL"
+		],
+		"starting_ammo": {
+			"kut-ku_fieryglob": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 110,
+				"move_cost": 250,
+				"gun_type": "kut-ku_beak",
+				"ammo_type": "kut-ku_fieryglob",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 150,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The yian kut-ku spat a glob of fiery blaze!",
+				"ranges": [
+					[
+						1,
+						8,
+						"DEFAULT"
+					]
+				]
+			},
+			{
+				"type": "gun",
+				"cooldown": 50,
+				"move_cost": 250,
+				"gun_type": "kut-ku_beak",
+				"ammo_type": "kut-ku_fieryglob",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 150,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The yian kut-ku spat a glob of fireball!",
+				"ranges": [
+					[
+						1,
+						8,
+						"DEFAULT"
+					]
+				]
+			}
 		],
 		"flags": [
 			"SEES",
@@ -51,10 +122,12 @@
 			"GOODHEARING",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
+			"FIREPROOF",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -95,24 +168,66 @@
 		"armor_cut": 9,
 		"armor_acid": 4,
 		"armor_fire": 1,
-		"armor_elec": 9,
+		"armor_elec": 0,
+		"path_settings": {
+			"max_dist": 30
+		},
 		"anger_triggers": [
-			
 			"HURT"
 		],
 		"death_function": [
 			"NORMAL"
+		],
+		"starting_ammo": {
+			"gypceros_toxicglob": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 40,
+				"move_cost": 200,
+				"gun_type": "gypceros_beak",
+				"ammo_type": "gypceros_toxicglob",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 150,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The gypceros spat a poisonous glob!",
+				"ranges": [
+					[
+						1,
+						8,
+						"DEFAULT"
+					]
+				]
+			}
 		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
 			"ELECTRIC",
+			"POISON",
+			"NO_BREATHE",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -157,24 +272,65 @@
 		"armor_cut": 15,
 		"armor_acid": 0,
 		"armor_fire": 4,
-		"armor_elec": 4,
+		"armor_elec": 0,
+		"path_settings": {
+			"max_dist": 30
+		},
 		"anger_triggers": [
-			
 			"SOUND",
 			"HURT"
 		],
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"garuga_fireball": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 65,
+				"move_cost": 200,
+				"ammo_type": "garuga_fireball",
+				"gun_type": "garuga_beak",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 150,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The yian garuga spat a fireball!",
+				"ranges": [
+					[
+						1,
+						8,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
+			"FIREPROOF",
 			"BLEED",
 			"PATH_AVOID_DANGER_2"
 		]
@@ -217,22 +373,63 @@
 		"armor_acid": 6,
 		"armor_fire": 0,
 		"armor_elec": 0,
+		"path_settings": {
+			"max_dist": 30
+		},
 		"anger_triggers": [
-			
 			"HURT"
 		],
 		"death_function": [
 			"NORMAL"
+		],
+		"starting_ammo": {
+			"hypno_hazyglob": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 70,
+				"move_cost": 200,
+				"ammo_type": "hypno_hazyglob",
+				"gun_type": "hypno_beak",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 150,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The hypnocatrice spat a hazy glob!",
+				"ranges": [
+					[
+						1,
+						8,
+						"DEFAULT"
+					]
+				]
+			}
 		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
+			"NO_BREATHE",
 			"PATH_AVOID_DANGER_2"
 		]
 	}

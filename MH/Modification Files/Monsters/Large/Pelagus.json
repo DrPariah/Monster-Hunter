@@ -42,7 +42,6 @@
 		"armor_fire": 0,
 		"armor_elec": 4,
 		"anger_triggers": [
-			
 			"PLAYER_WEAK"
 		],
 		"death_function": [
@@ -52,7 +51,8 @@
 			"SEES",
 			"HEARS",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"KEENNOSE",
 			"WARM",
 			"BASHES",
@@ -108,17 +108,54 @@
 		"armor_fire": 0,
 		"armor_elec": 0,
 		"anger_triggers": [
-			
 			"PLAYER_WEAK"
 		],
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"blangonga_icebreath": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 40,
+				"move_cost": 200,
+				"gun_type": "blangonga_mouth",
+				"ammo_type": "blangonga_icebreath",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The blangonga breathes out a cold air!",
+				"ranges": [
+					[
+						1,
+						3,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"KEENNOSE",
 			"WARM",
 			"BASHES",

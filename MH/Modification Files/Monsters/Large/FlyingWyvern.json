@@ -49,12 +49,50 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"khezu_fizzball": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 55,
+				"move_cost": 200,
+				"gun_type": "khezu_mouth",
+				"ammo_type": "khezu_fizzball",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The khezu spat a thunderous ball!",
+				"ranges": [
+					[
+						1,
+						10,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"KEENNOSE",
 			"WARM",
 			"BASHES",
@@ -106,16 +144,55 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"basarios_fieryglob": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 45,
+				"move_cost": 200,
+				"gun_type": "basarios_mouth",
+				"ammo_type": "basarios_fieryglob",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The basarios spat a fiery glob!",
+				"ranges": [
+					[
+						1,
+						8,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"CAN_DIG",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
+			"FIREPROOF",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -173,7 +250,8 @@
 			"FLIES",
 			"CAN_DIG",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
@@ -228,15 +306,54 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"rathian_fireball": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 65,
+				"move_cost": 200,
+				"gun_type": "rathian_mouth",
+				"ammo_type": "rathian_fireball",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The rathian spat a fireball!",
+				"ranges": [
+					[
+						1,
+						10,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
+			"FIREPROOF",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -288,15 +405,54 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"rathalos_fireball": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 60,
+				"move_cost": 200,
+				"gun_type": "rathalos_mouth",
+				"ammo_type": "rathalos_fireball",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The rathalos spat a raging fireball!",
+				"ranges": [
+					[
+						1,
+						10,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
+			"FIREPROOF",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -344,15 +500,54 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"gravios_fireblast": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 105,
+				"move_cost": 200,
+				"gun_type": "gravios_mouth",
+				"ammo_type": "gravios_fireblast",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The gravios breathes a raging fireblast!",
+				"ranges": [
+					[
+						1,
+						10,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
+			"FIREPROOF",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -410,7 +605,8 @@
 			"FLIES",
 			"CAN_DIG",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
@@ -471,7 +667,8 @@
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
@@ -526,12 +723,50 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"narga_blade": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 25,
+				"move_cost": 200,
+				"gun_type": "narga_tail",
+				"ammo_type": "narga_blade",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The nargacuga hurls its tailblades!",
+				"ranges": [
+					[
+						1,
+						15,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"FLIES",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
@@ -543,7 +778,7 @@
 		"id": "mon_akantor",
 		"type": "MONSTER",
 		"name": "akantor",
-		"description": "A wyvern truly wrapped in mystery. Known as the black god and to others as the tyrant of fire, this large and brutal creature is simply as akantor.",
+		"description": "A wyvern truly wrapped in mystery. Known as the black god and to others as the tyrant of fire, this large and brutal creature is simply known as akantor.",
 		"default_faction": "wyvern",
 		"species": [
 			"WYVERN"
@@ -591,16 +826,55 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"akantor_screech": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 125,
+				"move_cost": 200,
+				"gun_type": "akantor_mouth",
+				"ammo_type": "akantor_screech",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The akantor roars a destructive screech!",
+				"ranges": [
+					[
+						5,
+						15,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"CAN_DIG",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"DESTROYS",
 			"BONES",
 			"BLEED",
+			"FIREPROOF",
 			"PATH_AVOID_DANGER_2"
 		]
 	},
@@ -656,12 +930,50 @@
 		"death_function": [
 			"NORMAL"
 		],
+		"starting_ammo": {
+			"ukanlos_iceblast": 1000
+		},
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 95,
+				"move_cost": 200,
+				"gun_type": "ukanlos_mouth",
+				"ammo_type": "ukanlos_iceblast",
+				"fake_dex": 8,
+				"fake_skills": [
+					[
+						"gun",
+						4
+					],
+					[
+						"rifle",
+						4
+					]
+				],
+				"fake_per": 8,
+				"targeting_cost": 250,
+				"max_ammo": 1000,
+				"require_targeting_player": false,
+				"require_targeting_npc": false,
+				"require_targeting_monster": false,
+				"description": "The ukanlos breathes a destructive iceblast!",
+				"ranges": [
+					[
+						5,
+						15,
+						"DEFAULT"
+					]
+				]
+			}
+		],
 		"flags": [
 			"SEES",
 			"HEARS",
 			"CAN_DIG",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"DESTROYS",
 			"BONES",

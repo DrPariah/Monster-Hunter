@@ -49,13 +49,51 @@
 	],
 	"vision_day": 15,
 	"vision_night": 7,
+	"starting_ammo": {
+		"plesioth_waterspit": 1000
+	},
+	"special_attacks": [
+		{
+			"type": "gun",
+			"cooldown": 120,
+			"move_cost": 200,
+			"gun_type": "plesioth_mouth",
+			"ammo_type": "plesioth_waterspit",
+			"fake_dex": 8,
+			"fake_skills": [
+				[
+					"gun",
+					4
+				],
+				[
+					"rifle",
+					4
+				]
+			],
+			"fake_per": 8,
+			"targeting_cost": 250,
+			"max_ammo": 1000,
+			"require_targeting_player": false,
+			"require_targeting_npc": false,
+			"require_targeting_monster": false,
+			"description": "The plesioth spits a water spout!",
+			"ranges": [
+				[
+					1,
+					15,
+					"DEFAULT"
+				]
+			]
+		}
+	],
 	"flags": [
 		"SEES",
 		"HEARS",
 		"FISHABLE",
 		"SWIMS",
 		"LOUDMOVES",
-		"SMELLS","ANIMAL",
+		"SMELLS",
+		"ANIMAL",
 		"WARM",
 		"BASHES",
 		"BONES",
