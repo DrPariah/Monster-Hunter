@@ -1,6 +1,24 @@
 [
 	{
 		"type": "GENERIC",
+		"id": "hermitaur_small_shell",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "small hermitaur shell",
+		"description": "Piece of bone from a giant carapaceon. Small, so it is limited in its use.",
+		"price": 0,
+		"material": [
+			"hermitaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": 1,
+		"category": "spare_parts",
+		"to_hit": -1
+	},{
+		"type": "GENERIC",
 		"id": "hermitaur_shell",
 		"symbol": ",",
 		"color": "light_red",
