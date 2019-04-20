@@ -1,6 +1,6 @@
 [
 	{
-		"type": "terrain",
+		"type": "furniture",
 		"id": "f_mush_nitro_mh",
 		"name": "nitroshroom",
 		"description": "Rare mushroom with the power to generate heat.",
@@ -11,16 +11,13 @@
 			"red",
 			"white"
 		],
-		"move_cost": 8,
+		"move_cost_mod": 1,
+		"required_str": -1,
 		"flags": [
 			"TRANSPARENT",
-			"CONTAINER",
-			"FLAMMABLE_ASH",
-			"THIN_OBSTACLE",
-			"ORGANIC",
-			"SHORT"
+			"TINY",
+			"NOCOLLIDE"
 		],
-		"transforms_into": "t_grass",
 		"examine_action": "harvest_furn",
 		"harvest_by_season": [
 			{
@@ -33,12 +30,8 @@
 					{
 						"drop": "mh_nitroshroom",
 						"base_num": [
-							2,
-							5
-						],
-						"scaled_num": [
-							0,
-							0.2
+							1,
+							1
 						]
 					}
 				]
@@ -53,7 +46,7 @@
 		}
 	},
 	{
-		"type": "terrain",
+		"type": "furniture",
 		"id": "f_mush_toad_mh",
 		"name": "toadstool",
 		"description": "A poisonous fungus. Perhaps it has other effects as well...",
@@ -64,16 +57,13 @@
 			"blue",
 			"white"
 		],
-		"move_cost": 8,
+		"move_cost_mod": 1,
+		"required_str": -1,
 		"flags": [
 			"TRANSPARENT",
-			"CONTAINER",
-			"FLAMMABLE_ASH",
-			"THIN_OBSTACLE",
-			"ORGANIC",
-			"SHORT"
+			"TINY",
+			"NOCOLLIDE"
 		],
-		"transforms_into": "t_grass",
 		"examine_action": "harvest_furn",
 		"harvest_by_season": [
 			{
@@ -86,12 +76,8 @@
 					{
 						"drop": "mh_toadstool",
 						"base_num": [
-							2,
-							5
-						],
-						"scaled_num": [
-							0,
-							0.12
+							1,
+							1
 						]
 					}
 				]
@@ -106,7 +92,7 @@
 		}
 	},
 	{
-		"type": "terrain",
+		"type": "furniture",
 		"id": "f_mush_chaos_mh",
 		"name": "chaos mushroom",
 		"description": "Said to cause chaos. Its spores cause monsters to hallucinate.",
@@ -117,14 +103,12 @@
 			"blue",
 			"white"
 		],
-		"move_cost": 8,
+		"move_cost_mod": 1,
+		"required_str": -1,
 		"flags": [
 			"TRANSPARENT",
-			"CONTAINER",
-			"FLAMMABLE_ASH",
-			"THIN_OBSTACLE",
-			"ORGANIC",
-			"SHORT"
+			"TINY",
+			"NOCOLLIDE"
 		],
 		"examine_action": "harvest_furn",
 		"harvest_by_season": [
@@ -139,11 +123,7 @@
 						"drop": "mh_chaosmushroom",
 						"base_num": [
 							1,
-							4
-						],
-						"scaled_num": [
-							0,
-							0.21
+							1
 						]
 					}
 				]
@@ -411,20 +391,28 @@
 						"base_num": [
 							0,
 							1
+						],
+						"scaled_num": [
+							0,
+							-1
 						]
 					},
 					{
 						"drop": "mh_carpenterbug",
 						"base_num": [
-							4,
-							7
+							0,
+							1
 						]
 					},
 					{
 						"drop": "mh_thunderbug",
 						"base_num": [
 							0,
-							3
+							1
+						],
+						"scaled_num": [
+							0,
+							-0.5
 						]
 					}
 				]
@@ -470,21 +458,33 @@
 						"drop": "mh_hornfly",
 						"base_num": [
 							0,
-							5
+							1
+						],
+						"scaled_num": [
+							0,
+							-5
 						]
 					},
 					{
 						"drop": "mh_ladybug",
 						"base_num": [
 							0,
-							5
+							1
+						],
+						"scaled_num": [
+							0,
+							-5
 						]
 					},
 					{
 						"drop": "mh_godbug",
 						"base_num": [
-							1,
-							3
+							0,
+							1
+						],
+						"scaled_num": [
+							0,
+							-1
 						]
 					}
 				]
@@ -524,15 +524,19 @@
 					{
 						"drop": "mh_bonehusk_s",
 						"base_num": [
-							13,
-							24
+							0,
+							4
 						]
 					},
 					{
 						"drop": "mh_bonehusk_l",
 						"base_num": [
-							3,
-							8
+							0,
+							1
+						],
+						"scaled_num": [
+							0,
+							-1
 						]
 					}
 				]
