@@ -8,10 +8,10 @@
 		],
 		"field_coverage": {
 			"other": {
-				"t_shrub_nuts_mh": 0.21,
-				"t_shrub_veggy_mh": 0.2,
-				"f_bugs_common_mh": 0.18,
-				"f_bugs_rare_mh": 0.15,
+				"t_shrub_nuts_mh": 0.55,
+				"t_shrub_veggy_mh": 0.5,
+				"f_bugs_common_mh": 0.525,
+				"f_bugs_rare_mh": 0.5,
 				"f_miningpoint_small": 0.8,
 				"f_miningpoint_medium": 0.5,
 				"f_miningpoint_large": 0.3
@@ -22,21 +22,21 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 0.85,
-							"t_shrub_veggy_mh": 0.8,
-							"f_bugs_common_mh": 0.73,
-							"f_bugs_rare_mh": 0.7,
-							"f_mush_nitro_mh": 0.68,
-							"f_mush_toad_mh": 0.67,
-							"f_mush_chaos_mh": 0.6,
-							"f_bone_ammu_mh": 0.58
+							"t_shrub_nuts_mh": 1,
+							"t_shrub_veggy_mh": 1
 						}
 					},
 					"clutter": {
 						"types": {
 							"f_miningpoint_small": 32,
 							"f_miningpoint_medium": 2,
-							"f_miningpoint_large": 0.25
+							"f_miningpoint_large": 0.25,
+							"f_bugs_common_mh": 1,
+							"f_bugs_rare_mh": 1,
+							"f_mush_nitro_mh": 1,
+							"f_mush_toad_mh": 1,
+							"f_mush_chaos_mh": 1,
+							"f_bone_ammu_mh": 1
 						}
 					}
 				}
@@ -45,20 +45,21 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 0.85,
-							"t_shrub_veggy_mh": 0.8,
-							"f_bugs_common_mh": 0.72,
-							"f_mush_nitro_mh": 0.68,
-							"f_mush_toad_mh": 0.67,
-							"f_mush_chaos_mh": 0.6,
-							"f_bone_ammu_mh": 0.58
+							"t_shrub_nuts_mh": 1,
+							"t_shrub_veggy_mh": 1
 						}
 					},
 					"clutter": {
 						"types": {
 							"f_miningpoint_small": 32,
 							"f_miningpoint_medium": 2,
-							"f_miningpoint_large": 0.25
+							"f_miningpoint_large": 0.25,
+							"f_bugs_common_mh": 1,
+							"f_bugs_rare_mh": 1,
+							"f_mush_nitro_mh": 1,
+							"f_mush_toad_mh": 1,
+							"f_mush_chaos_mh": 1,
+							"f_bone_ammu_mh": 1
 						}
 					}
 				}
@@ -67,20 +68,20 @@
 				"components": {
 					"shrubs_and_flowers": {
 						"types": {
-							"t_shrub_nuts_mh": 0.65,
-							"t_shrub_veggy_mh": 0.6,
-							"f_bugs_common_mh": 0.33,
-							"f_bugs_rare_mh": 0.3,
-							"f_mush_nitro_mh": 0.5,
-							"f_mush_toad_mh": 0.5,
-							"f_mush_chaos_mh": 0.5,
-							"f_bone_ammu_mh": 0.015
+							"t_shrub_nuts_mh": 1,
+							"t_shrub_veggy_mh": 1
 						}
 					},
 					"clutter": {
 						"types": {
-							"f_miningpoint_small": 0.5,
-							"f_miningpoint_medium": 0.25
+							"f_miningpoint_small": 1,
+							"f_miningpoint_medium": 1,
+							"f_bugs_common_mh": 1,
+							"f_bugs_rare_mh": 1,
+							"f_mush_nitro_mh": 1,
+							"f_mush_toad_mh": 1,
+							"f_mush_chaos_mh": 1,
+							"f_bone_ammu_mh": 1
 						}
 					}
 				}
