@@ -1,19 +1,18 @@
 {
 	"type": "item_group",
-	"subtype": "collection",
 	"id": "mh_thunderbug_drops",
-	"entries": [
-		{
-			"item": "mh_thunderbug",
-			"chance": 75
-		},
-		{
-			"item": "thunderbug_juice",
-			"chance": 20
-		},
-		{
-			"item": "mon_fluid",
-			"chance": 5
-		}
+	"items": [
+		[
+			"mh_thunderbug",
+			75
+		],
+		[
+			"thunderbug_juice",
+			20
+		],
+		[
+			"mon_fluid",
+			5
+		]
 	]
 }
