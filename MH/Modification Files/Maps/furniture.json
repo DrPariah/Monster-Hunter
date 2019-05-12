@@ -1,5 +1,110 @@
 [
 	{
+		"//": "Your trusty chest! Its max capacity allow you to put every materials - or even the equipments you have!",
+		"type": "furniture",
+		"id": "f_mh_chest",
+		"name": "chest",
+		"description": "A chest, with astounding details around it.",
+		"symbol": "O",
+		"bgcolor": "brown",
+		"move_cost_mod": -1,
+		"coverage": 60,
+		"required_str": 10,
+		"flags": [
+			"TRANSPARENT",
+			"CONTAINER",
+			"FLAMMABLE",
+			"PLACE_ITEM",
+			"ORGANIC",
+			"MOUNTABLE",
+			"SHORT"
+		],
+		"deconstruct": {
+			"items": [
+				{
+					"item": "2x4",
+					"count": 4
+				},
+				{
+					"item": "nail",
+					"charges": [
+						6,
+						10
+					]
+				}
+			]
+		},
+		"max_volume": 10000,
+		"bash": {
+			"str_min": 12,
+			"str_max": 40,
+			"sound": "smash!",
+			"sound_fail": "wham!",
+			"items": [
+				{
+					"item": "2x4",
+					"count": [
+						1,
+						5
+					]
+				},
+				{
+					"item": "nail",
+					"charges": [
+						2,
+						10
+					]
+				}
+			]
+		}
+	},
+	{
+		"type": "furniture",
+		"id": "f_mush_blue_mh",
+		"name": "blue mushroom",
+		"description": "Rare mushroom with a power-enhancing effect.",
+		"symbol": "i",
+		"color": [
+			"blue",
+			"light_blue",
+			"blue",
+			"white"
+		],
+		"move_cost_mod": 1,
+		"required_str": -1,
+		"flags": [
+			"TRANSPARENT",
+			"TINY",
+			"NOCOLLIDE"
+		],
+		"examine_action": "harvest_furn",
+		"harvest_by_season": [
+			{
+				"seasons": [
+					"spring",
+					"summer",
+					"autumn"
+				],
+				"entries": [
+					{
+						"drop": "mh_mush_blue",
+						"base_num": [
+							1,
+							1
+						]
+					}
+				]
+			}
+		],
+		"bash": {
+			"str_min": 4,
+			"str_max": 60,
+			"sound": "splat.",
+			"sound_fail": "brush.",
+			"ter_set": "t_dirt"
+		}
+	},
+	{
 		"type": "furniture",
 		"id": "f_mush_nitro_mh",
 		"name": "nitroshroom",
@@ -160,17 +265,25 @@
 			"sound_fail": "thump.",
 			"items": [
 				{
+					"item": "mh_stone",
+					"count": [
+						0,
+						8
+					],
+					"prob": 75
+				},
+				{
 					"item": "mh_diskstone",
 					"count": [
-						2,
-						4
+						0,
+						2
 					],
 					"prob": 70
 				},
 				{
 					"item": "mh_ironore",
 					"count": [
-						1,
+						0,
 						4
 					],
 					"prob": 60
@@ -178,15 +291,15 @@
 				{
 					"item": "mh_earthcrystal",
 					"count": [
-						1,
-						3
+						0,
+						2
 					],
 					"prob": 55
 				},
 				{
 					"item": "mh_machaliteore",
 					"count": [
-						1,
+						0,
 						2
 					],
 					"prob": 40
@@ -235,41 +348,49 @@
 			"sound_fail": "thump.",
 			"items": [
 				{
+					"item": "mh_stone",
+					"count": [
+						0,
+						10
+					],
+					"prob": 80
+				},
+				{
 					"item": "mh_diskstone",
 					"count": [
-						4,
-						8
+						0,
+						4
 					],
 					"prob": 80
 				},
 				{
 					"item": "mh_ironore",
 					"count": [
-						2,
-						8
+						0,
+						6
 					],
 					"prob": 70
 				},
 				{
 					"item": "mh_earthcrystal",
 					"count": [
-						2,
-						6
+						0,
+						4
 					],
 					"prob": 65
 				},
 				{
 					"item": "mh_machaliteore",
 					"count": [
-						2,
-						4
+						0,
+						3
 					],
 					"prob": 50
 				},
 				{
 					"item": "mh_icecrytal",
 					"count": [
-						1,
+						0,
 						4
 					],
 					"prob": 45
@@ -277,7 +398,7 @@
 				{
 					"item": "mh_lightcrystal",
 					"count": [
-						1,
+						0,
 						2
 					],
 					"prob": 40
@@ -307,49 +428,57 @@
 			"sound_fail": "thump.",
 			"items": [
 				{
+					"item": "mh_stone",
+					"count": [
+						0,
+						14
+					],
+					"prob": 85
+				},
+				{
 					"item": "mh_diskstone",
 					"count": [
-						8,
-						16
+						0,
+						8
 					],
 					"prob": 90
 				},
 				{
 					"item": "mh_ironore",
 					"count": [
-						4,
-						16
+						0,
+						14
 					],
 					"prob": 80
 				},
 				{
 					"item": "mh_earthcrystal",
 					"count": [
-						4,
-						12
+						0,
+						6
 					],
 					"prob": 75
 				},
 				{
 					"item": "mh_machaliteore",
 					"count": [
-						4,
-						8
+						0,
+						5
 					],
 					"prob": 60
 				},
 				{
 					"item": "mh_icecrytal",
 					"count": [
-						2,
-						8
+						0,
+						6
 					],
 					"prob": 55
 				},
 				{
 					"item": "mh_lightcrystal",
 					"count": [
-						2,
+						0,
 						4
 					],
 					"prob": 50
@@ -413,6 +542,17 @@
 						"scaled_num": [
 							0,
 							-0.5
+						]
+					},
+					{
+						"drop": "mh_flashbug",
+						"base_num": [
+							0,
+							1
+						],
+						"scaled_num": [
+							0,
+							-2.25
 						]
 					}
 				]
@@ -486,6 +626,17 @@
 							0,
 							-1
 						]
+					},
+					{
+						"drop": "mh_flashbug",
+						"base_num": [
+							0,
+							2
+						],
+						"scaled_num": [
+							0,
+							-2.25
+						]
 					}
 				]
 			}
@@ -522,10 +673,25 @@
 				],
 				"entries": [
 					{
+						"drop": "monbone",
+						"base_num": [
+							0,
+							3
+						],
+						"scaled_num": [
+							0,
+							-2.25
+						]
+					},
+					{
 						"drop": "mh_bonehusk_s",
 						"base_num": [
 							0,
 							4
+						],
+						"scaled_num": [
+							0,
+							-1
 						]
 					},
 					{
@@ -536,7 +702,74 @@
 						],
 						"scaled_num": [
 							0,
-							-1
+							-5
+						]
+					}
+				]
+			}
+		],
+		"bash": {
+			"str_min": 3,
+			"str_max": 9,
+			"sound": "clatter.",
+			"sound_fail": "clack."
+		}
+	},
+	{
+		"type": "furniture",
+		"id": "f_bone_ammu_misc",
+		"name": "bone pile",
+		"description": "A pile of monster bones.",
+		"symbol": "%",
+		"color": "white",
+		"move_cost_mod": 1,
+		"required_str": -1,
+		"flags": [
+			"TRANSPARENT",
+			"TINY",
+			"NOCOLLIDE"
+		],
+		"examine_action": "harvest_furn",
+		"harvest_by_season": [
+			{
+				"seasons": [
+					"spring",
+					"summer",
+					"autumn",
+					"winter"
+				],
+				"entries": [
+					{
+						"drop": "monbone",
+						"base_num": [
+							0,
+							3
+						],
+						"scaled_num": [
+							0,
+							-2.25
+						]
+					},
+					{
+						"drop": "monbone_mystery",
+						"base_num": [
+							0,
+							2
+						],
+						"scaled_num": [
+							0,
+							-2.5
+						]
+					},
+					{
+						"drop": "monbone_unknown",
+						"base_num": [
+							0,
+							1
+						],
+						"scaled_num": [
+							0,
+							-5
 						]
 					}
 				]
