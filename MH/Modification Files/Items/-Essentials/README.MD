@@ -12,11 +12,6 @@ The results are forwarded to resistance and weapon damage calculations.
 * **acid** = `water` + `ice` / 2 * 3
 * **fire** = `fire` * 1.75
 * **elec** = `thunder` * 1.75
-* **chip** = 12
+* **chip** = 100
 
-### Weapon Damage
-This is calculated before adding the 10 to **bash** and **cut** resistance results.
-
-* ***base*** = **bash** + **cut** / 2 * 2.5
-
-***Base*** is required to calculate the damage by weapon type.
+Chip resistance is intended to be that high.
