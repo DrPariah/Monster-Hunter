@@ -13,11 +13,12 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
-	},{
+	},
+	{
 		"type": "GENERIC",
 		"id": "ceanataur_shell",
 		"symbol": ",",
@@ -31,8 +32,46 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 175,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_carapace",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "ceanataur carapace",
+		"description": "Harder than a ceanataur shell, this carapace is harder to work with.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_shell_heavy",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "heavy ceanataur shell",
+		"description": "Heavier than a ceanataur carapace. Top-grade material needs an expert crafter.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -50,8 +89,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 225,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_claw_hard",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "hard ceanataur claw",
+		"description": "A heavy giant shogun ceanataur claw. Its thickness is perfect for weaponry.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -69,8 +127,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 225,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -88,8 +146,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 500,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ceanataur_leg_heavy",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "heavy ceanataur leg",
+		"description": "Heavy leg of a shogun ceanataur. It's wanted for its thickness and shape.",
+		"price": 0,
+		"material": [
+			"ceanataur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

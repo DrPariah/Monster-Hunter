@@ -13,8 +13,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 25,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ioprey_fang",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "ioprey fang",
+		"description": "Fang filled with deadly poison. Care is required while handling it.",
+		"price": 0,
+		"material": [
+			"ioprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -24,7 +43,7 @@
 		"symbol": ",",
 		"color": "light_red",
 		"name": "ioprey hide",
-		"description": "descaled hide, often made into belts. Red belts are used in decorations.",
+		"description": "Descaled hide, often made into belts. Red belts are used in decorations.",
 		"price": 0,
 		"material": [
 			"ioprey"
@@ -32,8 +51,28 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "ioprey_hide_plus",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "ioprey hide+",
+		"name_plural": "ioprey hides+",
+		"description": "High quality, descaled hide of an ioprey, the red skin resists poison.",
+		"price": 0,
+		"material": [
+			"ioprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +90,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 75,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -70,8 +109,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 150,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

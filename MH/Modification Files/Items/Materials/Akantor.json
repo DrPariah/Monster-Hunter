@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 575,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +32,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 625,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +51,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 775,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -70,8 +70,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 600,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -89,8 +89,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 500,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -108,8 +108,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 550,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

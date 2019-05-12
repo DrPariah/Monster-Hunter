@@ -13,11 +13,12 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
-	},{
+	},
+	{
 		"type": "GENERIC",
 		"id": "hermitaur_shell",
 		"symbol": ",",
@@ -31,8 +32,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 175,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -50,8 +51,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 225,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

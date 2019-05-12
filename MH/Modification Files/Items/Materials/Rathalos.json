@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 150,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +32,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 175,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +51,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 225,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -62,7 +62,7 @@
 		"symbol": ",",
 		"color": "red",
 		"name": "rathalos tail",
-		"description": "The tail of a Rathalos. A multi-purpose item.",
+		"description": "The tail of a rathalos. A multi-purpose item.",
 		"price": 0,
 		"material": [
 			"rathalos"
@@ -70,8 +70,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 550,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -81,7 +81,7 @@
 		"symbol": ",",
 		"color": "red",
 		"name": "rathalos wing",
-		"description": "A valuable item. Used by smiths at the armory to make powerful equipment..",
+		"description": "A valuable item. Used by smiths at the armory to make powerful equipment.",
 		"price": 0,
 		"material": [
 			"rathalos"
@@ -89,8 +89,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 625,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -108,8 +108,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 450,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -127,8 +127,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 500,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

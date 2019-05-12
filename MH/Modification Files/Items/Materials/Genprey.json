@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 25,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +32,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "genprey_fang",
+		"symbol": ",",
+		"color": "brown",
+		"name": "genprey fang",
+		"description": "Poisonous fang from a genprey. Paralyzing toxin even works on wyverns.",
+		"price": 0,
+		"material": [
+			"genprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +70,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 75,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -70,8 +89,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 125,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -89,8 +108,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 150,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 25,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +32,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "velociprey_fang",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "velociprey fang",
+		"description": "Sharp (though not as sharp as a wyvern fang). Used in bowgun ammunition.",
+		"price": 0,
+		"material": [
+			"velociprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +70,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 75,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -70,11 +89,12 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 125,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
-	},{
+	},
+	{
 		"type": "GENERIC",
 		"id": "velocidrome_head",
 		"symbol": ",",
@@ -88,8 +108,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 150,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

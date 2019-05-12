@@ -4,7 +4,7 @@
 		"id": "hypnocatrice_pelt",
 		"symbol": ",",
 		"color": "light_red",
-		"name": "hypnocatrice pelt",
+		"name": "orange hypnocatrice pelt",
 		"description": "Vibrant orange pelt of a hypnocatrice. It's great for making strong leather.",
 		"price": 0,
 		"material": [
@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 125,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -23,7 +23,7 @@
 		"id": "hypnocatrice_claw",
 		"symbol": ",",
 		"color": "light_red",
-		"name": "hypnocatrice claw",
+		"name": "top-grade hypnocatrice claw",
 		"description": "Very sharp and rigid quality claw. The shine is proof of its quality.",
 		"price": 0,
 		"material": [
@@ -32,8 +32,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 225,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +51,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 325,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -70,8 +70,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 500,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -90,7 +90,26 @@
 			"NO_SALVAGE"
 		],
 		"weight": 100,
-		"volume": 1,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "hypnocatrice_fang",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "hypnocatrice fang",
+		"description": "This beak looks like a fang. Its hardness is good for combining.",
+		"price": 0,
+		"material": [
+			"hypnocatrice"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

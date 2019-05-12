@@ -1,10 +1,10 @@
 [
 	{
 		"type": "GENERIC",
-		"id": "hornetaur_hide",
+		"id": "hornetaur_shell",
 		"symbol": ",",
 		"color": "gray",
-		"name": "hornetaur hide",
+		"name": "hornetaur shell",
 		"description": "With special materials, this can be worked into very strong armor.",
 		"price": 0,
 		"material": [
@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 75,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +32,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 25,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "hornetaur_head",
+		"symbol": ",",
+		"color": "gray",
+		"name": "hornetaur head",
+		"description": "With special materials, can be worked into strong weapons or armor.",
+		"price": 0,
+		"material": [
+			"hornetaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

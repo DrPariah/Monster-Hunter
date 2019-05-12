@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 175,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +32,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 225,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +51,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 275,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -70,8 +70,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 475,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -81,7 +81,7 @@
 		"symbol": ",",
 		"color": "pink",
 		"name": "chameleos tail",
-		"description": "The distinctive tail of the cameleos. It causes a strange sensation.",
+		"description": "The distinctive tail of the chameleos. It causes a strange sensation.",
 		"price": 0,
 		"material": [
 			"chameleos"
@@ -89,8 +89,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 675,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

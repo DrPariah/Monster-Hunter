@@ -13,8 +13,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 75,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -24,7 +24,7 @@
 		"symbol": ",",
 		"color": "light_blue",
 		"name": "kelbi horn",
-		"description": "Infusions off powdered kelbi horn are used as medicine.",
+		"description": "Infusions of powdered kelbi horn are used as medicine.",
 		"price": 0,
 		"material": [
 			"bone"
@@ -32,8 +32,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 25,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

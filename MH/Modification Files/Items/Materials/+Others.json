@@ -1,13 +1,33 @@
 [
 	{
 		"//": "Other materials that are found in the world, may be it foraging, mining or pseudo-bug catching.",
+		"//": "Honey for crafting purposes. Inedible thus it can't rot.",
+		"type": "GENERIC",
+		"id": "mh_honey",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "honey",
+		"description": "Normal honey. Highly nutritious.",
+		"price": 0,
+		"material": [
+			"honey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
 		"type": "GENERIC",
 		"id": "mh_huskberry",
 		"symbol": ",",
 		"color": "gray",
 		"name": "huskberry",
 		"name_plural": "huskberries",
-		"description": "An empty berry that can grow anywhere. Try planting it in the field.",
+		"description": "An empty berry that can grow anywhere.",
 		"price": 0,
 		"material": [
 			"nut"
@@ -15,8 +35,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 20,
-		"volume": 1,
+		"weight": 10,
+		"volume": "5ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -27,7 +47,7 @@
 		"color": "gray",
 		"name": "needleberry",
 		"name_plural": "needleberries",
-		"description": "Berry covered in needle-like thorns. Can be made into bullets. Plantable.",
+		"description": "Berry covered in needle-like thorns. Can be made into bullets.",
 		"price": 0,
 		"material": [
 			"nut"
@@ -35,8 +55,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 30,
-		"volume": 1,
+		"weight": 10,
+		"volume": "5ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -55,8 +75,65 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 10,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_sleepherb",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "sleep herb",
+		"description": "Plant with sleep-inducing qualities.",
+		"price": 0,
+		"material": [
+			"veggy"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 15,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_fireherb",
+		"symbol": ",",
+		"color": "red",
+		"name": "fire herb",
+		"description": "A plant that has flammable properties.",
+		"price": 0,
+		"material": [
+			"veggy"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 15,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_sunsetherb",
+		"symbol": ",",
+		"color": "blue",
+		"name": "sunset herb",
+		"description": "A strange herb with a pleasant smell.",
+		"price": 0,
+		"material": [
+			"veggy"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 15,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -66,7 +143,7 @@
 		"symbol": ",",
 		"color": "white",
 		"name": "sap plant",
-		"description": "A plant with leaves coated in sticky sap. Difficult  to remove once attached.",
+		"description": "A plant with leaves coated in sticky sap. Difficult to remove once attached.",
 		"price": 0,
 		"material": [
 			"veggy"
@@ -74,8 +151,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 25,
-		"volume": 1,
+		"weight": 15,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -94,8 +171,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 100,
-		"volume": 2,
+		"weight": 20,
+		"volume": "15ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_mush_blue",
+		"symbol": ",",
+		"color": "blue",
+		"name": "blue mushroom",
+		"description": "Rare mushrooms with a power-enhancing effect",
+		"price": 0,
+		"material": [
+			"mushroom"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 10,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -113,8 +209,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 70,
-		"volume": 1,
+		"weight": 10,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -132,8 +228,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 60,
-		"volume": 1,
+		"weight": 10,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -151,8 +247,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 75,
-		"volume": 1,
+		"weight": 10,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_stone",
+		"symbol": ",",
+		"color": "white",
+		"name": "stone",
+		"description": "A small rock. Can be thrown.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -170,8 +285,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 365,
-		"volume": 1,
+		"weight": 50,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -189,8 +304,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 615,
-		"volume": 1,
+		"weight": 50,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -208,8 +323,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 535,
-		"volume": 1,
+		"weight": 50,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -227,8 +342,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 840,
-		"volume": 1,
+		"weight": 50,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -237,7 +352,7 @@
 		"id": "mh_lightcrystal",
 		"symbol": ",",
 		"color": "white",
-		"name": "light crystal",
+		"name": "lightcrystal",
 		"description": "Crystal with a dull glow. Extremely hard, it is used for tools in the armory.",
 		"price": 0,
 		"material": [
@@ -246,8 +361,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 765,
-		"volume": 1,
+		"weight": 50,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -265,8 +380,217 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 505,
-		"volume": 1,
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_dragoniteore",
+		"symbol": ",",
+		"color": "light_green",
+		"name": "dragonite ore",
+		"description": "Better than machalite. Extremely valuable. Also called dragonstone.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_carbaliteore",
+		"symbol": ",",
+		"color": "dark_blue",
+		"name": "carbalite ore",
+		"description": "An experimental ore also called spiritstone, it is superior to dragonite.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_eltaliteore",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "eltalite ore",
+		"description": "Better than carbalite ore. New material with great potential. AKA kitestone.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_unionore",
+		"symbol": ",",
+		"color": "pink",
+		"name": "union ore",
+		"description": "Ore with a metal that can fuse other material together. AKA dovestone.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_mellanjeore",
+		"symbol": ",",
+		"color": "white",
+		"name": "mellanje ore",
+		"description": "Soft, easy to work with ore that combines well. AKA pidgeonstone.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_firestone",
+		"symbol": ",",
+		"color": "red",
+		"name": "firestone",
+		"description": "Combusts at room temperature. Mix with suitable materials only. AKA phoenixstone.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_firecellstone",
+		"symbol": ",",
+		"color": "light_red",
+		"name": "firecell stone",
+		"description": "A magma-like ore. Only to be handled by trained hands. AKA eagle's eye.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_novacrystal",
+		"symbol": ",",
+		"color": "white",
+		"name": "novacrystal",
+		"description": "Blightly glowing crystal. Extremely hard, it is used for tools in the armory.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_purecrystal",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "purecrystal",
+		"description": "100% pure and extremely hard, it's even used in workshop machinery.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_astone",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "antiseptic stone",
+		"description": "An unnatural crystal with enhanced antiseptic qualities.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_rainbowore",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "rainbow ore",
+		"description": "Beautiful ore. Colors and properties depend on many variables.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 50,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -284,8 +608,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 120,
-		"volume": 1,
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_flashbug",
+		"symbol": ",",
+		"color": "light_yellow",
+		"name": "flashbug",
+		"description": "An insect that emits a powerful light when it dies.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -303,8 +646,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 95,
-		"volume": 1,
+		"weight": 25,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -322,8 +665,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 100,
-		"volume": 1,
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_bitterbug",
+		"symbol": ",",
+		"color": "dark_blue",
+		"name": "bitterbug",
+		"description": "Contains a bitter essence. Mildly used in making medicines.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -341,8 +703,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 250,
-		"volume": 1,
+		"weight": 25,
+		"volume": "10ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -360,8 +722,370 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 265,
-		"volume": 1,
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_kscarab",
+		"symbol": ",",
+		"color": "dark_blue",
+		"name": "king scarab",
+		"description": "The royal class of the scarabs, with a hard shell a lustrous wings.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_ecricket",
+		"symbol": ",",
+		"color": "dark_yellow",
+		"name": "emperor cricket",
+		"description": "Exceptionally strong shell makes it a good counterpart to soft materials.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_kbeetle",
+		"symbol": ",",
+		"color": "green",
+		"name": "killer beetle",
+		"description": "Insect with a hard shell and dazzling wings. Used as an abrasive.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_hercudrome",
+		"symbol": ",",
+		"color": "red",
+		"name": "hercudrome",
+		"description": "Said to be the world's strongest bug. Widely used in making equipment.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_rscarab",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "rare scarab",
+		"description": "A rare, prized insect. Used to increase the power of metal objects.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_pbut",
+		"symbol": ",",
+		"color": "white",
+		"name": "phantom butterfly",
+		"description": "Rarely seen by humans, its wings shimmer like precious gems.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_rinsect",
+		"symbol": ",",
+		"color": "pink",
+		"name": "rainbow insect",
+		"description": "Beautiful insect material. Colors and properties depend on many variables.",
+		"price": 0,
+		"material": [
+			"iflesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_pintuna",
+		"symbol": ",",
+		"color": "gray",
+		"name": "pin tuna",
+		"description": "A fish with a jaw covered in tiny needle-like spikes.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_stuna",
+		"symbol": ",",
+		"color": "gray",
+		"name": "speartuna",
+		"description": "A gigantic fish with a long spear-like horn.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_rumblefish",
+		"symbol": ",",
+		"color": "dark_gray",
+		"name": "rumblefish",
+		"description": "A fish that cracks open with killed.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_scatterfish",
+		"symbol": ",",
+		"color": "light_gray",
+		"name": "scatterfish",
+		"description": "A fish that shatters open when killed.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_buarowana",
+		"symbol": ",",
+		"color": "light_green",
+		"name": "burst arrowana",
+		"description": "A fish that ruptures open when killed.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_boarowana",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "bomb arrowana",
+		"description": "A fish that ruptures open when killed.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_speartuna",
+		"symbol": ",",
+		"color": "dark_blue",
+		"name": "spear tuna",
+		"description": "A rare and valuable giant-sized fish. What could it be used for...?.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_kmackerel",
+		"symbol": ",",
+		"color": "yellow",
+		"name": "knife mackerel",
+		"description": "A fish with a dorsal fin hard enough to be used to sharpen weapons.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_sgoldfish",
+		"symbol": ",",
+		"color": "light_yellow",
+		"name": "small goldenfish",
+		"description": "A curiously small, rare, gold fish. Commands a high price.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_sfish",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "sleepyfish",
+		"name_plural": "sleepyfishes",
+		"description": "A fish with sleep-inducing properties.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_afish",
+		"symbol": ",",
+		"color": "light_yellow",
+		"name": "ancient fish",
+		"description": "A precious fish which can be almost entirely used as material.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_scarp",
+		"symbol": ",",
+		"color": "light_yellow",
+		"name": "springnight carp",
+		"description": "A species of carp whose arrival signals the start of breeding season.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "20ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -380,7 +1104,7 @@
 			"NO_SALVAGE"
 		],
 		"weight": 10,
-		"volume": 1,
+		"volume": "5ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -398,8 +1122,160 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 10,
+		"volume": "5ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone",
+		"symbol": ",",
+		"color": "white",
+		"name": "bone",
+		"description": "Just a bone. So worn and weathered, it is unidentifiable.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 20,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone_mystery",
+		"symbol": ",",
+		"color": "white",
+		"name": "mystery bone",
+		"description": "A well-worn bone. Not sturdy enough to use in combination.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 20,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone_unknown",
+		"symbol": ",",
+		"color": "white",
+		"name": "unknown skull",
+		"description": "Animal skull. So worn and weathered, it is unidentifiable.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 20,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "monbone_master",
+		"symbol": ",",
+		"color": "white",
+		"name": "master's skull",
+		"description": "The remains of a top hunter who once let his guard down.",
+		"price": 0,
+		"material": [
+			"bone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 20,
+		"volume": "10ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_bombmat",
+		"symbol": ",",
+		"color": "white",
+		"name": "bomb material",
+		"description": "Basic ingredient for making hand-thrown bombs.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "mh_gunpowder",
+		"symbol": ",",
+		"color": "red",
+		"name": "gunpowder",
+		"description": "A dangerous chemical that explodes when disturbed or heated.",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 25,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "pokke_ticket",
+		"symbol": ",",
+		"color": "light_blue",
+		"name": "pokke ticket",
+		"description": "Received for contributions to pokke village. If you give it to the craftsman...",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 5,
+		"volume": "5ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "commendation_ticket",
+		"symbol": ",",
+		"color": "light_gray",
+		"name": "commmendation",
+		"description": "Proof of bravery and strength. Try collecting these!",
+		"price": 0,
+		"material": [
+			"stone"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 5,
+		"volume": "5ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

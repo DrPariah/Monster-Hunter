@@ -12,8 +12,8 @@
 	"flags": [
 		"NO_SALVAGE"
 	],
-	"weight": 75,
-	"volume": 1,
+	"weight": 100,
+	"volume": "25ml",
 	"category": "spare_parts",
 	"to_hit": -1
 }

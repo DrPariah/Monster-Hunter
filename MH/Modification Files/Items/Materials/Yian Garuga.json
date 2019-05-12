@@ -13,8 +13,28 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 125,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "garuga_scale_plus",
+		"symbol": ",",
+		"color": "blue",
+		"name": "garuga scale+",
+		"name_plural": "garuga scales+",
+		"description": "Superior garuga scale. Looks like a kut-ku scale, but it's much tougher.",
+		"price": 0,
+		"material": [
+			"garuga"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +52,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 150,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -51,8 +71,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 475,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -70,8 +90,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 200,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -89,8 +109,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 400,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -108,8 +128,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 500,
-		"volume": 2,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}

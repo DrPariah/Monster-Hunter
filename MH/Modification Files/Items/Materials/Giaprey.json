@@ -13,8 +13,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 25,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "giaprey_scale_plus",
+		"symbol": ",",
+		"color": "white",
+		"name": "giaprey scale+",
+		"description": "Scale ripped from a giaprey. Used to craft excellent equipments.",
+		"price": 0,
+		"material": [
+			"giaprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -32,8 +51,27 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 50,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "giaprey_hide_plus",
+		"symbol": ",",
+		"color": "white",
+		"name": "giaprey hide+",
+		"description": "High quality giaprey hide. A pathway to the creation of sturdy equipments.",
+		"price": 0,
+		"material": [
+			"giaprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -46,13 +84,13 @@
 		"description": "The hide of a giadrome. It bears the scars of the leader's battles.",
 		"price": 0,
 		"material": [
-			"genprey"
+			"giaprey"
 		],
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 75,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -62,6 +100,25 @@
 		"symbol": ",",
 		"color": "white",
 		"name": "giadrome claw",
+		"description": "Sharper than giaprey claw, touching it bare-handed is quite dangerous.",
+		"price": 0,
+		"material": [
+			"giaprey"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "giadrome_claw_plus",
+		"symbol": ",",
+		"color": "white",
+		"name": "giadrome claw+",
 		"description": "A sharp giadrome claw. The deadly weapon of a giaprey pack leader.",
 		"price": 0,
 		"material": [
@@ -70,8 +127,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 125,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	},
@@ -89,8 +146,8 @@
 		"flags": [
 			"NO_SALVAGE"
 		],
-		"weight": 150,
-		"volume": 1,
+		"weight": 100,
+		"volume": "25ml",
 		"category": "spare_parts",
 		"to_hit": -1
 	}
