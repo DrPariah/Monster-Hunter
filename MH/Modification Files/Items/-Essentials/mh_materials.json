@@ -1,5 +1,45 @@
 [
 	{
+		"type": "material",
+		"ident": "mh_fur",
+		"name": "Fur",
+		"density": 10,
+		"bash_resist": 9,
+		"cut_resist": 9,
+		"acid_resist": 5,
+		"fire_resist": 0,
+		"elec_resist": 0,
+		"chip_resist": 100,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
+		"type": "material",
+		"ident": "mh_bone",
+		"name": "Bone",
+		"density": 10,
+		"bash_resist": 14,
+		"cut_resist": 16,
+		"acid_resist": 0,
+		"fire_resist": 4,
+		"elec_resist": 0,
+		"chip_resist": 100,
+		"dmg_adj": [
+			"scratched",
+			"cut",
+			"cracked",
+			"shattered"
+		],
+		"bash_dmg_verb": "cracked",
+		"cut_dmg_verb": "chipped"
+	},
+	{
 		"//": "18",
 		"type": "material",
 		"ident": "vespoid",
@@ -10,7 +50,7 @@
 		"acid_resist": 0,
 		"fire_resist": 0,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -31,7 +71,7 @@
 		"acid_resist": 0,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -52,7 +92,7 @@
 		"acid_resist": 6,
 		"fire_resist": 0,
 		"elec_resist": 2,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -61,7 +101,8 @@
 		],
 		"bash_dmg_verb": "cracked",
 		"cut_dmg_verb": "chipped"
-	},{
+	},
+	{
 		"//": "18",
 		"type": "material",
 		"ident": "velociprey",
@@ -72,7 +113,7 @@
 		"acid_resist": 2,
 		"fire_resist": 2,
 		"elec_resist": 2,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -81,7 +122,8 @@
 		],
 		"bash_dmg_verb": "cracked",
 		"cut_dmg_verb": "chipped"
-	},{
+	},
+	{
 		"//": "20",
 		"type": "material",
 		"ident": "genprey",
@@ -92,7 +134,7 @@
 		"acid_resist": 0,
 		"fire_resist": 4,
 		"elec_resist": 5,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -101,7 +143,8 @@
 		],
 		"bash_dmg_verb": "cracked",
 		"cut_dmg_verb": "chipped"
-	},{
+	},
+	{
 		"//": "23",
 		"type": "material",
 		"ident": "ioprey",
@@ -112,7 +155,7 @@
 		"acid_resist": 5,
 		"fire_resist": 5,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -121,7 +164,8 @@
 		],
 		"bash_dmg_verb": "cracked",
 		"cut_dmg_verb": "chipped"
-	},{
+	},
+	{
 		"//": "23",
 		"type": "material",
 		"ident": "remobra",
@@ -132,7 +176,7 @@
 		"acid_resist": 0,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -153,7 +197,7 @@
 		"acid_resist": 0,
 		"fire_resist": 4,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -174,7 +218,7 @@
 		"acid_resist": 3,
 		"fire_resist": 0,
 		"elec_resist": 7,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -195,7 +239,7 @@
 		"acid_resist": 0,
 		"fire_resist": 4,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -216,7 +260,7 @@
 		"acid_resist": 6,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -237,7 +281,7 @@
 		"acid_resist": 6,
 		"fire_resist": 0,
 		"elec_resist": 7,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -258,7 +302,7 @@
 		"acid_resist": 6,
 		"fire_resist": 0,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -279,7 +323,7 @@
 		"acid_resist": 0,
 		"fire_resist": 4,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -300,7 +344,7 @@
 		"acid_resist": 0,
 		"fire_resist": 4,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -321,7 +365,7 @@
 		"acid_resist": 0,
 		"fire_resist": 4,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -342,7 +386,7 @@
 		"acid_resist": 0,
 		"fire_resist": 4,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -363,7 +407,7 @@
 		"acid_resist": 0,
 		"fire_resist": 5,
 		"elec_resist": 2,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -384,7 +428,7 @@
 		"acid_resist": 5,
 		"fire_resist": 5,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -405,7 +449,7 @@
 		"acid_resist": 5,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -426,7 +470,7 @@
 		"acid_resist": 12,
 		"fire_resist": 4,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -447,7 +491,7 @@
 		"acid_resist": 14,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -468,7 +512,7 @@
 		"acid_resist": 6,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -489,7 +533,7 @@
 		"acid_resist": 9,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -510,7 +554,7 @@
 		"acid_resist": 5,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -531,7 +575,7 @@
 		"acid_resist": 3,
 		"fire_resist": 2,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -552,7 +596,7 @@
 		"acid_resist": 8,
 		"fire_resist": 0,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -573,7 +617,7 @@
 		"acid_resist": 2,
 		"fire_resist": 0,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -594,7 +638,7 @@
 		"acid_resist": 8,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -615,7 +659,7 @@
 		"acid_resist": 3,
 		"fire_resist": 0,
 		"elec_resist": 7,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -636,7 +680,7 @@
 		"acid_resist": 9,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -657,7 +701,7 @@
 		"acid_resist": 11,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -678,7 +722,7 @@
 		"acid_resist": 0,
 		"fire_resist": 9,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -699,7 +743,7 @@
 		"acid_resist": 0,
 		"fire_resist": 8,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -720,7 +764,7 @@
 		"acid_resist": 6,
 		"fire_resist": 0,
 		"elec_resist": 0,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
@@ -741,7 +785,7 @@
 		"acid_resist": 6,
 		"fire_resist": 0,
 		"elec_resist": 4,
-		"chip_resist": 12,
+		"chip_resist": 100,
 		"dmg_adj": [
 			"scratched",
 			"cut",
