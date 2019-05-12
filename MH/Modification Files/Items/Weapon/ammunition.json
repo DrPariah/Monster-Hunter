@@ -1,12 +1,13 @@
 [
 	{
-		"//": "Elemental, abnormal, pellet and cluster ammunition are not available in CDDA.",
+		"//": "Elemental, abnormal, pellet and cluster ammunition are not included.",
 		"type": "ammunition_type",
 		"id": "mhammo",
 		"name": "Bowgun Shots",
 		"default": "normals1"
 	},
 	{
+		"//": "Bullet type focused on the base power of bowgun. No armor pierce, so it is not recommended for heavily armor targets.",
 		"type": "AMMO",
 		"id": "normals1",
 		"price": 100,
@@ -19,11 +20,11 @@
 		"weight": 20,
 		"bashing": 1,
 		"ammo_type": "mhammo",
-		"damage": 5,
-		"pierce": 5,
-		"dispersion": 150,
+		"damage": 0,
+		"pierce": 0,
+		"dispersion": 200,
 		"loudness": 4,
-		"count": 10,
+		"count": 3,
 		"effects": [
 			"NO_EMBED",
 			"COOKOFF"
@@ -42,11 +43,11 @@
 		"weight": 25,
 		"bashing": 1,
 		"ammo_type": "mhammo",
-		"damage": 10,
-		"pierce": 5,
-		"dispersion": 150,
+		"damage": 2,
+		"pierce": 0,
+		"dispersion": 200,
 		"loudness": 5,
-		"count": 10,
+		"count": 3,
 		"effects": [
 			"NO_EMBED",
 			"COOKOFF"
@@ -65,17 +66,18 @@
 		"weight": 25,
 		"bashing": 1,
 		"ammo_type": "mhammo",
-		"damage": 20,
-		"pierce": 5,
-		"dispersion": 150,
+		"damage": 5,
+		"pierce": 0,
+		"dispersion": 200,
 		"loudness": 6,
-		"count": 10,
+		"count": 3,
 		"effects": [
 			"NO_EMBED",
 			"COOKOFF"
 		]
 	},
 	{
+		"//": "Bullet type focused on its armor penetration power. Lacks damage, but very effective for heavily armored targets. Also good for long ranged sniping.",
 		"type": "AMMO",
 		"id": "pierces1",
 		"price": 1400,
@@ -88,15 +90,15 @@
 		"weight": 30,
 		"bashing": 1,
 		"ammo_type": "mhammo",
-		"damage": 10,
-		"pierce": 20,
+		"damage": 0,
+		"pierce": 15,
 		"dispersion": 100,
+		"range": 5,
 		"loudness": 6,
 		"count": 10,
 		"effects": [
 			"NO_EMBED",
 			"COOKOFF"
-			
 		]
 	},
 	{
@@ -112,9 +114,10 @@
 		"weight": 40,
 		"bashing": 1,
 		"ammo_type": "mhammo",
-		"damage": 10,
-		"pierce": 25,
+		"damage": 0,
+		"pierce": 30,
 		"dispersion": 100,
+		"range": 10,
 		"loudness": 6,
 		"count": 10,
 		"effects": [
@@ -135,9 +138,10 @@
 		"weight": 50,
 		"bashing": 1,
 		"ammo_type": "mhammo",
-		"damage": 10,
-		"pierce": 30,
+		"damage": 0,
+		"pierce": 60,
 		"dispersion": 100,
+		"range": 15,
 		"loudness": 6,
 		"count": 10,
 		"effects": [
@@ -146,6 +150,7 @@
 		]
 	},
 	{
+		"//": "Bullet type focused on the base power of bowgun that stuns certain targets. Unstable recoil, so spamming this shot is not recommended",
 		"type": "AMMO",
 		"id": "crags1",
 		"price": 7000,
@@ -159,11 +164,12 @@
 		"bashing": 1,
 		"ammo_type": "mhammo",
 		"range": 0,
-		"damage": 5,
-		"pierce": 15,
+		"damage": 0,
+		"pierce": 10,
 		"dispersion": 200,
 		"loudness": 8,
 		"count": 10,
+		"recoil": 250,
 		"explosion": {
 			"power": 15,
 			"distance_factor": 0.1
@@ -189,10 +195,11 @@
 		"bashing": 1,
 		"ammo_type": "mhammo",
 		"range": 0,
-		"damage": 15,
-		"pierce": 15,
+		"damage": 0,
+		"pierce": 10,
 		"dispersion": 200,
 		"loudness": 8,
+		"recoil": 500,
 		"count": 10,
 		"explosion": {
 			"power": 30,
@@ -219,11 +226,12 @@
 		"bashing": 1,
 		"ammo_type": "mhammo",
 		"range": 0,
-		"damage": 30,
-		"pierce": 15,
+		"damage": 0,
+		"pierce": 10,
 		"dispersion": 200,
 		"loudness": 8,
 		"count": 10,
+		"recoil": 1000,
 		"explosion": {
 			"power": 60,
 			"distance_factor": 0.1
