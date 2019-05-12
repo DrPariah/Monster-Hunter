@@ -400,7 +400,7 @@
 		]
 	},
 	{
-		"id": "kirin_lightning",
+		"id": "kirinlv1_lightning",
 		"type": "AMMO",
 		"name": "lightning strike",
 		"description": "\"Thunderous applaud!\"",
