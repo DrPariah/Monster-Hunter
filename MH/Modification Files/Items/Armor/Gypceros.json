@@ -16,7 +16,7 @@
 		"symbol": "[",
 		"color": "light_blue",
 		"covers": [
-			"HEAD"
+			"HEAD","EYES"
 		],
 		"coverage": 100,
 		"encumbrance": 20,
@@ -29,7 +29,7 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY",
+			"STURDY","FIT",
 			"ELECTRIC_IMMUNE"
 		]
 	},
@@ -39,7 +39,7 @@
 		"category": "armor",
 		"name": "gypceros mail",
 		"description": "Gypceros hide makes this armor rubbery and resistant to physical damage.",
-		"weight": 2500,
+		"weight": 2500,"storage":80,
 		"volume": 15,
 		"price": 0,
 		"to_hit": -1,
@@ -59,7 +59,7 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY",
+			"STURDY","FIT",
 			"OUTER",
 			"ELECTRIC_IMMUNE"
 		]
@@ -92,7 +92,7 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY",
+			"STURDY","FIT",
 			"BLOCK_WHILE_WORN",
 			"ELECTRIC_IMMUNE"
 		]
@@ -103,7 +103,14 @@
 		"category": "armor",
 		"name": "gypceros tasset",
 		"description": "Made by wrapping gypceros hide. The thick, meaty hide provides ample protection.",
-		"weight": 1750,
+		"weight": 1750,"use_action": {
+      "type": "holster",
+      "holster_prompt": "Sheath knife",
+      "holster_msg": "You sheath your %s",
+      "max_volume": 2,
+      "draw_cost": 30,
+      "flags": [ "SHEATH_KNIFE" ]
+    },
 		"volume": 10,
 		"price": 0,
 		"material": [
@@ -121,7 +128,7 @@
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
-			"STURDY",
+			"STURDY","FIT",
 			"WATERPROOF",
 			"BELTED",
 			"OUTER",
@@ -153,7 +160,7 @@
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
-			"STURDY",
+			"STURDY","FIT",
 			"WATERPROOF",
 			"ELECTRIC_IMMUNE"
 		]

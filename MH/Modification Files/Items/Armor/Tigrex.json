@@ -16,7 +16,7 @@
 		"symbol": "[",
 		"color": "yellow",
 		"covers": [
-			"HEAD"
+			"HEAD","EYES"
 		],
 		"coverage": 100,
 		"encumbrance": 20,
@@ -27,6 +27,7 @@
 			"WBLOCK_1"
 		],
 		"flags": [
+			"FIT",
 			"VARSIZE",
 			"WATERPROOF",
 			"STURDY"
@@ -38,7 +39,7 @@
 		"category": "armor",
 		"name": "tigrex mail",
 		"description": "Made from tigrex materials. Armor worn by those who've exorcised its evil curse.",
-		"weight": 2500,
+		"weight": 2500,"storage":80,
 		"volume": 15,
 		"price": 0,
 		"to_hit": -1,
@@ -58,7 +59,7 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY",
+			"STURDY","FIT",
 			"OUTER"
 		]
 	},
@@ -90,7 +91,7 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY",
+			"STURDY","FIT",
 			"BLOCK_WHILE_WORN"
 		]
 	},
@@ -100,7 +101,14 @@
 		"category": "armor",
 		"name": "tigrex tasset",
 		"description": "Made from tigrex materials. The fiendish, impervious armor of a brutal tyrant.",
-		"weight": 1750,
+		"weight": 1750,"use_action": {
+      "type": "holster",
+      "holster_prompt": "Sheath knife",
+      "holster_msg": "You sheath your %s",
+      "max_volume": 2,
+      "draw_cost": 30,
+      "flags": [ "SHEATH_KNIFE" ]
+    },
 		"volume": 10,
 		"price": 0,
 		"material": [
@@ -118,7 +126,7 @@
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
-			"STURDY",
+			"STURDY","FIT",
 			"WATERPROOF",
 			"BELTED",
 			"OUTER"
@@ -149,7 +157,7 @@
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
-			"STURDY",
+			"STURDY","FIT",
 			"WATERPROOF"
 		]
 	}
