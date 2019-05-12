@@ -17,6 +17,7 @@
 			"flesh",
 			"hermitaur"
 		],
+		"dodge": 1,
 		"symbol": "C",
 		"color": "light_red",
 		"aggression": 5,
@@ -28,11 +29,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 7
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 4
 			}
 		],
 		"armor_bash": 5,
@@ -77,6 +78,7 @@
 			"flesh",
 			"ceanataur"
 		],
+		"dodge": 2,
 		"symbol": "C",
 		"color": "light_blue",
 		"aggression": 20,
@@ -88,11 +90,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 6
+				"amount": 8
 			}
 		],
 		"armor_bash": 6,

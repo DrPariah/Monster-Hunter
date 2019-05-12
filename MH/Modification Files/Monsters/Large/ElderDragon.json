@@ -11,13 +11,14 @@
 		"volume": "92500 ml",
 		"weight": 120000,
 		"hp": 1225,
-		"speed": 120,
+		"speed": 110,
 		"harvest": "kirin_carve",
 		"material": [
 			"flesh",
 			"kirin"
 		],
 		"symbol": "E",
+		"dodge": 4,
 		"color": "light_blue",
 		"aggression": 30,
 		"morale": 50,
@@ -29,7 +30,7 @@
 		"melee_damage": [
 			{
 				"damage_type": "electric",
-				"amount": 2
+				"amount": 6
 			},
 			{
 				"damage_type": "bash",
@@ -37,7 +38,7 @@
 			},
 			{
 				"damage_type": "stab",
-				"amount": 8
+				"amount": 12
 			}
 		],
 		"armor_bash": 14,
@@ -53,15 +54,15 @@
 			"NORMAL"
 		],
 		"starting_ammo": {
-			"kirin_lightning": 1000
+			"kirinlv1_lightning": 1000
 		},
 		"special_attacks": [
 			{
 				"type": "gun",
 				"cooldown": 30,
 				"move_cost": 200,
-				"gun_type": "kirin_horn",
-				"ammo_type": "kirin_lightning",
+				"gun_type": "kirin_horntip",
+				"ammo_type": "kirinlv1_lightning",
 				"fake_dex": 8,
 				"fake_skills": [
 					[
@@ -124,17 +125,18 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 5650,
-		"speed": 115,
+		"speed": 105,
 		"harvest": "daora_carve",
 		"material": [
 			"flesh",
 			"daora"
 		],
 		"symbol": "E",
+		"dodge": 3,
 		"color": "dark_gray",
 		"aggression": 30,
 		"morale": 50,
-		"melee_skill": 10,
+		"melee_skill": 15,
 		"melee_dice": 2,
 		"melee_dice_sides": 6,
 		"melee_cut": 6,
@@ -146,11 +148,11 @@
 			},
 			{
 				"damage_type": "bash",
-				"amount": 4
+				"amount": 6
 			},
 			{
 				"damage_type": "cut",
-				"amount": 12
+				"amount": 16
 			}
 		],
 		"armor_bash": 13,
@@ -231,29 +233,37 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 8575,
-		"speed": 75,
+		"speed": 70,
 		"harvest": "chameleos_carve",
 		"material": [
 			"flesh",
 			"chameleos"
 		],
 		"symbol": "E",
+		"dodge": 1,
 		"color": "pink",
 		"aggression": 30,
 		"morale": 50,
-		"melee_skill": 10,
+		"melee_skill": 15,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
 		"melee_cut": 4,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "badpoison",
+				"duration": 50,
+				"chance": 50
+			}
+		],
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 6
+				"amount": 8
 			},
 			{
 				"damage_type": "cut",
-				"amount": 10
+				"amount": 16
 			}
 		],
 		"armor_bash": 13,
@@ -330,17 +340,18 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 7800,
-		"speed": 115,
+		"speed": 100,
 		"harvest": "lunastra_carve",
 		"material": [
 			"flesh",
 			"lunastra"
 		],
 		"symbol": "E",
+		"dodge": 2,
 		"color": "blue",
 		"aggression": 30,
 		"morale": 50,
-		"melee_skill": 10,
+		"melee_skill": 15,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
 		"melee_cut": 6,
@@ -348,7 +359,7 @@
 		"melee_damage": [
 			{
 				"damage_type": "heat",
-				"amount": 2
+				"amount": 6
 			},
 			{
 				"damage_type": "bash",
@@ -356,7 +367,7 @@
 			},
 			{
 				"damage_type": "cut",
-				"amount": 10
+				"amount": 14
 			}
 		],
 		"armor_bash": 14,
@@ -433,17 +444,18 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 8075,
-		"speed": 120,
+		"speed": 100,
 		"harvest": "teostra_carve",
 		"material": [
 			"flesh",
 			"teostra"
 		],
 		"symbol": "E",
+		"dodge": 2,
 		"color": "red",
 		"aggression": 30,
 		"morale": 50,
-		"melee_skill": 10,
+		"melee_skill": 15,
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
 		"melee_cut": 6,
@@ -451,7 +463,7 @@
 		"melee_damage": [
 			{
 				"damage_type": "heat",
-				"amount": 3
+				"amount": 8
 			},
 			{
 				"damage_type": "bash",
@@ -459,7 +471,7 @@
 			},
 			{
 				"damage_type": "cut",
-				"amount": 12
+				"amount": 14
 			}
 		],
 		"armor_bash": 15,
@@ -546,7 +558,7 @@
 		"color": "dark_gray",
 		"aggression": 30,
 		"morale": 50,
-		"melee_skill": 10,
+		"melee_skill": 20,
 		"melee_dice": 8,
 		"melee_dice_sides": 10,
 		"melee_cut": 0,
@@ -554,7 +566,7 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 16
+				"amount": 30
 			}
 		],
 		"armor_bash": 14,
@@ -581,11 +593,11 @@
 		]
 	},
 	{
-		"//": "It is the strongest, compared to ukanlos - the end-game monster of MHFU.",
+		"//": "It is the strongest, compared to ukanlos - the end-game monster of MHFU. Having to fight this personal is deadlier than ranged.",
 		"id": "mon_fatalis",
 		"type": "MONSTER",
 		"name": "fatalis",
-		"description": "A legendary black dragon said to have prowled these lands from days of old. Many skilled hunters have sought to challenge it, but noneever return. A monster shrouded in mystery.",
+		"description": "A legendary black dragon said to have prowled these lands from days of old. Many skilled hunters have sought to challenge it, but none ever return. A monster shrouded in mystery.",
 		"default_faction": "edragon",
 		"species": [
 			"EDRAGON"
@@ -593,29 +605,34 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 19975,
-		"speed": 80,
+		"speed": 70,
 		"harvest": "fatalis_carve",
 		"material": [
 			"flesh",
 			"fatalis"
 		],
 		"symbol": "E",
+		"dodge": 1,
 		"color": "black",
 		"aggression": 30,
 		"morale": 50,
-		"melee_skill": 10,
-		"melee_dice": 8,
-		"melee_dice_sides": 8,
-		"melee_cut": 8,
+		"melee_skill": 30,
+		"melee_dice": 10,
+		"melee_dice_sides": 10,
+		"melee_cut": 10,
 		"attack_cost": 125,
 		"melee_damage": [
 			{
+				"damage_type": "heat",
+				"amount": 10
+			},
+			{
 				"damage_type": "bash",
-				"amount": 22
+				"amount": 28
 			},
 			{
 				"damage_type": "cut",
-				"amount": 12
+				"amount": 24
 			}
 		],
 		"armor_bash": 17,

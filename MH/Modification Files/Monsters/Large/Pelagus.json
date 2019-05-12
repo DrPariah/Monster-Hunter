@@ -11,12 +11,13 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 1325,
-		"speed": 100,
+		"speed": 90,
 		"harvest": "congalala_carve",
 		"material": [
 			"flesh",
 			"congalala"
 		],
+		"dodge": 2,
 		"symbol": "P",
 		"color": "pink",
 		"aggression": 0,
@@ -29,11 +30,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 6
+				"amount": 8
 			}
 		],
 		"armor_bash": 9,
@@ -73,12 +74,13 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 2250,
-		"speed": 105,
+		"speed": 95,
 		"harvest": "blangonga_carve",
 		"material": [
 			"flesh",
 			"blangonga"
 		],
+		"dodge": 3,
 		"symbol": "P",
 		"color": "white",
 		"aggression": 0,
@@ -91,15 +93,15 @@
 		"melee_damage": [
 			{
 				"damage_type": "cold",
-				"amount": 1
+				"amount": 2
 			},
 			{
 				"damage_type": "bash",
-				"amount": 10
+				"amount": 12
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 4
 			}
 		],
 		"armor_bash": 11,

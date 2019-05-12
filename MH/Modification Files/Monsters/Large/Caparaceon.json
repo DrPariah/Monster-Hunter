@@ -11,7 +11,7 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 1725,
-		"speed": 85,
+		"speed": 70,
 		"harvest": "hermitaur_carve",
 		"material": [
 			"flesh",
@@ -19,6 +19,7 @@
 		],
 		"symbol": "C",
 		"color": "light_red",
+		"dodge": 1,
 		"aggression": 0,
 		"morale": 5,
 		"melee_skill": 10,
@@ -29,7 +30,7 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 8
+				"amount": 10
 			},
 			{
 				"damage_type": "cut",
@@ -110,7 +111,7 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 2175,
-		"speed": 95,
+		"speed": 75,
 		"harvest": "ceanataur_carve",
 		"material": [
 			"flesh",
@@ -118,6 +119,7 @@
 		],
 		"symbol": "C",
 		"color": "light_blue",
+		"dodge": 1,
 		"aggression": 0,
 		"morale": 15,
 		"melee_skill": 10,
@@ -173,7 +175,7 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 11550,
-		"speed": 65,
+		"speed": 60,
 		"harvest": "gaoren_carve",
 		"material": [
 			"flesh",

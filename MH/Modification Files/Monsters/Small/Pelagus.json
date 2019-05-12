@@ -16,6 +16,7 @@
 		"material": [
 			"flesh"
 		],
+		"dodge": 1,
 		"symbol": "P",
 		"color": "brown",
 		"aggression": 10,
@@ -24,14 +25,17 @@
 		"melee_dice": 4,
 		"melee_dice_sides": 4,
 		"melee_cut": 2,
+		"attack_effs": [
+      { "id": "stunned", "duration": 2, "chance": 5 }
+    ],
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 4
+				"amount": 5
 			},
 			{
 				"damage_type": "stab",
-				"amount": 2
+				"amount": 3
 			}
 		],
 		"armor_bash": 0,
@@ -74,6 +78,7 @@
 			"flesh"
 		],
 		"symbol": "P",
+		"dodge": 2,
 		"color": "brown",
 		"aggression": 10,
 		"morale": 40,
@@ -81,14 +86,17 @@
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
 		"melee_cut": 2,
+		"attack_effs": [
+      { "id": "stunned", "duration": 2, "chance": 10 }
+    ],
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 6
+				"amount": 8
 			},
 			{
 				"damage_type": "stab",
-				"amount": 3
+				"amount": 5
 			}
 		],
 		"armor_bash": 0,
@@ -132,6 +140,7 @@
 			"congalala",
 			"flesh"
 		],
+		"dodge": 2,
 		"symbol": "P",
 		"color": "pink",
 		"aggression": 10,
@@ -143,11 +152,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 3
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 6
 			}
 		],
 		"armor_bash": 5,
@@ -194,7 +203,8 @@
 			"flesh"
 		],
 		"symbol": "P",
-		"color": "pink",
+		"dodge": 2,
+		"color": "white",
 		"aggression": 10,
 		"morale": 40,
 		"melee_skill": 4,
@@ -208,11 +218,11 @@
 			},
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 5
 			}
 		],
 		"armor_bash": 6,

@@ -15,7 +15,7 @@
 		"harvest": "anteka_carve",
 		"material": [
 			"flesh"
-		],
+		],"dodge": 1,
 		"symbol": "H",
 		"color": "brown",
 		"aggression": 0,
@@ -137,6 +137,7 @@
 		"material": [
 			"flesh"
 		],
+		"dodge": 5,
 		"symbol": "H",
 		"color": "light_blue",
 		"aggression": -30,

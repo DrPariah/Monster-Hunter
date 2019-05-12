@@ -11,12 +11,13 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 2075,
-		"speed": 90,
+		"speed": 80,
 		"harvest": "khezu_carve",
 		"material": [
 			"flesh",
 			"khezu"
 		],
+		"dodge": 1,
 		"symbol": "W",
 		"color": "white",
 		"aggression": 0,
@@ -25,15 +26,26 @@
 		"melee_dice": 2,
 		"melee_dice_sides": 4,
 		"melee_cut": 6,
+		"attack_effs": [
+			{
+				"id": "zapped",
+				"duration": 2,
+				"chance": 5
+			}
+		],
 		"attack_cost": 125,
 		"melee_damage": [
 			{
+				"damage_type": "electric",
+				"amount": 4
+			},
+			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 6
 			},
 			{
 				"damage_type": "cut",
-				"amount": 8
+				"amount": 10
 			}
 		],
 		"armor_bash": 10,
@@ -112,13 +124,14 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 2400,
-		"speed": 75,
+		"speed": 70,
 		"harvest": "basarios_carve",
 		"material": [
 			"flesh",
 			"basarios"
 		],
 		"symbol": "W",
+		"dodge": 1,
 		"color": "white",
 		"aggression": 0,
 		"morale": 10,
@@ -129,8 +142,12 @@
 		"attack_cost": 125,
 		"melee_damage": [
 			{
+				"damage_type": "heat",
+				"amount": 3
+			},
+			{
 				"damage_type": "bash",
-				"amount": 6
+				"amount": 10
 			}
 		],
 		"armor_bash": 10,
@@ -208,13 +225,14 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 2275,
-		"speed": 105,
+		"speed": 80,
 		"harvest": "monoblos_carve",
 		"material": [
 			"flesh",
 			"monoblos"
 		],
 		"symbol": "W",
+		"dodge": 2,
 		"color": "brown",
 		"aggression": 0,
 		"morale": 20,
@@ -223,14 +241,21 @@
 		"melee_dice_sides": 6,
 		"melee_cut": 2,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "stunned",
+				"duration": 2,
+				"chance": 5
+			}
+		],
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 4
+				"amount": 6
 			},
 			{
 				"damage_type": "stab",
-				"amount": 6
+				"amount": 10
 			}
 		],
 		"armor_bash": 11,
@@ -270,13 +295,14 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 2825,
-		"speed": 105,
+		"speed": 95,
 		"harvest": "rathian_carve",
 		"material": [
 			"flesh",
 			"rathian"
 		],
 		"symbol": "W",
+		"dodge": 2,
 		"color": "green",
 		"aggression": 0,
 		"morale": 30,
@@ -285,6 +311,13 @@
 		"melee_dice_sides": 6,
 		"melee_cut": 4,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "poison",
+				"duration": 50,
+				"chance": 5
+			}
+		],
 		"melee_damage": [
 			{
 				"damage_type": "bash",
@@ -292,7 +325,7 @@
 			},
 			{
 				"damage_type": "cut",
-				"amount": 4
+				"amount": 12
 			}
 		],
 		"armor_bash": 13,
@@ -369,12 +402,13 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 3125,
-		"speed": 110,
+		"speed": 100,
 		"harvest": "rathalos_carve",
 		"material": [
 			"flesh",
 			"rathalos"
 		],
+		"dodge": 3,
 		"symbol": "W",
 		"color": "red",
 		"aggression": 0,
@@ -384,14 +418,25 @@
 		"melee_dice_sides": 6,
 		"melee_cut": 5,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "poison",
+				"duration": 25,
+				"chance": 5
+			}
+		],
 		"melee_damage": [
+			{
+				"damage_type": "heat",
+				"amount": 2
+			},
 			{
 				"damage_type": "bash",
 				"amount": 6
 			},
 			{
 				"damage_type": "cut",
-				"amount": 6
+				"amount": 12
 			}
 		],
 		"armor_bash": 13,
@@ -468,13 +513,14 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 3850,
-		"speed": 85,
+		"speed": 75,
 		"harvest": "gravios_carve",
 		"material": [
 			"flesh",
 			"gravios"
 		],
 		"symbol": "W",
+		"dodge": 1,
 		"color": "dark_gray",
 		"aggression": 0,
 		"morale": 30,
@@ -484,6 +530,10 @@
 		"melee_cut": 0,
 		"attack_cost": 125,
 		"melee_damage": [
+			{
+				"damage_type": "heat",
+				"amount": 4
+			},
 			{
 				"damage_type": "bash",
 				"amount": 14
@@ -570,6 +620,7 @@
 			"diablos"
 		],
 		"symbol": "W",
+		"dodge": 2,
 		"color": "brown",
 		"aggression": 0,
 		"morale": 30,
@@ -577,6 +628,13 @@
 		"melee_dice": 6,
 		"melee_dice_sides": 6,
 		"melee_cut": 4,
+		"attack_effs": [
+			{
+				"id": "stunned",
+				"duration": 2,
+				"chance": 10
+			}
+		],
 		"attack_cost": 125,
 		"melee_damage": [
 			{
@@ -585,7 +643,7 @@
 			},
 			{
 				"damage_type": "stab",
-				"amount": 6
+				"amount": 12
 			}
 		],
 		"armor_bash": 13,
@@ -626,12 +684,13 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 4375,
-		"speed": 120,
+		"speed": 105,
 		"harvest": "tigrex_carve",
 		"material": [
 			"flesh",
 			"tigrex"
 		],
+		"dodge": 3,
 		"symbol": "W",
 		"color": "yellow",
 		"aggression": 10,
@@ -641,6 +700,18 @@
 		"melee_dice_sides": 8,
 		"melee_cut": 6,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "dazed",
+				"duration": 5,
+				"chance": 20
+			},
+			{
+				"id": "stunned",
+				"duration": 2,
+				"chance": 5
+			}
+		],
 		"melee_damage": [
 			{
 				"damage_type": "bash",
@@ -648,7 +719,7 @@
 			},
 			{
 				"damage_type": "cut",
-				"amount": 10
+				"amount": 12
 			}
 		],
 		"armor_bash": 13,
@@ -687,13 +758,14 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 3525,
-		"speed": 130,
+		"speed": 110,
 		"harvest": "nargacuga_carve",
 		"material": [
 			"flesh",
 			"nargacuga"
 		],
 		"symbol": "W",
+		"dodge": 5,
 		"color": "black",
 		"aggression": 5,
 		"morale": 50,
@@ -702,6 +774,13 @@
 		"melee_dice_sides": 6,
 		"melee_cut": 6,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "downed",
+				"duration": 5,
+				"chance": 15
+			}
+		],
 		"melee_damage": [
 			{
 				"damage_type": "bash",
@@ -709,7 +788,7 @@
 			},
 			{
 				"damage_type": "cut",
-				"amount": 12
+				"amount": 18
 			}
 		],
 		"armor_bash": 11,
@@ -729,7 +808,7 @@
 		"special_attacks": [
 			{
 				"type": "gun",
-				"cooldown": 25,
+				"cooldown": 20,
 				"move_cost": 200,
 				"gun_type": "narga_tail",
 				"ammo_type": "narga_blade",
@@ -786,7 +865,7 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 7250,
-		"speed": 90,
+		"speed": 75,
 		"harvest": "akantor_carve",
 		"material": [
 			"flesh",
@@ -801,18 +880,30 @@
 		"melee_dice_sides": 6,
 		"melee_cut": 6,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "dazed",
+				"duration": 5,
+				"chance": 25
+			},
+			{
+				"id": "stunned",
+				"duration": 2,
+				"chance": 10
+			}
+		],
 		"melee_damage": [
 			{
 				"damage_type": "heat",
-				"amount": 2
+				"amount": 5
 			},
 			{
 				"damage_type": "bash",
-				"amount": 10
+				"amount": 18
 			},
 			{
 				"damage_type": "cut",
-				"amount": 14
+				"amount": 22
 			}
 		],
 		"armor_bash": 14,
@@ -890,7 +981,7 @@
 		"volume": "875000 ml",
 		"weight": 200000,
 		"hp": 11775,
-		"speed": 90,
+		"speed": 75,
 		"harvest": "ukanlos_carve",
 		"material": [
 			"flesh",
@@ -905,18 +996,30 @@
 		"melee_dice_sides": 6,
 		"melee_cut": 6,
 		"attack_cost": 125,
+		"attack_effs": [
+			{
+				"id": "dazed",
+				"duration": 5,
+				"chance": 25
+			},
+			{
+				"id": "stunned",
+				"duration": 2,
+				"chance": 10
+			}
+		],
 		"melee_damage": [
 			{
 				"damage_type": "cold",
-				"amount": 2
+				"amount": 10
 			},
 			{
 				"damage_type": "bash",
-				"amount": 12
+				"amount": 20
 			},
 			{
 				"damage_type": "cut",
-				"amount": 14
+				"amount": 26
 			}
 		],
 		"armor_bash": 16,

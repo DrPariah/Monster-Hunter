@@ -10,13 +10,14 @@
 	"volume": "875000 ml",
 	"weight": 200000,
 	"hp": 1775,
-	"speed": 75,
+	"speed": 70,
 	"harvest": "plesioth_carve",
 	"material": [
 		"flesh",
 		"plesioth"
 	],
 	"symbol": "W",
+	"dodge": 1,
 	"color": "light_blue",
 	"aggression": 0,
 	"morale": 20,
@@ -28,7 +29,7 @@
 	"melee_damage": [
 		{
 			"damage_type": "bash",
-			"amount": 12
+			"amount": 10
 		},
 		{
 			"damage_type": "cut",
@@ -47,8 +48,8 @@
 	"death_function": [
 		"NORMAL"
 	],
-	"vision_day": 15,
-	"vision_night": 7,
+	"vision_day": 30,
+	"vision_night": 10,
 	"starting_ammo": {
 		"plesioth_waterspit": 1000
 	},
@@ -86,10 +87,10 @@
 			]
 		}
 	],
+	"//": "Fishable in MH, but not in CDDA.",
 	"flags": [
 		"SEES",
 		"HEARS",
-		"FISHABLE",
 		"SWIMS",
 		"LOUDMOVES",
 		"SMELLS",

@@ -17,10 +17,14 @@
 			"iflesh",
 			"vespoid"
 		],
+		"dodge": 3,
 		"symbol": "N",
 		"color": "yellow",
 		"aggression": 50,
 		"morale": 100,
+		"attack_effs": [
+      { "id": "paralyzepoison", "duration": 50, "chance": 5 }
+    ],
 		"melee_skill": 2,
 		"melee_dice": 2,
 		"melee_dice_sides": 2,
@@ -28,7 +32,7 @@
 		"melee_damage": [
 			{
 				"damage_type": "stab",
-				"amount": 4
+				"amount": 10
 			}
 		],
 		"armor_bash": 0,
@@ -45,7 +49,6 @@
 			"HEARS",
 			"FLIES",
 			"SMELLS","ANIMAL",
-			"BLEED",
 			"PATH_AVOID_DANGER_1"
 		]
 	},
@@ -67,6 +70,7 @@
 			"iflesh",
 			"vespoid"
 		],
+		"dodge": 3,
 		"symbol": "N",
 		"color": "yellow_red",
 		"aggression": 50,
@@ -75,10 +79,13 @@
 		"melee_dice": 4,
 		"melee_dice_sides": 4,
 		"melee_cut": 6,
+		"attack_effs": [
+      { "id": "paralyzepoison", "duration": 50, "chance": 15 }
+    ],
 		"melee_damage": [
 			{
 				"damage_type": "stab",
-				"amount": 10
+				"amount": 18
 			}
 		],
 		"armor_bash": 0,
@@ -156,6 +163,7 @@
 			"hornetaur"
 		],
 		"symbol": "N",
+		"dodge": 2,
 		"color": "dark_gray",
 		"aggression": 50,
 		"morale": 100,
@@ -165,8 +173,12 @@
 		"melee_cut": 2,
 		"melee_damage": [
 			{
+				"damage_type": "bash",
+				"amount": 3
+			},
+			{
 				"damage_type": "stab",
-				"amount": 4
+				"amount": 8
 			}
 		],
 		"armor_bash": 0,
@@ -205,6 +217,7 @@
 			"iflesh"
 		],
 		"symbol": "N",
+		"dodge": 5,
 		"color": "light_blue",
 		"aggression": 50,
 		"morale": 100,
@@ -212,14 +225,17 @@
 		"melee_dice": 4,
 		"melee_dice_sides": 4,
 		"melee_cut": 0,
+		"attack_effs": [
+      { "id": "zapped", "duration": 2, "chance": 10 }
+    ],
 		"melee_damage": [
 			{
 				"damage_type": "electric",
-				"amount": 6
+				"amount": 10
 			},
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			}
 		],
 		"armor_bash": 0,

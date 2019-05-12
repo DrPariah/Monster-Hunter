@@ -3,7 +3,7 @@
 		"id": "mon_giaprey",
 		"type": "MONSTER",
 		"name": "giaprey",
-		"description": "A specie of small bird-like carnivore known to inhabit a snowy mountain. Its white skin is beautiful, but its temperament is not. It is known to spit ice at hunters, and attack in deadly packs.",
+		"description": "A specie of small bird-like carnivore known to inhabit the snowy mountain. Its white skin is beautiful, but its temperament is not. It is known to spit ice at hunters, and attack in deadly packs.",
 		"default_faction": "wyvern",
 		"species": [
 			"WYVERN"
@@ -17,6 +17,7 @@
 			"flesh",
 			"giaprey"
 		],
+		"dodge": 3,
 		"symbol": "W",
 		"color": "white",
 		"aggression": 5,
@@ -28,11 +29,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 5
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 8
 			}
 		],
 		"armor_bash": 0,
@@ -96,6 +97,66 @@
 		]
 	},
 	{
+		"id": "mon_train_giaprey",
+		"type": "MONSTER",
+		"name": "giaprey ?",
+		"description": "A specie of small bird-like carnivore known to inhabit a snowy mountain. Its white skin is beautiful, but its temperament is not. It is known to spit ice at hunters, and attack in deadly packs.",
+		"default_faction": "wyvern",
+		"species": [
+			"WYVERN"
+		],
+		"volume": "62500 ml",
+		"weight": 81500,
+		"hp": 140,
+		"speed": 90,
+		"harvest": "exempt",
+		"material": [
+			"flesh",
+			"giaprey"
+		],
+		"dodge": 2,
+		"symbol": "W",
+		"color": "white",
+		"aggression": 5,
+		"morale": 10,
+		"melee_skill": 2,
+		"melee_dice": 1,
+		"melee_dice_sides": 2,
+		"melee_cut": 1,
+		"melee_damage": [
+			{
+				"damage_type": "bash",
+				"amount": 1
+			},
+			{
+				"damage_type": "cut",
+				"amount": 1
+			}
+		],
+		"armor_bash": 0,
+		"armor_cut": 0,
+		"armor_acid": 0,
+		"armor_fire": 0,
+		"armor_elec": 0,
+		"anger_triggers": [
+			"FRIEND_ATTACKED",
+			"FRIEND_DIED"
+		],
+		"death_function": [
+			"DISAPPEAR"
+		],
+		"flags": [
+			"SEES",
+			"HEARS",
+			"GROUP_MORALE",
+			"SMELLS",
+			"ANIMAL",
+			"WARM",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
 		"id": "mon_giadrome",
 		"type": "MONSTER",
 		"name": "giadrome",
@@ -114,6 +175,7 @@
 			"giaprey"
 		],
 		"symbol": "W",
+		"dodge": 4,
 		"color": "white",
 		"aggression": 15,
 		"morale": 10,
@@ -128,11 +190,11 @@
 			},
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 4
+				"amount": 12
 			}
 		],
 		"armor_bash": 0,
@@ -214,6 +276,7 @@
 			"velociprey"
 		],
 		"symbol": "W",
+		"dodge": 3,
 		"color": "light_blue",
 		"aggression": 5,
 		"morale": 10,
@@ -224,11 +287,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 12
 			}
 		],
 		"armor_bash": 0,
@@ -273,6 +336,7 @@
 			"velociprey"
 		],
 		"symbol": "W",
+		"dodge": 4,
 		"color": "light_blue",
 		"aggression": 15,
 		"morale": 10,
@@ -283,11 +347,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 5
+				"amount": 14
 			}
 		],
 		"armor_bash": 0,
@@ -331,7 +395,11 @@
 			"flesh",
 			"genprey"
 		],
+		"attack_effs": [
+      { "id": "paralyzepoison", "duration": 50, "chance": 15 }
+    ],
 		"symbol": "W",
+		"dodge": 3,
 		"color": "brown",
 		"aggression": 5,
 		"morale": 10,
@@ -342,11 +410,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 10
 			}
 		],
 		"armor_bash": 0,
@@ -390,7 +458,11 @@
 			"flesh",
 			"genprey"
 		],
+		"attack_effs": [
+      { "id": "paralyzepoison", "duration": 50, "chance": 30 }
+    ],
 		"symbol": "W",
+		"dodge": 4,
 		"color": "brown",
 		"aggression": 15,
 		"morale": 10,
@@ -401,11 +473,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 4
+				"amount": 12
 			}
 		],
 		"armor_bash": 0,
@@ -450,21 +522,25 @@
 			"ioprey"
 		],
 		"symbol": "W",
+		"dodge": 3,
 		"color": "light_red",
 		"aggression": 5,
 		"morale": 10,
 		"melee_skill": 4,
 		"melee_dice": 2,
+		"attack_effs": [
+      { "id": "poison", "duration": 50, "chance": 15 }
+    ],
 		"melee_dice_sides": 4,
 		"melee_cut": 2,
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 14
 			}
 		],
 		"armor_bash": 0,
@@ -545,8 +621,11 @@
 		"material": [
 			"flesh",
 			"ioprey"
-		],
+		],"attack_effs": [
+      { "id": "poison", "duration": 50, "chance": 30 }
+    ],
 		"symbol": "W",
+		"dodge": 4,
 		"color": "light_red",
 		"aggression": 15,
 		"morale": 10,
@@ -557,11 +636,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 2
+				"amount": 4
 			},
 			{
 				"damage_type": "cut",
-				"amount": 4
+				"amount": 16
 			}
 		],
 		"armor_bash": 0,

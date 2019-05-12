@@ -18,6 +18,7 @@
 		"flesh",
 		"remobra"
 	],
+	"dodge": 5,
 	"symbol": "W",
 	"color": "dark_gray",
 	"aggression": 0,
@@ -26,14 +27,17 @@
 	"melee_dice": 2,
 	"melee_dice_sides": 4,
 	"melee_cut": 2,
+	"attack_effs": [
+      { "id": "poison", "duration": 50, "chance": 15 }
+    ],
 	"melee_damage": [
 		{
 			"damage_type": "bash",
-			"amount": 1
+			"amount": 6
 		},
 		{
 			"damage_type": "cut",
-			"amount": 3
+			"amount": 10
 		}
 	],
 	"armor_bash": 4,
@@ -57,6 +61,7 @@
 		"ANIMAL",
 		"WARM",
 		"BASHES",
+		"POISON",
 		"BONES",
 		"PATH_AVOID_DANGER_1"
 	]

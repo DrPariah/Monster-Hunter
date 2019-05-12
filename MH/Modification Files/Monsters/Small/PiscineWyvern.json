@@ -18,6 +18,7 @@
 			"cephalos"
 		],
 		"symbol": "W",
+		"dodge": 2,
 		"color": "brown",
 		"aggression": 0,
 		"morale": 10,
@@ -28,7 +29,11 @@
 		"melee_damage": [
 			{
 				"damage_type": "bash",
-				"amount": 6
+				"amount": 4
+			},
+			{
+				"damage_type": "cut",
+				"amount": 4
 			}
 		],
 		"armor_bash": 5,
@@ -46,7 +51,8 @@
 			"SEES",
 			"HEARS",
 			"CAN_DIG",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
@@ -72,10 +78,18 @@
 			"cephalos"
 		],
 		"symbol": "W",
+		"dodge": 3,
 		"color": "brown_yellow",
 		"aggression": 0,
 		"morale": 30,
 		"melee_skill": 10,
+		"attack_effs": [
+			{
+				"id": "paralyzepoison",
+				"duration": 50,
+				"chance": 15
+			}
+		],
 		"melee_dice": 4,
 		"melee_dice_sides": 6,
 		"melee_cut": 2,
@@ -86,7 +100,7 @@
 			},
 			{
 				"damage_type": "cut",
-				"amount": 2
+				"amount": 4
 			}
 		],
 		"armor_bash": 9,
@@ -105,7 +119,8 @@
 			"HEARS",
 			"CAN_DIG",
 			"LOUDMOVES",
-			"SMELLS","ANIMAL",
+			"SMELLS",
+			"ANIMAL",
 			"WARM",
 			"BASHES",
 			"BONES",
