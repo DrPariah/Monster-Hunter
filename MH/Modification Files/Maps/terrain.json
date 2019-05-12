@@ -26,6 +26,39 @@
 				],
 				"entries": [
 					{
+						"drop": "mh_herb",
+						"base_num": [
+							0,
+							1
+						],
+						"scaled_num": [
+							0,
+							-5
+						]
+					},
+					{
+						"drop": "mh_powerseed",
+						"base_num": [
+							0,
+							1
+						],
+						"scaled_num": [
+							-25,
+							-50
+						]
+					},
+					{
+						"drop": "mh_armorseed",
+						"base_num": [
+							0,
+							1
+						],
+						"scaled_num": [
+							-25,
+							-50
+						]
+					},
+					{
 						"drop": "mh_huskberry",
 						"base_num": [
 							1,
@@ -143,7 +176,29 @@
 				],
 				"entries": [
 					{
-						"drop": "mh_sapplant",
+						"drop": "mh_honey",
+						"base_num": [
+							0,
+							3
+						],
+						"scaled_num": [
+							0,
+							-15
+						]
+					},
+					{
+						"drop": "mh_herb",
+						"base_num": [
+							0,
+							1
+						],
+						"scaled_num": [
+							0,
+							-5
+						]
+					},
+					{
+						"drop": "mh_herbantidote",
 						"base_num": [
 							0,
 							1
@@ -154,14 +209,58 @@
 						]
 					},
 					{
+						"drop": "mh_sleepherb",
+						"base_num": [
+							0,
+							2
+						],
+						"scaled_num": [
+							0,
+							-2.5
+						]
+					},
+					{
+						"drop": "mh_fireherb",
+						"base_num": [
+							0,
+							2
+						],
+						"scaled_num": [
+							0,
+							-2.5
+						]
+					},
+					{
+						"drop": "mh_sunsetherb",
+						"base_num": [
+							0,
+							3
+						],
+						"scaled_num": [
+							0,
+							-1
+						]
+					},
+					{
+						"drop": "mh_sapplant",
+						"base_num": [
+							0,
+							1
+						],
+						"scaled_num": [
+							-0.5,
+							-2.5
+						]
+					},
+					{
 						"drop": "mh_dosbiscus",
 						"base_num": [
 							0,
 							1
 						],
 						"scaled_num": [
-							0,
-							-5
+							-10,
+							-50
 						]
 					}
 				]
