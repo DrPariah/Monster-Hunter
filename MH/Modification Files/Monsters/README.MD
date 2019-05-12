@@ -1,33 +1,119 @@
 ## Monsters
-In `MH` ecology, overpowered monsters are common to the sight of hunters, eager to be slain, but to the eyes of apocalyptic survivors... Well, what do you think?
+Monsters are separated into two types: small and large monsters. Small monsters are commonly encountered as a pack in the wilderness or in missions, while the alpha monsters are always surrounded by groups of its kind. Large monsters are considered boss, and are only seen in missions.
 
-Here's a brief explanation of monster's structure in the wastelands.
+Here are the list of small monsters by category:
+
+##### Neopterons
+* **Vespoid**
+* **Vespoid Queen**
+* **Hornetaur**
+* **Great Thunderbug**
+
+##### Herbivores
+* **Anteka**
+* **Popo**
+* **Kelbi**
+* **Mosswine**
+* **Aptonoth**
+* **Apceros**
+
+##### Bird Wyverns
+* **Giaprey**
+* **Giadrome**
+* **Velociprey**
+* **Velocidrome**
+* **Genprey**
+* **Gendrome**
+* **Ioprey**
+* **Iodrome**
+
+##### Flying Wyverns
+* **Remobra**
+
+##### Piscine Wyverns
+* **Cephalos**
+* **Cephadrome**
+
+##### Carapaceons
+* **Hermitaur**
+* **Ceanataur**
+
+##### Pelagi
+* **Bullfango**
+* **Bulldrome**
+* **Conga**
+* **Blango**
+
+Here are the list of large(boss) monsters by category and are sorted descending by their threat level:
+
+##### Bird Wyverns
+* **Yian Kut-ku**
+* **Gypceros**
+* **Yian Garuga**
+* **Hypnocatrice**
+
+##### Flying Wyverns
+* **Khezu**
+* **Basarios**
+* **Monoblos**
+* **Rathian**
+* **Rathalos**
+* **Gravios**
+* **Diablos**
+* **Tigrex**
+* **Nargacuga**
+* **Akantor**
+* **Ukanlos**
+
+##### Piscine Wyverns
+* **Plesioth**
+
+##### Carapaceons
+* **Daimyo Hemitaur**
+* **Shogun Ceanataur**
+* **Shen Gaoren**
+
+##### Pelagi
+* **Congalala**
+* **Blangonga**
+
+##### Elder Dragons
+* **Kirin**
+* **Kushala Daora**
+* **Chameleos**
+* **Lunastra**
+* **Teostra**
+* **Lao-shan Lung**
+* **Fatalis**
+
+## Monster Data
+Here's the brief explanations of monster's structure in the wastelands.
 
 ### Aggressiveness
 Some monsters are calm in the wild, though provoking makes them mad and destructive, but most lethal enemies like an `elder dragon` or some `wyvern` charges to their target upon sighting them.
 
-Wyverns, pelagi, and other monster species are enemies to each other.
+Wyverns, pelagi, and other monster species are hostile to each other.
 
 ### Health
-Large and small alpha monsters have EXTREMELY HIGH health points. Killing one is a challenge for most unprepared players.
+Large and alpha monsters have EXTREMELY HIGH health points. Killing one is a challenge and time consuming for most unprepared players.
 
 ### Attack
-Large and some small alpha monsters have constant 10 `"melee_skill"` and a damage type that varies in every monster. Some monsters deal additional effects like poison and stun, some monsters deal elemental damage, some monsters may kill you quickly with just a few blows from their normal attacks.
+Large and some small alpha monsters have different `"melee_skill"` value and a damage type that varies in every monster. Some monsters deal abnormal status effects like poison and stun, some monsters deal elemental damage, some monsters may kill you quickly with just a few blows from their basic attacks.
 
-Some extremely disastrous monsters like an akantor can take down trees and vehicle armors with ease.
+Some extremely disastrous monsters like an akantor can take down trees, walls or strong vehicle armors with ease.
+
+Remember! Your armor can't handle most attacks. Armor's role is to reduce the damage taken, not to negate them.
 
 ### Special Attacks
-Fireballs, fireblasts, firewalls, etc. **THEY ARE CURRENTLY UNIMPLEMENTED!**
-
-I'll be focusing on this after doing other essential stuff...
+Fireballs, ice breath, etc. Most of these projectiles deal elemental damage and few can inflict abnormal status effects.
 
 ### Armor
-Monster armor data is the same with their monster material resistances, except the **bash** and **cut**, which are diminished by 10.
+Monster armor data is the same with their monster material resistances, except the **bash** and **cut**, which are already diminished by 10.
 
-Small creatures like a vespoid have their armor reduced by half, while their alpha - the vespoid queen - isn't affected by this.
+Small creatures like a vespoid have their armor datas reduced by half, while their alpha - the vespoid queen - isn't affected by this.
 
 ### Carves
 Carved(butchered) items are exclusive crafting materials. If you've slain a `MH` monster, you may want to gather your rewards from it.
 
 ### Others
-Monster data like `"speed"` and `"dodge"` differs in every monsters. `Nargacuga` has high chance to dodge attacks and `Khezu` has very limited vision and mainly uses the sense of smell.
+Monster data like `"speed"` and `"dodge"` differs in every monsters.
