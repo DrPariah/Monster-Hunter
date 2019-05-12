@@ -33,10 +33,12 @@
 							"f_miningpoint_large": 0.25,
 							"f_bugs_common_mh": 1,
 							"f_bugs_rare_mh": 1,
+							"f_mush_blue_mh": 1,
 							"f_mush_nitro_mh": 1,
 							"f_mush_toad_mh": 1,
 							"f_mush_chaos_mh": 1,
-							"f_bone_ammu_mh": 1
+							"f_bone_ammu_mh": 1,
+							"f_bone_ammu_misc": 1
 						}
 					}
 				}
@@ -56,10 +58,12 @@
 							"f_miningpoint_large": 0.25,
 							"f_bugs_common_mh": 1,
 							"f_bugs_rare_mh": 1,
+							"f_mush_blue_mh": 1,
 							"f_mush_nitro_mh": 1,
 							"f_mush_toad_mh": 1,
 							"f_mush_chaos_mh": 1,
-							"f_bone_ammu_mh": 1
+							"f_bone_ammu_mh": 1,
+							"f_bone_ammu_misc": 1
 						}
 					}
 				}
@@ -78,10 +82,12 @@
 							"f_miningpoint_medium": 1,
 							"f_bugs_common_mh": 1,
 							"f_bugs_rare_mh": 1,
+							"f_mush_blue_mh": 1,
 							"f_mush_nitro_mh": 1,
 							"f_mush_toad_mh": 1,
 							"f_mush_chaos_mh": 1,
-							"f_bone_ammu_mh": 1
+							"f_bone_ammu_mh": 1,
+							"f_bone_ammu_misc": 1
 						}
 					}
 				}
