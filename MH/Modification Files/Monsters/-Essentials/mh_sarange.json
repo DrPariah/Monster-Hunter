@@ -1,7 +1,7 @@
 [
 	{
 		"//": "Most projectile has elemental damage, while few are physical. Remember that some of these projectiles inflict debuff with the use of field effects.",
-		"id": "kut-ku_beak",
+		"id": "kut-ku_beaksac",
 		"type": "GUN",
 		"name": "kut-ku beak",
 		"description": "Beak of the said name. Pretend you've put this on your mouth and breathe out things like an animal.",
@@ -39,7 +39,7 @@
 		]
 	},
 	{
-		"id": "gypceros_beak",
+		"id": "gypceros_beaksac",
 		"type": "GUN",
 		"name": "gypceros beak",
 		"description": "Beak of the said name. Pretend you've put this on your mouth and breathe out things like an animal.",
@@ -77,7 +77,7 @@
 		]
 	},
 	{
-		"id": "garuga_beak",
+		"id": "garuga_beaksac",
 		"type": "GUN",
 		"name": "garuga beak",
 		"description": "Beak of the said name. Pretend you've put this on your mouth and breathe out things like an animal.",
@@ -115,7 +115,7 @@
 		]
 	},
 	{
-		"id": "hypno_beak",
+		"id": "hypno_beaksac",
 		"type": "GUN",
 		"name": "hypnocatrice beak",
 		"description": "Beak of the said name. Pretend you've put this on your mouth and breathe out things like an animal.",
@@ -609,9 +609,9 @@
 		]
 	},
 	{
-		"id": "kirin_horn",
+		"id": "kirin_horntip",
 		"type": "GUN",
-		"name": "kirin horn",
+		"name": "kirin horntip",
 		"description": "Horn of the said name. Pretend you've put this on your head and act like you control all the elements.",
 		"weight": 5,
 		"volume": 1,
