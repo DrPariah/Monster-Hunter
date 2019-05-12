@@ -1,5 +1,5 @@
 # Monster Hunter
-* **Caution:** This mod isn't ready in-game.
+* **Due to a technical problem with my workplace, I can't merge new contents... The progress is still ongoing!**
 
 ### How to install this mod:
 
