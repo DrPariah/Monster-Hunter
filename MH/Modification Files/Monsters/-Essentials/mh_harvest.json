@@ -1,5 +1,6 @@
 [
 	{
+		"//": "Performing a full butchery process extends the chance of obtaining rare materials to maximum. Try to avoid doing other butchery actions or you'll waste most of the monster's valuables!",
 		"id": "vespoid_carve",
 		"type": "harvest",
 		"entries": [
@@ -15,18 +16,18 @@
 			},
 			{
 				"drop": "vespoid_shell",
-				"type": "bone",
-				"mass_ratio": 0.075
+				"type": "skin",
+				"mass_ratio": 0.015
 			},
 			{
 				"drop": "vespoid_wing",
 				"type": "skin",
-				"mass_ratio": 0.0025
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "mon_fluid",
 				"type": "flesh",
-				"mass_ratio": 0.0005
+				"mass_ratio": 0.007
 			}
 		]
 	},
@@ -46,23 +47,23 @@
 			},
 			{
 				"drop": "vespoid_shell",
-				"type": "bone",
-				"mass_ratio": 0.075
+				"type": "skin",
+				"mass_ratio": 0.015
 			},
 			{
 				"drop": "vespoid_wing",
 				"type": "skin",
-				"mass_ratio": 0.0025
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "vespoid_abdomen",
-				"type": "skin",
-				"mass_ratio": 0.001
+				"type": "flesh",
+				"mass_ratio": 0.005
 			},
 			{
 				"drop": "mon_fluid",
 				"type": "flesh",
-				"mass_ratio": 0.0005
+				"mass_ratio": 0.0045
 			}
 		]
 	},
@@ -81,19 +82,19 @@
 				"mass_ratio": 0.01
 			},
 			{
-				"drop": "vespoid_shell",
-				"type": "bone",
-				"mass_ratio": 0.075
+				"drop": "hornetaur_shell",
+				"type": "skin",
+				"mass_ratio": 0.015
 			},
 			{
-				"drop": "vespoid_wing",
+				"drop": "hornetaur_wing",
 				"type": "skin",
-				"mass_ratio": 0.0025
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "mon_fluid",
 				"type": "flesh",
-				"mass_ratio": 0.0005
+				"mass_ratio": 0.007
 			}
 		]
 	},
@@ -163,19 +164,19 @@
 			{
 				"drop": "anteka_pelt",
 				"type": "skin",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.0075,
 				"max": 2
 			},
 			{
 				"drop": "anteka_antler",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.0065,
 				"max": 1
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.01,
 				"max": 1
 			}
 		]
@@ -246,13 +247,19 @@
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.008,
 				"max": 10
 			},
 			{
 				"drop": "monbone_m",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
+				"max": 6
+			},
+			{
+				"drop": "monbone_brute",
+				"type": "bone",
+				"mass_ratio": 0.007,
 				"max": 6
 			}
 		]
@@ -323,19 +330,19 @@
 			{
 				"drop": "kelbi_hide",
 				"type": "skin",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.0125,
 				"max": 2
 			},
 			{
 				"drop": "kelbi_horn",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.01,
 				"max": 2
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.015,
 				"max": 6
 			}
 		]
@@ -405,20 +412,20 @@
 			},
 			{
 				"drop": "mosswine_hide",
-				"type": "bone",
-				"mass_ratio": 0.0025,
+				"type": "skin",
+				"mass_ratio": 0.01,
 				"max": 2
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.015,
 				"max": 6
 			},
 			{
 				"drop": "mh_toadstool",
 				"type": "skin",
-				"mass_ratio": 0.0005,
+				"mass_ratio": 0.0125,
 				"max": 1
 			}
 		]
@@ -489,19 +496,19 @@
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.008,
 				"max": 10
 			},
 			{
 				"drop": "monbone_m",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 6
 			},
 			{
 				"drop": "monbone_giant",
 				"type": "bone",
-				"mass_ratio": 0.00075,
+				"mass_ratio": 0.004,
 				"max": 1
 			}
 		]
@@ -572,19 +579,19 @@
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.008,
 				"max": 10
 			},
 			{
 				"drop": "monbone_m",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 6
 			},
 			{
 				"drop": "monbone_giant",
 				"type": "bone",
-				"mass_ratio": 0.00075,
+				"mass_ratio": 0.004,
 				"max": 1
 			}
 		]
@@ -654,18 +661,18 @@
 			},
 			{
 				"drop": "giaprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "giaprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -735,33 +742,33 @@
 			},
 			{
 				"drop": "giaprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "giaprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "giadrome_hide",
-				"type": "flesh",
-				"mass_ratio": 0.005
+				"type": "skin",
+				"mass_ratio": 0.0095
 			},
 			{
 				"drop": "giadrome_claw",
-				"type": "flesh",
-				"mass_ratio": 0.0075
+				"type": "bone",
+				"mass_ratio": 0.00925
 			},
 			{
 				"drop": "giadrome_skull",
-				"type": "flesh",
-				"mass_ratio": 0.001
+				"type": "bone",
+				"mass_ratio": 0.0085
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -831,18 +838,18 @@
 			},
 			{
 				"drop": "velociprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "velociprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -912,33 +919,38 @@
 			},
 			{
 				"drop": "velociprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
+			},
+			{
+				"drop": "velociprey_fang",
+				"type": "bone",
+				"mass_ratio": 0.011
 			},
 			{
 				"drop": "velociprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "velocidrome_hide",
-				"type": "flesh",
-				"mass_ratio": 0.005
+				"type": "skin",
+				"mass_ratio": 0.0095
 			},
 			{
 				"drop": "velocidrome_claw",
-				"type": "flesh",
-				"mass_ratio": 0.0075
+				"type": "bone",
+				"mass_ratio": 0.00925
 			},
 			{
 				"drop": "velocidrome_head",
 				"type": "flesh",
-				"mass_ratio": 0.001
+				"mass_ratio": 0.0085
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -1008,18 +1020,23 @@
 			},
 			{
 				"drop": "genprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
+			},
+			{
+				"drop": "genprey_fang",
+				"type": "bone",
+				"mass_ratio": 0.011
 			},
 			{
 				"drop": "genprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -1089,33 +1106,38 @@
 			},
 			{
 				"drop": "genprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "genprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
+			},
+			{
+				"drop": "genprey_fang",
+				"type": "bone",
+				"mass_ratio": 0.011
 			},
 			{
 				"drop": "gendrome_hide",
-				"type": "flesh",
-				"mass_ratio": 0.005
+				"type": "skin",
+				"mass_ratio": 0.0095
 			},
 			{
 				"drop": "gendrome_tail",
-				"type": "flesh",
-				"mass_ratio": 0.0025
+				"type": "bone",
+				"mass_ratio": 0.009
 			},
 			{
 				"drop": "gendrome_skull",
-				"type": "flesh",
-				"mass_ratio": 0.001
+				"type": "bone",
+				"mass_ratio": 0.0085
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -1185,18 +1207,23 @@
 			},
 			{
 				"drop": "ioprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
+			},
+			{
+				"drop": "ioprey_fang",
+				"type": "bone",
+				"mass_ratio": 0.011
 			},
 			{
 				"drop": "ioprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -1266,28 +1293,39 @@
 			},
 			{
 				"drop": "ioprey_scale",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.0125
+			},
+			{
+				"drop": "ioprey_fang",
+				"type": "bone",
+				"mass_ratio": 0.011
 			},
 			{
 				"drop": "ioprey_hide",
-				"type": "flesh",
-				"mass_ratio": 0.025
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "iodrome_hide",
-				"type": "flesh",
-				"mass_ratio": 0.005
+				"type": "skin",
+				"mass_ratio": 0.0095
 			},
 			{
 				"drop": "iodrome_skull",
+				"type": "bone",
+				"mass_ratio": 0.0085
+			},
+			{
+				"drop": "poison_sac",
 				"type": "flesh",
-				"mass_ratio": 0.001
+				"mass_ratio": 0.009,
+				"max": 2
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -1357,23 +1395,23 @@
 			},
 			{
 				"drop": "remobra_skin",
-				"type": "flesh",
-				"mass_ratio": 0.01
+				"type": "skin",
+				"mass_ratio": 0.0125
 			},
 			{
 				"drop": "remobra_sskin",
-				"type": "flesh",
-				"mass_ratio": 0.0075
+				"type": "skin",
+				"mass_ratio": 0.01
 			},
 			{
 				"drop": "remobra_skull",
-				"type": "flesh",
-				"mass_ratio": 0.001
+				"type": "bone",
+				"mass_ratio": 0.009
 			},
 			{
 				"drop": "monbone_s",
 				"type": "bone",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.015,
 				"max": 10
 			}
 		]
@@ -1444,13 +1482,13 @@
 			{
 				"drop": "cephalos_scale",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.0125,
 				"max": 3
 			},
 			{
 				"drop": "piscine_fang",
-				"type": "skin",
-				"mass_ratio": 0.00075,
+				"type": "bone",
+				"mass_ratio": 0.011,
 				"max": 1
 			}
 		]
@@ -1521,19 +1559,19 @@
 			{
 				"drop": "cephalos_scale",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0125,
 				"max": 5
 			},
 			{
 				"drop": "cephalos_fin",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.01,
 				"max": 3
 			},
 			{
 				"drop": "piscine_fang",
-				"type": "skin",
-				"mass_ratio": 0.002,
+				"type": "bone",
+				"mass_ratio": 0.011,
 				"max": 2
 			}
 		]
@@ -1604,13 +1642,13 @@
 			{
 				"drop": "hermitaur_small_shell",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0125,
 				"max": 5
 			},
 			{
 				"drop": "monbone_s",
-				"type": "skin",
-				"mass_ratio": 0.0025,
+				"type": "bone",
+				"mass_ratio": 0.015,
 				"max": 2
 			}
 		]
@@ -1681,13 +1719,13 @@
 			{
 				"drop": "ceanataur_small_shell",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0125,
 				"max": 5
 			},
 			{
 				"drop": "monbone_s",
-				"type": "skin",
-				"mass_ratio": 0.0025,
+				"type": "bone",
+				"mass_ratio": 0.015,
 				"max": 2
 			}
 		]
@@ -1758,19 +1796,19 @@
 			{
 				"drop": "bullfango_pelt",
 				"type": "skin",
-				"mass_ratio": 0.025,
-				"max": 5
+				"mass_ratio": 0.0125,
+				"max": 3
 			},
 			{
 				"drop": "bullfango_head",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.009,
 				"max": 1
 			},
 			{
 				"drop": "monbone_s",
-				"type": "skin",
-				"mass_ratio": 0.0075,
+				"type": "bone",
+				"mass_ratio": 0.015,
 				"max": 2
 			}
 		]
@@ -1841,20 +1879,20 @@
 			{
 				"drop": "bulldrome_hide",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.01,
 				"max": 4
 			},
 			{
 				"drop": "bulldrome_tusk",
 				"type": "bone",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.009,
 				"max": 1
 			},
 			{
 				"drop": "monbone_giant",
-				"type": "skin",
-				"mass_ratio": 0.005,
-				"max": 2
+				"type": "bone",
+				"mass_ratio": 0.0075,
+				"max": 1
 			}
 		]
 	},
@@ -1924,19 +1962,19 @@
 			{
 				"drop": "conga_pelt",
 				"type": "skin",
-				"mass_ratio": 0.025,
+				"mass_ratio": 0.0125,
 				"max": 5
 			},
 			{
 				"drop": "sharp_claw",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.011,
 				"max": 1
 			},
 			{
 				"drop": "monbone_brute",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "bone",
+				"mass_ratio": 0.0065,
 				"max": 2
 			}
 		]
@@ -2007,19 +2045,19 @@
 			{
 				"drop": "blango_pelt",
 				"type": "skin",
-				"mass_ratio": 0.025,
+				"mass_ratio": 0.0125,
 				"max": 5
 			},
 			{
 				"drop": "sharp_claw",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.011,
 				"max": 1
 			},
 			{
 				"drop": "monbone_brute",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "bone",
+				"mass_ratio": 0.0065,
 				"max": 2
 			}
 		]
@@ -2090,43 +2128,43 @@
 			{
 				"drop": "kut-ku_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "kut-ku_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 10
 			},
 			{
 				"drop": "kut-ku_webbing",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0065,
 				"max": 6
 			},
 			{
 				"drop": "flame_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 2
 			},
 			{
 				"drop": "kut-ku_ear",
 				"type": "skin",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.004,
 				"max": 2
 			},
 			{
 				"drop": "kut-ku_beak",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2197,25 +2235,25 @@
 			{
 				"drop": "gypceros_hide",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "poison_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 2
 			},
 			{
 				"drop": "gypceros_head",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2286,49 +2324,49 @@
 			{
 				"drop": "garuga_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "garuga_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 10
 			},
 			{
 				"drop": "garuga_tail",
-				"type": "skin",
-				"mass_ratio": 0.0025,
+				"type": "bone",
+				"mass_ratio": 0.00425,
 				"max": 1
 			},
 			{
 				"drop": "flame_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 2
 			},
 			{
 				"drop": "garuga_ear",
 				"type": "skin",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.004,
 				"max": 2
 			},
 			{
 				"drop": "garuga_beak",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "garuga_wing",
 				"type": "skin",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.00525,
 				"max": 2
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2399,43 +2437,43 @@
 			{
 				"drop": "hypnocatrice_pelt",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "hypnocatrice_claw",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "bone",
+				"mass_ratio": 0.00625,
 				"max": 4
 			},
 			{
 				"drop": "sleep_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "hypnocatrice_tail",
-				"type": "skin",
-				"mass_ratio": 0.0025,
+				"type": "bone",
+				"mass_ratio": 0.0055,
 				"max": 3
 			},
 			{
 				"drop": "hypnocatrice_bezoar",
-				"type": "skin",
-				"mass_ratio": 0.0015,
+				"type": "flesh",
+				"mass_ratio": 0.002,
 				"max": 2
 			},
 			{
 				"drop": "hypnocatrice_beak",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2506,31 +2544,31 @@
 			{
 				"drop": "khezu_hide",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 12
 			},
 			{
 				"drop": "electro_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "pale_extract",
 				"type": "flesh",
-				"mass_ratio": 0.0015,
+				"mass_ratio": 0.0065,
 				"max": 1
 			},
 			{
 				"drop": "khezu_bone",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00325,
 				"max": 3
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2601,37 +2639,37 @@
 			{
 				"drop": "basarios_shell",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "basarios_wing",
 				"type": "skin",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.006,
 				"max": 2
 			},
 			{
 				"drop": "flame_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "sleep_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "basarios_tear",
 				"type": "bone",
-				"mass_ratio": 0.002,
+				"mass_ratio": 0.0025,
 				"max": 2
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2702,37 +2740,37 @@
 			{
 				"drop": "monoblos_shell",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "monoblos_spine",
-				"type": "skin",
-				"mass_ratio": 0.0075,
+				"type": "bone",
+				"mass_ratio": 0.0065,
 				"max": 10
 			},
 			{
 				"drop": "blos_fang",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "bone",
+				"mass_ratio": 0.00725,
 				"max": 2
 			},
 			{
 				"drop": "monoblos_horn",
-				"type": "skin",
-				"mass_ratio": 0.0005,
+				"type": "bone",
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "monoblos_heart",
-				"type": "bone",
-				"mass_ratio": 0.0001,
+				"type": "flesh",
+				"mass_ratio": 0.001,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2803,55 +2841,43 @@
 			{
 				"drop": "rathian_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "rathian_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
-			},
-			{
-				"drop": "rathian_spike",
-				"type": "skin",
-				"mass_ratio": 0.0075,
-				"max": 8
 			},
 			{
 				"drop": "fwyvern_claw",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 3
 			},
 			{
 				"drop": "fwyvern_fluid",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "flesh",
+				"mass_ratio": 0.0055,
 				"max": 2
 			},
 			{
 				"drop": "flame_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "rathian_plate",
 				"type": "skin",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.0025,
 				"max": 2
-			},
-			{
-				"drop": "rathian_ruby",
-				"type": "bone",
-				"mass_ratio": 0.0001,
-				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -2922,67 +2948,61 @@
 			{
 				"drop": "rathalos_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "rathalos_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "rathalos_webbing",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.00625,
 				"max": 8
 			},
 			{
 				"drop": "fwyvern_claw",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 3
 			},
 			{
 				"drop": "fwyvern_fluid",
 				"type": "flesh",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.0055,
 				"max": 2
 			},
 			{
 				"drop": "flame_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "rathalos_wing",
 				"type": "skin",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.00525,
 				"max": 8
 			},
 			{
 				"drop": "rathalos_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.004,
 				"max": 1
 			},
 			{
 				"drop": "rathalos_plate",
 				"type": "skin",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.0025,
 				"max": 2
-			},
-			{
-				"drop": "rathalos_ruby",
-				"type": "bone",
-				"mass_ratio": 0.0001,
-				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -3053,37 +3073,37 @@
 			{
 				"drop": "gravios_shell",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "gravios_brainstem",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "flesh",
+				"mass_ratio": 0.0025,
 				"max": 4
 			},
 			{
 				"drop": "flame_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "sleep_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "gravios_skullshell",
-				"type": "bone",
-				"mass_ratio": 0.0025,
+				"type": "skin",
+				"mass_ratio": 0.0035,
 				"max": 2
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -3154,37 +3174,37 @@
 			{
 				"drop": "diablos_shell",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "diablos_spine",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0065,
 				"max": 8
 			},
 			{
 				"drop": "blos_fang",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00725,
 				"max": 2
 			},
 			{
 				"drop": "diablos_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.0045,
 				"max": 1
 			},
 			{
 				"drop": "diablos_horn",
 				"type": "bone",
-				"mass_ratio": 0.002,
+				"mass_ratio": 0.0025,
 				"max": 2
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -3255,43 +3275,43 @@
 			{
 				"drop": "tigrex_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "tigrex_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "tigrex_claw",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00625,
 				"max": 4
 			},
 			{
 				"drop": "tigrex_fang",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00675,
 				"max": 4
 			},
 			{
 				"drop": "tigrex_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.0045,
 				"max": 1
 			},
 			{
 				"drop": "tigrex_skullshell",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.004,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			},
 			{
@@ -3368,44 +3388,44 @@
 			{
 				"drop": "nargacuga_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "nargacuga_pelt",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "nargacuga_cutwing",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 3
 			},
 			{
 				"drop": "nargacuga_brainstem",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "flesh",
+				"mass_ratio": 0.0025,
 				"max": 2
 			},
 			{
 				"drop": "nargacuga_tailspike",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.00325,
 				"max": 3
 			},
 			{
 				"drop": "nargacuga_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.004,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
-				"max": 1
+				"mass_ratio": 0.006,
+				"max": 4
 			},
 			{
 				"drop": "monbone_brute",
@@ -3481,43 +3501,37 @@
 			{
 				"drop": "akantor_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "akantor_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "akantor_claw",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0675,
 				"max": 3
 			},
 			{
 				"drop": "akantor_fang",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0625,
 				"max": 3
 			},
 			{
 				"drop": "akantor_spike",
-				"type": "bone",
-				"mass_ratio": 0.005,
+				"type": "skin",
+				"mass_ratio": 0.00525,
 				"max": 2
 			},
 			{
 				"drop": "akantor_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
-				"max": 1
-			},
-			{
-				"drop": "monbone_giant",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0035,
 				"max": 1
 			}
 		]
@@ -3588,37 +3602,31 @@
 			{
 				"drop": "ukanlos_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "ukanlos_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "ukanlos_fin",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0055,
 				"max": 3
 			},
 			{
 				"drop": "ukanlos_shoveljaw",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00525,
 				"max": 2
 			},
 			{
 				"drop": "ukanlos_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
-				"max": 1
-			},
-			{
-				"drop": "monbone_giant",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.0035,
 				"max": 1
 			}
 		]
@@ -3689,25 +3697,25 @@
 			{
 				"drop": "plesioth_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "piscine_fang",
 				"type": "bone",
-				"mass_ratio": 0.05,
+				"mass_ratio": 0.0065,
 				"max": 6
 			},
 			{
 				"drop": "sleep_sac",
 				"type": "flesh",
-				"mass_ratio": 0.003,
+				"mass_ratio": 0.005,
 				"max": 3
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -3777,26 +3785,26 @@
 			},
 			{
 				"drop": "hermitaur_shell",
-				"type": "bone",
-				"mass_ratio": 0.02,
+				"type": "skin",
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "hermitaur_claw",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00675,
 				"max": 3
 			},
 			{
 				"drop": "wyvern_skullshell",
-				"type": "bone",
-				"mass_ratio": 0.00025,
+				"type": "skin",
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -3866,38 +3874,38 @@
 			},
 			{
 				"drop": "ceanataur_shell",
-				"type": "bone",
-				"mass_ratio": 0.02,
+				"type": "skin",
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "ceanataur_claw",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00675,
 				"max": 3
 			},
 			{
 				"drop": "ceanataur_pincer",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00625,
 				"max": 3
 			},
 			{
 				"drop": "wyvern_skullshell",
-				"type": "bone",
-				"mass_ratio": 0.00025,
+				"type": "skin",
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "ceanataur_leg",
-				"type": "skin",
-				"mass_ratio": 0.0075,
+				"type": "bone",
+				"mass_ratio": 0.0065,
 				"max": 3
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -3968,31 +3976,31 @@
 			{
 				"drop": "gaoren_shell",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "gaoren_claw",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00675,
 				"max": 3
 			},
 			{
 				"drop": "gaoren_pincer",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00575,
 				"max": 3
 			},
 			{
 				"drop": "gaoren_spine",
 				"type": "bone",
-				"mass_ratio": 0.0025,
+				"mass_ratio": 0.0065,
 				"max": 3
 			},
 			{
 				"drop": "monbone_giant",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			}
 		]
@@ -4063,19 +4071,19 @@
 			{
 				"drop": "congalala_pelt",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "congalala_claw",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.00675,
 				"max": 4
 			},
 			{
-				"drop": "bone",
+				"drop": "congalala_fang",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00625,
 				"max": 3
 			},
 			{
@@ -4087,13 +4095,13 @@
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			},
 			{
 				"drop": "monbone_brute",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.005,
 				"max": 1
 			}
 		]
@@ -4164,37 +4172,37 @@
 			{
 				"drop": "blangonga_pelt",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "blangonga_whisker",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00575,
 				"max": 3
 			},
 			{
 				"drop": "blangonga_fang",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00625,
 				"max": 3
 			},
 			{
 				"drop": "blangonga_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.004,
 				"max": 1
 			},
 			{
 				"drop": "monbone_l",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.006,
 				"max": 1
 			},
 			{
 				"drop": "monbone_brute",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.005,
 				"max": 1
 			}
 		]
@@ -4265,25 +4273,25 @@
 			{
 				"drop": "kirin_hide",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.00375,
 				"max": 16
 			},
 			{
 				"drop": "kirin_mane",
 				"type": "skin",
-				"mass_ratio": 0.075,
+				"mass_ratio": 0.005,
 				"max": 8
 			},
 			{
 				"drop": "kirin_horn",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.003,
 				"max": 1
 			},
 			{
 				"drop": "kirin_thundertail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.00325,
 				"max": 1
 			}
 		]
@@ -4354,31 +4362,31 @@
 			{
 				"drop": "daora_dragonscale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "daora_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "daora_claw",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.0065,
 				"max": 3
 			},
 			{
 				"drop": "daora_webbing",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.006,
 				"max": 3
 			},
 			{
 				"drop": "daora_tail",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "bone",
+				"mass_ratio": 0.004,
 				"max": 3
 			},
 			{
@@ -4390,8 +4398,8 @@
 			{
 				"drop": "elderdragon_bone",
 				"type": "bone",
-				"mass_ratio": 0.0075,
-				"max": 1
+				"mass_ratio": 0.005,
+				"max": 2
 			}
 		]
 	},
@@ -4461,19 +4469,19 @@
 			{
 				"drop": "chameleos_hide",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "chameleos_webbing",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.00625,
 				"max": 6
 			},
 			{
 				"drop": "chameleos_claw",
 				"type": "bone",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00675,
 				"max": 3
 			},
 			{
@@ -4485,19 +4493,19 @@
 			{
 				"drop": "chameleos_horn",
 				"type": "bone",
-				"mass_ratio": 0.001,
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
 				"drop": "chameleos_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.00425,
 				"max": 1
 			},
 			{
 				"drop": "elderdragon_bone",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.005,
 				"max": 1
 			}
 		]
@@ -4568,25 +4576,25 @@
 			{
 				"drop": "lunastra_shell",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.00775,
 				"max": 16
 			},
 			{
 				"drop": "fdragon_scale",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.008,
 				"max": 12
 			},
 			{
 				"drop": "fdragon_webbing",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00625,
 				"max": 4
 			},
 			{
 				"drop": "fdragon_claw",
 				"type": "bone",
-				"mass_ratio": 0.025,
+				"mass_ratio": 0.0065,
 				"max": 3
 			},
 			{
@@ -4598,7 +4606,7 @@
 			{
 				"drop": "lunastra_mane",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.006,
 				"max": 4
 			},
 			{
@@ -4609,14 +4617,14 @@
 			},
 			{
 				"drop": "lunastra_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.00425,
 				"max": 1
 			},
 			{
 				"drop": "elderdragon_bone",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.005,
 				"max": 1
 			}
 		]
@@ -4687,25 +4695,25 @@
 			{
 				"drop": "teostra_shell",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.00775,
 				"max": 16
 			},
 			{
 				"drop": "fdragon_scale",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.008,
 				"max": 12
 			},
 			{
 				"drop": "fdragon_webbing",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.00625,
 				"max": 4
 			},
 			{
 				"drop": "fdragon_claw",
 				"type": "bone",
-				"mass_ratio": 0.025,
+				"mass_ratio": 0.0065,
 				"max": 3
 			},
 			{
@@ -4717,7 +4725,7 @@
 			{
 				"drop": "teostra_mane",
 				"type": "skin",
-				"mass_ratio": 0.005,
+				"mass_ratio": 0.006,
 				"max": 4
 			},
 			{
@@ -4728,14 +4736,14 @@
 			},
 			{
 				"drop": "teostra_tail",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "bone",
+				"mass_ratio": 0.00425,
 				"max": 1
 			},
 			{
 				"drop": "elderdragon_bone",
 				"type": "bone",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.005,
 				"max": 1
 			}
 		]
@@ -4806,31 +4814,31 @@
 			{
 				"drop": "lao-shan_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "lao-shan_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "lao-shan_claw",
-				"type": "skin",
-				"mass_ratio": 0.005,
+				"type": "bone",
+				"mass_ratio": 0.00625,
 				"max": 4
 			},
 			{
 				"drop": "lao-shan_horn",
-				"type": "skin",
+				"type": "bone",
 				"mass_ratio": 0.0025,
 				"max": 2
 			},
 			{
 				"drop": "elderdragon_bone",
 				"type": "bone",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.005,
 				"max": 1
 			}
 		]
@@ -4901,31 +4909,31 @@
 			{
 				"drop": "fatalis_scale",
 				"type": "skin",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.008,
 				"max": 16
 			},
 			{
 				"drop": "fatalis_shell",
 				"type": "skin",
-				"mass_ratio": 0.01,
+				"mass_ratio": 0.00775,
 				"max": 12
 			},
 			{
 				"drop": "fatalis_webbing",
 				"type": "skin",
-				"mass_ratio": 0.0075,
+				"mass_ratio": 0.00625,
 				"max": 6
 			},
 			{
 				"drop": "fatalis_horn",
-				"type": "skin",
-				"mass_ratio": 0.0025,
+				"type": "bone",
+				"mass_ratio": 0.00425,
 				"max": 4
 			},
 			{
 				"drop": "fatalis_eye",
-				"type": "skin",
-				"mass_ratio": 0.001,
+				"type": "flesh",
+				"mass_ratio": 0.0025,
 				"max": 1
 			},
 			{
@@ -4937,7 +4945,7 @@
 			{
 				"drop": "elderdragon_bone",
 				"type": "bone",
-				"mass_ratio": 0.02,
+				"mass_ratio": 0.005,
 				"max": 1
 			}
 		]
