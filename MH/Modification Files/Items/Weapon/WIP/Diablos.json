@@ -15,7 +15,7 @@
 		"color": "brown",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING","MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -48,7 +48,8 @@
 		"color": "brown",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -75,11 +76,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 48,
+		"bashing": 30,
 		"material": "diablos",
 		"color": "brown",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -107,7 +108,7 @@
 		"material": "diablos",
 		"color": "brown",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -122,7 +123,7 @@
 		"type": "GUN",
 		"symbol": "(",
 		"color": "brown",
-		"name": "dualcaster",
+		"name": "duelcaster",
 		"reload_noise_volume": 4,
 		"description": "Shoot-out gun that pushes bullet tech to the limit with speed and rigidity.",
 		"price": 0,
@@ -136,11 +137,11 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 19,
+		"ranged_damage": 29,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

@@ -9,11 +9,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 50,
+		"bashing": 33,
 		"material": "lao-shan",
 		"color": "dark_gray",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -37,11 +37,11 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 43,
+		"cutting": 19,
 		"material": "lao-shan",
 		"color": "dark_gray",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -61,11 +61,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 35,
+		"cutting": 18,
 		"material": "lao-shan",
 		"color": "dark_gray",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -89,7 +89,7 @@
 		"color": "dark_gray",
 		"name": "lao-shan lung cannon",
 		"reload_noise_volume": 4,
-		"description": "(?)",
+		"description": "Heavy bowgun created from lao-shan lung material. Very powerful and defensive.",
 		"price": 0,
 		"material": [
 			"lao-shan"
@@ -100,12 +100,11 @@
 			"FIRE_TWOHAND"
 		],
 		"skill": "rifle",
-		"ammo": "mhammo",
-		"weight": 5250,
+		"ammo": "mhammo","weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 20,
+		"ranged_damage": 30,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

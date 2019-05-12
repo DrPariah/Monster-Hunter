@@ -1,0 +1,26 @@
+{
+	"id": "remobra_l",
+	"type": "GENERIC",
+	"name": "naag serpentblade",
+	"description": "Poisoned lance made from remobras material. Made to cause pain and suffering.",
+	"weight": 8000,
+	"volume": 20,
+	"symbol": "/",
+	"price": 0,
+	"to_hit": 1,
+	"bashing": 10,
+	"cutting": 19,
+	"material": "remobra",
+	"color": "blue",
+	"techniques": [
+		"MH_IMPALE",
+		"WBLOCK_3"
+	],
+	"flags": [
+		"ALWAYS_TWOHAND",
+		"UNBREAKABLE_MELEE",
+		"NO_CVD",
+		"SPEAR",
+		"STAB"
+	]
+}

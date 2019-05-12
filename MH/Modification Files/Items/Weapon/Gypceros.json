@@ -10,12 +10,13 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 23,
+		"cutting": 12,
 		"material": "gypceros",
 		"color": "light_blue",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -43,12 +44,14 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 33,
+		"cutting": 34,
 		"material": "gypceros",
 		"color": "light_blue",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -75,11 +78,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 35,
+		"bashing": 24,
 		"material": "gypceros",
 		"color": "light_blue",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -102,11 +105,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 20,
+		"cutting": 18,
 		"material": "gypceros",
 		"color": "light_blue",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -128,9 +131,9 @@
 		"type": "GUN",
 		"symbol": "(",
 		"color": "light_blue",
-		"name": "tank mage",
+		"name": "tankmage",
 		"reload_noise_volume": 4,
-		"description": "Heavy bowgun for all levels of pellet shots and many other ammo types.",
+		"description": "Heavy bowgun used for most ammo types.",
 		"price": 0,
 		"material": [
 			"gypceros"
@@ -141,12 +144,11 @@
 			"FIRE_TWOHAND"
 		],
 		"skill": "rifle",
-		"ammo": "mhammo",
-		"weight": 5250,
+		"ammo": "mhammo","weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 13,
+		"ranged_damage": 18,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

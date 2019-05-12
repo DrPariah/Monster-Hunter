@@ -10,12 +10,14 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 45,
+		"cutting": 42,
 		"material": "akantor",
 		"color": "dark_red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -42,11 +44,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 35,
+		"cutting": 23,
 		"material": "akantor",
 		"color": "dark_red",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",

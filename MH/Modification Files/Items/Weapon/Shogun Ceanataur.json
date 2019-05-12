@@ -10,12 +10,13 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 39,
+		"cutting": 24,
 		"material": "ceanataur",
 		"color": "light_blue",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -33,7 +34,7 @@
 		]
 	},
 	{
-		"id": "ceanataur_h",
+		"id": "ceanataurlv1_h",
 		"type": "GENERIC",
 		"name": "ceanataur head axe",
 		"description": "Made from tough-to-work-with shogun head pieces. It's designed for ease of use.",
@@ -42,11 +43,38 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 44,
+		"bashing": 40,
 		"material": "ceanataur",
 		"color": "light_blue",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"HAMMER",
+				2
+			]
+		]
+	},
+	{
+		"id": "ceanataurlv2_h",
+		"type": "GENERIC",
+		"name": "big blue chopper",
+		"description": "Made from tough-to-work-with shogun head pieces. It's designed for ease of use.",
+		"weight": 5500,
+		"volume": 18,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 45,
+		"material": "ceanataur",
+		"color": "light_blue",
+		"techniques": [
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -70,11 +98,11 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 36,
+		"cutting": 15,
 		"material": "ceanataur",
 		"color": "light_blue",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -94,11 +122,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 31,
+		"cutting": 14,
 		"material": "ceanataur",
 		"color": "light_blue",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -116,7 +144,7 @@
 		]
 	},
 	{
-		"id": "ceanataur_hbg",
+		"id": "ceanataurlv1_hbg",
 		"type": "GUN",
 		"symbol": "(",
 		"color": "light_blue",
@@ -134,11 +162,11 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 17,
+		"ranged_damage": 24,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

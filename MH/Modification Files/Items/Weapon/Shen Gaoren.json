@@ -10,16 +10,18 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 49,
+		"cutting": 29,
 		"material": "gaoren",
 		"color": "gray",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
 		],
 		"qualities": [
 			[
@@ -46,11 +48,12 @@
 		"material": "gaoren",
 		"color": "gray",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
 		],
 		"qualities": [
 			[
@@ -78,11 +81,11 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 22,
+		"ranged_damage": 28,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

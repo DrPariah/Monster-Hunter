@@ -15,7 +15,8 @@
 		"color": "red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -47,7 +48,7 @@
 		"material": "teostra",
 		"color": "red",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -55,37 +56,6 @@
 			"UNBREAKABLE_MELEE","NO_CVD",
 			"SPEAR",
 			"STAB"
-		]
-	},
-	{
-		"id": "teostra_ds",
-		"type": "GENERIC",
-		"name": "twin nails",
-		"description": "Painful training is required to wield that which turns your arms into fire and ice.",
-		"weight": 2000,
-		"volume": 14,
-		"symbol": "/",
-		"price": 0,
-		"to_hit": 1,
-		"cutting": 39,
-		"material": "teostra",
-		"color": "red",
-		"techniques": [
-			"RAPID"
-		],
-		"flags": [
-			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
-		],
-		"qualities": [
-			[
-				"CUT",
-				2
-			],
-			[
-				"BUTCHER",
-				20
-			]
 		]
 	},
 	{
@@ -107,11 +77,11 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 22,
+		"ranged_damage": 28,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

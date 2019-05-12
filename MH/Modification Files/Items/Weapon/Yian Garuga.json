@@ -1,6 +1,6 @@
 [
 	{
-		"id": "garuga_ss",
+		"id": "garugalv1_ss",
 		"type": "GENERIC",
 		"name": "raven blade",
 		"description": "A black sword made from yian garuga materials. The edge easily shreds its victims.",
@@ -10,12 +10,45 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 31,
+		"cutting": 11,
 		"material": "garuga",
 		"color": "blue",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING","MH_JUMP_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "garugalv2_ss",
+		"type": "GENERIC",
+		"name": "wolf blade",
+		"description": "A black sword made from yian garuga materials. The edge easily shreds its victims.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 13,
+		"material": "garuga",
+		"color": "blue",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_HORIZONTAL_SWING","MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -43,12 +76,13 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 41,
+		"cutting": 22,
 		"material": "garuga",
 		"color": "blue",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -75,11 +109,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 43,
+		"bashing": 26,
 		"material": "garuga",
 		"color": "blue",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -103,11 +137,11 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 36,
+		"cutting": 17,
 		"material": "garuga",
 		"color": "blue",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -127,11 +161,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 28,
+		"cutting": 13,
 		"material": "garuga",
 		"color": "blue",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -171,7 +205,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 8,
+		"ranged_damage": 12,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,
@@ -208,11 +242,11 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 17,
+		"ranged_damage": 26,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

@@ -10,16 +10,18 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 28,
+		"cutting": 15,
 		"material": "hypnocatrice",
 		"color": "light_red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
 		],
 		"qualities": [
 			[
@@ -43,16 +45,19 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 38,
+		"cutting": 24,
 		"material": "hypnocatrice",
 		"color": "light_red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
 		],
 		"qualities": [
 			[

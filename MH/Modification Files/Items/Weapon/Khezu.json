@@ -10,12 +10,14 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 38,
+		"cutting": 25,
 		"material": "khezu",
 		"color": "white",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -46,7 +48,7 @@
 		"material": "khezu",
 		"color": "white",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -66,7 +68,7 @@
 		"color": "white",
 		"name": "heartfelt cast",
 		"reload_noise_volume": 4,
-		"description": "Made from a khezu's head. It may look grotesque...",
+		"description": "Made from a khezu's head. It may look grotesque, but its power resides within...",
 		"price": 0,
 		"material": [
 			"khezu"
@@ -82,7 +84,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 8,
+		"ranged_damage": 19,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,

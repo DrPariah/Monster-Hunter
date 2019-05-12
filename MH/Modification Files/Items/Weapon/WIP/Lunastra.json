@@ -1,19 +1,19 @@
 [
 	{
-		"id": "vespoid_ds",
+		"id": "lunastra_h",
 		"type": "GENERIC",
-		"name": "insector",
-		"description": "Dual swords that use rare materials and are difficult to forge. Non-elemental.",
-		"weight": 2000,
-		"volume": 14,
+		"name": "jadite mace",
+		"description": "Also known as the dragon's crown of flame, it's strike is like that of a meteor.",
+		"weight": 5500,
+		"volume": 18,
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 13,
-		"material": "vespoid",
-		"color": "yellow",
+		"bashing": 51,
+		"material": "lunastra",
+		"color": "blue",
 		"techniques": [
-			"RAPID"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -21,26 +21,22 @@
 		],
 		"qualities": [
 			[
-				"CUT",
+				"HAMMER",
 				2
-			],
-			[
-				"BUTCHER",
-				20
 			]
 		]
 	},
 	{
-		"id": "vespoid_hbg",
+		"id": "lunastra_hbg",
 		"type": "GUN",
 		"symbol": "(",
-		"color": "yellow",
-		"name": "queen needle",
+		"color": "blue",
+		"name": "lunastra's cannon",
 		"reload_noise_volume": 4,
-		"description": "Bowgun made from queen parts. Even giant dragons cower in fear.",
+		"description": "A large cannon that incorporates the material of the flamed dragon into a part of the mechanism. Simple shape, but the power is immeasurable.",
 		"price": 0,
 		"material": [
-			"vespoid"
+			"lunastra"
 		],
 		"flags": [
 			"NEVER_JAMS",
@@ -49,17 +45,17 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 9,
+		"ranged_damage": 26,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,
 		"durability": 10,
-		"clip_size": 12,
-		"reload": 300,
+		"clip_size": 9,
+		"reload": 200,
 		"valid_mod_locations": [
 			[
 				"accessories",

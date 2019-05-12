@@ -10,12 +10,13 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 31,
+		"cutting": 13,
 		"material": "nargacuga",
 		"color": "black",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -43,12 +44,14 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 38,
+		"cutting": 30,
 		"material": "nargacuga",
 		"color": "black",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -75,11 +78,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 43,
+		"bashing": 35,
 		"material": "nargacuga",
 		"color": "black",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -103,11 +106,11 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 36,
+		"cutting": 19,
 		"material": "nargacuga",
 		"color": "black",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -127,11 +130,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 28,
+		"cutting": 18,
 		"material": "nargacuga",
 		"color": "black",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -171,7 +174,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 8,
+		"ranged_damage": 14,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,
@@ -207,12 +210,11 @@
 			"FIRE_TWOHAND"
 		],
 		"skill": "rifle",
-		"ammo": "mhammo",
-		"weight": 5250,
+		"ammo": "mhammo","weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 17,
+		"ranged_damage": 28,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

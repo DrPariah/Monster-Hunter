@@ -10,12 +10,13 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 36,
+		"cutting": 17,
 		"material": "gravios",
 		"color": "gray",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -47,7 +48,7 @@
 		"material": "gravios",
 		"color": "gray",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -71,11 +72,11 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 41,
+		"cutting": 18,
 		"material": "gravios",
 		"color": "gray",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -99,7 +100,7 @@
 		"material": "gravios",
 		"color": "gray",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -139,7 +140,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 8,
+		"ranged_damage": 13,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,
@@ -175,12 +176,11 @@
 			"FIRE_TWOHAND"
 		],
 		"skill": "rifle",
-		"ammo": "mhammo",
-		"weight": 5250,
+		"ammo": "mhammo","weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 17,
+		"ranged_damage": 31,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

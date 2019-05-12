@@ -1,25 +1,27 @@
 [
 	{
-		"id": "hermitaur_ss",
+		"id": "hermitaurlv1_gs",
 		"type": "GENERIC",
-		"name": "dual carapace",
-		"description": "Sword made from 2 varieties of shell with a strong water element solution coating.",
-		"weight": 1500,
-		"volume": 12,
+		"name": "red stripe",
+		"description": "Combines bone with super strong shell material, allowing for high defense.",
+		"weight": 7250,
+		"volume": 20,
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 4,
-		"cutting": 27,
+		"bashing": 8,
+		"cutting": 21,
 		"material": "hermitaur",
 		"color": "light_red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
 		],
 		"qualities": [
 			[
@@ -33,26 +35,28 @@
 		]
 	},
 	{
-		"id": "hermitaur_gs",
+		"id": "hermitaurlv2_gs",
 		"type": "GENERIC",
 		"name": "red pincer",
-		"description": "A great Sword made from a giant pincer. Its blade rips of scales and slices meat.",
+		"description": "A great sword made from giant pincer. Its blade rips of scales and slices meat.",
 		"weight": 7250,
 		"volume": 20,
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 34,
+		"cutting": 24,
 		"material": "hermitaur",
 		"color": "light_red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
 		],
 		"qualities": [
 			[
@@ -76,18 +80,60 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 32,
+		"cutting": 13,
 		"material": "hermitaur",
 		"color": "light_red",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
 			"SPEAR",
 			"STAB"
+		]
+	},
+	{
+		"id": "hermitaur_hbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "light_red",
+		"name": "crab buster",
+		"reload_noise_volume": 4,
+		"description": "Heavy bowgun crafted from daimyo hermitaur materials. Strong and balanced.",
+		"price": 0,
+		"material": [
+			"hermitaur"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 8250,
+		"volume": 18,
+		"bashing": 10,
+		"to_hit": 1,
+		"ranged_damage": 22,
+		"range": 20,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 9,
+		"reload": 300,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
 		]
 	}
 ]

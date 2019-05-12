@@ -1,6 +1,6 @@
 [
 	{
-		"id": "basarios_h",
+		"id": "basarios_h1",
 		"type": "GENERIC",
 		"name": "basarios blow",
 		"description": "Made by attaching the hardest face plating of an adolescent basarios.",
@@ -9,15 +9,16 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 40,
+		"bashing": 28,
 		"material": "basarios",
 		"color": "white",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
 		],
 		"qualities": [
 			[
@@ -27,7 +28,35 @@
 		]
 	},
 	{
-		"id": "basarios_l",
+		"id": "basarios_h2",
+		"type": "GENERIC",
+		"name": "shell hammer",
+		"description": "Uses poison basarios shell. Occasionally poisons its monster foes.",
+		"weight": 5500,
+		"volume": 18,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 28,
+		"material": "basarios",
+		"color": "gray",
+		"techniques": [
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"HAMMER",
+				2
+			]
+		]
+	},
+	{
+		"id": "basarioslv1_l",
 		"type": "GENERIC",
 		"name": "venom lance",
 		"description": "Large spear made from poisonous basarios. Injects venom into enemies.",
@@ -37,22 +66,49 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 33,
+		"cutting": 15,
 		"material": "basarios",
 		"color": "white",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
 			"SPEAR",
 			"STAB"
 		]
 	},
 	{
-		"id": "basarios_lbg",
+		"id": "basarioslv2_l",
+		"type": "GENERIC",
+		"name": "basarios venom spear",
+		"description": "Large spear made from poisonous basarios. Injects venom into enemies.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 17,
+		"material": "basarios",
+		"color": "white",
+		"techniques": [
+			"MH_IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
+		"id": "basarioslv1_lbg",
 		"type": "GUN",
 		"symbol": "(",
 		"color": "white",
@@ -74,7 +130,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 8,
+		"ranged_damage": 9,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,
@@ -99,7 +155,7 @@
 		"color": "white",
 		"name": "rock eater",
 		"reload_noise_volume": 4,
-		"description": "Made from basarios, a huge gun capable of rapidly firing crag shots",
+		"description": "Made from basarios, a huge gun capable of rapidly firing heavy shots",
 		"price": 0,
 		"material": [
 			"basarios"
@@ -111,11 +167,11 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 17,
+		"ranged_damage": 22,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

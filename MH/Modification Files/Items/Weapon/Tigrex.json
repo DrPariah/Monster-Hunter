@@ -11,12 +11,12 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 36,
+		"cutting": 12,
 		"material": "tigrex",
 		"color": "yellow",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING","MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -44,12 +44,13 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 43,
+		"cutting": 27,
 		"material": "tigrex",
 		"color": "yellow",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH","MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -76,11 +77,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 48,
+		"bashing": 31,
 		"material": "tigrex",
 		"color": "yellow",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -104,11 +105,11 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 41,
+		"cutting": 17,
 		"material": "tigrex",
 		"color": "yellow",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -128,11 +129,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"cutting": 33,
+		"cutting": 16,
 		"material": "tigrex",
 		"color": "yellow",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -154,9 +155,9 @@
 		"type": "GUN",
 		"symbol": "(",
 		"color": "yellow",
-		"name": "tigrex wargun",
+		"name": "tigrex tank",
 		"reload_noise_volume": 4,
-		"description": "Light bowgun made with tenacioys tigrex materials. Experimental. High power.",
+		"description": "Specially shaped and made of tigrex, this has explosive firepower for real combat.",
 		"price": 0,
 		"material": [
 			"tigrex"
@@ -172,7 +173,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 10,
+		"ranged_damage": 14,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,
@@ -209,11 +210,11 @@
 		],
 		"skill": "rifle",
 		"ammo": "mhammo",
-		"weight": 5250,
+		"weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 19,
+		"ranged_damage": 30,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

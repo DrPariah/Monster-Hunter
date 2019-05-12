@@ -15,7 +15,8 @@
 		"color": "gray",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -48,7 +49,9 @@
 		"color": "gray",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -79,7 +82,7 @@
 		"material": "daora",
 		"color": "gray",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -107,7 +110,7 @@
 		"material": "daora",
 		"color": "gray",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -131,7 +134,7 @@
 		"material": "daora",
 		"color": "gray",
 		"techniques": [
-			"RAPID"
+			"MH_DEMONIZE","MH_FORWARD_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -166,12 +169,11 @@
 			"FIRE_TWOHAND"
 		],
 		"skill": "rifle",
-		"ammo": "mhammo",
-		"weight": 5250,
+		"ammo": "mhammo","weight": 8250,
 		"volume": 18,
 		"bashing": 10,
 		"to_hit": 1,
-		"ranged_damage": 19,
+		"ranged_damage": 26,
 		"range": 20,
 		"loudness": 8,
 		"dispersion": 200,

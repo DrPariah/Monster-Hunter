@@ -1,6 +1,6 @@
 [
 	{
-		"id": "blangonga_h",
+		"id": "blangongalv1_h",
 		"type": "GENERIC",
 		"name": "conehead hammer",
 		"description": "Hammer made from blango family materials. Its blow can chill the soul.",
@@ -9,11 +9,11 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 43,
+		"bashing": 20,
 		"material": "blangonga",
 		"color": "white",
 		"techniques": [
-			"BRUTAL"
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -27,7 +27,34 @@
 		]
 	},
 	{
-		"id": "blangonga_lbg",
+		"id": "blangongalv2_h",
+		"type": "GENERIC",
+		"name": "conehead hammer+",
+		"description": "Hammer made from blango family materials. Its blow can chill the soul.",
+		"weight": 5500,
+		"volume": 18,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 31,
+		"material": "blangonga",
+		"color": "white",
+		"techniques": [
+			"MH_GOLF_SWING", "MH_GROUND_SLAM"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"HAMMER",
+				2
+			]
+		]
+	},
+	{
+		"id": "blangongalv1_lbg",
 		"type": "GUN",
 		"symbol": "(",
 		"color": "white",
@@ -49,7 +76,48 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 8,
+		"ranged_damage": 9,
+		"range": 15,
+		"loudness": 8,
+		"dispersion": 200,
+		"durability": 10,
+		"clip_size": 5,
+		"reload": 200,
+		"valid_mod_locations": [
+			[
+				"accessories",
+				4
+			],
+			[
+				"muzzle",
+				1
+			]
+		]
+	},
+	{
+		"id": "blangongalv2_lbg",
+		"type": "GUN",
+		"symbol": "(",
+		"color": "white",
+		"name": "tail string+",
+		"reload_noise_volume": 4,
+		"description": "Wrapped in blangonga pelt. Supports more shots.",
+		"price": 0,
+		"material": [
+			"blangonga"
+		],
+		"flags": [
+			"NEVER_JAMS",
+			"PRIMITIVE_RANGED_WEAPON",
+			"FIRE_TWOHAND"
+		],
+		"skill": "rifle",
+		"ammo": "mhammo",
+		"weight": 1750,
+		"volume": 10,
+		"bashing": 6,
+		"to_hit": 1,
+		"ranged_damage": 11,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,

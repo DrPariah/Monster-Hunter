@@ -1,6 +1,6 @@
 [
 	{
-		"id": "rathalos_ss",
+		"id": "rathaloslv1_ss1",
 		"type": "GENERIC",
 		"name": "red saber",
 		"description": "A blade crafted from the flames of rathalos. It carries a faint glow of red.",
@@ -10,12 +10,115 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 36,
+		"cutting": 11,
 		"material": "rathalos",
 		"color": "red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathaloslv2_ss1",
+		"type": "GENERIC",
+		"name": "djinn",
+		"description": "A blade crafted from the flames of rathalos. It carries a faint glow of red.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 17,
+		"material": "rathalos",
+		"color": "red",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathaloslv3_ss1",
+		"type": "GENERIC",
+		"name": "blazing falchion",
+		"description": "Improved djinn. Blazes with a heat as intense as molten rock.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 20,
+		"material": "rathalos",
+		"color": "red",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathaloslv1_ss2",
+		"type": "GENERIC",
+		"name": "corona",
+		"description": "Not very powerful, but makes good use of the flame power potential of its materials.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 19,
+		"material": "rathalos",
+		"color": "red",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -43,12 +146,14 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 46,
+		"cutting": 21,
 		"material": "rathalos",
 		"color": "red",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -76,11 +181,11 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 10,
-		"cutting": 41,
+		"cutting": 16,
 		"material": "rathalos",
 		"color": "red",
 		"techniques": [
-			"IMPALE",
+			"MH_IMPALE",
 			"WBLOCK_3"
 		],
 		"flags": [
@@ -113,7 +218,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 10,
+		"ranged_damage": 12,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,

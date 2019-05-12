@@ -15,7 +15,8 @@
 		"color": "green",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -33,7 +34,7 @@
 		]
 	},
 	{
-		"id": "rathian_gs",
+		"id": "rathian_gs1",
 		"type": "GENERIC",
 		"name": "valkyrie blade",
 		"description": "An improved golem Blade. New, powerful abilities due to fire wyvern materials.",
@@ -43,12 +44,14 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 8,
-		"cutting": 46,
+		"cutting": 21,
 		"material": "rathian",
 		"color": "green",
 		"techniques": [
 			"WBLOCK_1",
-			"WIDE"
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
 		],
 		"flags": [
 			"ALWAYS_TWOHAND",
@@ -58,37 +61,6 @@
 			[
 				"CUT",
 				1
-			],
-			[
-				"BUTCHER",
-				20
-			]
-		]
-	},
-	{
-		"id": "rathian_ds",
-		"type": "GENERIC",
-		"name": "twin flames",
-		"description": "With the fire attribute of fire wyverns in tow, one attack is sure to be deadly.",
-		"weight": 2000,
-		"volume": 14,
-		"symbol": "/",
-		"price": 0,
-		"to_hit": 1,
-		"cutting": 33,
-		"material": "rathian",
-		"color": "green",
-		"techniques": [
-			"RAPID"
-		],
-		"flags": [
-			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
-		],
-		"qualities": [
-			[
-				"CUT",
-				2
 			],
 			[
 				"BUTCHER",
@@ -119,7 +91,7 @@
 		"volume": 10,
 		"bashing": 6,
 		"to_hit": 1,
-		"ranged_damage": 10,
+		"ranged_damage": 11,
 		"range": 15,
 		"loudness": 8,
 		"dispersion": 200,
