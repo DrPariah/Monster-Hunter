@@ -5,6 +5,10 @@
 		"dynamic_line": "Select the Sword and Shield you want to craft.",
 		"responses": [
 			{
+				"text": "Later...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
+			},
+			{
 				"text": "hunter's dagger",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_SS_ironlv1_ss"
 			},
@@ -81,10 +85,6 @@
 				},
 				"text": "rex talon",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_SS_tigrex_ss"
-			},
-			{
-				"text": "Later...",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
 			}
 		]
 	},

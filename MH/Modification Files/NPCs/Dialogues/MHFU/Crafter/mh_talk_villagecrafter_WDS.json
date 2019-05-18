@@ -5,6 +5,10 @@
 		"dynamic_line": "Select the Dual Sword you want to craft.",
 		"responses": [
 			{
+				"text": "Later...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
+			},
+			{
 				"text": "twin dagger",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_ironlv1_ds"
 			},
@@ -35,21 +39,17 @@
 			{
 				"condition": {"u_has_trait": "mhfuavailcraft_ceanataur"},
 				"text": "bladed edge",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_ceanataur_ds"
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_ceanataurlv1_ds"
 			},
 			{	
 				"condition": {"u_has_trait": "mhfuavailcraft_garuga"},
 				"text": "raven tessen",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_garuga_ds"
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_garugalv1_ds"
 			},
 			{
 				"condition": {"u_has_trait": "mhfuavailcraft_tigrex"},
 				"text": "rex slicers",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_tigrex_ds"
-			},
-			{
-				"text": "Later...",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
 			}
 		]
 	},
@@ -660,7 +660,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_ceanataur_ds",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_ceanataurlv1_ds",
 		"dynamic_line": {
 			"and": [
 				"The bladed edge costs 3400z and these materials:\n- 2 ceanataur claws\n- 4 ceanataur shells\n- 6 small ceanataur shells\n- 8 carpenterbugs\nIt can deal damage by:\n*cut: 14\n",
@@ -760,7 +760,7 @@
 						"count": 8
 					},
 					{
-						"u_buy_item": "ceanataur_ds"
+						"u_buy_item": "ceanataurlv1_ds"
 					}
 				],
 				"text": "Create the bladed edge!",
@@ -774,7 +774,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_garuga_ds",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_DS_garugalv1_ds",
 		"dynamic_line": {
 			"and": [
 				"The raven tessen costs 10000z and these materials:\n- 2 garuga manes\n- 2 garuga ears\n- 10 garuga scales\n- 4 medium monster bones\nIt can deal damage by:\n*cut: 13\n",
@@ -874,7 +874,7 @@
 						"count": 4
 					},
 					{
-						"u_buy_item": "garuga_ds"
+						"u_buy_item": "garugalv1_ds"
 					}
 				],
 				"text": "Create the raven tessen!",

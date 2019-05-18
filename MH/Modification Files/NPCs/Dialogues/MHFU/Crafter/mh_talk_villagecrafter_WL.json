@@ -5,6 +5,10 @@
 		"dynamic_line": "Select the Lance you want to craft.",
 		"responses": [
 			{
+				"text": "Later...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
+			},
+			{
 				"text": "iron lance",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_ironlv1_l"
 			},
@@ -49,7 +53,7 @@
 					"u_has_trait": "mhfuavailcraft_hermitaur"
 				},
 				"text": "bone claw lance",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_hermitaur_l"
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_hermitaurlv1_l"
 			},
 			{
 				"condition": {
@@ -77,7 +81,7 @@
 					"u_has_trait": "mhfuavailcraft_remobra"
 				},
 				"text": "naag serpentblade",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_remobra_l"
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_remobralv1_l"
 			},
 			{
 				"condition": {
@@ -113,10 +117,6 @@
 				},
 				"text": "vermilion rim",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_lao-shan_l"
-			},
-			{
-				"text": "Later...",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
 			}
 		]
 	},
@@ -790,7 +790,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_hermitaur_l",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_hermitaurlv1_l",
 		"dynamic_line": {
 			"and": [
 				"The bone claw lance costs 3100z and these materials:\n- 2 hermitaur claws\n- 5 hermitaur shells\n- 7 small hermitaur shells\n- 3 monster fluids\nIt can deal damage by:\n*bash: 10 *stab: 13\n",
@@ -890,7 +890,7 @@
 						"count": 3
 					},
 					{
-						"u_buy_item": "hermitaur_l"
+						"u_buy_item": "hermitaurlv1_l"
 					}
 				],
 				"text": "Create the bone claw lance!",
@@ -1218,7 +1218,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_remobra_l",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_L_remobralv1_l",
 		"dynamic_line": {
 			"and": [
 				"The naag serpentblade costs 5600z and these materials:\n- 2 remobra skulls\n- 8 remobra skins\n- 10 poison sacs\n- 15 machalite ores\nIt can deal damage by:\n*bash: 10 *stab: 19\n",
@@ -1318,7 +1318,7 @@
 						"count": 15
 					},
 					{
-						"u_buy_item": "remobra_l"
+						"u_buy_item": "remobralv1_l"
 					}
 				],
 				"text": "Create the naag serpentblade!",

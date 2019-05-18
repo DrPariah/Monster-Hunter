@@ -5,6 +5,10 @@
 		"dynamic_line": "Select the Hammer you want to craft.",
 		"responses": [
 			{
+				"text": "Later...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
+			},
+			{
 				"text": "war hammer",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_H_ironlv1_h"
 			},
@@ -78,10 +82,6 @@
 				},
 				"text": "dragon destroyer",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_H_lao-shan_h"
-			},
-			{
-				"text": "Later...",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
 			}
 		]
 	},

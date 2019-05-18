@@ -5,6 +5,10 @@
 		"dynamic_line": "Select the Heavy Bowgun you want to craft.",
 		"responses": [
 			{
+				"text": "Later...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
+			},
+			{
 				"text": "bone shooter",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_HBG_ironlv1_hbg"
 			},
@@ -133,10 +137,6 @@
 				},
 				"text": "lao-shan lung cannon",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_HBG_lao-shan_hbg"
-			},
-			{
-				"text": "Later...",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
 			}
 		]
 	},
@@ -1102,7 +1102,7 @@
 					"no": "Requirements are not met!",
 					"yes": {
 						"u_has_items": {
-							"item": "ceanataur_leg",
+							"item": "ceanataurlv1_leg",
 							"count": 3
 						},
 						"no": "Requirements are not met!",
@@ -1144,7 +1144,7 @@
 						},
 						{
 							"u_has_items": {
-								"item": "ceanataur_leg",
+								"item": "ceanataurlv1_leg",
 								"count": 3
 							}
 						},
@@ -1174,7 +1174,7 @@
 						"count": 3750
 					},
 					{
-						"u_sell_item": "ceanataur_leg",
+						"u_sell_item": "ceanataurlv1_leg",
 						"count": 3
 					},
 					{

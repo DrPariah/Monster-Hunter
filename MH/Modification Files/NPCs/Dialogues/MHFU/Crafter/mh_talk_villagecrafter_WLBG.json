@@ -5,6 +5,10 @@
 		"dynamic_line": "Select the Light Bowgun you want to craft.",
 		"responses": [
 			{
+				"text": "Later...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
+			},
+			{
 				"text": "chain blitz",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_LBG_ironlv1_lbg"
 			},
@@ -130,10 +134,6 @@
 				},
 				"text": "raven do",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_LBG_garuga_lbg"
-			},
-			{
-				"text": "Later...",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
 			}
 		]
 	},

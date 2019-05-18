@@ -5,6 +5,10 @@
 		"dynamic_line": "Select the Great Sword you want to craft.",
 		"responses": [
 			{
+				"text": "Later...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
+			},
+			{
 				"text": "buster sword",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_ironlv1_gs"
 			},
@@ -39,7 +43,7 @@
 					"u_has_trait": "mhfuavailcraft_khezu"
 				},
 				"text": "khezu shock sword",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_khezu_gs"
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_khezulv1_gs"
 			},
 			{
 				"condition": {
@@ -53,14 +57,14 @@
 					"u_has_trait": "mhfuavailcraft_rath"
 				},
 				"text": "valkyrie blade",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathian_gs1"
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathianlv1_gs1"
 			},
 			{
 				"condition": {
 					"u_has_trait": "mhfuavailcraft_rath"
 				},
 				"text": "red wing",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathalos_gs"
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathaloslv1_gs1"
 			},
 			{
 				"condition": {
@@ -112,10 +116,6 @@
 				},
 				"text": "dragonslayer",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_dragonslayer_gs"
-			},
-			{
-				"text": "Later...",
-				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES"
 			}
 		]
 	},
@@ -679,7 +679,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_khezu_gs",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_khezulv1_gs",
 		"dynamic_line": {
 			"and": [
 				"The khezu shock sword costs 3100z and these materials:\n- 5 flabby hides\n- 15 thunderbugs\n- 8 machalite ores\n- 5 rubbery hides\nIt can deal damage by:\n*bash: 8 *cut: 25\n",
@@ -779,7 +779,7 @@
 						"count": 5
 					},
 					{
-						"u_buy_item": "khezu_gs"
+						"u_buy_item": "khezulv1_gs"
 					}
 				],
 				"text": "Create the khezu shock sword!",
@@ -900,7 +900,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathian_gs1",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathianlv1_gs1",
 		"dynamic_line": {
 			"and": [
 				"The valkyrie blade costs 3100z and these materials:\n- 4 rathian scales\n- 3 rathian shells\n- 4 fire wyvern fluids\n- 1 mega demondrug\nIt can deal damage by:\n*bash: 8 *cut: 21\n",
@@ -993,7 +993,7 @@
 						"u_sell_item": "mh_demondrug_mega"
 					},
 					{
-						"u_buy_item": "rathian_gs1"
+						"u_buy_item": "rathianlv1_gs1"
 					}
 				],
 				"text": "Create the valkyrie blade!",
@@ -1007,7 +1007,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathalos_gs",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS_rathaloslv1_gs1",
 		"dynamic_line": {
 			"and": [
 				"The red wing costs 2150z and these materials:\n- 2 rathalos scales\n- 2 fire wyvern claws\n- 4 fire wyvern fluids\n- 4 flame sacs\nIt can deal damage by:\n*bash: 8 *cut: 21\n",
@@ -1107,7 +1107,7 @@
 						"count": 4
 					},
 					{
-						"u_buy_item": "rathalos_gs"
+						"u_buy_item": "rathaloslv1_gs1"
 					}
 				],
 				"text": "Create the red wing!",
