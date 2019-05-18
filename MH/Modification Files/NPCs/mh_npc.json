@@ -5,6 +5,7 @@
 		"class": "MHFU_ELDER",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_elder",
+		"gender": "female",
 		"mission": 3,
 		"mission_offered": [
 			"MH_LV6_SLAY_LSLUNG",
@@ -52,6 +53,7 @@
 		"class": "MHFU_VHUNTER",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_vhunter",
+		"gender": "male",
 		"mission": 3,
 		"name_suffix": "Village Hunter",
 		"type": "npc"
@@ -62,6 +64,7 @@
 		"class": "MHFU_FOLKS",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_vlady",
+		"gender": "female",
 		"mission": 3,
 		"name_suffix": "Village Lady",
 		"type": "npc"
@@ -72,6 +75,7 @@
 		"class": "MHFU_FOLKS",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_vguy",
+		"gender": "male",
 		"mission": 3,
 		"name_suffix": "Village Guy",
 		"type": "npc"
@@ -82,6 +86,7 @@
 		"class": "MHFU_CRAFTER",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_vcraftsman",
+		"gender": "male",
 		"mission": 3,
 		"name_suffix": "Village Craftsman",
 		"type": "npc"
@@ -92,6 +97,7 @@
 		"class": "MHFU_FOLKS",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_vtrader",
+		"gender": "female",
 		"mission": 3,
 		"name_suffix": "Village Trader",
 		"type": "npc"
@@ -102,6 +108,7 @@
 		"class": "MHFU_FOLKS",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_voldtrader",
+		"gender": "female",
 		"mission": 3,
 		"name_suffix": "Village Old Trader",
 		"type": "npc"
@@ -112,6 +119,7 @@
 		"class": "MHFU_FOLKS",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_vwyverian",
+		"gender": "male",
 		"mission": 3,
 		"name_suffix": "Village Wyverian",
 		"type": "npc"
@@ -122,6 +130,7 @@
 		"class": "MHFU_VINSTRUCT",
 		"faction": "wasteland_scavengers",
 		"id": "mhfu_vinstruct",
+		"gender": "male",
 		"mission": 3,
 		"mission_offered": "MH_TRAIN_SLAY_GIAPREY",
 		"name_suffix": "Village Instructor",
