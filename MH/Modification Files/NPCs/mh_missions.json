@@ -3,7 +3,7 @@
 		"//": "Material rewards were slightly boosted than the original.",
 		"id": "MH_LV1_SLAY_GIAPREY",
 		"type": "mission_definition",
-		"name": "[ELDER] Slay 5 Giaprey",
+		"name": "[ELDER] Slay 5 giaprey",
 		"goal": "MGOAL_KILL_MONSTER",
 		"difficulty": 0,
 		"value": 1000,
@@ -79,7 +79,7 @@
 		"followup": "MH_LV1_SLAY_GIAPREY_C",
 		"dialogue": {
 			"describe": "IF YOU SEE THIS SH*T, THEN IT'S A BUG!",
-			"offer": "\n* Slay 5 Giaprey\nReward: 300z\nContract Fee: 0z\nA pack of giapreys are on the loose, they may wander towards our place and that would cost much trouble! You have to slay 5 of them.",
+			"offer": "\n* Slay 5 giaprey\nReward: 300z\nContract Fee: 0z\nA pack of giapreys are on the loose, they may wander towards our place and that would cost much trouble! You have to slay 5 of them.",
 			"accepted": "When you're ready to set off, just head to your destination. Good luck!",
 			"rejected": "There are something else that may interest your will...",
 			"advice": "Try not to get outnumbered.",
@@ -92,7 +92,7 @@
 	{
 		"id": "MH_LV1_SLAY_GIAPREY_C",
 		"type": "mission_definition",
-		"name": "[*ELDER*] Slay 5 Giaprey",
+		"name": "[*ELDER*] Slay 5 giaprey",
 		"goal": "MGOAL_KILL_MONSTER",
 		"difficulty": 0,
 		"value": 1000,
@@ -163,7 +163,7 @@
 		"followup": "MH_LV1_SLAY_GIAPREY_C",
 		"dialogue": {
 			"describe": "IF YOU SEE THIS SH*T, THEN IT'S A BUG!",
-			"offer": "\n* Slay 5 Giaprey [CLEARED]\nReward: 300z\nContract Fee: 0z\nA pack of giapreys are on the loose, they may wander towards our place and that would cost much trouble! You have to slay 5 of them.",
+			"offer": "\n* Slay 5 giaprey [CLEARED]\nReward: 300z\nContract Fee: 0z\nA pack of giapreys are on the loose, they may wander towards our place and that would cost much trouble! You have to slay 5 of them.",
 			"accepted": "When you're ready to set off, just head to your destination. Good luck!",
 			"rejected": "There are something else that may interest your will...",
 			"advice": "Try not to get outnumbered.",
@@ -1253,7 +1253,7 @@
 	{
 		"id": "MH_LV2_SLAY_KUTKU",
 		"type": "mission_definition",
-		"name": "[ELDER] Slay the Yian Kut-ku",
+		"name": "[ELDER] Slay the Yian kut-ku",
 		"goal": "MGOAL_KILL_MONSTER",
 		"difficulty": 0,
 		"value": 2000,
@@ -1356,7 +1356,7 @@
 		"followup": "MH_LV2_SLAY_KUTKU_C",
 		"dialogue": {
 			"describe": "IF YOU SEE THIS SH*T, THEN IT'S A BUG!",
-			"offer": "\n** Slay the Yian Kut-ku\nReward: 1500z\nContract Fee: 250z\nI want you to kill the giant bird-like monster that appeared in the forest. It wreaks havoc on our place and it must be stopped!",
+			"offer": "\n** Slay the Yian kut-ku\nReward: 1500z\nContract Fee: 250z\nI want you to kill the giant bird-like monster that appeared in the forest. It wreaks havoc on our place and it must be stopped!",
 			"accepted": "When you're ready to set off, just head to your destination. Good luck!",
 			"rejected": "There are something else that may interest your will...",
 			"advice": "Just remember not to get overwhelmed by its strength and make sure you have strong equipments before provoking such terrible monster.",
@@ -1369,7 +1369,7 @@
 	{
 		"id": "MH_LV2_SLAY_KUTKU_C",
 		"type": "mission_definition",
-		"name": "[*ELDER*] Slay the Yian Kut-ku",
+		"name": "[*ELDER*] Slay the Yian kut-ku",
 		"goal": "MGOAL_KILL_MONSTER",
 		"difficulty": 0,
 		"value": 2000,
@@ -1467,7 +1467,7 @@
 		"followup": "MH_LV2_SLAY_KUTKU_C",
 		"dialogue": {
 			"describe": "IF YOU SEE THIS SH*T, THEN IT'S A BUG!",
-			"offer": "\n** Slay the Yian Kut-ku [CLEARED]\nReward: 1500z\nContract Fee: 250z\nI want you to kill the giant bird-like monster that appeared in the forest. It wreaks havoc on our place and it must be stopped!",
+			"offer": "\n** Slay the Yian kut-ku [CLEARED]\nReward: 1500z\nContract Fee: 250z\nI want you to kill the giant bird-like monster that appeared in the forest. It wreaks havoc on our place and it must be stopped!",
 			"accepted": "When you're ready to set off, just head to your destination. Good luck!",
 			"rejected": "There are something else that may interest your will...",
 			"advice": "Just remember not to get overwhelmed by its strength and make sure you have strong equipments before provoking such terrible monster.",
@@ -4537,7 +4537,7 @@
 						"repeat": 2
 					},
 					{
-						"item": "ceanataur_leg",
+						"item": "ceanataurlv1_leg",
 						"x": 20,
 						"y": 6,
 						"chance": 25,
@@ -4657,7 +4657,7 @@
 						"repeat": 2
 					},
 					{
-						"item": "ceanataur_leg",
+						"item": "ceanataurlv1_leg",
 						"x": 20,
 						"y": 6,
 						"chance": 25,
@@ -7926,7 +7926,7 @@
 						"repeat": 3
 					},
 					{
-						"item": "ceanataur_leg",
+						"item": "ceanataurlv1_leg",
 						"x": 20,
 						"y": 6,
 						"chance": 25,
@@ -8051,7 +8051,7 @@
 						"repeat": 3
 					},
 					{
-						"item": "ceanataur_leg",
+						"item": "ceanataurlv1_leg",
 						"x": 20,
 						"y": 6,
 						"chance": 25,

@@ -148,11 +148,6 @@
 			"topic": "MHFU_VTRADER_SELL_mon_fluid"
 		},
 		{
-			"condition": {"u_has_item": "mon_fluid"},
-			"text": "monster fluid - 500z",
-			"topic": "MHFU_VTRADER_SELL_mon_fluid"
-		},
-		{
 			"condition": {"u_has_item": "mon_broth"},
 			"text": "monster broth - 1000z",
 			"topic": "MHFU_VTRADER_SELL_mon_broth"
@@ -478,14 +473,14 @@
 			"topic": "MHFU_VTRADER_SELL_mh_scatterfish"
 		},
 		{
-			"condition": {"u_has_item": "mh_buarowana"},
+			"condition": {"u_has_item": "mh_buarrowana"},
 			"text": "burst arrowana - 45z",
-			"topic": "MHFU_VTRADER_SELL_mh_buarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_buarrowana"
 		},
 		{
-			"condition": {"u_has_item": "mh_boarowana"},
+			"condition": {"u_has_item": "mh_boarrowana"},
 			"text": "bomb arrowana - 135z",
-			"topic": "MHFU_VTRADER_SELL_mh_boarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_boarrowana"
 		},
 		{
 			"condition": {"u_has_item": "mh_stuna"},
@@ -1208,9 +1203,9 @@
 			"topic": "MHFU_VTRADER_SELL_ceanataur_pincer"
 		},
 		{
-			"condition": {"u_has_item": "ceanataur_leg"},
+			"condition": {"u_has_item": "ceanataurlv1_leg"},
 			"text": "ceanataur leg - 750z",
-			"topic": "MHFU_VTRADER_SELL_ceanataur_leg"
+			"topic": "MHFU_VTRADER_SELL_ceanataurlv1_leg"
 		},
 		{
 			"condition": {"u_has_item": "teostra_shell"},
@@ -8729,40 +8724,40 @@
 },
 {
 	"type": "talk_topic",
-	"id": "MHFU_VTRADER_SELL_ceanataur_leg",
+	"id": "MHFU_VTRADER_SELL_ceanataurlv1_leg",
 	"dynamic_line": [
 			{
-				"u_has_item": "ceanataur_leg",
+				"u_has_item": "ceanataurlv1_leg",
 				"yes": "Sell how many?",
 				"no": "You have nothing else to sell..."
 			}
 		],
 	"responses": [
 		{
-			"condition": {"u_has_item": "ceanataur_leg"},
-			"effect": [{"u_buy_item": "z","count": 750},{"u_sell_item": "ceanataur_leg"}],
+			"condition": {"u_has_item": "ceanataurlv1_leg"},
+			"effect": [{"u_buy_item": "z","count": 750},{"u_sell_item": "ceanataurlv1_leg"}],
 			"text": "Sell 1 - 750z",
-			"topic": "MHFU_VTRADER_SELL_ceanataur_leg"
+			"topic": "MHFU_VTRADER_SELL_ceanataurlv1_leg"
 		},
 		{
-			"condition": {"u_has_items": {"item": "ceanataur_leg","count": 5}},
-			"effect": [{"u_buy_item": "z","count":3750},{"u_sell_item": "ceanataur_leg", "count": 5}],
+			"condition": {"u_has_items": {"item": "ceanataurlv1_leg","count": 5}},
+			"effect": [{"u_buy_item": "z","count":3750},{"u_sell_item": "ceanataurlv1_leg", "count": 5}],
 			"text": "Sell 5 - 3750z",
-			"topic": "MHFU_VTRADER_SELL_ceanataur_leg"
+			"topic": "MHFU_VTRADER_SELL_ceanataurlv1_leg"
 		},
 		{
-			"condition": {"u_has_items": {"item": "ceanataur_leg","count": 10}},
-			"effect": [{"u_buy_item": "z","count": 7500},{"u_sell_item": "ceanataur_leg", "count": 10}],
+			"condition": {"u_has_items": {"item": "ceanataurlv1_leg","count": 10}},
+			"effect": [{"u_buy_item": "z","count": 7500},{"u_sell_item": "ceanataurlv1_leg", "count": 10}],
 			"text": "Sell 10 - 7500z",
-			"topic": "MHFU_VTRADER_SELL_ceanataur_leg"
+			"topic": "MHFU_VTRADER_SELL_ceanataurlv1_leg"
 		},
 		{
-			"condition": {"u_has_item": "ceanataur_leg"},
+			"condition": {"u_has_item": "ceanataurlv1_leg"},
 			"text": "I want to sell something else.",
 			"topic": "MHFU_VTRADER_SELL"
 		},
 		{
-			"condition": { "not": {"u_has_item": "ceanataur_leg"}},
+			"condition": { "not": {"u_has_item": "ceanataurlv1_leg"}},
 			"text": "Okay...",
 			"topic": "MHFU_VTRADER_SELL"
 		}
@@ -12337,40 +12332,40 @@
 },
 {
 	"type": "talk_topic",
-	"id": "MHFU_VTRADER_SELL_mh_buarowana",
+	"id": "MHFU_VTRADER_SELL_mh_buarrowana",
 	"dynamic_line": [
 			{
-				"u_has_item": "mh_buarowana",
+				"u_has_item": "mh_buarrowana",
 				"yes": "Sell how many?",
 				"no": "You have nothing else to sell..."
 			}
 		],
 	"responses": [
 		{
-			"condition": {"u_has_item": "mh_buarowana"},
-			"effect": [{"u_buy_item": "z","count": 45},{"u_sell_item": "mh_buarowana"}],
+			"condition": {"u_has_item": "mh_buarrowana"},
+			"effect": [{"u_buy_item": "z","count": 45},{"u_sell_item": "mh_buarrowana"}],
 			"text": "Sell 1 - 45z",
-			"topic": "MHFU_VTRADER_SELL_mh_buarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_buarrowana"
 		},
 		{
-			"condition": {"u_has_items": {"item": "mh_buarowana","count": 5}},
-			"effect": [{"u_buy_item": "z","count":225},{"u_sell_item": "mh_buarowana", "count": 5}],
+			"condition": {"u_has_items": {"item": "mh_buarrowana","count": 5}},
+			"effect": [{"u_buy_item": "z","count":225},{"u_sell_item": "mh_buarrowana", "count": 5}],
 			"text": "Sell 5 - 225z",
-			"topic": "MHFU_VTRADER_SELL_mh_buarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_buarrowana"
 		},
 		{
-			"condition": {"u_has_items": {"item": "mh_buarowana","count": 10}},
-			"effect": [{"u_buy_item": "z","count": 450},{"u_sell_item": "mh_buarowana", "count": 10}],
+			"condition": {"u_has_items": {"item": "mh_buarrowana","count": 10}},
+			"effect": [{"u_buy_item": "z","count": 450},{"u_sell_item": "mh_buarrowana", "count": 10}],
 			"text": "Sell 10 - 450z",
-			"topic": "MHFU_VTRADER_SELL_mh_buarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_buarrowana"
 		},
 		{
-			"condition": {"u_has_item": "mh_buarowana"},
+			"condition": {"u_has_item": "mh_buarrowana"},
 			"text": "I want to sell something else.",
 			"topic": "MHFU_VTRADER_SELL"
 		},
 		{
-			"condition": { "not": {"u_has_item": "mh_buarowana"}},
+			"condition": { "not": {"u_has_item": "mh_buarrowana"}},
 			"text": "Okay...",
 			"topic": "MHFU_VTRADER_SELL"
 		}
@@ -12378,40 +12373,40 @@
 },
 {
 	"type": "talk_topic",
-	"id": "MHFU_VTRADER_SELL_mh_boarowana",
+	"id": "MHFU_VTRADER_SELL_mh_boarrowana",
 	"dynamic_line": [
 			{
-				"u_has_item": "mh_boarowana",
+				"u_has_item": "mh_boarrowana",
 				"yes": "Sell how many?",
 				"no": "You have nothing else to sell..."
 			}
 		],
 	"responses": [
 		{
-			"condition": {"u_has_item": "mh_boarowana"},
-			"effect": [{"u_buy_item": "z","count": 135},{"u_sell_item": "mh_boarowana"}],
+			"condition": {"u_has_item": "mh_boarrowana"},
+			"effect": [{"u_buy_item": "z","count": 135},{"u_sell_item": "mh_boarrowana"}],
 			"text": "Sell 1 - 135z",
-			"topic": "MHFU_VTRADER_SELL_mh_boarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_boarrowana"
 		},
 		{
-			"condition": {"u_has_items": {"item": "mh_boarowana","count": 5}},
-			"effect": [{"u_buy_item": "z","count":675},{"u_sell_item": "mh_boarowana", "count": 5}],
+			"condition": {"u_has_items": {"item": "mh_boarrowana","count": 5}},
+			"effect": [{"u_buy_item": "z","count":675},{"u_sell_item": "mh_boarrowana", "count": 5}],
 			"text": "Sell 5 - 675z",
-			"topic": "MHFU_VTRADER_SELL_mh_boarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_boarrowana"
 		},
 		{
-			"condition": {"u_has_items": {"item": "mh_boarowana","count": 10}},
-			"effect": [{"u_buy_item": "z","count": 1350},{"u_sell_item": "mh_boarowana", "count": 10}],
+			"condition": {"u_has_items": {"item": "mh_boarrowana","count": 10}},
+			"effect": [{"u_buy_item": "z","count": 1350},{"u_sell_item": "mh_boarrowana", "count": 10}],
 			"text": "Sell 10 - 1350z",
-			"topic": "MHFU_VTRADER_SELL_mh_boarowana"
+			"topic": "MHFU_VTRADER_SELL_mh_boarrowana"
 		},
 		{
-			"condition": {"u_has_item": "mh_boarowana"},
+			"condition": {"u_has_item": "mh_boarrowana"},
 			"text": "I want to sell something else.",
 			"topic": "MHFU_VTRADER_SELL"
 		},
 		{
-			"condition": { "not": {"u_has_item": "mh_boarowana"}},
+			"condition": { "not": {"u_has_item": "mh_boarrowana"}},
 			"text": "Okay...",
 			"topic": "MHFU_VTRADER_SELL"
 		}

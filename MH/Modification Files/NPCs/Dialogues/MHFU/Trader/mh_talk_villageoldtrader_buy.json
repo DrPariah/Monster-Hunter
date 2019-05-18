@@ -62,11 +62,11 @@
 			},
 			{
 				"text": "burst arowana - 90z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarrowana"
 			},
 			{
 				"text": "bomb arowana - 270z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarrowana"
 			},
 			{
 				"text": "knife mackerel - 135z",
@@ -1092,7 +1092,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VOLDTRADER1_BUY_mh_buarowana",
+		"id": "MHFU_VOLDTRADER1_BUY_mh_buarrowana",
 		"dynamic_line": [
 			{
 				"u_has_item": "moneyz",
@@ -1107,14 +1107,14 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "mh_buarowana"
+						"u_buy_item": "mh_buarrowana"
 					},
 					{
 						"u_sell_item": "moneyz"
 					}
 				],
 				"text": "Buy 1 - 90z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarrowana"
 			},
 			{
 				"condition": {
@@ -1125,7 +1125,7 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "mh_buarowana",
+						"u_buy_item": "mh_buarrowana",
 						"count": 5
 					},
 					{
@@ -1134,7 +1134,7 @@
 					}
 				],
 				"text": "Buy 5 - 450z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarrowana"
 			},
 			{
 				"condition": {
@@ -1145,7 +1145,7 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "mh_buarowana",
+						"u_buy_item": "mh_buarrowana",
 						"count": 10
 					},
 					{
@@ -1154,7 +1154,7 @@
 					}
 				],
 				"text": "Buy 10 - 900z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_buarrowana"
 			},
 			{
 				"condition": {
@@ -1176,7 +1176,7 @@
 	},
 	{
 		"type": "talk_topic",
-		"id": "MHFU_VOLDTRADER1_BUY_mh_boarowana",
+		"id": "MHFU_VOLDTRADER1_BUY_mh_boarrowana",
 		"dynamic_line": [
 			{
 				"u_has_item": "moneyz",
@@ -1191,14 +1191,14 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "mh_boarowana"
+						"u_buy_item": "mh_boarrowana"
 					},
 					{
 						"u_sell_item": "moneyz"
 					}
 				],
 				"text": "Buy 1 - 270z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarrowana"
 			},
 			{
 				"condition": {
@@ -1209,7 +1209,7 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "mh_boarowana",
+						"u_buy_item": "mh_boarrowana",
 						"count": 5
 					},
 					{
@@ -1218,7 +1218,7 @@
 					}
 				],
 				"text": "Buy 5 - 1350z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarrowana"
 			},
 			{
 				"condition": {
@@ -1229,7 +1229,7 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "mh_boarowana",
+						"u_buy_item": "mh_boarrowana",
 						"count": 10
 					},
 					{
@@ -1238,7 +1238,7 @@
 					}
 				],
 				"text": "Buy 10 - 2700z",
-				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarowana"
+				"topic": "MHFU_VOLDTRADER1_BUY_mh_boarrowana"
 			},
 			{
 				"condition": {

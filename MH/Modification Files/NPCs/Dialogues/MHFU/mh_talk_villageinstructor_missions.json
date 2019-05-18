@@ -1,7 +1,7 @@
 {
 		"id": "MH_TRAIN_SLAY_GIAPREY",
 		"type": "mission_definition",
-		"name": "[TRAIN] Slay 5 Giaprey",
+		"name": "[TRAIN] Slay 5 giaprey",
 		"goal": "MGOAL_KILL_MONSTER",
 		"difficulty": 0,
 		"value": 0,
@@ -39,7 +39,7 @@
 		"followup": "MH_TRAIN_SLAY_GIAPREY",
 		"dialogue": {
 			"describe": "IF YOU SEE THIS SH*T, THEN IT'S A BUG!",
-			"offer": "\n* Slay 5 Giaprey\nIn this training, you will face the fast raptor-like monsters - the giapreys!",
+			"offer": "\n* Slay 5 giaprey\nIn this training, you will face the fast raptor-like monsters - the giapreys!",
 			"accepted": "Know your place, now git!",
 			"rejected": "Huh? Now you're turning back?",
 			"advice": "Pick your weapon and armor of your choice!",
