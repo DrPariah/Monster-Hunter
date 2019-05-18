@@ -1,10 +1,18 @@
 [
 	{
-		"//": "Here we list and process all the weapon upgrades! Note that there are some upgrade paths closed due to their material requirements are invalid. Examples are felyne cook tickets and monster subspecie materials.",
+		"//": "Here we list and process all the weapon upgrades! Note that there are some upgrade paths closed due to their material requirement includes an invalid item. Examples of invalid items are felyne-related items and monster subspecie materials.",
 		"type": "talk_topic",
 		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
 		"dynamic_line": "Select your weapon to improve.",
 		"responses": [
+			{
+				"text": "Not interested.",
+				"topic": "MHFU_VILLAGECRAFTSMAN_intro1"
+			},
+			{
+				"text": "Let's improve something later!",
+				"topic": "TALK_DONE"
+			},
 			{
 				"condition": {
 					"u_has_item": "ironlv1_gs"
@@ -18,6 +26,41 @@
 				},
 				"text": "buster sword+",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_ironlv2_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "defenderlv1_gs"
+				},
+				"text": "defender",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_defenderlv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "defenderlv2_gs"
+				},
+				"text": "sentinel",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_defenderlv2_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "barbaroilv1_gs"
+				},
+				"text": "barbaroi blade",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_barbaroilv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "halberdlv1_gs"
+				},
+				"text": "halberd",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_halberdlv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "halberdlv2_gs"
+				},
+				"text": "judgment\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
 			},
 			{
 				"condition": {
@@ -35,10 +78,59 @@
 			},
 			{
 				"condition": {
+					"u_has_item": "ravagerlv2_gs"
+				},
+				"text": "ravager blade+",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_ravagerlv2_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "khezulv1_gs"
+				},
+				"text": "khezu shock sword",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_khezulv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "khezulv2_gs"
+				},
+				"text": "khezu shock blade",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_khezulv2_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "khezulv3_gs"
+				},
+				"text": "khezu shock full\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			},
+			{
+				"condition": {
 					"u_has_item": "giapreylv1_gs"
 				},
 				"text": "white serpentblade",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_giapreylv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "velocipreylv1_gs"
+				},
+				"text": "vile serpentblade",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_velocipreylv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "remobralv1_gs"
+				},
+				"text": "deadly serpentblade",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_remobralv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "remobralv2_gs"
+				},
+				"text": "poison serpentblade\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
 			},
 			{
 				"condition": {
@@ -70,6 +162,13 @@
 			},
 			{
 				"condition": {
+					"u_has_item": "frostlv1_ss"
+				},
+				"text": "frost edge\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			},
+			{
+				"condition": {
 					"u_has_item": "ironlv3_ss"
 				},
 				"text": "assassin's dagger",
@@ -81,6 +180,13 @@
 				},
 				"text": "velocidrome bite",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_velocipreylv1_ss"
+			},
+			{
+				"condition": {
+					"u_has_item": "banelv1_ss"
+				},
+				"text": "thunderbane",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_banelv1_ss"
 			},
 			{
 				"condition": {
@@ -182,6 +288,13 @@
 			},
 			{
 				"condition": {
+					"u_has_item": "gunlv3_h"
+				},
+				"text": "sanctioned gunhammer\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			},
+			{
+				"condition": {
 					"u_has_item": "axelv1_h"
 				},
 				"text": "bone axe",
@@ -238,6 +351,62 @@
 			},
 			{
 				"condition": {
+					"u_has_item": "paladinlv1_l"
+				},
+				"text": "paladin lance",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_paladinlv1_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "paladinlv2_l"
+				},
+				"text": "rampart",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_paladinlv2_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "gunlv1_l"
+				},
+				"text": "gatling lance",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_gunlv1_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "gunlv2_l"
+				},
+				"text": "gatling lance+",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_gunlv2_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "gunlv3_l"
+				},
+				"text": "sanctioned gunlance\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			},
+			{
+				"condition": {
+					"u_has_item": "remobralv1_l"
+				},
+				"text": "naag serpentblade",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_remobralv1_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "estoclv1_l"
+				},
+				"text": "estoc",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_estoclv1_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "estoclv2_l"
+				},
+				"text": "valhalla\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			},
+			{
+				"condition": {
 					"u_has_item": "boneironlv1_l"
 				},
 				"text": "bone javelin",
@@ -277,6 +446,41 @@
 				},
 				"text": "twin dagger+",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_ironlv2_ds"
+			},
+			{
+				"condition": {
+					"u_has_item": "vespoidhornetaurlv1_ds"
+				},
+				"text": "insector",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv1_ds"
+			},
+			{
+				"condition": {
+					"u_has_item": "vespoidhornetaurlv2_ds"
+				},
+				"text": "insector+",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv2_ds"
+			},
+			{
+				"condition": {
+					"u_has_item": "vespoidhornetaurlv3_ds"
+				},
+				"text": "insect slicer",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv3_ds"
+			},
+			{
+				"condition": {
+					"u_has_item": "vespoidhornetaurlv4_ds"
+				},
+				"text": "alated insect",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv4_ds"
+			},
+			{
+				"condition": {
+					"u_has_item": "vespoidhornetaurlv5_ds"
+				},
+				"text": "insect lord\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
 			},
 			{
 				"condition": {
@@ -336,10 +540,52 @@
 			},
 			{
 				"condition": {
+					"u_has_item": "bonelv2_gs2"
+				},
+				"text": "golem blade+",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_bonelv2_gs2"
+			},
+			{
+				"condition": {
+					"u_has_item": "rathianlv1_gs1"
+				},
+				"text": "valkyrie blade",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_rathianlv1_gs1"
+			},
+			{
+				"condition": {
+					"u_has_item": "rathianlv2_gs1"
+				},
+				"text": "sieglinde\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			},
+			{
+				"condition": {
+					"u_has_item": "execlv1_gs"
+				},
+				"text": "executioner",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_execlv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "agitolv1_gs"
+				},
+				"text": "agito",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_agitolv1_gs"
+			},
+			{
+				"condition": {
 					"u_has_item": "hermitaurlv1_gs"
 				},
 				"text": "red stripe",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_hermitaurlv1_gs"
+			},
+			{
+				"condition": {
+					"u_has_item": "hermitaurlv2_gs"
+				},
+				"text": "red pincer",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_hermitaurlv2_gs"
 			},
 			{
 				"condition": {
@@ -469,10 +715,45 @@
 			},
 			{
 				"condition": {
+					"u_has_item": "bonelv3_l2"
+				},
+				"text": "wild bone lance+",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_bonelv3_l2"
+			},
+			{
+				"condition": {
+					"u_has_item": "bonelv4_l2"
+				},
+				"text": "bulldrome spear\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			},
+			{
+				"condition": {
 					"u_has_item": "bonelv3_l1"
 				},
 				"text": "long tusk",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_bonelv3_l1"
+			},
+			{
+				"condition": {
+					"u_has_item": "hermitaurlv1_l"
+				},
+				"text": "bone claw lance",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_hermitaurlv1_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "hermitaurlv2_l"
+				},
+				"text": "bone claw lance+",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_hermitaurlv2_l"
+			},
+			{
+				"condition": {
+					"u_has_item": "ceanataurlv3_l"
+				},
+				"text": "ceanataur piercer\n[Cannot be further improved]",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
 			},
 			{
 				"condition": {
@@ -503,21 +784,36 @@
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_bonelv3_ds"
 			},
 			{
-				"text": "Not interested.",
-				"topic": "MHFU_VILLAGECRAFTSMAN_intro1"
+				"condition": {
+					"u_has_item": "ceanataurlv1_ds"
+				},
+				"text": "bladed edge",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_ceanataurlv1_ds"
 			},
 			{
-				"text": "Let's make some later!",
-				"topic": "TALK_DONE"
+				"condition": {
+					"u_has_item": "plesiothlv1_ds"
+				},
+				"text": "cutlass",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_plesiothlv1_ds"
+			},
+			{
+				"condition": {
+					"u_has_item": "kut-ku_ds"
+				},
+				"text": "twin kut-ku",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_kut-ku_ds"
 			}
 		]
 	},
 	{
 		"type": "talk_topic",
 		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_ironlv1_gs",
+		"//": "This is the dynamic line that lists the available improvements, displays the material requirements and the weapon damage data.",
 		"dynamic_line": "\nExecute which improvement?\n\nbuster sword+ costs 850z and these materials:\n- 3 iron ores\n- 2 disk stones\nIt can deal damage by:\n*bash: 8 *cut: 13\n\nwhite serpentblade costs 1100z and these materials:\n- 5 giaprey scales\n- 3 small monster bones\n- 2 carpenterbugs\nIt can deal damage by:\n*bash: 8 *cut: 15",
 		"responses": [
 			{
+				"//": "A true or false condition whether you have all the required items in your inventory or not.",
 				"truefalsetext": {
 					"condition": {
 						"and": [
@@ -544,6 +840,7 @@
 					"true": "Improve buster sword to buster sword+!",
 					"false": "[Requirements not met]"
 				},
+				"//": "If everything falls to the correct condition, the craftsman will proceed to work on the selected improvement.",
 				"trial": {
 					"type": "CONDITION",
 					"condition": {
@@ -573,6 +870,7 @@
 					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
 					"effect": [
 						{
+							"//": "Lets give all the required materials to the craftsman.",
 							"u_sell_item": "moneyz",
 							"count": 850
 						},
@@ -585,9 +883,27 @@
 							"count": 2
 						},
 						{
+							"//": "Also, your weapon is required for this job...",
 							"u_sell_item": "ironlv1_gs"
 						},
 						{
+							"//": "Craftsman will then use(destroy) those materials to improve your weapon. Money is also 'used'(destroyed), just in-case. If an error occurs like 'craftsman doesn't have a <material>` at this point, kindly ignore that... That's not a big threat at all.",
+							"npc_consume_item": "moneyz",
+							"count": 850
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ironlv1_gs"
+						},
+						{
+							"//": "Here's your final product!",
 							"u_buy_item": "ironlv2_gs"
 						}
 					]
@@ -680,7 +996,23 @@
 							"count": 2
 						},
 						{
-							"u_sell_item": "ironlv1_gs"
+							"npc_consume_item": "moneyz",
+							"count": 1100
+						},
+						{
+							"npc_consume_item": "giaprey_scale",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_carpenterbug",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ironlv1_gs"
 						},
 						{
 							"u_buy_item": "giapreylv1_gs"
@@ -755,6 +1087,17 @@
 						},
 						{
 							"u_sell_item": "ironlv1_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 510
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "ironlv1_ss"
 						},
 						{
 							"u_buy_item": "ironlv2_ss"
@@ -836,6 +1179,21 @@
 							"u_sell_item": "ironlv1_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 880
+						},
+						{
+							"npc_consume_item": "giaprey_scale",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "giaprey_hide",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ironlv1_ss"
+						},
+						{
 							"u_buy_item": "giaprey_ds"
 						}
 					]
@@ -915,6 +1273,23 @@
 						},
 						{
 							"u_sell_item": "ironlv1_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 660
+						},
+						{
+							"npc_consume_item": "giaprey_hide",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "sharp_claw"
+						},
+						{
+							"npc_consume_item": "monbone_s"
+						},
+						{
+							"npc_consume_item": "ironlv1_ss"
 						},
 						{
 							"u_buy_item": "giapreylv1_ss"
@@ -1000,6 +1375,20 @@
 							"u_sell_item": "ironlv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 650
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_diskstone"
+						},
+						{
+							"npc_consume_item": "ironlv1_h"
+						},
+						{
 							"u_buy_item": "ironlv2_h"
 						}
 					]
@@ -1072,6 +1461,17 @@
 						},
 						{
 							"u_sell_item": "ironlv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 650
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ironlv1_l"
 						},
 						{
 							"u_buy_item": "ironlv2_l"
@@ -1180,6 +1580,25 @@
 							"u_sell_item": "ironlv1_ds"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1120
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ironlv1_ds"
+						},
+						{
 							"u_buy_item": "ironlv2_ds"
 						}
 					]
@@ -1197,7 +1616,7 @@
 	{
 		"type": "talk_topic",
 		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_bonelv1_gs1",
-		"dynamic_line": "\nExecute which improvement?\n\nbone blade+ costs 850z and these materials:\n- 3 small monster bone\nIt can deal damage by:\n*bash: 8 *cut: 13",
+		"dynamic_line": "\nExecute which improvement?\n\nbone blade+ costs 850z and these materials:\n- 3 small monster bones\nIt can deal damage by:\n*bash: 8 *cut: 13",
 		"responses": [
 			{
 				"truefalsetext": {
@@ -1252,6 +1671,17 @@
 						},
 						{
 							"u_sell_item": "bonelv1_gs1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 850
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv1_gs1"
 						},
 						{
 							"u_buy_item": "bonelv2_gs1"
@@ -1328,6 +1758,19 @@
 						},
 						{
 							"u_sell_item": "bonelv1_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 510
+						},
+						{
+							"npc_consume_item": "monbone_s"
+						},
+						{
+							"npc_consume_item": "monbone_brute"
+						},
+						{
+							"npc_consume_item": "bonelv1_ss"
 						},
 						{
 							"u_buy_item": "bonelv2_ss"
@@ -1413,6 +1856,20 @@
 							"u_sell_item": "bonelv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"npc_consume_item": "monbone_giant"
+						},
+						{
+							"npc_consume_item": "monbone_mystery",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "bonelv1_h"
+						},
+						{
 							"u_buy_item": "bonelv2_h1"
 						}
 					]
@@ -1490,6 +1947,21 @@
 						},
 						{
 							"u_sell_item": "bonelv1_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1100
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv1_h"
 						},
 						{
 							"u_buy_item": "bonelv2_h2"
@@ -1587,6 +2059,25 @@
 							"u_sell_item": "bonelv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "bullfango_pelt",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "anteka_antler",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv1_h"
+						},
+						{
 							"u_buy_item": "bonelv2_h3"
 						}
 					]
@@ -1675,6 +2166,21 @@
 						},
 						{
 							"u_sell_item": "bonelv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1100
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv1_l"
 						},
 						{
 							"u_buy_item": "bonelv2_l1"
@@ -1772,6 +2278,25 @@
 							"u_sell_item": "bonelv1_l"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "bullfango_pelt",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv1_l"
+						},
+						{
 							"u_buy_item": "bonelv2_l2"
 						}
 					]
@@ -1860,6 +2385,21 @@
 						},
 						{
 							"u_sell_item": "bonelv1_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 880
+						},
+						{
+							"npc_consume_item": "sharp_claw",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv1_ds"
 						},
 						{
 							"u_buy_item": "bonelv2_ds"
@@ -1961,6 +2501,24 @@
 							"u_sell_item": "ironlv2_gs"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "mh_machaliteore"
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ironlv2_gs"
+						},
+						{
 							"u_buy_item": "ironlv3_gs"
 						}
 					]
@@ -2054,6 +2612,25 @@
 						},
 						{
 							"u_sell_item": "ironlv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ironlv2_gs"
 						},
 						{
 							"u_buy_item": "defenderlv1_gs"
@@ -2162,6 +2739,25 @@
 							"u_sell_item": "giapreylv1_gs"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "giadrome_claw",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "giadrome_hide",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "giapreylv1_gs"
+						},
+						{
 							"u_buy_item": "giapreylv2_gs"
 						}
 					]
@@ -2261,6 +2857,24 @@
 							"u_sell_item": "ironlv2_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 840
+						},
+						{
+							"npc_consume_item": "mh_machaliteore"
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "ironlv2_ss"
+						},
+						{
 							"u_buy_item": "ironlv3_ss"
 						}
 					]
@@ -2356,6 +2970,25 @@
 							"u_sell_item": "ironlv2_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 840
+						},
+						{
+							"npc_consume_item": "mh_icecrystal",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "blango_pelt",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "ironlv2_ss"
+						},
+						{
 							"u_buy_item": "frostlv1_ss"
 						}
 					]
@@ -2419,6 +3052,19 @@
 						},
 						{
 							"u_sell_item": "ironlv2_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 680
+						},
+						{
+							"npc_consume_item": "mh_machaliteore"
+						},
+						{
+							"npc_consume_item": "mh_diskstone"
+						},
+						{
+							"npc_consume_item": "ironlv2_ss"
 						},
 						{
 							"u_buy_item": "ironlv1_ds"
@@ -2527,6 +3173,25 @@
 							"u_sell_item": "giapreylv1_ds"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1720
+						},
+						{
+							"npc_consume_item": "giadrome_claw",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "giadrome_hide",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_icecrystal",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "giapreylv1_ds"
+						},
+						{
 							"u_buy_item": "giapreylv2_ds"
 						}
 					]
@@ -2615,6 +3280,21 @@
 						},
 						{
 							"u_sell_item": "ironlv2_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1100
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ironlv2_h"
 						},
 						{
 							"u_buy_item": "ironlv3_h"
@@ -2712,6 +3392,25 @@
 							"u_sell_item": "ironlv2_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_needleberry",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_carpenterbug",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ironlv2_h"
+						},
+						{
 							"u_buy_item": "spikelv1_h"
 						}
 					]
@@ -2800,6 +3499,21 @@
 						},
 						{
 							"u_sell_item": "ironlv2_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ironlv2_l"
 						},
 						{
 							"u_buy_item": "ironlv3_l"
@@ -2895,6 +3609,25 @@
 						},
 						{
 							"u_sell_item": "ironlv2_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ironlv2_l"
 						},
 						{
 							"u_buy_item": "boneironlv1_l"
@@ -3003,6 +3736,25 @@
 							"u_sell_item": "ironlv2_ds"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1720
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_astone",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ironlv2_ds"
+						},
+						{
 							"u_buy_item": "ironlv3_ds"
 						}
 					]
@@ -3096,6 +3848,25 @@
 						},
 						{
 							"u_sell_item": "ironlv2_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2480
+						},
+						{
+							"npc_consume_item": "vespoid_wing",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "hornetaur_shell",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mon_fluid",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ironlv2_ds"
 						},
 						{
 							"u_buy_item": "vespoidhornetaurlv1_ds"
@@ -3204,6 +3975,25 @@
 							"u_sell_item": "bonelv2_gs1"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1100
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_carpenterbug",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "bonelv2_gs1"
+						},
+						{
 							"u_buy_item": "bonelv3_gs1"
 						}
 					]
@@ -3297,6 +4087,25 @@
 						},
 						{
 							"u_sell_item": "bonelv2_gs1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "anteka_antler",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "hermitaur_shell_small",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv2_gs1"
 						},
 						{
 							"u_buy_item": "hermitaurlv1_gs"
@@ -3398,6 +4207,24 @@
 							"u_sell_item": "bonelv2_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 840
+						},
+						{
+							"npc_consume_item": "monbone_m"
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_bonehusk_s",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "bonelv2_ss"
+						},
+						{
 							"u_buy_item": "bonelv3_ss"
 						}
 					]
@@ -3475,6 +4302,21 @@
 						},
 						{
 							"u_sell_item": "bonelv2_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 880
+						},
+						{
+							"npc_consume_item": "sharp_claw",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv2_ss"
 						},
 						{
 							"u_buy_item": "bonelv2_ds"
@@ -3567,6 +4409,21 @@
 							"u_sell_item": "bonelv2_h2"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1750
+						},
+						{
+							"npc_consume_item": "monbone_giant",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "bonelv2_h2"
+						},
+						{
 							"u_buy_item": "bonelv3_h2"
 						}
 					]
@@ -3655,6 +4512,24 @@
 							"u_sell_item": "bonelv2_h2"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "sharp_claw",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mon_fluid"
+						},
+						{
+							"npc_consume_item": "bonelv2_h2"
+						},
+						{
 							"u_buy_item": "crusherlv1_h"
 						}
 					]
@@ -3741,6 +4616,24 @@
 						},
 						{
 							"u_sell_item": "bonelv2_h2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "blango_pelt",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "monbone_unknown"
+						},
+						{
+							"npc_consume_item": "bonelv2_h2"
 						},
 						{
 							"u_buy_item": "blangongalv1_h"
@@ -3835,6 +4728,23 @@
 							"u_sell_item": "bonelv2_l1"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1750
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_giant"
+						},
+						{
+							"npc_consume_item": "monbone_m"
+						},
+						{
+							"npc_consume_item": "bonelv2_l1"
+						},
+						{
 							"u_buy_item": "bonelv3_l1"
 						}
 					]
@@ -3921,6 +4831,24 @@
 						},
 						{
 							"u_sell_item": "bonelv2_l1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "hornetaur_shell",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "vespoid_abdomen"
+						},
+						{
+							"npc_consume_item": "paralysis_sac",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv2_l1"
 						},
 						{
 							"u_buy_item": "vespoidhornetaurlv1_l"
@@ -4029,6 +4957,25 @@
 							"u_sell_item": "bonelv2_ds"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_bonehusk_s",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "velocidrome_claw",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv2_ds"
+						},
+						{
 							"u_buy_item": "bonelv3_ds"
 						}
 					]
@@ -4133,6 +5080,25 @@
 						},
 						{
 							"u_sell_item": "ironlv3_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "ironlv3_gs"
 						},
 						{
 							"u_buy_item": "ravagerlv1_gs"
@@ -4241,6 +5207,25 @@
 							"u_sell_item": "ironlv3_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1290
+						},
+						{
+							"npc_consume_item": "velocidrome_claw",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "velocidrome_hide",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "ironlv3_ss"
+						},
+						{
 							"u_buy_item": "velocipreylv1_ss"
 						}
 					]
@@ -4336,6 +5321,25 @@
 							"u_sell_item": "ironlv3_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1860
+						},
+						{
+							"npc_consume_item": "rubbery_hide",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "electro_sac",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ironlv3_ss"
+						},
+						{
 							"u_buy_item": "banelv1_ss"
 						}
 					]
@@ -4429,6 +5433,25 @@
 						},
 						{
 							"u_sell_item": "ironlv3_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2190
+						},
+						{
+							"npc_consume_item": "rubbery_hide",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "poison_sac",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ironlv3_ss"
 						},
 						{
 							"u_buy_item": "gypceros_ss"
@@ -4537,6 +5560,25 @@
 							"u_sell_item": "giapreylv2_gs"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "velocidrome_claw",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "velocidrome_hide",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "velociprey_scale",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "giapreylv2_gs"
+						},
+						{
 							"u_buy_item": "velocipreylv1_gs"
 						}
 					]
@@ -4630,6 +5672,25 @@
 						},
 						{
 							"u_sell_item": "giapreylv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"npc_consume_item": "giadrome_claw_plus",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "giaprey_hide_plus",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "giadrome_skull",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "giapreylv2_gs"
 						},
 						{
 							"u_buy_item": "giapreylv3_gs"
@@ -4738,6 +5799,25 @@
 							"u_sell_item": "giapreylv2_ds"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"npc_consume_item": "giadrome_claw_plus",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "giadrome_skull",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "blangonga_fang_plus",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "giapreylv2_ds"
+						},
+						{
 							"u_buy_item": "giapreylv3_ds"
 						}
 					]
@@ -4824,6 +5904,24 @@
 						},
 						{
 							"u_sell_item": "giapreylv2_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2480
+						},
+						{
+							"npc_consume_item": "velocidrome_claw",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "velocidrome_head"
+						},
+						{
+							"npc_consume_item": "pale_extract",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "giapreylv2_ds"
 						},
 						{
 							"u_buy_item": "velociprey_ds"
@@ -4919,6 +6017,25 @@
 						},
 						{
 							"u_sell_item": "giapreylv2_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5080
+						},
+						{
+							"npc_consume_item": "iodrome_hide",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ioprey_fang",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "giaprey_hide",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "giapreylv2_ds"
 						},
 						{
 							"u_buy_item": "giapreyiopreylv1_ds"
@@ -5018,6 +6135,24 @@
 						},
 						{
 							"u_sell_item": "giapreylv1_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1050
+						},
+						{
+							"npc_consume_item": "giadrome_hide"
+						},
+						{
+							"npc_consume_item": "giadrome_claw",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_carpenterbug",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "giapreylv1_ss"
 						},
 						{
 							"u_buy_item": "giapreylv2_ss"
@@ -5126,6 +6261,25 @@
 							"u_sell_item": "giapreylv2_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1290
+						},
+						{
+							"npc_consume_item": "genprey_hide",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "genprey_fang",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "giapreylv2_ss"
+						},
+						{
 							"u_buy_item": "genpreylv1_ss"
 						}
 					]
@@ -5219,6 +6373,25 @@
 						},
 						{
 							"u_sell_item": "giapreylv2_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1290
+						},
+						{
+							"npc_consume_item": "ioprey_hide",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ioprey_fang",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "monbone_brute",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "giapreylv2_ss"
 						},
 						{
 							"u_buy_item": "iopreylv1_ss"
@@ -5327,6 +6500,25 @@
 							"u_sell_item": "ironlv3_ds"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 3400
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 12
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "ironlv3_ds"
+						},
+						{
 							"u_buy_item": "ironlv4_ds"
 						}
 					]
@@ -5420,6 +6612,25 @@
 						},
 						{
 							"u_sell_item": "ironlv3_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2480
+						},
+						{
+							"npc_consume_item": "mh_lightcrystal",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_kbeetle",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "ironlv3_ds"
 						},
 						{
 							"u_buy_item": "rapierlv1_ds"
@@ -5521,6 +6732,24 @@
 							"u_sell_item": "bonelv3_gs1"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1750
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "sharp_claw",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "mon_fluid"
+						},
+						{
+							"npc_consume_item": "bonelv3_gs1"
+						},
+						{
 							"u_buy_item": "bonelv1_gs2"
 						}
 					]
@@ -5614,6 +6843,25 @@
 						},
 						{
 							"u_sell_item": "bonelv3_gs1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "cephalos_fin",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv3_gs1"
 						},
 						{
 							"u_buy_item": "plesioth_gs"
@@ -5711,6 +6959,25 @@
 							"u_sell_item": "bonelv3_gs1"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "kut-ku_shell",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "kut-ku_scale",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_carpenterbug",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv3_gs1"
+						},
+						{
 							"u_buy_item": "kut-ku_gs"
 						}
 					]
@@ -5806,7 +7073,26 @@
 							"u_sell_item": "bonelv3_gs1"
 						},
 						{
-							"u_buy_item": "rathalos_gs"
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "fwyvern_fluid",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "flame_sac",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv3_gs1"
+						},
+						{
+							"u_buy_item": "rathaloslv1_gs1"
 						}
 					]
 				},
@@ -5896,6 +7182,23 @@
 						},
 						{
 							"u_sell_item": "bonelv3_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1860
+						},
+						{
+							"npc_consume_item": "monoblos_horn"
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_demondrug_mega"
+						},
+						{
+							"npc_consume_item": "bonelv3_ss"
 						},
 						{
 							"u_buy_item": "monoblos_ss"
@@ -5993,6 +7296,25 @@
 							"u_sell_item": "bonelv3_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1860
+						},
+						{
+							"npc_consume_item": "plesioth_fin",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "cephalos_fin",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_sleepherb",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "bonelv3_ss"
+						},
+						{
 							"u_buy_item": "plesiothlv1_ss"
 						}
 					]
@@ -6079,6 +7401,24 @@
 						},
 						{
 							"u_sell_item": "bonelv3_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1560
+						},
+						{
+							"npc_consume_item": "fwyvern_fluid",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "flame_sac"
+						},
+						{
+							"npc_consume_item": "bonelv3_ss"
 						},
 						{
 							"u_buy_item": "rathaloslv1_ss1"
@@ -6187,7 +7527,26 @@
 							"u_sell_item": "bonelv3_ds"
 						},
 						{
-							"u_buy_item": "ceanataur_ds"
+							"npc_consume_item": "moneyz",
+							"count": 3400
+						},
+						{
+							"npc_consume_item": "ceanataur_shell",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "sharp_claw",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_giant",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv3_ds"
+						},
+						{
+							"u_buy_item": "ceanataurlv1_ds"
 						}
 					]
 				},
@@ -6282,7 +7641,26 @@
 							"u_sell_item": "bonelv3_ds"
 						},
 						{
-							"u_buy_item": "plesioth_ds"
+							"npc_consume_item": "moneyz",
+							"count": 2920
+						},
+						{
+							"npc_consume_item": "plesioth_scale",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "cephalos_fin",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_kmackerel",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "bonelv3_ds"
+						},
+						{
+							"u_buy_item": "plesiothlv1_ds"
 						}
 					]
 				},
@@ -6375,6 +7753,25 @@
 						},
 						{
 							"u_sell_item": "bonelv3_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1720
+						},
+						{
+							"npc_consume_item": "monbone_unknown",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "kut-ku_scale",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_hdrink",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "bonelv3_ds"
 						},
 						{
 							"u_buy_item": "kut-ku_ds"
@@ -6474,6 +7871,24 @@
 						},
 						{
 							"u_sell_item": "bonelv2_h3"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "bulldrome_hide",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bulldrome_tusk",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_giant"
+						},
+						{
+							"npc_consume_item": "bonelv2_h3"
 						},
 						{
 							"u_buy_item": "bonelv3_h3"
@@ -6582,6 +7997,25 @@
 							"u_sell_item": "bonelv3_h3"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"npc_consume_item": "bulldrome_hide",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "bulldrome_tusk",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "bonelv3_h3"
+						},
+						{
 							"u_buy_item": "bonelv4_h3"
 						}
 					]
@@ -6681,6 +8115,24 @@
 							"u_sell_item": "bonelv3_h2"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"npc_consume_item": "kut-ku_beak"
+						},
+						{
+							"npc_consume_item": "sharp_claw",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mon_fluid",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv3_h2"
+						},
+						{
 							"u_buy_item": "kut-ku_h"
 						}
 					]
@@ -6774,6 +8226,25 @@
 						},
 						{
 							"u_sell_item": "bonelv3_h2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "mh_thunderbug",
+							"count": 12
+						},
+						{
+							"npc_consume_item": "gypceros_hide",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv3_h2"
 						},
 						{
 							"u_buy_item": "jaillv1_h"
@@ -6882,6 +8353,25 @@
 							"u_sell_item": "crusherlv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "piscine_fang",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "congalala_claw",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "crusherlv1_h"
+						},
+						{
 							"u_buy_item": "crusherlv2_h"
 						}
 					]
@@ -6988,6 +8478,25 @@
 							"u_sell_item": "blangongalv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "blangonga_fang",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "blangonga_whisker",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "blangonga_pelt",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "blangongalv1_h"
+						},
+						{
 							"u_buy_item": "blangongalv2_h"
 						}
 					]
@@ -7087,6 +8596,24 @@
 							"u_sell_item": "bonelv2_l2"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "bulldrome_tusk",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bullfango_head"
+						},
+						{
+							"npc_consume_item": "bulldrome_hide",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv2_l2"
+						},
+						{
 							"u_buy_item": "bonelv3_l2"
 						}
 					]
@@ -7180,6 +8707,25 @@
 						},
 						{
 							"u_sell_item": "bonelv2_l2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 1400
+						},
+						{
+							"npc_consume_item": "mh_dosbiscus",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_carpenterbug",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_sunsetherb",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv2_l2"
 						},
 						{
 							"u_buy_item": "plantlv1_l"
@@ -7288,6 +8834,25 @@
 							"u_sell_item": "bonelv3_l1"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "iodrome_hide",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mon_fluid",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "bonelv3_l1"
+						},
+						{
 							"u_buy_item": "barbaroilv1_l"
 						}
 					]
@@ -7374,6 +8939,24 @@
 						},
 						{
 							"u_sell_item": "bonelv3_l1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "monoblos_horn"
+						},
+						{
+							"npc_consume_item": "flame_sac",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "bonelv3_l1"
 						},
 						{
 							"u_buy_item": "monoblos_l"
@@ -7471,7 +9054,26 @@
 							"u_sell_item": "bonelv3_l1"
 						},
 						{
-							"u_buy_item": "hermitaur_l"
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "hermitaur_shell",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "hermitaur_shell_small",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "sharp_claw",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv3_l1"
+						},
+						{
+							"u_buy_item": "hermitaurlv1_l"
 						}
 					]
 				},
@@ -7566,7 +9168,26 @@
 							"u_sell_item": "bonelv3_l1"
 						},
 						{
-							"u_buy_item": "ceanataur_l"
+							"npc_consume_item": "moneyz",
+							"count": 3650
+						},
+						{
+							"npc_consume_item": "ceanataur_pincer",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ceanataur_shell_small",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "black_pearl",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv3_l1"
+						},
+						{
+							"u_buy_item": "ceanataurlv1_l"
 						}
 					]
 				},
@@ -7670,6 +9291,25 @@
 						},
 						{
 							"u_sell_item": "vespoidhornetaurlv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "hornetaur_head",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_hercudrome",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "gendrome_skull",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "vespoidhornetaurlv1_l"
 						},
 						{
 							"u_buy_item": "vespoidhornetaurlv2_l"
@@ -7778,6 +9418,25 @@
 							"u_sell_item": "hermitaurlv1_gs"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "hermitaur_claw",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "hermitaur_shell",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "monbone_giant",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "hermitaurlv1_gs"
+						},
+						{
 							"u_buy_item": "hermitaurlv2_gs"
 						}
 					]
@@ -7798,7 +9457,7 @@
 							},
 							{
 								"u_has_items": {
-									"item": "ceanataur_leg",
+									"item": "ceanataurlv1_leg",
 									"count": 2
 								}
 							},
@@ -7831,7 +9490,7 @@
 							},
 							{
 								"u_has_items": {
-									"item": "ceanataur_leg",
+									"item": "ceanataurlv1_leg",
 									"count": 2
 								}
 							},
@@ -7858,7 +9517,7 @@
 							"count": 3650
 						},
 						{
-							"u_sell_item": "ceanataur_leg",
+							"u_sell_item": "ceanataurlv1_leg",
 							"count": 2
 						},
 						{
@@ -7871,6 +9530,25 @@
 						},
 						{
 							"u_sell_item": "hermitaurlv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3650
+						},
+						{
+							"npc_consume_item": "ceanataurlv1_leg",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ceanataur_shell",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_kmackerel",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "hermitaurlv1_gs"
 						},
 						{
 							"u_buy_item": "ceanataur_gs"
@@ -7979,6 +9657,25 @@
 							"u_sell_item": "ravagerlv1_gs"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "ravagerlv1_gs"
+						},
+						{
 							"u_buy_item": "ravagerlv2_gs"
 						}
 					]
@@ -8074,7 +9771,26 @@
 							"u_sell_item": "ravagerlv1_gs"
 						},
 						{
-							"u_buy_item": "khezu_gs"
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "khezu_hide",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "electro_sac",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "ravagerlv1_gs"
+						},
+						{
+							"u_buy_item": "khezulv1_gs"
 						}
 					]
 				},
@@ -8180,6 +9896,25 @@
 							"u_sell_item": "ironlv3_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 12
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "ironlv3_h"
+						},
+						{
 							"u_buy_item": "strikerlv1_h"
 						}
 					]
@@ -8268,6 +10003,24 @@
 							"u_sell_item": "ironlv3_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "mh_stuna"
+						},
+						{
+							"npc_consume_item": "cephalos_fin",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "ironlv3_h"
+						},
+						{
 							"u_buy_item": "anchorlv1_h"
 						}
 					]
@@ -8354,6 +10107,24 @@
 						},
 						{
 							"u_sell_item": "ironlv3_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "monbone_s",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mon_fluid"
+						},
+						{
+							"npc_consume_item": "ironlv3_h"
 						},
 						{
 							"u_buy_item": "axelv1_h"
@@ -8462,6 +10233,25 @@
 							"u_sell_item": "velocipreylv1_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 3360
+						},
+						{
+							"npc_consume_item": "velocidrome_claw",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "velocidrome_head",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "remobra_sskin",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "velocipreylv1_ss"
+						},
+						{
 							"u_buy_item": "velocipreylv2_ss"
 						}
 					]
@@ -8550,6 +10340,24 @@
 							"u_sell_item": "velocipreylv1_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 10000
+						},
+						{
+							"npc_consume_item": "garuga_ear",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "garuga_wing"
+						},
+						{
+							"npc_consume_item": "garuga_scale",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "velocipreylv1_ss"
+						},
+						{
 							"u_buy_item": "garugalv1_ss"
 						}
 					]
@@ -8636,6 +10444,24 @@
 						},
 						{
 							"u_sell_item": "velocipreylv1_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2480
+						},
+						{
+							"npc_consume_item": "velocidrome_claw",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "velocidrome_head"
+						},
+						{
+							"npc_consume_item": "pale_extract",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "velocipreylv1_ss"
 						},
 						{
 							"u_buy_item": "velociprey_ds"
@@ -8742,6 +10568,25 @@
 						},
 						{
 							"u_sell_item": "axelv1_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "tigrex_shell",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "axelv1_h"
 						},
 						{
 							"u_buy_item": "axelv2_h"
@@ -8859,6 +10704,28 @@
 							"u_sell_item": "axelv2_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"npc_consume_item": "monbone_hard",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mon_broth"
+						},
+						{
+							"npc_consume_item": "mh_kscarab",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "axelv2_h"
+						},
+						{
 							"u_buy_item": "axelv3_h"
 						}
 					]
@@ -8965,6 +10832,25 @@
 							"u_sell_item": "axelv3_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 60000
+						},
+						{
+							"npc_consume_item": "ceanataur_carapace",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ceanataur_pincer",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_carbaliteore",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "axelv3_h"
+						},
+						{
 							"u_buy_item": "ceanataurlv1_h"
 						}
 					]
@@ -9008,7 +10894,7 @@
 							},
 							{
 								"u_has_items": {
-									"item": "ceanataur_leg_heavy",
+									"item": "ceanataurlv1_leg_heavy",
 									"count": 3
 								}
 							},
@@ -9047,7 +10933,7 @@
 							},
 							{
 								"u_has_items": {
-									"item": "ceanataur_leg_heavy",
+									"item": "ceanataurlv1_leg_heavy",
 									"count": 3
 								}
 							},
@@ -9076,7 +10962,7 @@
 							"count": 2
 						},
 						{
-							"u_sell_item": "ceanataur_leg_heavy",
+							"u_sell_item": "ceanataurlv1_leg_heavy",
 							"count": 3
 						},
 						{
@@ -9085,6 +10971,29 @@
 						},
 						{
 							"u_sell_item": "ceanataurlv1_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 110000
+						},
+						{
+							"npc_consume_item": "ceanataur_shell_heavy",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ceanataur_claw_hard",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "ceanataurlv1_leg_heavy",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_eltaliteore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ceanataurlv1_h"
 						},
 						{
 							"u_buy_item": "ceanataurlv2_h"
@@ -9193,6 +11102,25 @@
 							"u_sell_item": "plesiothlv1_ss"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2550
+						},
+						{
+							"npc_consume_item": "plesioth_fin",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_sfish",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "plesiothlv1_ss"
+						},
+						{
 							"u_buy_item": "plesiothlv2_ss"
 						}
 					]
@@ -9292,6 +11220,24 @@
 							"u_sell_item": "rathaloslv1_ss1"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 3360
+						},
+						{
+							"npc_consume_item": "rathalos_shell",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "rathalos_scale",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "fwyvern_marrow"
+						},
+						{
+							"npc_consume_item": "rathaloslv1_ss1"
+						},
+						{
 							"u_buy_item": "rathaloslv2_ss1"
 						}
 					]
@@ -9378,6 +11324,24 @@
 						},
 						{
 							"u_sell_item": "rathaloslv1_ss1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 20000
+						},
+						{
+							"npc_consume_item": "rathalos_scale",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "flame_sac",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "rathalos_plate"
+						},
+						{
+							"npc_consume_item": "rathaloslv1_ss1"
 						},
 						{
 							"u_buy_item": "rathaloslv1_ss2"
@@ -9473,6 +11437,25 @@
 						},
 						{
 							"u_sell_item": "rathaloslv1_ss1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 20000
+						},
+						{
+							"npc_consume_item": "rathalos_scale",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "rathian_scale",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "fwyvern_marrow",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "rathaloslv1_ss1"
 						},
 						{
 							"u_buy_item": "rathlv1_ds"
@@ -9581,6 +11564,25 @@
 							"u_sell_item": "rathaloslv2_ss1"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 7500
+						},
+						{
+							"npc_consume_item": "rathalos_shell",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "rathalos_webbing",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "fdragon_scale",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "rathaloslv2_ss1"
+						},
+						{
 							"u_buy_item": "rathaloslv3_ss1"
 						}
 					]
@@ -9685,6 +11687,25 @@
 						},
 						{
 							"u_sell_item": "garugalv1_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 65000
+						},
+						{
+							"npc_consume_item": "garuga_ear_long",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "garuga_wing",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "garuga_scale_plus",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "garugalv1_ss"
 						},
 						{
 							"u_buy_item": "garugalv2_ss"
@@ -9795,6 +11816,27 @@
 							"u_sell_item": "giapreyiopreylv1_ds"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 45000
+						},
+						{
+							"npc_consume_item": "giaprey_hide_plus",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "ioprey_hide_plus",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "giadrome_skull"
+						},
+						{
+							"npc_consume_item": "iodrome_skull"
+						},
+						{
+							"npc_consume_item": "giapreyiopreylv1_ds"
+						},
+						{
 							"u_buy_item": "giapreyiopreylv2_ds"
 						}
 					]
@@ -9899,6 +11941,25 @@
 						},
 						{
 							"u_sell_item": "bonelv1_gs2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "piscine_fang",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mon_fluid",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv1_gs2"
 						},
 						{
 							"u_buy_item": "bonelv2_gs2"
@@ -10007,6 +12068,25 @@
 							"u_sell_item": "strikerlv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "strikerlv1_h"
+						},
+						{
 							"u_buy_item": "strikerlv2_h"
 						}
 					]
@@ -10100,6 +12180,25 @@
 						},
 						{
 							"u_sell_item": "strikerlv1_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "fwyvern_fluid",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "mh_gunpowder",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "strikerlv1_h"
 						},
 						{
 							"u_buy_item": "gunlv1_h"
@@ -10206,6 +12305,25 @@
 						},
 						{
 							"u_sell_item": "gunlv1_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 6350
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "fwyvern_marrow",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_firestone",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "gunlv1_h"
 						},
 						{
 							"u_buy_item": "gunlv2_h"
@@ -10323,6 +12441,28 @@
 							"u_sell_item": "gunlv2_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 60000
+						},
+						{
+							"npc_consume_item": "mh_firecellstone",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_carbaliteore",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "mon_broth",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "fwyvern_brainstem"
+						},
+						{
+							"npc_consume_item": "gunlv2_h"
+						},
+						{
 							"u_buy_item": "gunlv3_h"
 						}
 					]
@@ -10429,6 +12569,25 @@
 							"u_sell_item": "ironlv3_l"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1750
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ironlv3_l"
+						},
+						{
 							"u_buy_item": "paladinlv1_l"
 						}
 					]
@@ -10522,6 +12681,25 @@
 						},
 						{
 							"u_sell_item": "ironlv3_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "black_pearl",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_icecrystal",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "ironlv3_l"
 						},
 						{
 							"u_buy_item": "estoclv1_l"
@@ -10630,6 +12808,25 @@
 							"u_sell_item": "boneironlv1_l"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_kbeetle",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "boneironlv1_l"
+						},
+						{
 							"u_buy_item": "boneironlv2_l"
 						}
 					]
@@ -10736,6 +12933,25 @@
 							"u_sell_item": "boneironlv2_l"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1750
+						},
+						{
+							"npc_consume_item": "plesioth_scale",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "cephalos_scale",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_sleepherb",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "boneironlv2_l"
+						},
+						{
 							"u_buy_item": "plesiothlv1_l"
 						}
 					]
@@ -10829,6 +13045,25 @@
 						},
 						{
 							"u_sell_item": "boneironlv2_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_thunderbug",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "gypceros_hide",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "boneironlv2_l"
 						},
 						{
 							"u_buy_item": "paralv1_l"
@@ -10937,6 +13172,25 @@
 							"u_sell_item": "paralv1_l"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "electro_sac",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "gypceros_hide",
+							"count": 7
+						},
+						{
+							"npc_consume_item": "paralv1_l"
+						},
+						{
 							"u_buy_item": "paralv2_l"
 						}
 					]
@@ -11032,6 +13286,25 @@
 							"u_sell_item": "paralv1_l"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "basarios_shell",
+							"count": 7
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 12
+						},
+						{
+							"npc_consume_item": "poison_sac",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "paralv1_l"
+						},
+						{
 							"u_buy_item": "basarioslv1_l"
 						}
 					]
@@ -11118,6 +13391,24 @@
 						},
 						{
 							"u_sell_item": "paralv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 20000
+						},
+						{
+							"npc_consume_item": "kirin_horn"
+						},
+						{
+							"npc_consume_item": "kirin_mane",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_thunderbug",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "paralv1_l"
 						},
 						{
 							"u_buy_item": "kirinlv1_l"
@@ -11226,6 +13517,25 @@
 							"u_sell_item": "strikerlv2_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 6350
+						},
+						{
+							"npc_consume_item": "gravios_shell",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 30
+						},
+						{
+							"npc_consume_item": "strikerlv2_h"
+						},
+						{
 							"u_buy_item": "anvillv1_h"
 						}
 					]
@@ -11323,6 +13633,24 @@
 						},
 						{
 							"u_sell_item": "basarioslv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "basarios_wing"
+						},
+						{
+							"npc_consume_item": "basarios_shell",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "poison_sac",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "basarioslv1_l"
 						},
 						{
 							"u_buy_item": "basarioslv2_l"
@@ -11431,6 +13759,25 @@
 							"u_sell_item": "anvillv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 60000
+						},
+						{
+							"npc_consume_item": "mh_unionore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 99
+						},
+						{
+							"npc_consume_item": "anvillv1_h"
+						},
+						{
 							"u_buy_item": "anvillv2_h"
 						}
 					]
@@ -11526,6 +13873,25 @@
 							"u_sell_item": "anvillv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 30000
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "mh_carbaliteore",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 50
+						},
+						{
+							"npc_consume_item": "anvillv1_h"
+						},
+						{
 							"u_buy_item": "stamp_h"
 						}
 					]
@@ -11619,6 +13985,25 @@
 						},
 						{
 							"u_sell_item": "anvillv1_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 25000
+						},
+						{
+							"npc_consume_item": "mh_carbaliteore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_diskstone",
+							"count": 30
+						},
+						{
+							"npc_consume_item": "anvillv1_h"
 						},
 						{
 							"u_buy_item": "devillv1_h"
@@ -11727,6 +14112,25 @@
 							"u_sell_item": "spikelv1_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 1750
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "mh_needleberry",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "mh_kbeetle",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "spikelv1_h"
+						},
+						{
 							"u_buy_item": "spikelv2_h"
 						}
 					]
@@ -11757,7 +14161,7 @@
 								}
 							},
 							{
-								"u_has_item":"mh_lightcrystal"
+								"u_has_item": "mh_lightcrystal"
 							},
 							{
 								"u_has_items": {
@@ -11787,7 +14191,7 @@
 								}
 							},
 							{
-								"u_has_item":"mh_lightcrystal"
+								"u_has_item": "mh_lightcrystal"
 							},
 							{
 								"u_has_items": {
@@ -11824,6 +14228,24 @@
 						},
 						{
 							"u_sell_item": "spikelv2_h"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"npc_consume_item": "mh_lightcrystal"
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_kbeetle",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "spikelv2_h"
 						},
 						{
 							"u_buy_item": "crystallv1_h"
@@ -11921,7 +14343,4963 @@
 							"u_sell_item": "spikelv2_h"
 						},
 						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "basarios_shell",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "wyvern_fang",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "poison_sac",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "spikelv2_h"
+						},
+						{
 							"u_buy_item": "basarios_h2"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_ravagerlv2_gs",
+		"dynamic_line": "\nExecute which improvement?\n\ntactical blade costs 25000z and these materials:\n- 3 rathalos webbings\n- 5 fire wyvern claws\n- 5 daora claws\nIt can deal damage by:\n*bash: 8 *cut: 32\n\nchrome razor costs 7150z and these materials:\n- 2 chameleos horns\n- 2 teostra horns\n- 8 tigrex fangs\nIt can deal damage by:\n*bash: 8 *cut: 31",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 25000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathalos_webbing",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_claw",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "daora_claw",
+									"count": 5
+								}
+							}
+						]
+					},
+					"true": "Improve ravager blade+ to tactical blade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 25000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathalos_webbing",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_claw",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "daora_claw",
+									"count": 5
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 25000
+						},
+						{
+							"u_sell_item": "rathalos_webbing",
+							"count": 3
+						},
+						{
+							"u_sell_item": "fwyvern_claw",
+							"count": 5
+						},
+						{
+							"u_sell_item": "daora_claw",
+							"count": 5
+						},
+						{
+							"u_sell_item": "ravagerlv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 25000
+						},
+						{
+							"npc_consume_item": "rathalos_webbing",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "fwyvern_claw",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "daora_claw",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ravagerlv2_gs"
+						},
+						{
+							"u_buy_item": "ravagerlv3_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 7150
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "chameleos_horn",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "teostra_horn",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "tigrex_fang",
+									"count": 8
+								}
+							}
+						]
+					},
+					"true": "Improve ravager blade+ to chrome razor!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 7150
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "chameleos_horn",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "teostra_horn",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "tigrex_fang",
+									"count": 8
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 7150
+						},
+						{
+							"u_sell_item": "chameleos_horn",
+							"count": 2
+						},
+						{
+							"u_sell_item": "teostra_horn",
+							"count": 2
+						},
+						{
+							"u_sell_item": "tigrex_fang",
+							"count": 8
+						},
+						{
+							"u_sell_item": "ravagerlv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 7150
+						},
+						{
+							"npc_consume_item": "chameleos_horn",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "teostra_horn",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "tigrex_fang",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "ravagerlv2_gs"
+						},
+						{
+							"u_buy_item": "chromelv1_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_hermitaurlv2_gs",
+		"dynamic_line": "\nExecute which improvement?\n\ngreat pincer costs 5600z and these materials:\n- 4 hermitaur claws\n- 4 wyvern skull shells\n- 2 monster bones+\nIt can deal damage by:\n*bash: 8 *cut: 26",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hermitaur_claw",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "wyvern_skullshell",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 2
+								}
+							}
+						]
+					},
+					"true": "Improve red pincer to great pincer!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hermitaur_claw",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "wyvern_skullshell",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 2
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"u_sell_item": "hermitaur_claw",
+							"count": 4
+						},
+						{
+							"u_sell_item": "wyvern_skullshell",
+							"count": 4
+						},
+						{
+							"u_sell_item": "monbone_plus",
+							"count": 2
+						},
+						{
+							"u_sell_item": "hermitaurlv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"npc_consume_item": "hermitaur_claw",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "wyvern_skullshell",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "hermitaurlv2_gs"
+						},
+						{
+							"u_buy_item": "hermitaurlv3_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_khezulv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\nkhezu shock blade costs 50000z and these materials:\n- 8 khezu hide - tan\n- 3 thunder sacs\n- 5 rubbery hides+\nIt can deal damage by:\n*bash: 8 *cut: 37",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 50000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "khezu_hide_tan",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "thunder_sac",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gypceros_hide_plus",
+									"count": 5
+								}
+							}
+						]
+					},
+					"true": "Improve khezu shock sword to khezu shock blade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 50000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "khezu_hide_tan",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "thunder_sac",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gypceros_hide_plus",
+									"count": 5
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 50000
+						},
+						{
+							"u_sell_item": "khezu_hide_tan",
+							"count": 8
+						},
+						{
+							"u_sell_item": "thunder_sac",
+							"count": 3
+						},
+						{
+							"u_sell_item": "gypceros_hide_plus",
+							"count": 5
+						},
+						{
+							"u_sell_item": "khezulv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 50000
+						},
+						{
+							"npc_consume_item": "khezu_hide_tan",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "thunder_sac",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "gypceros_hide_plus",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "khezulv1_gs"
+						},
+						{
+							"u_buy_item": "khezulv2_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_khezulv2_gs",
+		"dynamic_line": "\nExecute which improvement?\n\nkhezu shock full costs 85000z and these materials:\n- 8 khezu hide - cream\n- 3 lightning sacs\n- 5 eltalite ores\n- 10 thunderbug juices\nIt can deal damage by:\n*bash: 8 *cut: 41",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 85000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "khezu_hide_cream",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "lightning_sac",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_eltaliteore",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "thunderbug_juice",
+									"count": 10
+								}
+							}
+						]
+					},
+					"true": "Improve khezu shock blade to khezu shock full!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 85000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "khezu_hide_cream",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "lightning_sac",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_eltaliteore",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "thunderbug_juice",
+									"count": 10
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 85000
+						},
+						{
+							"u_sell_item": "khezu_hide_cream",
+							"count": 5
+						},
+						{
+							"u_sell_item": "lightning_sac",
+							"count": 3
+						},
+						{
+							"u_sell_item": "mh_eltaliteore",
+							"count": 5
+						},
+						{
+							"u_sell_item": "thunderbug_juice",
+							"count": 10
+						},
+						{
+							"u_sell_item": "khezulv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 85000
+						},
+						{
+							"npc_consume_item": "khezu_hide_cream",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "lightning_sac",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_eltaliteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "thunderbug_juice",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "khezulv2_gs"
+						},
+						{
+							"u_buy_item": "khezulv3_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_kut-ku_ds",
+		"dynamic_line": "\nExecute which improvement?\n\nraven tessen costs 10000z and these materials:\n- 6 garuga scales\n- 1 garuga tail\n- 3 garuga manes\nIt can deal damage by:\n*cut: 13\n\npink maracas costs 2080z and these materials:\n- 10 conga pelts\n- 2 congalala claws\n- 4 congalala fangs\nIt can deal damage by:\n*cut: 12",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 10000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "garuga_scale",
+									"count": 6
+								}
+							},
+							{
+								"u_has_item": "garuga_tail"
+							},
+							{
+								"u_has_items": {
+									"item": "garuga_mane",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve twin kut-ku to raven tessen!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 10000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "garuga_scale",
+									"count": 6
+								}
+							},
+							{
+								"u_has_item": "garuga_tail"
+							},
+							{
+								"u_has_items": {
+									"item": "garuga_mane",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 10000
+						},
+						{
+							"u_sell_item": "garuga_scale",
+							"count": 6
+						},
+						{
+							"u_sell_item": "garuga_tail"
+						},
+						{
+							"u_sell_item": "garuga_mane",
+							"count": 3
+						},
+						{
+							"u_sell_item": "kut-ku_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 10000
+						},
+						{
+							"npc_consume_item": "garuga_scale",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "garuga_tail"
+						},
+						{
+							"npc_consume_item": "garuga_mane",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "kut-ku_ds"
+						},
+						{
+							"u_buy_item": "garugalv1_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2080
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "conga_pelt",
+									"count": 10
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "congalala_claw",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "congalala_fang",
+									"count": 4
+								}
+							}
+						]
+					},
+					"true": "Improve twin kut-ku to pink maracas!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2080
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "conga_pelt",
+									"count": 10
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "congalala_claw",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "congalala_fang",
+									"count": 4
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 2080
+						},
+						{
+							"u_sell_item": "conga_pelt",
+							"count": 10
+						},
+						{
+							"u_sell_item": "congalala_claw",
+							"count": 2
+						},
+						{
+							"u_sell_item": "congalala_fang",
+							"count": 4
+						},
+						{
+							"u_sell_item": "kut-ku_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2080
+						},
+						{
+							"npc_consume_item": "conga_pelt",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "congalala_claw",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "congalala_fang",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "kut-ku_ds"
+						},
+						{
+							"u_buy_item": "congalala_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_ceanataurlv1_ds",
+		"dynamic_line": "\nExecute which improvement?\n\nbladed edge+ costs 3920z and these materials:\n- 4 ceanataur pincers\n- 4 ceanataur claws\n- 4 monster bones+\nIt can deal damage by:\n*cut: 15",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 3920
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_pincer",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_claw",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 4
+								}
+							}
+						]
+					},
+					"true": "Improve bladed edge to bladed edge+!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 3920
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_pincer",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_claw",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 4
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 3920
+						},
+						{
+							"u_sell_item": "ceanataur_pincer",
+							"count": 4
+						},
+						{
+							"u_sell_item": "ceanataur_claw",
+							"count": 4
+						},
+						{
+							"u_sell_item": "monbone_plus",
+							"count": 4
+						},
+						{
+							"u_sell_item": "ceanataurlv1_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3920
+						},
+						{
+							"npc_consume_item": "ceanataur_pincer",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ceanataur_claw",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "ceanataurlv1_ds"
+						},
+						{
+							"u_buy_item": "ceanataurlv2_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_plesiothlv1_ds",
+		"dynamic_line": "\nExecute which improvement?\n\ncutlass+ costs 5080z and these materials:\n- 6 plesioth fins\n- 10 cephalos scales\n- 4 monster bones+\nIt can deal damage by:\n*cut: 20",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5080
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "plesioth_fin",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "cephalos_scale",
+									"count": 10
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 4
+								}
+							}
+						]
+					},
+					"true": "Improve cutlass to cutlass+!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5080
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "plesioth_fin",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "cephalos_scale",
+									"count": 10
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 4
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 5080
+						},
+						{
+							"u_sell_item": "plesioth_fin",
+							"count": 6
+						},
+						{
+							"u_sell_item": "cephalos_scale",
+							"count": 10
+						},
+						{
+							"u_sell_item": "monbone_plus",
+							"count": 4
+						},
+						{
+							"u_sell_item": "plesiothlv1_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5080
+						},
+						{
+							"npc_consume_item": "plesioth_fin",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "cephalos_scale",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "plesiothlv1_ds"
+						},
+						{
+							"u_buy_item": "plesiothlv2_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_bonelv3_l2",
+		"dynamic_line": "\nExecute which improvement?\n\nbulldrome spear costs 40000z and these materials:\n- 6 bulldrome tusks\n- 4 bulldrome hides+\n- 4 stout bones\nIt can deal damage by:\n*bash: 10 *stab: 21\n\nred tail costs 2600z and these materials:\n- 3 fire wyvern fluids\n- 6 wyvern claws\n- 2 flame sacs\nIt can deal damage by:\n*bash: 10 *stab: 16",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 40000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "bulldrome_tusk",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "bulldrome_hide_plus",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_stout",
+									"count": 4
+								}
+							}
+						]
+					},
+					"true": "Improve wild bone lance+ to bulldrome spear!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 40000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "bulldrome_tusk",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "bulldrome_hide_plus",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_stout",
+									"count": 4
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"u_sell_item": "bulldrome_tusk",
+							"count": 6
+						},
+						{
+							"u_sell_item": "bulldrome_hide_plus",
+							"count": 4
+						},
+						{
+							"u_sell_item": "monbone_stout",
+							"count": 4
+						},
+						{
+							"u_sell_item": "bonelv3_l2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"npc_consume_item": "bulldrome_tusk",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "bulldrome_hide_plus",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "monbone_stout",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "bonelv3_l2"
+						},
+						{
+							"u_buy_item": "bonelv4_l2"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_fluid",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "wyvern_claw",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "flame_sac",
+									"count": 2
+								}
+							}
+						]
+					},
+					"true": "Improve wild bone lance+ to red tail!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_fluid",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "wyvern_claw",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "flame_sac",
+									"count": 2
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"u_sell_item": "fwyvern_fluid",
+							"count": 3
+						},
+						{
+							"u_sell_item": "wyvern_claw",
+							"count": 6
+						},
+						{
+							"u_sell_item": "flame_sac",
+							"count": 2
+						},
+						{
+							"u_sell_item": "bonelv3_l2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"npc_consume_item": "fwyvern_fluid",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "wyvern_claw",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "flame_sac",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "bonelv3_l2"
+						},
+						{
+							"u_buy_item": "rathalos_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_paladinlv1_l",
+		"dynamic_line": "\nExecute which improvement?\n\nrampart costs 3100z and these materials:\n- 2 lightcrystals\n- 8 machalite ores\n- 15 earth crystals\nIt can deal damage by:\n*bash: 10 *stab: 13",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 3100
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_lightcrystal",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_earthcrystal",
+									"count": 15
+								}
+							}
+						]
+					},
+					"true": "Improve paladin lance to rampart!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 3100
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_lightcrystal",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_earthcrystal",
+									"count": 15
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"u_sell_item": "mh_lightcrystal",
+							"count": 2
+						},
+						{
+							"u_sell_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"u_sell_item": "mh_earthcrystal",
+							"count": 15
+						},
+						{
+							"u_sell_item": "paladinlv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "mh_lightcrystal",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "paladinlv1_l"
+						},
+						{
+							"u_buy_item": "paladinlv2_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_paladinlv2_l",
+		"dynamic_line": "\nExecute which improvement?\n\ngatling lance costs 4250z and these materials:\n- 2 firestones\n- 5 dragonite ores\n- 10 gunpowders\nIt can deal damage by:\n*bash: 10 *stab: 16\n\nnaag serpentblade costs 5600z and these materials:\n- 5 remobra skins\n- 2 remobra skulls\n- 20 iron ores\nIt can deal damage by:\n*bash: 10 *stab: 19",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4250
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firestone",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_gunpowder",
+									"count": 10
+								}
+							}
+						]
+					},
+					"true": "Improve rampart to gatling lance!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4250
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firestone",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_gunpowder",
+									"count": 10
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"u_sell_item": "mh_firestone",
+							"count": 2
+						},
+						{
+							"u_sell_item": "mh_dragoniteore",
+							"count": 5
+						},
+						{
+							"u_sell_item": "mh_gunpowder",
+							"count": 10
+						},
+						{
+							"u_sell_item": "paladinlv2_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "mh_firestone",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_gunpowder",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "paladinlv2_l"
+						},
+						{
+							"u_buy_item": "gunlv1_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skull",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ironore",
+									"count": 20
+								}
+							}
+						]
+					},
+					"true": "Improve rampart to naag serpentblade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skull",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ironore",
+									"count": 20
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"u_sell_item": "remobra_skin",
+							"count": 5
+						},
+						{
+							"u_sell_item": "remobra_skull",
+							"count": 2
+						},
+						{
+							"u_sell_item": "mh_ironore",
+							"count": 20
+						},
+						{
+							"u_sell_item": "paladinlv2_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"npc_consume_item": "remobra_skin",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "remobra_skull",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "paladinlv2_l"
+						},
+						{
+							"u_buy_item": "remobralv1_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_remobralv1_l",
+		"dynamic_line": "\nExecute which improvement?\n\ndevta serpentblade costs 50000z and these materials:\n- 5 remobra skins+\n- 4 remobra skulls\n- 10 toxin sac\nIt can deal damage by:\n*bash: 10 *stab: 22",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 50000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skull",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "toxin_sac",
+									"count": 10
+								}
+							}
+						]
+					},
+					"true": "Improve naag serpentblade to devta serpentblade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 50000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skull",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "toxin_sac",
+									"count": 10
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 50000
+						},
+						{
+							"u_sell_item": "remobra_skin_plus",
+							"count": 5
+						},
+						{
+							"u_sell_item": "remobra_skull",
+							"count": 4
+						},
+						{
+							"u_sell_item": "toxin_sac",
+							"count": 10
+						},
+						{
+							"u_sell_item": "remobralv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 50000
+						},
+						{
+							"npc_consume_item": "remobra_skin_plus",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "remobra_skull",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "toxin_sac",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "remobralv1_l"
+						},
+						{
+							"u_buy_item": "remobralv2_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_estoclv1_l",
+		"dynamic_line": "\nExecute which improvement?\n\nvalhalla costs 5600z and these materials:\n- 5 lightcrystals\n- 7 dragonite ores\n- 15 ice crystals\nIt can deal damage by:\n*bash: 10 *stab: 15",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_lightcrystal",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 7
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_icecrystal",
+									"count": 15
+								}
+							}
+						]
+					},
+					"true": "Improve estoc to valhalla!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_lightcrystal",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 7
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_icecrystal",
+									"count": 15
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"u_sell_item": "mh_lightcrystal",
+							"count": 5
+						},
+						{
+							"u_sell_item": "mh_dragoniteore",
+							"count": 7
+						},
+						{
+							"u_sell_item": "mh_icecrystal",
+							"count": 15
+						},
+						{
+							"u_sell_item": "estoclv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"npc_consume_item": "mh_lightcrystal",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 7
+						},
+						{
+							"npc_consume_item": "mh_icecrystal",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "estoclv1_l"
+						},
+						{
+							"u_buy_item": "estoclv2_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_gunlv1_l",
+		"dynamic_line": "\nExecute which improvement?\n\ngatling lance+ costs 7150z and these materials:\n- 6 firestones\n- 15 dragonite ores\n- 2 fire wyvern marrows\nIt can deal damage by:\n*bash: 10 *stab: 20",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 7150
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firestone",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_marrow",
+									"count": 2
+								}
+							}
+						]
+					},
+					"true": "Improve gatling lance to gatling lance+!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 7150
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firestone",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_marrow",
+									"count": 2
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 7150
+						},
+						{
+							"u_sell_item": "mh_firestone",
+							"count": 6
+						},
+						{
+							"u_sell_item": "mh_dragoniteore",
+							"count": 15
+						},
+						{
+							"u_sell_item": "fwyvern_marrow",
+							"count": 2
+						},
+						{
+							"u_sell_item": "gunlv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 7150
+						},
+						{
+							"npc_consume_item": "mh_firestone",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "fwyvern_marrow",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "gunlv1_l"
+						},
+						{
+							"u_buy_item": "gunlv2_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_gunlv2_l",
+		"dynamic_line": "\nExecute which improvement?\n\nsanctioned gunlance costs 65000z and these materials:\n- 6 firecell stones\n- 25 carbalite ores\n- 10 inferno sacs\nIt can deal damage by:\n*bash: 10 *stab: 23",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 65000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firecellstone",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_carbaliteore",
+									"count": 25
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "inferno_sac",
+									"count": 10
+								}
+							}
+						]
+					},
+					"true": "Improve gatling lance+ to sanctioned gunlance!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 65000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firecellstone",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_carbaliteore",
+									"count": 25
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "inferno_sac",
+									"count": 10
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 65000
+						},
+						{
+							"u_sell_item": "mh_firecellstone",
+							"count": 6
+						},
+						{
+							"u_sell_item": "mh_carbaliteore",
+							"count": 25
+						},
+						{
+							"u_sell_item": "inferno_sac",
+							"count": 10
+						},
+						{
+							"u_sell_item": "gunlv2_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 65000
+						},
+						{
+							"npc_consume_item": "mh_firecellstone",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "mh_carbaliteore",
+							"count": 25
+						},
+						{
+							"npc_consume_item": "inferno_sac",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "gunlv2_l"
+						},
+						{
+							"u_buy_item": "gunlv3_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_hermitaurlv1_l",
+		"dynamic_line": "\nExecute which improvement?\n\nbone claw lance+ costs 5600z and these materials:\n- 3 hermitaur claws\n- 8 hermitaur shells\n- 2 monster bones+\nIt can deal damage by:\n*bash: 10 *stab: 16",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hermitaur_claw",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hermitaur_shell",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 2
+								}
+							}
+						]
+					},
+					"true": "Improve bone claw lance to bone claw lance+!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hermitaur_claw",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hermitaur_shell",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 2
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"u_sell_item": "hermitaur_claw",
+							"count": 3
+						},
+						{
+							"u_sell_item": "hermitaur_shell",
+							"count": 8
+						},
+						{
+							"u_sell_item": "monbone_plus",
+							"count": 2
+						},
+						{
+							"u_sell_item": "hermitaurlv1_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"npc_consume_item": "hermitaur_claw",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "hermitaur_shell",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "hermitaurlv1_l"
+						},
+						{
+							"u_buy_item": "hermitaurlv2_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_hermitaurlv2_l",
+		"dynamic_line": "\nExecute which improvement?\n\nceanataur piercer costs 50000z and these materials:\n- 3 ceanataur claws+\n- 5 ceanataur carapaces\n- 8 ceanataur legs\nIt can deal damage by:\n*bash: 10 *stab: 20",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 50000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_claw_plus",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_carapace",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_leg",
+									"count": 8
+								}
+							}
+						]
+					},
+					"true": "Improve bone claw lance+ to ceanataur piercer!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 50000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_claw_plus",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_carapace",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ceanataur_leg",
+									"count": 8
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 50000
+						},
+						{
+							"u_sell_item": "ceanataur_claw_plus",
+							"count": 3
+						},
+						{
+							"u_sell_item": "ceanataur_carapace",
+							"count": 5
+						},
+						{
+							"u_sell_item": "ceanataur_leg",
+							"count": 8
+						},
+						{
+							"u_sell_item": "hermitaurlv2_l"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 50000
+						},
+						{
+							"npc_consume_item": "ceanataur_claw_plus",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "ceanataur_carapace",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ceanataur_leg",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "hermitaurlv2_l"
+						},
+						{
+							"u_buy_item": "ceanataurlv3_l"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_bonelv2_gs2",
+		"dynamic_line": "\nExecute which improvement?\n\nvalkyrie blade costs 3100z and these materials:\n- 3 fire wyvern fluids\n- 5 wyvern fangs\n- 3 giant bones\nIt can deal damage by:\n*bash: 8 *cut: 21\n\nexecutioner costs 4250z and these materials:\n- 10 large monster bones\n- 3 hercudromes\n- 5 dragonite ores\nIt can deal damage by:\n*bash: 8 *cut: 27",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 3100
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_fluid",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "wyvern_fang",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_giant",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve golem blade+ to valkyrie blade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 3100
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "fwyvern_fluid",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "wyvern_fang",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_giant",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"u_sell_item": "fwyvern_fluid",
+							"count": 3
+						},
+						{
+							"u_sell_item": "wyvern_fang",
+							"count": 5
+						},
+						{
+							"u_sell_item": "monbone_giant",
+							"count": 3
+						},
+						{
+							"u_sell_item": "bonelv2_gs2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 3100
+						},
+						{
+							"npc_consume_item": "fwyvern_fluid",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "wyvern_fang",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "monbone_giant",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "bonelv2_gs2"
+						},
+						{
+							"u_buy_item": "rathianlv1_gs1"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4250
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_l",
+									"count": 10
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_hercudrome",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 5
+								}
+							}
+						]
+					},
+					"true": "Improve golem blade+ to executioner!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4250
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_l",
+									"count": 10
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_hercudrome",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 5
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"u_sell_item": "monbone_l",
+							"count": 10
+						},
+						{
+							"u_sell_item": "mh_hercudrome",
+							"count": 3
+						},
+						{
+							"u_sell_item": "mh_dragoniteore",
+							"count": 5
+						},
+						{
+							"u_sell_item": "bonelv2_gs2"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "mh_hercudrome",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "bonelv2_gs2"
+						},
+						{
+							"u_buy_item": "execlv1_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_execlv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\nexecutioner+ costs 5600z and these materials:\n- 12 large monster bones\n- 2 diablos spines\n- 3 mega demondrugs\nIt can deal damage by:\n*bash: 8 *cut: 29\n\nagito costs 25000z and these materials:\n- 2 hard monster bones\n- 5 monster bones+\n- 8 large monster bones\nIt can deal damage by:\n*bash: 8 *cut: 32\n\nkirin thundersword costs 20000z and these materials:\n- 4 kirin horns\n- 4 kirin manes\n- 4 rubbery hides\nIt can deal damage by:\n*bash: 8 *cut: 32",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_l",
+									"count": 12
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "diablos_spine",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_demondrug_mega",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve executioner to executioner+!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 5600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_l",
+									"count": 12
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "diablos_spine",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_demondrug_mega",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"u_sell_item": "monbone_l",
+							"count": 12
+						},
+						{
+							"u_sell_item": "diablos_spine",
+							"count": 2
+						},
+						{
+							"u_sell_item": "mh_demondrug_mega",
+							"count": 3
+						},
+						{
+							"u_sell_item": "execlv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 5600
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 12
+						},
+						{
+							"npc_consume_item": "diablos_spine",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "mh_demondrug_mega",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "execlv1_gs"
+						},
+						{
+							"u_buy_item": "execlv2_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 25000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_hard",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_l",
+									"count": 8
+								}
+							}
+						]
+					},
+					"true": "Improve executioner to agito!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 25000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_hard",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_l",
+									"count": 8
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 25000
+						},
+						{
+							"u_sell_item": "monbone_hard",
+							"count": 2
+						},
+						{
+							"u_sell_item": "monbone_plus",
+							"count": 5
+						},
+						{
+							"u_sell_item": "monbone_l",
+							"count": 8
+						},
+						{
+							"u_sell_item": "execlv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 25000
+						},
+						{
+							"npc_consume_item": "monbone_hard",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "monbone_plus",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "monbone_l",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "execlv1_gs"
+						},
+						{
+							"u_buy_item": "agitolv1_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 20000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "kirin_horn",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "kirin_mane",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gypceros_hide",
+									"count": 4
+								}
+							}
+						]
+					},
+					"true": "Improve executioner to kirin thundersword!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 20000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "kirin_horn",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "kirin_mane",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gypceros_hide",
+									"count": 4
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 20000
+						},
+						{
+							"u_sell_item": "kirin_horn",
+							"count": 4
+						},
+						{
+							"u_sell_item": "kirin_mane",
+							"count": 4
+						},
+						{
+							"u_sell_item": "gypceros_hide",
+							"count": 4
+						},
+						{
+							"u_sell_item": "execlv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 20000
+						},
+						{
+							"npc_consume_item": "kirin_horn",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "kirin_mane",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "gypceros_hide",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "execlv1_gs"
+						},
+						{
+							"u_buy_item": "kirin_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_agitolv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\nwyvern agito costs 35000z and these materials:\n- 5 cephalos scales+\n- 3 hard monster bones\n- 20 piscine fangs\nIt can deal damage by:\n*bash: 8 *cut: 34",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 35000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "cephalos_scale_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_hard",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "piscine_fang",
+									"count": 20
+								}
+							}
+						]
+					},
+					"true": "Improve agito to wyvern agito!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 35000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "cephalos_scale_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_hard",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "piscine_fang",
+									"count": 20
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 35000
+						},
+						{
+							"u_sell_item": "cephalos_scale_plus",
+							"count": 5
+						},
+						{
+							"u_sell_item": "monbone_hard",
+							"count": 3
+						},
+						{
+							"u_sell_item": "piscine_fang",
+							"count": 20
+						},
+						{
+							"u_sell_item": "agitolv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 35000
+						},
+						{
+							"npc_consume_item": "cephalos_scale_plus",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "monbone_hard",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "piscine_fang",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "agitolv1_gs"
+						},
+						{
+							"u_buy_item": "agitolv2_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_defenderlv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\nsentinel costs 2600z and these materials:\n- 20 iron ores\n- 15 earth crystals\n- 8 machalite ores\nIt can deal damage by:\n*bash: 8 *cut: 19",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ironore",
+									"count": 20
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_earthcrystal",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 8
+								}
+							}
+						]
+					},
+					"true": "Improve defender to sentinel!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2600
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ironore",
+									"count": 20
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_earthcrystal",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 8
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"u_sell_item": "mh_ironore",
+							"count": 20
+						},
+						{
+							"u_sell_item": "mh_earthcrystal",
+							"count": 15
+						},
+						{
+							"u_sell_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"u_sell_item": "defenderlv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2600
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "mh_earthcrystal",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "defenderlv1_gs"
+						},
+						{
+							"u_buy_item": "defenderlv2_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_defenderlv2_gs",
+		"dynamic_line": "\nExecute which improvement?\n\nbarbaroi blade costs 2150z and these materials:\n- 8 machalite ores\n- 1 unknown skull\n- 3 flame sacs\nIt can deal damage by:\n*bash: 8 *cut: 21\n\nhalberd costs 4250z and these materials:\n- 4 dragonite ores\n- 15 iron ores\n- 15 medium monster bones\nIt can deal damage by:\n*bash: 8 *cut: 29",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2150
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 8
+								}
+							},
+							{
+								"u_has_item": "monbone_unknown"
+							},
+							{
+								"u_has_items": {
+									"item": "flame_sac",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve sentinel to barbaroi blade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2150
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 8
+								}
+							},
+							{
+								"u_has_item": "monbone_unknown"
+							},
+							{
+								"u_has_items": {
+									"item": "flame_sac",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"u_sell_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"u_sell_item": "monbone_unknown"
+						},
+						{
+							"u_sell_item": "flame_sac",
+							"count": 3
+						},
+						{
+							"u_sell_item": "defenderlv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2150
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "monbone_unknown"
+						},
+						{
+							"npc_consume_item": "flame_sac",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "defenderlv2_gs"
+						},
+						{
+							"u_buy_item": "barbaroilv1_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4250
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ironore",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_m",
+									"count": 15
+								}
+							}
+						]
+					},
+					"true": "Improve sentinel to halberd!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4250
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ironore",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "monbone_m",
+									"count": 15
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"u_sell_item": "mh_dragoniteore",
+							"count": 4
+						},
+						{
+							"u_sell_item": "mh_ironore",
+							"count": 15
+						},
+						{
+							"u_sell_item": "monbone_m",
+							"count": 15
+						},
+						{
+							"u_sell_item": "defenderlv2_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 4250
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_ironore",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "monbone_m",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "defenderlv2_gs"
+						},
+						{
+							"u_buy_item": "halberdlv1_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_halberdlv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\njudgment costs 40000z and these materials:\n- 5 carbalite ores\n- 20 machalite ores\n- 5 king scarabs\nIt can deal damage by:\n*bash: 8 *cut: 35",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 40000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_carbaliteore",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 20
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_kscarab",
+									"count": 5
+								}
+							}
+						]
+					},
+					"true": "Improve halberd to judgment!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 40000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_carbaliteore",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 20
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_kscarab",
+									"count": 5
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"u_sell_item": "mh_carbaliteore",
+							"count": 5
+						},
+						{
+							"u_sell_item": "mh_machaliteore",
+							"count": 20
+						},
+						{
+							"u_sell_item": "mh_kscarab",
+							"count": 5
+						},
+						{
+							"u_sell_item": "halberdlv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"npc_consume_item": "mh_carbaliteore",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "mh_kscarab",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "halberdlv1_gs"
+						},
+						{
+							"u_buy_item": "halberdlv2_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_barbaroilv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\ncrimson goat costs 6350z and these materials:\n- 15 machalite ores\n- 4 gravios shells\n- 3 firestones\nIt can deal damage by:\n*bash: 8 *cut: 31",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 6350
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 12
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gravios_shell",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firestone",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve barbaroi blade to crimson goat!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 6350
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_machaliteore",
+									"count": 12
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gravios_shell",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_firestone",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 6350
+						},
+						{
+							"u_sell_item": "mh_machaliteore",
+							"count": 12
+						},
+						{
+							"u_sell_item": "gravios_shell",
+							"count": 4
+						},
+						{
+							"u_sell_item": "mh_firestone",
+							"count": 3
+						},
+						{
+							"u_sell_item": "barbaroilv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 6350
+						},
+						{
+							"npc_consume_item": "mh_machaliteore",
+							"count": 12
+						},
+						{
+							"npc_consume_item": "gravios_shell",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_firestone",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "barbaroilv1_gs"
+						},
+						{
+							"u_buy_item": "barbaroilv2_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_velocipreylv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\ndeadly serpentblade costs 4900z and these materials:\n- 5 remobra skins\n- 20 ioprey fangs\n- 2 lightcrystals\nIt can deal damage by:\n*bash: 8 *cut: 28",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4900
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ioprey_fang",
+									"count": 20
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_lightcrystal",
+									"count": 2
+								}
+							}
+						]
+					},
+					"true": "Improve vile serpentblade to deadly serpentblade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 4900
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "ioprey_fang",
+									"count": 20
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_lightcrystal",
+									"count": 2
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 4900
+						},
+						{
+							"u_sell_item": "remobra_skin",
+							"count": 5
+						},
+						{
+							"u_sell_item": "ioprey_fang",
+							"count": 20
+						},
+						{
+							"u_sell_item": "mh_lightcrystal",
+							"count": 2
+						},
+						{
+							"u_sell_item": "velocipreylv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 4900
+						},
+						{
+							"npc_consume_item": "remobra_skin",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "ioprey_fang",
+							"count": 20
+						},
+						{
+							"npc_consume_item": "mh_lightcrystal",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "velocipreylv1_gs"
+						},
+						{
+							"u_buy_item": "remobralv1_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_remobralv1_gs",
+		"dynamic_line": "\nExecute which improvement?\n\npoison serpentblade costs 40000z and these materials:\n- 5 remobra skins+\n- 1 remobra skull\n- 2 novacrystals\nIt can deal damage by:\n*bash: 8 *cut: 34",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 40000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_item": "remobra_skull"
+							},
+							{
+								"u_has_items": {
+									"item": "mh_novacrystal",
+									"count": 2
+								}
+							}
+						]
+					},
+					"true": "Improve vile serpentblade to deadly serpentblade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 40000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "remobra_skin_plus",
+									"count": 5
+								}
+							},
+							{
+								"u_has_item": "remobra_skull"
+							},
+							{
+								"u_has_items": {
+									"item": "mh_novacrystal",
+									"count": 2
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"u_sell_item": "remobra_skin_plus",
+							"count": 5
+						},
+						{
+							"u_sell_item": "remobra_skull"
+						},
+						{
+							"u_sell_item": "mh_novacrystal",
+							"count": 2
+						},
+						{
+							"u_sell_item": "remobralv1_gs"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 40000
+						},
+						{
+							"npc_consume_item": "remobra_skin_plus",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "remobra_skull"
+						},
+						{
+							"npc_consume_item": "mh_novacrystal",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "remobralv1_gs"
+						},
+						{
+							"u_buy_item": "remobralv2_gs"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_banelv1_ss",
+		"dynamic_line": "\nExecute which improvement?\n\nfrightbane costs 2550z and these materials:\n- 6 rubbery hides\n- 2 elder dragon bones\n- 4 electro sacs\n- 3 dragonite ores\nIt can deal damage by:\n*bash: 4 *cut: 14",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2550
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gypceros_hide",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "elderdragon_bone",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "electro_sac",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve thunderbane to frightbane!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2550
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "gypceros_hide",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "elderdragon_bone",
+									"count": 2
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "electro_sac",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_dragoniteore",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 2550
+						},
+						{
+							"u_sell_item": "gypceros_hide",
+							"count": 6
+						},
+						{
+							"u_sell_item": "elderdragon_bone",
+							"count": 2
+						},
+						{
+							"u_sell_item": "electro_sac",
+							"count": 4
+						},
+						{
+							"u_sell_item": "mh_dragoniteore",
+							"count": 3
+						},
+						{
+							"u_sell_item": "banelv1_ss"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2550
+						},
+						{
+							"npc_consume_item": "gypceros_hide",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "elderdragon_bone",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "electro_sac",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "mh_dragoniteore",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "banelv1_ss"
+						},
+						{
+							"u_buy_item": "banelv2_ss"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv1_ds",
+		"dynamic_line": "\nExecute which improvement?\n\ninsector+ costs 2920z and these materials:\n- 15 vespoid shells\n- 3 hornetaur heads\n- 3 hercudromes\nIt can deal damage by:\n*cut: 12",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2920
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_shell",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_head",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_hercudrome",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve insector to insector+!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 2920
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_shell",
+									"count": 15
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_head",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_hercudrome",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 2920
+						},
+						{
+							"u_sell_item": "vespoid_shell",
+							"count": 15
+						},
+						{
+							"u_sell_item": "hornetaur_head",
+							"count": 3
+						},
+						{
+							"u_sell_item": "mh_hercudrome",
+							"count": 3
+						},
+						{
+							"u_sell_item": "vespoidhornetaurlv1_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 2920
+						},
+						{
+							"npc_consume_item": "vespoid_shell",
+							"count": 15
+						},
+						{
+							"npc_consume_item": "hornetaur_head",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "mh_hercudrome",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "vespoidhornetaurlv1_ds"
+						},
+						{
+							"u_buy_item": "vespoidhornetaurlv2_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv2_ds",
+		"dynamic_line": "\nExecute which improvement?\n\ninsect slicer costs 55000z and these materials:\n- 8 vespoid inner wings\n- 8 hornetaur inner wings\n- 10 king scarabs\nIt can deal damage by:\n*cut: 15",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 55000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_wing_in",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_wing_in",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_kscarab",
+									"count": 10
+								}
+							}
+						]
+					},
+					"true": "Improve insector+ to insect slicer!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 55000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_wing_in",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_wing_in",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_kscarab",
+									"count": 10
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 55000
+						},
+						{
+							"u_sell_item": "vespoid_wing_in",
+							"count": 8
+						},
+						{
+							"u_sell_item": "hornetaur_wing_in",
+							"count": 8
+						},
+						{
+							"u_sell_item": "mh_kscarab",
+							"count": 10
+						},
+						{
+							"u_sell_item": "vespoidhornetaurlv2_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 55000
+						},
+						{
+							"npc_consume_item": "vespoid_wing_in",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "hornetaur_wing_in",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_kscarab",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "vespoidhornetaurlv2_ds"
+						},
+						{
+							"u_buy_item": "vespoidhornetaurlv3_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv3_ds",
+		"dynamic_line": "\nExecute which improvement?\n\nalated insect costs 80000z and these materials:\n- 5 vespoid razor wings\n- 5 hornetaur razor wings\n- 10 emperor crickets\nIt can deal damage by:\n*cut: 20",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 80000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_wing_ra",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_wing_ra",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ecricket",
+									"count": 10
+								}
+							}
+						]
+					},
+					"true": "Improve insect slicer to alated insect!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 80000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_wing_ra",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_wing_ra",
+									"count": 5
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_ecricket",
+									"count": 10
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 80000
+						},
+						{
+							"u_sell_item": "vespoid_wing_ra",
+							"count": 5
+						},
+						{
+							"u_sell_item": "hornetaur_wing_ra",
+							"count": 5
+						},
+						{
+							"u_sell_item": "mh_ecricket",
+							"count": 10
+						},
+						{
+							"u_sell_item": "vespoidhornetaurlv3_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 80000
+						},
+						{
+							"npc_consume_item": "vespoid_wing_ra",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "hornetaur_wing_ra",
+							"count": 5
+						},
+						{
+							"npc_consume_item": "mh_ecricket",
+							"count": 10
+						},
+						{
+							"npc_consume_item": "vespoidhornetaurlv3_ds"
+						},
+						{
+							"u_buy_item": "vespoidhornetaurlv4_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_vespoidhornetaurlv4_ds",
+		"dynamic_line": "\nExecute which improvement?\n\ninsect lord costs 105000z and these materials:\n- 8 vespoid razor wings\n- 8 hornetaur razor wings\n- 12 phantom butterflies\n- 3 vespoid queen's crowns\nIt can deal damage by:\n*cut: 23",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 105000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_wing_ra",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_wing_ra",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_pbut",
+									"count": 12
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_crown",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve alated insect to insect lord!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 105000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_wing_ra",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "hornetaur_wing_ra",
+									"count": 8
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "mh_pbut",
+									"count": 12
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "vespoid_crown",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 105000
+						},
+						{
+							"u_sell_item": "vespoid_wing_ra",
+							"count": 8
+						},
+						{
+							"u_sell_item": "hornetaur_wing_ra",
+							"count": 8
+						},
+						{
+							"u_sell_item": "mh_pbut",
+							"count": 12
+						},
+						{
+							"u_sell_item": "vespoid_crown",
+							"count": 3
+						},
+						{
+							"u_sell_item": "vespoidhornetaurlv4_ds"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 105000
+						},
+						{
+							"npc_consume_item": "vespoid_wing_ra",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "hornetaur_wing_ra",
+							"count": 8
+						},
+						{
+							"npc_consume_item": "mh_pbut",
+							"count": 12
+						},
+						{
+							"npc_consume_item": "vespoid_crown",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "vespoidhornetaurlv4_ds"
+						},
+						{
+							"u_buy_item": "vespoidhornetaurlv5_ds"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"text": "Changed my mind...",
+				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+			}
+		]
+	},
+	{
+		"type": "talk_topic",
+		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW_rathianlv1_gs1",
+		"dynamic_line": "\nExecute which improvement?\n\nsieglinde costs 8000z and these materials:\n- 3 rathian shells\n- 6 rathian scales\n- 2 rathian spikes\nIt can deal damage by:\n*bash: 8 *cut: 30\n\nspartacus blade costs 6350z and these materials:\n- 4 rathalos shells\n- 3 rathalos tails\n- 3 tigrex tails\nIt can deal damage by:\n*bash: 8 *cut: 27",
+		"responses": [
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 8000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathian_shell",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathian_scale",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathian_spike",
+									"count": 2
+								}
+							}
+						]
+					},
+					"true": "Improve valkyrie blade to sieglinde!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 8000
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathian_shell",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathian_scale",
+									"count": 6
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathian_spike",
+									"count": 2
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 8000
+						},
+						{
+							"u_sell_item": "rathian_shell",
+							"count": 3
+						},
+						{
+							"u_sell_item": "rathian_scale",
+							"count": 6
+						},
+						{
+							"u_sell_item": "rathian_spike",
+							"count": 2
+						},
+						{
+							"u_sell_item": "rathianlv1_gs1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 8000
+						},
+						{
+							"npc_consume_item": "rathian_shell",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "rathian_scale",
+							"count": 6
+						},
+						{
+							"npc_consume_item": "rathian_spike",
+							"count": 2
+						},
+						{
+							"npc_consume_item": "rathianlv1_gs1"
+						},
+						{
+							"u_buy_item": "rathianlv2_gs1"
+						}
+					]
+				},
+				"failure": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW"
+				}
+			},
+			{
+				"truefalsetext": {
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 6350
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathalos_shell",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathalos_tail",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "tigrex_tail",
+									"count": 3
+								}
+							}
+						]
+					},
+					"true": "Improve valkyrie blade to spartacus blade!",
+					"false": "[Requirements not met]"
+				},
+				"trial": {
+					"type": "CONDITION",
+					"condition": {
+						"and": [
+							{
+								"u_has_items": {
+									"item": "moneyz",
+									"count": 6350
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathalos_shell",
+									"count": 4
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "rathalos_tail",
+									"count": 3
+								}
+							},
+							{
+								"u_has_items": {
+									"item": "tigrex_tail",
+									"count": 3
+								}
+							}
+						]
+					}
+				},
+				"success": {
+					"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_UPGRADEW",
+					"effect": [
+						{
+							"u_sell_item": "moneyz",
+							"count": 6350
+						},
+						{
+							"u_sell_item": "rathalos_shell",
+							"count": 4
+						},
+						{
+							"u_sell_item": "rathalos_tail",
+							"count": 3
+						},
+						{
+							"u_sell_item": "tigrex_tail",
+							"count": 3
+						},
+						{
+							"u_sell_item": "rathianlv1_gs1"
+						},
+						{
+							"npc_consume_item": "moneyz",
+							"count": 6350
+						},
+						{
+							"npc_consume_item": "rathalos_shell",
+							"count": 4
+						},
+						{
+							"npc_consume_item": "rathalos_tail",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "tigrex_tail",
+							"count": 3
+						},
+						{
+							"npc_consume_item": "rathianlv1_gs1"
+						},
+						{
+							"u_buy_item": "rathaloslv1_gs2"
 						}
 					]
 				},
