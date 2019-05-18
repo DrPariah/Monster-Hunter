@@ -6,6 +6,9 @@
     "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
     "common": false,
     "bonus_per": { "one_in": 4 },
+	"worn_override": "MH_vcommon_worn",
+	"carry_override": "MH_null_carry",
+    "weapon_override": "MH_null_weapon",
     "skills": [
       {
         "skill": "ALL",
@@ -22,6 +25,9 @@
     "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
     "common": false,
     "bonus_per": { "one_in": 3 },
+	"worn_override": "MH_vcommon_worn",
+	"carry_override": "MH_null_carry",
+    "weapon_override": "MH_null_weapon",
     "skills": [
       {
         "skill": "ALL",
@@ -40,6 +46,9 @@
     "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
     "common": false,
     "bonus_per": { "one_in": 3 },
+	"worn_override": "MH_vcommon_worn",
+	"carry_override": "MH_null_carry",
+    "weapon_override": "MH_null_weapon",
     "skills": [
       {
         "skill": "ALL",
@@ -54,10 +63,13 @@
     "type": "npc_class",
     "id": "MHFU_FOLKS",
     "name": "Villagers",
-    "job_description": "People who knows you and your brave stories.",
+    "job_description": "Pokke village folks.",
     "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
     "common": false,
     "bonus_per": { "one_in": 2 },
+	"worn_override": "MH_vcommon_worn",
+	"carry_override": "MH_null_carry",
+    "weapon_override": "MH_null_weapon",
     "skills": [
       {
         "skill": "ALL",
@@ -70,10 +82,13 @@
     "type": "npc_class",
     "id": "MHFU_CRAFTER",
     "name": "Village Craftsman",
-    "job_description": "The guy who make equipments for you!",
+    "job_description": "Village guy who make equipments for you!",
     "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
     "common": false,
     "bonus_per": { "one_in": 2 },
+	"worn_override": "MH_vcommon_worn",
+	"carry_override": "MH_null_carry",
+    "weapon_override": "MH_null_weapon",
     "skills": [
       {
         "skill": "ALL",
