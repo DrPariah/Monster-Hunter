@@ -1,6 +1,6 @@
 [
 	{
-		"name": "VESPOID",
+		"name": "vespoid",
 		"type": "monstergroup",
 		"default": "mon_vespoid",
 		"monsters": [
@@ -87,7 +87,7 @@
 			},
 			"place_monsters": [
 				{
-					"monster": "VESPOID",
+					"monster": "vespoid",
 					"x": [
 						0,
 						23

@@ -3897,7 +3897,7 @@
 				"max": 1
 			},
 			{
-				"drop": "ceanataur_leg",
+				"drop": "ceanataurlv1_leg",
 				"type": "bone",
 				"mass_ratio": 0.0065,
 				"max": 3

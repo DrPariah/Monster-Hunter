@@ -1,6 +1,6 @@
 [
 	{
-		"id": "Vespoid Swarm",
+		"id": "vespoid Swarm",
 		"locations": [
 			"forest"
 		],
@@ -20,7 +20,7 @@
 		],
 		"type": "overmap_special",
 		"spawns": {
-			"group": "VESPOID",
+			"group": "vespoid",
 			"population": [
 				5,
 				20

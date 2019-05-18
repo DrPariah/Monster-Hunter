@@ -4,8 +4,8 @@ Monsters are separated into two types: small and large monsters. Small monsters 
 Here are the list of small monsters by category:
 
 ##### Neopterons
-* **Vespoid**
-* **Vespoid Queen**
+* **vespoid**
+* **vespoid Queen**
 * **Hornetaur**
 * **Great Thunderbug**
 
@@ -18,13 +18,13 @@ Here are the list of small monsters by category:
 * **Apceros**
 
 ##### Bird Wyverns
-* **Giaprey**
+* **giaprey**
 * **Giadrome**
-* **Velociprey**
+* **velociprey**
 * **Velocidrome**
-* **Genprey**
+* **genprey**
 * **Gendrome**
-* **Ioprey**
+* **ioprey**
 * **Iodrome**
 
 ##### Flying Wyverns
@@ -47,7 +47,7 @@ Here are the list of small monsters by category:
 Here are the list of large(boss) monsters by category and are sorted descending by their threat level:
 
 ##### Bird Wyverns
-* **Yian Kut-ku**
+* **Yian kut-ku**
 * **Gypceros**
 * **Yian Garuga**
 * **Hypnocatrice**
