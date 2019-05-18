@@ -2,7 +2,8 @@
 
 Monster hunter(`MH`) is a fantasy game about hunting down ferocious dinosaur-like monstrosities, with vast weapon and armor in its arsenal combined with oddly refined gameplay mechanics. I really though it could be a good twist for CDDA, so yeah... I just did and HAPPY HUNTING!
 
-- Some features are still unavailable, !
+- The elder missions are WIP and the craftsman's crafting system is incomplete.
+- Bug-hunters are appreciated :heart:
 
 [`MH` wiki](https://monsterhunter.fandom.com/wiki/Monster_Hunter_Wiki)
 

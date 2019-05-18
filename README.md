@@ -1,5 +1,5 @@
 # Monster Hunter
-* **Due to a technical problem with my workplace, I can't merge new contents... The progress is still ongoing!**
+* Due to a technical problem with my workplace, the whole progress is hampered...
 
 ### How to install this mod:
 
