@@ -14,4 +14,4 @@ The results are forwarded to resistance and weapon damage calculations.
 * **elec** = `thunder` * 1.75
 * **chip** = 100
 
-Chip resistance is intended to be that high.
+Chip resistance is intended to be that high, making armors and weapons unbreakable and be used forever.
