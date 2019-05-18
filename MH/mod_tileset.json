@@ -263,11 +263,11 @@
 							"gypceros_gs",
 							"garuga_gs",
 							"hypnocatrice_gs",
-							"khezu_gs",
+							"khezulv1_gs",
 							"basarios_gs",
 							"monoblos_gs",
 							"rathian_gs",
-							"rathalos_gs",
+							"rathaloslv1_gs1",
 							"gravios_gs",
 							"diablos_gs",
 							"tigrex_gs",
@@ -358,8 +358,8 @@
 							"akantor_l",
 							"ukanlos_l",
 							"plesioth_l",
-							"hermitaur_l",
-							"ceanataur_l",
+							"hermitaurlv1_l",
+							"ceanataurlv1_l",
 							"gaoren_l",
 							"cogngalala_l",
 							"blangonga_l",
@@ -374,7 +374,7 @@
 							"velociprey_l",
 							"genprey_l",
 							"ioprey_l",
-							"remobra_l",
+							"remobralv1_l",
 							"hornetaur_l",
 							"vespoid_l"
 						],
@@ -385,7 +385,7 @@
 						"id": [
 							"kut-ku_ds",
 							"gypceros_ds",
-							"garuga_ds",
+							"garugalv1_ds",
 							"hypnocatrice_ds",
 							"khezu_ds",
 							"basarios_ds",
@@ -398,9 +398,9 @@
 							"nargacuga_ds",
 							"akantor_ds",
 							"ukanlos_ds",
-							"plesioth_ds",
+							"plesiothlv1_ds",
 							"hermitaur_ds",
-							"ceanataur_ds",
+							"ceanataurlv1_ds",
 							"gaoren_ds",
 							"cogngalala_ds",
 							"blangonga_ds",
@@ -440,8 +440,8 @@
 							"akantor_lbg",
 							"ukanlos_lbg",
 							"plesioth_lbg",
-							"hermitaur_lbg",
-							"ceanataur_lbg",
+							"hermitaurlv1_lbg",
+							"ceanataurlv1_lbg",
 							"gaoren_lbg",
 							"cogngalala_lbg",
 							"blangongalv1_lbg",
@@ -456,7 +456,7 @@
 							"velociprey_lbg",
 							"genprey_lbg",
 							"ioprey_lbg",
-							"remobra_lbg",
+							"remobralv1_lbg",
 							"hornetaur_lbg",
 							"vespoid_lbg"
 						],
@@ -896,7 +896,7 @@
 						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_garuga_ds",
+						"id": "overlay_wielded_garugalv1_ds",
 						"fg": 122,
 						"rotates": false
 					},
@@ -961,7 +961,7 @@
 						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_khezu_gs",
+						"id": "overlay_wielded_khezulv1_gs",
 						"fg": 135,
 						"rotates": false
 					},
@@ -1061,12 +1061,12 @@
 						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_rathian_gs1",
+						"id": "overlay_wielded_rathianlv1_gs1",
 						"fg": 155,
 						"rotates": false
 					},
 					{
-						"id": "overlay_wielded_rathalos_gs",
+						"id": "overlay_wielded_rathaloslv1_gs1",
 						"fg": 156,
 						"rotates": false
 					},
