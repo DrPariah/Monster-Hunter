@@ -6,8 +6,8 @@
 			{
 				"u_has_trait": "mhfuvillagecraftertalkedintro",
 				"yes": [
-					"Yo yo and hello! Gathering materials is easy! Bring a trusty blade and you're all set for my business!",
-					"Yo yo and hello! Monsters have different materials in them! Popos have brute bones and those Giapreys have small monster bones in them!",
+					"Yo yo and hello! Carving up materials is easy! Bring a trusty blade and you're all set for my business!",
+					"Yo yo and hello! Monsters have different materials in them! Popos have brute bones and those giapreys have small monster bones in them!",
 					"Yo yo and hello! A hunter must know how to butcher the prey! Either skin them or do the whole process!",
 					"Yo yo and hello! A skilled hunter is able to cope with their mistakes!",
 					"Yo yo and hello! Materials are found anywhere! May it be in bushes or mushrooms at the swamps!",
@@ -91,7 +91,7 @@
 		"dynamic_line": "To be honest, it's not a stretch to say that hunters wouldn't be able to continue their vocation without my skills.",
 		"responses": [
 			{
-				"text": "So, you make unique items that I can't do by myself...",
+				"text": "Okay...",
 				"topic": "MHFU_VILLAGECRAFTSMAN_intro5"
 			}
 		]
@@ -115,6 +115,14 @@
 		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPONTYPES",
 		"dynamic_line": "Create which weapon type?",
 		"responses": [
+			{
+				"text": "Not interested.",
+				"topic": "MHFU_VILLAGECRAFTSMAN_intro1"
+			},
+			{
+				"text": "Let's make some later!",
+				"topic": "TALK_DONE"
+			},
 			{
 				"text": "Great Sword",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_GS"
@@ -142,14 +150,6 @@
 			{
 				"text": "Heavy Bowgun",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_WEAPON_HBG"
-			},
-			{
-				"text": "Not interested.",
-				"topic": "MHFU_VILLAGECRAFTSMAN_intro1"
-			},
-			{
-				"text": "Let's make some later!",
-				"topic": "TALK_DONE"
 			}
 		]
 	},
@@ -158,6 +158,14 @@
 		"id": "MHFU_VILLAGECRAFTSMAN_CRAFT_ARMORPIECES",
 		"dynamic_line": "Create which armor piece?",
 		"responses": [
+			{
+				"text": "Not interested.",
+				"topic": "MHFU_VILLAGECRAFTSMAN_intro1"
+			},
+			{
+				"text": "Let's make some later!",
+				"topic": "TALK_DONE"
+			},
 			{
 				"text": "Helmet",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_ARMOR_HELMET"
@@ -177,14 +185,6 @@
 			{
 				"text": "Greaves",
 				"topic": "MHFU_VILLAGECRAFTSMAN_CRAFT_ARMOR_GREAVES"
-			},
-			{
-				"text": "Not interested.",
-				"topic": "MHFU_VILLAGECRAFTSMAN_intro1"
-			},
-			{
-				"text": "Let's make some later!",
-				"topic": "TALK_DONE"
 			}
 		]
 	}
