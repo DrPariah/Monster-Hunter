@@ -1,5 +1,6 @@
 [
 	{
+		"//": "Assortment of traits. These are essential for the NPC dialogues.",
 		"description": "Checks your progress.",
 		"id": "mhfuvillagehuntertalkedintro",
 		"name": "\"MHFU\"",
