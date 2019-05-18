@@ -16,7 +16,8 @@
 		"symbol": "[",
 		"color": "yellow",
 		"covers": [
-			"HEAD","EYES"
+			"HEAD",
+			"EYES"
 		],
 		"coverage": 100,
 		"encumbrance": 20,
@@ -39,7 +40,8 @@
 		"category": "armor",
 		"name": "vespoid mail",
 		"description": "Mail covered in vespoid material. Secret crafting blocks physical attacks.",
-		"weight": 2500,"storage":80,
+		"weight": 2500,
+		"storage": 80,
 		"volume": 15,
 		"price": 0,
 		"to_hit": -1,
@@ -59,7 +61,8 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY","FIT",
+			"STURDY",
+			"FIT",
 			"OUTER"
 		]
 	},
@@ -91,7 +94,8 @@
 		"flags": [
 			"VARSIZE",
 			"WATERPROOF",
-			"STURDY","FIT",
+			"STURDY",
+			"FIT",
 			"BLOCK_WHILE_WORN"
 		]
 	},
@@ -101,14 +105,17 @@
 		"category": "armor",
 		"name": "vespoid tasset",
 		"description": "Made after an intense study of vespoid lifesytle and its strong points.",
-		"weight": 1750,"use_action": {
-      "type": "holster",
-      "holster_prompt": "Sheath knife",
-      "holster_msg": "You sheath your %s",
-      "max_volume": 2,
-      "draw_cost": 30,
-      "flags": [ "SHEATH_KNIFE" ]
-    },
+		"weight": 1750,
+		"use_action": {
+			"type": "holster",
+			"holster_prompt": "Sheath knife",
+			"holster_msg": "You sheath your %s",
+			"max_volume": 2,
+			"draw_cost": 30,
+			"flags": [
+				"SHEATH_KNIFE"
+			]
+		},
 		"volume": 10,
 		"price": 0,
 		"material": [
@@ -126,7 +133,8 @@
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
-			"STURDY","FIT",
+			"STURDY",
+			"FIT",
 			"WATERPROOF",
 			"BELTED",
 			"OUTER"
@@ -157,7 +165,8 @@
 		"environmental_protection": 2,
 		"flags": [
 			"VARSIZE",
-			"STURDY","FIT",
+			"STURDY",
+			"FIT",
 			"WATERPROOF"
 		]
 	}
