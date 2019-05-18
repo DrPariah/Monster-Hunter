@@ -136,7 +136,7 @@
 		]
 	},
 	{
-		"id": "rathalos_gs",
+		"id": "rathaloslv1_gs1",
 		"type": "GENERIC",
 		"name": "red wing",
 		"description": "Great sword made with a rathalos wing design. Flame sac bestows fire element.",
@@ -147,6 +147,41 @@
 		"to_hit": 1,
 		"bashing": 8,
 		"cutting": 21,
+		"material": "rathalos",
+		"color": "red",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathaloslv1_gs2",
+		"type": "GENERIC",
+		"name": "spartacus blade",
+		"description": "Giant, super heavyweight, flat-out powerful great sword. Forms a pair.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 27,
 		"material": "rathalos",
 		"color": "red",
 		"techniques": [

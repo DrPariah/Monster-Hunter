@@ -20,6 +20,26 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "remobra_skin_plus",
+		"symbol": ",",
+		"color": "dark_gray",
+		"name": "remobra skin+",
+		"name_plural": "remobra skins+",
+		"description": "A high quality remobra skin. It has a vivid black luster.",
+		"price": 0,
+		"material": [
+			"remobra"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "remobra_sskin",
 		"symbol": ",",
 		"color": "dark_gray",

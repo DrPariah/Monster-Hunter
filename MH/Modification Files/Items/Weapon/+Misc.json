@@ -806,6 +806,78 @@
 		]
 	},
 	{
+		"id": "agitolv1_gs",
+		"type": "GENERIC",
+		"name": "agito",
+		"description": "A traditional great sword made from an abundance of high quality materials.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 32,
+		"material": "bone",
+		"color": "gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "agitolv2_gs",
+		"type": "GENERIC",
+		"name": "wyvern agito",
+		"description": "A traditional great sword made from an abundance of high quality materials.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 34,
+		"material": "bone",
+		"color": "gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
 		"id": "bonelv1_gs2",
 		"type": "GENERIC",
 		"name": "golem blade",
@@ -1211,6 +1283,32 @@
 		]
 	},
 	{
+		"id": "bonelv4_l2",
+		"type": "GENERIC",
+		"name": "bulldrome spear",
+		"description": "Contains the fierce soul of the bulldrome. Two tusks betray its beastly origin.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 21,
+		"material": "bone",
+		"color": "light_gray",
+		"techniques": [
+			"MH_IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
 		"id": "bonelv1_ds",
 		"type": "GENERIC",
 		"name": "bone scythe",
@@ -1387,6 +1485,42 @@
 		]
 	},
 	{
+		"id": "defenderlv2_gs",
+		"type": "GENERIC",
+		"name": "sentinel",
+		"description": "A great sword that can also serve as a shield. Stresses defensive strength.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 19,
+		"material": "steel",
+		"color": "dark_gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
 		"id": "barbaroilv1_gs",
 		"type": "GENERIC",
 		"name": "barbaroi blade",
@@ -1400,6 +1534,186 @@
 		"cutting": 21,
 		"material": "steel",
 		"color": "light_red",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "barbaroilv2_gs",
+		"type": "GENERIC",
+		"name": "crimson goat",
+		"description": "Elegant great sword with a blade wrapped in heat. Light swings cause dancing flames.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 31,
+		"material": "steel",
+		"color": "light_red",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "halberdlv1_gs",
+		"type": "GENERIC",
+		"name": "halberd",
+		"description": "Doesn't stay sharp long, but possesses superior attack. A time-honored favorite.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 29,
+		"material": "steel",
+		"color": "light_gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "halberdlv2_gs",
+		"type": "GENERIC",
+		"name": "judgment",
+		"description": "Doesn't stay sharp long, but possesses superior attack. A time-honored favorite.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 35,
+		"material": "steel",
+		"color": "light_gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "execlv1_gs",
+		"type": "GENERIC",
+		"name": "executioner",
+		"description": "A bone axe with an enormous head. More likely to smash a skull than cut it off.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 27,
+		"material": "steel",
+		"color": "light_gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "execlv2_gs",
+		"type": "GENERIC",
+		"name": "executioner+",
+		"description": "A bone axe with an enormous head. More likely to smash a skull than cut it off.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 29,
+		"material": "steel",
+		"color": "light_gray",
 		"techniques": [
 			"WBLOCK_1",
 			"MH_VERTICAL_SLASH",
@@ -1959,6 +2273,58 @@
 		]
 	},
 	{
+		"id": "gunlv2_l",
+		"type": "GENERIC",
+		"name": "gatling lance+",
+		"description": "Made with the latest wyverian technology. An engineering masterpiece.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 20,
+		"material": "steel",
+		"color": "light_gray",
+		"techniques": [
+			"MH_IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
+		"id": "gunlv3_l",
+		"type": "GENERIC",
+		"name": "sanctioned gunlance",
+		"description": "Gunlance revolver. Stresses attack strength above fire element.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 23,
+		"material": "steel",
+		"color": "light_gray",
+		"techniques": [
+			"MH_IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
 		"id": "ravagerlv1_gs",
 		"type": "GENERIC",
 		"name": "ravager blade",
@@ -2008,6 +2374,78 @@
 		"cutting": 26,
 		"material": "steel",
 		"color": "dark_gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "ravagerlv3_gs",
+		"type": "GENERIC",
+		"name": "tactical blade",
+		"description": "Superb sharpness and high attack power. An improved ravager blade.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 32,
+		"material": "steel",
+		"color": "dark_gray",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "chromelv1_gs",
+		"type": "GENERIC",
+		"name": "chrome razor",
+		"description": "As the name implies, it features A+ sharpness infused with poison.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 31,
+		"material": "steel",
+		"color": "light_gray",
 		"techniques": [
 			"WBLOCK_1",
 			"MH_VERTICAL_SLASH",
@@ -2463,6 +2901,32 @@
 		]
 	},
 	{
+		"id": "paladinlv2_l",
+		"type": "GENERIC",
+		"name": "rampart",
+		"description": "Iron lance made from high quantities of machalite ore. known for its large shield.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 13,
+		"material": "steel",
+		"color": "dark_gray",
+		"techniques": [
+			"MH_IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
 		"id": "estoclv1_l",
 		"type": "GENERIC",
 		"name": "estoc",
@@ -2474,6 +2938,32 @@
 		"to_hit": 1,
 		"bashing": 10,
 		"cutting": 10,
+		"material": "steel",
+		"color": "dark_gray",
+		"techniques": [
+			"MH_IMPALE",
+			"WBLOCK_3"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD",
+			"SPEAR",
+			"STAB"
+		]
+	},
+	{
+		"id": "estoclv2_l",
+		"type": "GENERIC",
+		"name": "valhalla",
+		"description": "Bejeweled spear created by the forest elder. Functional and majestic.",
+		"weight": 8000,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 10,
+		"cutting": 15,
 		"material": "steel",
 		"color": "dark_gray",
 		"techniques": [
@@ -2617,7 +3107,45 @@
 			"gypceros",
 			"khezu"
 		],
-		"color": "dark_gray",
+		"color": "light_yellow",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_HORIZONTAL_SWING",
+			"MH_JUMP_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "banelv2_ss",
+		"type": "GENERIC",
+		"name": "frightbane",
+		"description": "Uses the electro sac of a khezu to electrically charge the blade.",
+		"weight": 1500,
+		"volume": 12,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 4,
+		"cutting": 14,
+		"material": [
+			"gypceros",
+			"khezu"
+		],
+		"color": "light_yellow",
 		"techniques": [
 			"WBLOCK_1",
 			"MH_HORIZONTAL_SWING",
@@ -2708,6 +3236,150 @@
 		"price": 0,
 		"to_hit": 1,
 		"cutting": 9,
+		"material": [
+			"vespoid",
+			"hornetaur"
+		],
+		"color": "yellow",
+		"techniques": [
+			"MH_DEMONIZE",
+			"MH_FORWARD_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "vespoidhornetaurlv2_ds",
+		"type": "GENERIC",
+		"name": "insector+",
+		"description": "Dual swords that use rare materials and are difficult to forge. Non-elemental.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 12,
+		"material": [
+			"vespoid",
+			"hornetaur"
+		],
+		"color": "yellow",
+		"techniques": [
+			"MH_DEMONIZE",
+			"MH_FORWARD_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "vespoidhornetaurlv3_ds",
+		"type": "GENERIC",
+		"name": "insect slicer",
+		"description": "A pair of blade made with sole purpose - sharpness. No attributes, just sharp.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 15,
+		"material": [
+			"vespoid",
+			"hornetaur"
+		],
+		"color": "yellow",
+		"techniques": [
+			"MH_DEMONIZE",
+			"MH_FORWARD_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "vespoidhornetaurlv4_ds",
+		"type": "GENERIC",
+		"name": "alated insect",
+		"description": "A pair of blade made with sole purpose - sharpness. No attributes, just sharp.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 20,
+		"material": [
+			"vespoid",
+			"hornetaur"
+		],
+		"color": "yellow",
+		"techniques": [
+			"MH_DEMONIZE",
+			"MH_FORWARD_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "vespoidhornetaurlv5_ds",
+		"type": "GENERIC",
+		"name": "insect lord",
+		"description": "A pair of blade made with sole purpose - sharpness. No attributes, just sharp.",
+		"weight": 2000,
+		"volume": 14,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 23,
 		"material": [
 			"vespoid",
 			"hornetaur"

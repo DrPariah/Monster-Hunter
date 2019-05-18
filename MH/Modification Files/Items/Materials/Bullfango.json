@@ -58,6 +58,25 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "bulldrome_hide_plus",
+		"symbol": ",",
+		"color": "brown",
+		"name": "bulldrome hide",
+		"description": "A superior bulldrome hide, underneath its beautiful surface lies countless battles.",
+		"price": 0,
+		"material": [
+			"fur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "bulldrome_tusk",
 		"symbol": ",",
 		"color": "brown",

@@ -1,6 +1,6 @@
 [
 	{
-		"id": "khezu_gs",
+		"id": "khezulv1_gs",
 		"type": "GENERIC",
 		"name": "khezu shock sword",
 		"description": "Made of khezu. Wrapped in attribute material with an electrified blade.",
@@ -11,6 +11,76 @@
 		"to_hit": 1,
 		"bashing": 8,
 		"cutting": 25,
+		"material": "khezu",
+		"color": "white",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "khezulv2_gs",
+		"type": "GENERIC",
+		"name": "khezu shock blade",
+		"description": "Made of khezu. Wrapped in attribute material with an electrified blade.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 37,
+		"material": "khezu",
+		"color": "white",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "khezulv3_gs",
+		"type": "GENERIC",
+		"name": "khezu shock full",
+		"description": "Made of khezu. Wrapped in attribute material with an electrified blade.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 41,
 		"material": "khezu",
 		"color": "white",
 		"techniques": [

@@ -1,6 +1,6 @@
 [
 	{
-		"//": "Other materials that are found in the world, may be it foraging, mining or pseudo-bug catching.",
+		"//": "Other materials that are found in the world, may be it foraging, mining, pseudo-bug catching or purchased from a trader.",
 		"//": "Honey for crafting purposes. Inedible thus it can't rot.",
 		"type": "GENERIC",
 		"id": "mh_honey",
@@ -828,6 +828,7 @@
 		"symbol": ",",
 		"color": "white",
 		"name": "phantom butterfly",
+		"name_plural": "phantom butterflies",
 		"description": "Rarely seen by humans, its wings shimmer like precious gems.",
 		"price": 0,
 		"material": [
@@ -938,7 +939,7 @@
 	},
 	{
 		"type": "GENERIC",
-		"id": "mh_buarowana",
+		"id": "mh_buarrowana",
 		"symbol": ",",
 		"color": "light_green",
 		"name": "burst arrowana",
@@ -957,7 +958,7 @@
 	},
 	{
 		"type": "GENERIC",
-		"id": "mh_boarowana",
+		"id": "mh_boarrowana",
 		"symbol": ",",
 		"color": "light_blue",
 		"name": "bomb arrowana",
@@ -1095,7 +1096,7 @@
 		"symbol": ",",
 		"color": "white",
 		"name": "small bone husk",
-		"description": "Bone ammunition casing. Stronger than a huskberry ammunition casing.",
+		"description": "bone ammunition casing. Stronger than a huskberry ammunition casing.",
 		"price": 0,
 		"material": [
 			"bone"
@@ -1114,7 +1115,7 @@
 		"symbol": ",",
 		"color": "white",
 		"name": "large bone husk",
-		"description": "Bone ammunition casing that can withstand powerful explosions.",
+		"description": "bone ammunition casing that can withstand powerful explosions.",
 		"price": 0,
 		"material": [
 			"bone"

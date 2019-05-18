@@ -44,7 +44,7 @@
 		"symbol": "/",
 		"price": 0,
 		"to_hit": 1,
-		"bashing": 48,
+		"bashing": 30,
 		"material": "gravios",
 		"color": "gray",
 		"techniques": [
@@ -84,37 +84,6 @@
 			"UNBREAKABLE_MELEE","NO_CVD",
 			"SPEAR",
 			"STAB"
-		]
-	},
-	{
-		"id": "gravios_ds",
-		"type": "GENERIC",
-		"name": "melting wall",
-		"description": "Saw-like dual blades that embody the true nature of a gravios: fire and poison.",
-		"weight": 2000,
-		"volume": 14,
-		"symbol": "/",
-		"price": 0,
-		"to_hit": 1,
-		"cutting": 33,
-		"material": "gravios",
-		"color": "gray",
-		"techniques": [
-			"MH_DEMONIZE","MH_FORWARD_SLASH"
-		],
-		"flags": [
-			"ALWAYS_TWOHAND",
-			"UNBREAKABLE_MELEE","NO_CVD"
-		],
-		"qualities": [
-			[
-				"CUT",
-				2
-			],
-			[
-				"BUTCHER",
-				20
-			]
 		]
 	},
 	{
@@ -165,7 +134,7 @@
 		"color": "gray",
 		"name": "gravios howl",
 		"reload_noise_volume": 4,
-		"description": "Large caliber bowgun in the shape of a white gravios. Ite shots shake the world.",
+		"description": "Large caliber bowgun in the shape of a white gravios. Its shots shake the world.",
 		"price": 0,
 		"material": [
 			"gravios"

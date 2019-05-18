@@ -10,7 +10,7 @@
 		"price": 0,
 		"to_hit": 1,
 		"bashing": 4,
-		"cutting": 36,
+		"cutting": 15,
 		"material": "rathian",
 		"color": "green",
 		"techniques": [
@@ -34,7 +34,7 @@
 		]
 	},
 	{
-		"id": "rathian_gs1",
+		"id": "rathianlv1_gs1",
 		"type": "GENERIC",
 		"name": "valkyrie blade",
 		"description": "An improved golem Blade. New, powerful abilities due to fire wyvern materials.",
@@ -45,6 +45,41 @@
 		"to_hit": 1,
 		"bashing": 8,
 		"cutting": 21,
+		"material": "rathian",
+		"color": "green",
+		"techniques": [
+			"WBLOCK_1",
+			"MH_VERTICAL_SLASH",
+			"MH_CHARGED_SLASH",
+			"MH_HORIZONTAL_SWING"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE","NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				1
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "rathianlv2_gs1",
+		"type": "GENERIC",
+		"name": "sieglinde",
+		"description": "The ultimate golem blade. Treated for A+ sharpness. Male and female versions.",
+		"weight": 7250,
+		"volume": 20,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"bashing": 8,
+		"cutting": 30,
 		"material": "rathian",
 		"color": "green",
 		"techniques": [

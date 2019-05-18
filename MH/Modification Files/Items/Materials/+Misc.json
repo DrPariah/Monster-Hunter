@@ -44,7 +44,7 @@
 		"symbol": ",",
 		"color": "brown",
 		"name": "large monster bone",
-		"description": "Indispensable for crafting one-piece items. Bone can be connected to shell.",
+		"description": "Indispensable for crafting one-piece items. bone can be connected to shell.",
 		"price": 0,
 		"material": [
 			"bone"
@@ -364,11 +364,49 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "inferno_sac",
+		"symbol": ",",
+		"color": "red",
+		"name": "inferno sac",
+		"description": "A monster's internal organ filled with a powder that ignites when touched.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "poison_sac",
 		"symbol": ",",
 		"color": "blue",
 		"name": "poison sac",
 		"description": "A monster's internal organ. Contains a lethal poison.",
+		"price": 0,
+		"material": [
+			"flesh"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "toxin_sac",
+		"symbol": ",",
+		"color": "blue",
+		"name": "toxin sac",
+		"description": "A monster's internal organ filled with potent toxin. Dangerous, even to touch.",
 		"price": 0,
 		"material": [
 			"flesh"
@@ -423,7 +461,7 @@
 		"type": "GENERIC",
 		"id": "wyvern_skullshell",
 		"symbol": ",",
-		"color": "light_red",
+		"color": "light_gray",
 		"name": "wyvern skull shell",
 		"description": "A giant wyvern skull shell.",
 		"price": 0,

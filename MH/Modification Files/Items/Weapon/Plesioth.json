@@ -132,7 +132,7 @@
 		]
 	},
 	{
-		"id": "plesioth_ds",
+		"id": "plesiothlv1_ds",
 		"type": "GENERIC",
 		"name": "cutlass",
 		"description": "Dual water element swords. Superior sharpness, but no guarding ability.",
@@ -142,6 +142,39 @@
 		"price": 0,
 		"to_hit": 1,
 		"cutting": 15,
+		"material": "plesioth",
+		"color": "light_blue",
+		"techniques": [
+			"MH_DEMONIZE",
+			"MH_FORWARD_SLASH"
+		],
+		"flags": [
+			"ALWAYS_TWOHAND",
+			"UNBREAKABLE_MELEE",
+			"NO_CVD"
+		],
+		"qualities": [
+			[
+				"CUT",
+				2
+			],
+			[
+				"BUTCHER",
+				20
+			]
+		]
+	},
+	{
+		"id": "plesiothlv2_ds",
+		"type": "GENERIC",
+		"name": "cutlass+",
+		"description": "Dual water element swords. Superior sharpness, but no guarding ability.",
+		"weight": 2000,
+		"volume": 15,
+		"symbol": "/",
+		"price": 0,
+		"to_hit": 1,
+		"cutting": 20,
 		"material": "plesioth",
 		"color": "light_blue",
 		"techniques": [

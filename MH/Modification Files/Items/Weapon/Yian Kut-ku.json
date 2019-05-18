@@ -64,7 +64,7 @@
 		"id": "kut-ku_ds",
 		"type": "GENERIC",
 		"name": "twin kut-ku",
-		"description": "Known for the bladed ear of Yian Kut-ku, these are sure to gain adoration.",
+		"description": "Known for the bladed ear of Yian kut-ku, these are sure to gain adoration.",
 		"weight": 2000,
 		"volume": 14,
 		"symbol": "/",
@@ -98,7 +98,7 @@
 		"color": "red",
 		"name": "kut-ku anger",
 		"reload_noise_volume": 4,
-		"description": "Lightweight bowgun made from the head of Yian Kut-ku. Explodes with hatred.",
+		"description": "Lightweight bowgun made from the head of Yian kut-ku. Explodes with hatred.",
 		"price": 0,
 		"material": [
 			"kut-ku"

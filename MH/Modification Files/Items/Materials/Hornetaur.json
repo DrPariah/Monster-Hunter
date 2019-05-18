@@ -39,6 +39,44 @@
 	},
 	{
 		"type": "GENERIC",
+		"id": "hornetaur_wing_in",
+		"symbol": ",",
+		"color": "gray",
+		"name": "hornetaur inner wing",
+		"description": "Bladed-shaped inner wing of a hornetaur. The secret to its killing prowess.",
+		"price": 0,
+		"material": [
+			"hornetaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
+		"id": "hornetaur_wing_ra",
+		"symbol": ",",
+		"color": "gray",
+		"name": "hornetaur razor wing",
+		"description": "Wing sharper than inner wing. A simple touch is enough to cut.",
+		"price": 0,
+		"material": [
+			"hornetaur"
+		],
+		"flags": [
+			"NO_SALVAGE"
+		],
+		"weight": 100,
+		"volume": "25ml",
+		"category": "spare_parts",
+		"to_hit": -1
+	},
+	{
+		"type": "GENERIC",
 		"id": "hornetaur_head",
 		"symbol": ",",
 		"color": "gray",
