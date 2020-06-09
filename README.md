@@ -1,12 +1,5 @@
 # Monster Hunter
-* Due to a technical problem with my workplace, the whole progress is hampered...
 
-### How to install this mod:
-
-1. Extract **Monster-Hunter_master**.
-2. Move _MH_ to the mod folder of CDDA.
-3. Enjoy!
-
-### Additional Info:
-
-Every important informations are in the README.MD inside the mod folder.
+## IMPORTANT NOTE
+This mod has been inactive for a long time. Do not install this mod, as it has outdated contents.
+* For mod compilators, do not add this mod. Even if you fix this, its contents are incomplete and will leave players hang in early game.
